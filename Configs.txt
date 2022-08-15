@@ -1,8 +1,6 @@
 Gomme
 GommeLegit
-GommeGG
-MineMen
-MineMenBot
 Minemora
 PvPDojo
-BlocksMC
+Gamster
+BlockDrop
