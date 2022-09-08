@@ -1,19 +1,19 @@
 {
   "name": "Gomme",
-  "date": "15.08.2022",
-  "time": "12:50",
+  "date": "08.09.2022",
+  "time": "18:19",
   "modules": [
     {
       "Name": "Blur",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
     {
       "Name": "Shadow",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
@@ -42,7 +42,7 @@
       "Name": "BackTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -152,6 +152,13 @@
     },
     {
       "Name": "AutoEagle",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "Combo",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -452,6 +459,13 @@
       "Key": 0
     },
     {
+      "Name": "PathFinderDebug",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "Sprint",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -498,7 +512,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -561,7 +575,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 47
     },
     {
       "Name": "VClip",
@@ -701,7 +715,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 47
+      "Key": 0
     },
     {
       "Name": "ChestAura",
@@ -735,7 +749,7 @@
       "Name": "AutoRespawn",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -781,6 +795,13 @@
       "Key": 0
     },
     {
+      "Name": "NoPlaceDelay",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "Radio",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -792,13 +813,6 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": true,
-      "Key": 0
-    },
-    {
-      "Name": "Disabler",
-      "IsInConfig": true,
-      "IsInArraylist": true,
-      "Toggled": false,
       "Key": 0
     },
     {
@@ -831,8 +845,8 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInConfig": false,
+      "IsInArraylist": false,
       "Toggled": false,
       "Key": 0
     },
@@ -859,7 +873,7 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -874,7 +888,7 @@
     {
       "Name": "AntiAchievement",
       "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "Toggled": true,
       "Key": 0
     },
@@ -896,7 +910,7 @@
       "Name": "ExploitFixer",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -918,6 +932,13 @@
       "IsInConfig": true,
       "IsInArraylist": false,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "Disabler",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1207,12 +1228,12 @@
     {
       "Name": "Time",
       "ParentName": "BackTrack",
-      "Value": 250.0
+      "Value": 200.0
     },
     {
       "Name": "DelayBetweenBacktrack",
       "ParentName": "BackTrack",
-      "Value": 0.0
+      "Value": 50.0
     },
     {
       "Name": "ESP",
@@ -1494,7 +1515,7 @@
     {
       "Name": "TimerTicksForward",
       "ParentName": "TimerRange",
-      "Value": 5.0
+      "Value": 3.0
     },
     {
       "Name": "Tolerance",
@@ -1509,7 +1530,7 @@
     {
       "Name": "AdditionalStop",
       "ParentName": "TimerRange",
-      "Value": 22.0
+      "Value": 21.0
     },
     {
       "Name": "OnlyOnGround",
@@ -1549,12 +1570,12 @@
     {
       "Name": "Modes",
       "ParentName": "MoreKB",
-      "SelectedOption": "Legit"
+      "SelectedOption": "LegitFast"
     },
     {
-      "Name": "Intelligent",
+      "Name": "SneakTicks",
       "ParentName": "MoreKB",
-      "Boolean": false
+      "Value": 1.0
     },
     {
       "Name": "PreAimRange",
@@ -1596,7 +1617,7 @@
     {
       "Name": "AdvancedRots",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SmoothBackRotate",
@@ -1736,7 +1757,7 @@
     {
       "Name": "Mob",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Animal",
@@ -1787,7 +1808,7 @@
     {
       "Name": "CPS",
       "ParentName": "KillAura",
-      "MinValue": 14.0,
+      "MinValue": 20.0,
       "MaxValue": 20.0
     },
     {
@@ -1950,12 +1971,12 @@
     {
       "Name": "Randomize",
       "ParentName": "KillAura",
-      "SelectedOption": "Hybrid"
+      "SelectedOption": "Circle"
     },
     {
       "Name": "RandomStrength",
       "ParentName": "KillAura",
-      "Value": 0.95
+      "Value": 0.96
     },
     {
       "Name": "AttackMode",
@@ -2694,14 +2715,14 @@
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 73.0,
-      "Astolfo Dist": 119.0,
-      "HSB Color Red": 0.9953887,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
-      "HSB FadeColor Red": 0.6666667,
-      "HSB FadeColor Green": 1.0,
-      "HSB FadeColor Blue": 1.0
+      "Astolfo Speed": 90.0,
+      "Astolfo Dist": 146.0,
+      "HSB Color Red": 0.5699816,
+      "HSB Color Green": 0.8153153,
+      "HSB Color Blue": 0.87058824,
+      "HSB FadeColor Red": 0.5699816,
+      "HSB FadeColor Green": 0.8153153,
+      "HSB FadeColor Blue": 0.87058824
     },
     {
       "Name": "Backgound",
@@ -2711,7 +2732,7 @@
     {
       "Name": "BackGroundColor",
       "ParentName": "ArrayList",
-      "Alpha": 142,
+      "Alpha": 164,
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
@@ -2752,7 +2773,7 @@
     {
       "Name": "FontSize",
       "ParentName": "ArrayList",
-      "Value": 31.0
+      "Value": 16.0
     },
     {
       "Name": "ToggleAnimation",
@@ -2802,7 +2823,7 @@
     {
       "Name": "Explosion Normal Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Explosion Large",
@@ -2812,7 +2833,7 @@
     {
       "Name": "Explosion Large Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Explosion Huge",
@@ -2822,7 +2843,7 @@
     {
       "Name": "Explosion Huge Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Fireworks Spark",
@@ -2832,7 +2853,7 @@
     {
       "Name": "Fireworks Spark Count",
       "ParentName": "AttackEffects",
-      "Value": 5.0
+      "Value": 1.0
     },
     {
       "Name": "Use Water Bubble",
@@ -2842,7 +2863,7 @@
     {
       "Name": "Water Bubble Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Water Splash",
@@ -2852,7 +2873,7 @@
     {
       "Name": "Water Splash Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Water Wake",
@@ -2862,7 +2883,7 @@
     {
       "Name": "Water Wake Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Suspended",
@@ -2872,7 +2893,7 @@
     {
       "Name": "Suspended Count",
       "ParentName": "AttackEffects",
-      "Value": 3.0
+      "Value": 1.0
     },
     {
       "Name": "Use Suspended Depth",
@@ -2882,7 +2903,7 @@
     {
       "Name": "Suspended Depth Count",
       "ParentName": "AttackEffects",
-      "Value": 3.0
+      "Value": 1.0
     },
     {
       "Name": "Use Crit",
@@ -2892,7 +2913,7 @@
     {
       "Name": "Crit Count",
       "ParentName": "AttackEffects",
-      "Value": 5.0
+      "Value": 1.0
     },
     {
       "Name": "Use Crit Magic",
@@ -2912,7 +2933,7 @@
     {
       "Name": "Smoke Normal Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Smoke Large",
@@ -2922,7 +2943,7 @@
     {
       "Name": "Smoke Large Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Spell",
@@ -2932,7 +2953,7 @@
     {
       "Name": "Spell Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Spell Instant",
@@ -2942,7 +2963,7 @@
     {
       "Name": "Spell Instant Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Spell Mob",
@@ -2962,7 +2983,7 @@
     {
       "Name": "Spell Mob Ambient Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Spell Witch",
@@ -2972,7 +2993,7 @@
     {
       "Name": "Spell Witch Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Drip Water",
@@ -2982,7 +3003,7 @@
     {
       "Name": "Drip Water Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Drip Lava",
@@ -2992,7 +3013,7 @@
     {
       "Name": "Drip Lava Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Villager Angry",
@@ -3002,7 +3023,7 @@
     {
       "Name": "Villager Angry Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Villager Happy",
@@ -3012,7 +3033,7 @@
     {
       "Name": "Villager Happy Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Town Aura",
@@ -3022,7 +3043,7 @@
     {
       "Name": "Town Aura Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Note",
@@ -3032,7 +3053,7 @@
     {
       "Name": "Note Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Portal",
@@ -3042,7 +3063,7 @@
     {
       "Name": "Portal Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Enchantment Table",
@@ -3052,7 +3073,7 @@
     {
       "Name": "Enchantment Table Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Flame",
@@ -3062,7 +3083,7 @@
     {
       "Name": "Flame Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Lava",
@@ -3072,7 +3093,7 @@
     {
       "Name": "Lava Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Footstep",
@@ -3082,7 +3103,7 @@
     {
       "Name": "Footstep Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Cloud",
@@ -3092,7 +3113,7 @@
     {
       "Name": "Cloud Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Redstone",
@@ -3102,7 +3123,7 @@
     {
       "Name": "Redstone Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Snowball",
@@ -3112,7 +3133,7 @@
     {
       "Name": "Snowball Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Snow Shovel",
@@ -3122,7 +3143,7 @@
     {
       "Name": "Snow Shovel Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Slime",
@@ -3132,7 +3153,7 @@
     {
       "Name": "Slime Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Heart",
@@ -3142,7 +3163,7 @@
     {
       "Name": "Heart Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Barrier",
@@ -3152,7 +3173,7 @@
     {
       "Name": "Barrier Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Item Crack",
@@ -3162,7 +3183,7 @@
     {
       "Name": "Item Crack Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Block Crack",
@@ -3172,7 +3193,7 @@
     {
       "Name": "Block Crack Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Block Dust",
@@ -3182,7 +3203,7 @@
     {
       "Name": "Block Dust Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Water Drop",
@@ -3192,7 +3213,7 @@
     {
       "Name": "Water Drop Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Item Take",
@@ -3202,7 +3223,7 @@
     {
       "Name": "Item Take Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Use Mob Appearance",
@@ -3212,12 +3233,12 @@
     {
       "Name": "Mob Appearance Count",
       "ParentName": "AttackEffects",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "Mode",
       "ParentName": "ESP",
-      "SelectedOption": "Box"
+      "SelectedOption": "FakeCorner"
     },
     {
       "Name": "Teamcolor",
@@ -3236,8 +3257,8 @@
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 95.0,
-      "Astolfo Dist": 0.0,
+      "Astolfo Speed": 60.0,
+      "Astolfo Dist": 84.0,
       "HSB Color Red": 0.5869219,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
@@ -3248,7 +3269,7 @@
     {
       "Name": "Color1",
       "ParentName": "ESP",
-      "Alpha": 78,
+      "Alpha": 65,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
@@ -3259,9 +3280,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.0,
-      "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.0,
+      "HSB Color Red": 0.5869219,
+      "HSB Color Green": 0.90869564,
+      "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
       "HSB FadeColor Green": 0.90869564,
       "HSB FadeColor Blue": 0.9019608
@@ -3269,16 +3290,16 @@
     {
       "Name": "Color2",
       "ParentName": "ESP",
-      "Alpha": 255,
+      "Alpha": 65,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
-      "Astolfo": true,
-      "Rainbow Speed": 73.0,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 81.0,
+      "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.5869219,
       "HSB Color Green": 0.90869564,
@@ -3295,7 +3316,7 @@
     {
       "Name": "HitColorColor",
       "ParentName": "ESP",
-      "Alpha": 65,
+      "Alpha": 255,
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
@@ -3316,7 +3337,7 @@
     {
       "Name": "HitColorColor1",
       "ParentName": "ESP",
-      "Alpha": 73,
+      "Alpha": 255,
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
@@ -3328,8 +3349,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.0,
+      "HSB Color Green": 1.0,
+      "HSB Color Blue": 1.0,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -3349,8 +3370,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 1.0,
+      "HSB Color Blue": 1.0,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -3388,7 +3409,7 @@
     {
       "Name": "Animal",
       "ParentName": "ESP",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Invisible",
@@ -3404,27 +3425,27 @@
       "Name": "Color",
       "ParentName": "StorageESP",
       "Alpha": 65,
-      "FadeAlpha": 65,
+      "FadeAlpha": 66,
       "Rainbow": false,
       "Fade": true,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
-      "Fade Speed": 67.0,
-      "Fade Dist": 95.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.16666667,
+      "HSB Color Red": 0.10127592,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
-      "HSB FadeColor Red": 0.1060606,
-      "HSB FadeColor Green": 0.90869564,
-      "HSB FadeColor Blue": 0.9019608
+      "HSB FadeColor Red": 0.16139658,
+      "HSB FadeColor Green": 0.996063,
+      "HSB FadeColor Blue": 0.99607843
     },
     {
       "Name": "Color1",
       "ParentName": "StorageESP",
-      "Alpha": 91,
+      "Alpha": 65,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
@@ -3435,9 +3456,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.0,
-      "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.0,
+      "HSB Color Red": 0.5869219,
+      "HSB Color Green": 0.90869564,
+      "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
       "HSB FadeColor Green": 0.90869564,
       "HSB FadeColor Blue": 0.9019608
@@ -3445,16 +3466,16 @@
     {
       "Name": "Color2",
       "ParentName": "StorageESP",
-      "Alpha": 255,
+      "Alpha": 65,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
-      "Astolfo": true,
+      "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 81.0,
+      "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.5869219,
       "HSB Color Green": 0.90869564,
@@ -3466,7 +3487,7 @@
     {
       "Name": "LineWidth",
       "ParentName": "StorageESP",
-      "Value": 6.0
+      "Value": 0.0
     },
     {
       "Name": "MaxDistance",
@@ -3491,7 +3512,7 @@
     {
       "Name": "Height",
       "ParentName": "BlockAnimation",
-      "Value": 0.13
+      "Value": 0.0
     },
     {
       "Name": "FakeBlock",
@@ -3506,12 +3527,12 @@
     {
       "Name": "Mode",
       "ParentName": "FullBright",
-      "SelectedOption": "NightVision"
+      "SelectedOption": "Gamma"
     },
     {
       "Name": "Other",
       "ParentName": "FullBright",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Time",
@@ -3566,7 +3587,7 @@
     {
       "Name": "Mobs",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Animals",
@@ -3596,7 +3617,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Amogus"
+      "SelectedOption": "Packet"
     },
     {
       "Name": "HudShadow",
@@ -3611,7 +3632,7 @@
     {
       "Name": "Size",
       "ParentName": "HUD",
-      "Value": 0.38
+      "Value": 0.6
     },
     {
       "Name": "Hotbar",
@@ -3719,7 +3740,7 @@
     {
       "Name": "Mode",
       "ParentName": "Tracers",
-      "SelectedOption": "CrossHair"
+      "SelectedOption": "Feet"
     },
     {
       "Name": "StaticColor",
@@ -3734,7 +3755,7 @@
     {
       "Name": "Mob",
       "ParentName": "Tracers",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Animal",
@@ -3749,7 +3770,7 @@
     {
       "Name": "LineWidth",
       "ParentName": "Tracers",
-      "Value": 0.1
+      "Value": 6.0
     },
     {
       "Name": "Shadow",
@@ -3808,8 +3829,8 @@
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 105.0,
-      "Astolfo Dist": 0.0,
+      "Astolfo Speed": 126.0,
+      "Astolfo Dist": 84.0,
       "HSB Color Red": 0.5869219,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
@@ -3859,7 +3880,7 @@
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 43.0,
+      "Astolfo Speed": 36.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.7167325,
       "HSB Color Green": 0.996063,
@@ -3927,7 +3948,7 @@
     {
       "Name": "Time",
       "ParentName": "Ambiance",
-      "Value": 4080.0
+      "Value": 18960.0
     },
     {
       "Name": "TimeSpeed",
@@ -4004,7 +4025,7 @@
     {
       "Name": "Length",
       "ParentName": "Crosshair",
-      "Value": 6.0
+      "Value": 4.0
     },
     {
       "Name": "Width",
@@ -4034,13 +4055,13 @@
     {
       "Name": "Color",
       "ParentName": "Trajectories",
-      "Alpha": 255,
-      "FadeAlpha": 0,
-      "Rainbow": true,
+      "Alpha": 66,
+      "FadeAlpha": 255,
+      "Rainbow": false,
       "Fade": false,
       "Astolfo": false,
-      "Rainbow Speed": 200.0,
-      "Rainbow Dist": 17.0,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
@@ -4060,7 +4081,7 @@
     {
       "Name": "LineWidth",
       "ParentName": "Trajectories",
-      "Value": 6.0
+      "Value": 3.0
     },
     {
       "Name": "Bow",
@@ -4095,7 +4116,7 @@
     {
       "Name": "Rod",
       "ParentName": "Trajectories",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Shadow",
@@ -4111,7 +4132,7 @@
       "Name": "Color",
       "ParentName": "Projectiles",
       "Alpha": 255,
-      "FadeAlpha": 255,
+      "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
       "Astolfo": false,
@@ -4121,12 +4142,12 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
-      "HSB Color Green": 0.90869564,
-      "HSB Color Blue": 0.9019608,
-      "HSB FadeColor Red": 0.5869219,
-      "HSB FadeColor Green": 0.90869564,
-      "HSB FadeColor Blue": 0.9019608
+      "HSB Color Red": 0.5699816,
+      "HSB Color Green": 0.8153153,
+      "HSB Color Blue": 0.87058824,
+      "HSB FadeColor Red": 0.5699816,
+      "HSB FadeColor Green": 0.8153153,
+      "HSB FadeColor Blue": 0.87058824
     },
     {
       "Name": "CalculateColor",
@@ -4136,7 +4157,7 @@
     {
       "Name": "LineWidth",
       "ParentName": "Projectiles",
-      "Value": 6.0
+      "Value": 4.0
     },
     {
       "Name": "Shadow",
@@ -4202,7 +4223,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.21190476,
+      "HSB Color Red": 0.74285716,
       "HSB Color Green": 0.6862745,
       "HSB Color Blue": 0.8,
       "HSB FadeColor Red": 0.74285716,
@@ -4217,7 +4238,7 @@
     {
       "Name": "Swords",
       "ParentName": "CustomGlint",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Tools",
@@ -4227,7 +4248,7 @@
     {
       "Name": "Armor",
       "ParentName": "CustomGlint",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Rest",
@@ -4242,32 +4263,32 @@
     {
       "Name": "X",
       "ParentName": "CustomItemPos",
-      "Value": 0.0
+      "Value": -0.01
     },
     {
       "Name": "Y",
       "ParentName": "CustomItemPos",
-      "Value": 0.16
+      "Value": 0.15
     },
     {
       "Name": "Z",
       "ParentName": "CustomItemPos",
-      "Value": 0.08
+      "Value": 0.05
     },
     {
       "Name": "BlockX",
       "ParentName": "CustomItemPos",
-      "Value": 0.0
+      "Value": -0.14
     },
     {
       "Name": "BlockY",
       "ParentName": "CustomItemPos",
-      "Value": 0.0
+      "Value": -0.06
     },
     {
       "Name": "BlockZ",
       "ParentName": "CustomItemPos",
-      "Value": 0.0
+      "Value": 0.06
     },
     {
       "Name": "Scale",
@@ -4287,7 +4308,7 @@
     {
       "Name": "Y",
       "ParentName": "Notification",
-      "Value": 95.0
+      "Value": 100.0
     },
     {
       "Name": "AnimationTime",
@@ -4302,7 +4323,7 @@
     {
       "Name": "Color",
       "ParentName": "Notification",
-      "Alpha": 153,
+      "Alpha": 126,
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
@@ -4333,7 +4354,7 @@
     {
       "Name": "HitColor",
       "ParentName": "EntityColor",
-      "Alpha": 109,
+      "Alpha": 36,
       "FadeAlpha": 36,
       "Rainbow": false,
       "Fade": false,
@@ -4344,7 +4365,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.31291175,
+      "HSB Color Red": 0.0,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
@@ -4380,7 +4401,7 @@
     {
       "Name": "Mobs",
       "ParentName": "Chams",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Animals",
@@ -4400,7 +4421,7 @@
     {
       "Name": "Invisible",
       "ParentName": "Chams",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "DamageAnimation",
@@ -4420,7 +4441,7 @@
     {
       "Name": "Color",
       "ParentName": "BlockOverlay",
-      "Alpha": 88,
+      "Alpha": 65,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
@@ -4476,7 +4497,7 @@
     {
       "Name": "Modes",
       "ParentName": "CustomName",
-      "SelectedOption": "Custom"
+      "SelectedOption": "Always"
     },
     {
       "Name": "Cusom",
@@ -4491,7 +4512,7 @@
     {
       "Name": "Mobs",
       "ParentName": "AntiInvisibles",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Animals",
@@ -4511,7 +4532,7 @@
     {
       "Name": "MaxTargetDistance",
       "ParentName": "FovArrows",
-      "Value": 30.0
+      "Value": 10.0
     },
     {
       "Name": "Color",
@@ -4552,12 +4573,12 @@
     {
       "Name": "DistAlpha",
       "ParentName": "FovArrows",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "BackGroundColor",
       "ParentName": "KeyStrokes",
-      "Alpha": 99,
+      "Alpha": 177,
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
@@ -4644,6 +4665,11 @@
       "Value": 2.0
     },
     {
+      "Name": "FadeSpeed",
+      "ParentName": "KeyStrokes",
+      "Value": 300.0
+    },
+    {
       "Name": "X",
       "ParentName": "KeyStrokes",
       "Value": 100.0
@@ -4651,7 +4677,7 @@
     {
       "Name": "Y",
       "ParentName": "KeyStrokes",
-      "Value": 83.0
+      "Value": 94.5
     },
     {
       "Name": "Shadow",
@@ -4671,7 +4697,7 @@
     {
       "Name": "XCoord",
       "ParentName": "TargetHud",
-      "Value": 59.5
+      "Value": 60.0
     },
     {
       "Name": "YCoord",
@@ -4711,12 +4737,12 @@
     {
       "Name": "CustomName",
       "ParentName": "CustomSkin",
-      "SelectedOption": "G0mme"
+      "SelectedOption": "Zlimuzin"
     },
     {
       "Name": "CustomName",
       "ParentName": "CustomCape",
-      "SelectedOption": "GommeHD"
+      "SelectedOption": "Scrizon"
     },
     {
       "Name": "CustomHeight",
@@ -4756,7 +4782,7 @@
     {
       "Name": "Blur",
       "ParentName": "Chat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AllDirection",
@@ -5014,6 +5040,16 @@
       "Boolean": true
     },
     {
+      "Name": "TimeManipulationTimer",
+      "ParentName": "Speed",
+      "Value": 3.05
+    },
+    {
+      "Name": "TimeManipulationTPTicks",
+      "ParentName": "Speed",
+      "Value": 0.0
+    },
+    {
       "Name": "Time",
       "ParentName": "Timer",
       "Value": 0.1
@@ -5146,12 +5182,12 @@
     {
       "Name": "BoostTicks",
       "ParentName": "Booster",
-      "Value": 1.0
+      "Value": 5.0
     },
     {
       "Name": "Delay",
       "ParentName": "Booster",
-      "Value": 1.0
+      "Value": 1900.0
     },
     {
       "Name": "Height",
@@ -5187,6 +5223,11 @@
       "Name": "NCPSpeed",
       "ParentName": "LongJump",
       "Value": 10.0
+    },
+    {
+      "Name": "UniversoSpeed",
+      "ParentName": "LongJump",
+      "Value": 0.1
     },
     {
       "Name": "Distance",
@@ -5788,7 +5829,7 @@
     {
       "Name": "BedBlinkTime",
       "ParentName": "Fucker",
-      "Value": 4000.0
+      "Value": 3000.0
     },
     {
       "Name": "Delay",
@@ -6003,7 +6044,7 @@
     {
       "Name": "TowerMode",
       "ParentName": "Scaffold",
-      "SelectedOption": "Intave2"
+      "SelectedOption": "Intave1"
     },
     {
       "Name": "ConstantMotion",
@@ -6087,72 +6128,6 @@
       "Boolean": false
     },
     {
-      "Name": "PingSpoof",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "Watchdog",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "RoyalPixels",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "MinemenStrafe",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "MatrixTest",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "Spectate",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "C00PacketKeepAlive",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "C01PacketPing",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "C0BPacketEntityAction",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "C13PacketPlayerAbilities",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "C0FPacketConfirmTransaction",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "C19PacketResourcePackStatus",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "Delay",
-      "ParentName": "Disabler",
-      "MinValue": 1000.0,
-      "MaxValue": 1500.0
-    },
-    {
       "Name": "CancelSound",
       "ParentName": "AutoPlay",
       "Boolean": false
@@ -6204,6 +6179,113 @@
       "Boolean": true
     },
     {
+      "Name": "YawSpeedInRotationModule",
+      "ParentName": "AutoWalk",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "PitchSpeedInRotationModule",
+      "ParentName": "AutoWalk",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "RandomTypeInRotationModule",
+      "ParentName": "AutoWalk",
+      "SelectedOption": "SecureRandom"
+    },
+    {
+      "Name": "RandomizeInRotationModule",
+      "ParentName": "AutoWalk",
+      "SelectedOption": "OnlyRotation"
+    },
+    {
+      "Name": "RandomStrengthInRotationModule",
+      "ParentName": "AutoWalk",
+      "Value": 1.25
+    },
+    {
+      "Name": "AdvancedRotsInRotationModule",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
+      "Name": "InterpolationInRotationModule",
+      "ParentName": "AutoWalk",
+      "Boolean": false
+    },
+    {
+      "Name": "MoveFixInRotationModule",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFixInRotationModule",
+      "ParentName": "AutoWalk",
+      "Boolean": false
+    },
+    {
+      "Name": "SilentMoveFixIntaveInRotationModule",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
+      "Name": "PathFinding",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
+      "Name": "DebugLine",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
+      "Name": "Distance",
+      "ParentName": "AutoWalk",
+      "Value": 50.0
+    },
+    {
+      "Name": "MaxSearchTime",
+      "ParentName": "AutoWalk",
+      "Value": 100.0
+    },
+    {
+      "Name": "UpdateTicks",
+      "ParentName": "AutoWalk",
+      "Value": 3.0
+    },
+    {
+      "Name": "Player",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
+      "Name": "Mob",
+      "ParentName": "AutoWalk",
+      "Boolean": false
+    },
+    {
+      "Name": "Animal",
+      "ParentName": "AutoWalk",
+      "Boolean": false
+    },
+    {
+      "Name": "Villager",
+      "ParentName": "AutoWalk",
+      "Boolean": false
+    },
+    {
+      "Name": "ArmorStand",
+      "ParentName": "AutoWalk",
+      "Boolean": false
+    },
+    {
+      "Name": "Invisible",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
       "Name": "OnlyWithKillAuraTarget",
       "ParentName": "AutoWalk",
       "Boolean": true
@@ -6241,10 +6323,15 @@
     {
       "Name": "TimeManipulation",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "HitBug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "PacketHandler",
       "ParentName": "Debug",
       "Boolean": false
     },
@@ -6310,39 +6397,64 @@
       "SelectedOption": "LabyMod"
     },
     {
-      "Name": "P1Flag",
+      "Name": "Intave13P_19",
       "ParentName": "ClientAntiCheat",
       "Boolean": false
     },
     {
-      "Name": "P2Flag",
+      "Name": "Intave13P_56",
       "ParentName": "ClientAntiCheat",
       "Boolean": false
     },
     {
-      "Name": "Intave13P56",
+      "Name": "Intave14P_51",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
     {
-      "Name": "Intave13P19",
+      "Name": "Intave14P_71",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
     {
-      "Name": "Player",
+      "Name": "Intave14P_81",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
     {
-      "Name": "Mob",
+      "Name": "Intave14P_82",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
-      "Name": "Villager",
+      "Name": "Intave14P_83",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_84",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_85",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_86",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_91",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_92",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
     },
     {
       "Name": "KillAura",
@@ -6392,12 +6504,17 @@
     {
       "Name": "MinTicksAvailable",
       "ParentName": "TimeManipulation",
-      "Value": 10.0
+      "Value": 0.0
     },
     {
       "Name": "MaxChargingTicks",
       "ParentName": "TimeManipulation",
       "Value": 5.0
+    },
+    {
+      "Name": "Correct",
+      "ParentName": "TimeManipulation",
+      "Boolean": false
     },
     {
       "Name": "AutoCharge",
@@ -6406,6 +6523,61 @@
     },
     {
       "Name": "SneakCharge",
+      "ParentName": "TimeManipulation",
+      "Boolean": true
+    },
+    {
+      "Name": "UpdateEntityPositions",
+      "ParentName": "TimeManipulation",
+      "Boolean": false
+    },
+    {
+      "Name": "TimerRangeBool",
+      "ParentName": "TimeManipulation",
+      "Boolean": false
+    },
+    {
+      "Name": "TimerRange",
+      "ParentName": "TimeManipulation",
+      "Extended": true
+    },
+    {
+      "Name": "Delay",
+      "ParentName": "TimeManipulation",
+      "Value": 0.0
+    },
+    {
+      "Name": "TimerTicksForward",
+      "ParentName": "TimeManipulation",
+      "Value": 5.0
+    },
+    {
+      "Name": "Tolerance",
+      "ParentName": "TimeManipulation",
+      "Value": 0.0
+    },
+    {
+      "Name": "OnlyOnGround",
+      "ParentName": "TimeManipulation",
+      "Boolean": true
+    },
+    {
+      "Name": "Dynamic",
+      "ParentName": "TimeManipulation",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyKillAura",
+      "ParentName": "TimeManipulation",
+      "Boolean": true
+    },
+    {
+      "Name": "ClickCheck",
+      "ParentName": "TimeManipulation",
+      "Boolean": false
+    },
+    {
+      "Name": "ForbiddenSneak",
       "ParentName": "TimeManipulation",
       "Boolean": true
     },
@@ -6498,7 +6670,7 @@
     {
       "Name": "MacroDelay",
       "ParentName": "PacketHandler",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "EventToHandlePacket",
@@ -6544,7 +6716,7 @@
           "S1FPacketSetExperience": true,
           "S20PacketEntityProperties": true,
           "S21PacketChunkData": false,
-          "S22PacketMultiBlockChange": true,
+          "S22PacketMultiBlockChange": false,
           "S23PacketBlockChange": true,
           "S24PacketBlockAction": true,
           "S25PacketBlockBreakAnim": true,
@@ -6644,6 +6816,2302 @@
       "SelectedOption": "Sigma"
     },
     {
+      "Name": "CustomPacketCanceling",
+      "ParentName": "Disabler",
+      "Extended": true
+    },
+    {
+      "Name": "IncomingPackets",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "IncomingPacketsToCancel",
+      "ParentName": "Disabler",
+      "SettingList": [
+        {
+          "S00PacketKeepAlive": false,
+          "S01PacketJoinGame": false,
+          "S02PacketChat": false,
+          "S03PacketTimeUpdate": false,
+          "S04PacketEntityEquipment": false,
+          "S05PacketSpawnPosition": false,
+          "S06PacketUpdateHealth": false,
+          "S07PacketRespawn": false,
+          "S08PacketPlayerPosLook": false,
+          "S09PacketHeldItemChange": false,
+          "S0APacketUseBed": false,
+          "S0BPacketAnimation": false,
+          "S0CPacketSpawnPlayer": false,
+          "S0DPacketCollectItem": false,
+          "S0EPacketSpawnObject": false,
+          "S0FPacketSpawnMob": false,
+          "S10PacketSpawnPainting": false,
+          "S11PacketSpawnExperienceOrb": false,
+          "S12PacketEntityVelocity": false,
+          "S13PacketDestroyEntities": false,
+          "S14PacketEntity": false,
+          "S15PacketEntityRelMove": false,
+          "S16PacketEntityLook": false,
+          "S17PacketEntityLookMove": false,
+          "S18PacketEntityTeleport": false,
+          "S19PacketEntityHeadLook": false,
+          "S19PacketEntityStatus": false,
+          "S1BPacketEntityAttach": false,
+          "S1CPacketEntityMetadata": false,
+          "S1DPacketEntityEffect": false,
+          "S1EPacketRemoveEntityEffect": false,
+          "S1FPacketSetExperience": false,
+          "S20PacketEntityProperties": false,
+          "S21PacketChunkData": false,
+          "S22PacketMultiBlockChange": false,
+          "S23PacketBlockChange": false,
+          "S24PacketBlockAction": false,
+          "S25PacketBlockBreakAnim": false,
+          "S26PacketMapChunkBulk": false,
+          "S27PacketExplosion": false,
+          "S28PacketEffect": false,
+          "S29PacketSoundEffect": false,
+          "S2APacketParticles": false,
+          "S2BPacketChangeGameState": false,
+          "S2CPacketSpawnGlobalEntity": false,
+          "S2DPacketOpenWindow": false,
+          "S2EPacketCloseWindow": false,
+          "S2FPacketSetSlot": false,
+          "S30PacketWindowItems": false,
+          "S31PacketWindowProperty": false,
+          "S32PacketConfirmTransaction": false,
+          "S33PacketUpdateSign": false,
+          "S34PacketMaps": false,
+          "S35PacketUpdateTileEntity": false,
+          "S36PacketSignEditorOpen": false,
+          "S37PacketStatistics": false,
+          "S38PacketPlayerListItem": false,
+          "S39PacketPlayerAbilities": false,
+          "S3APacketTabComplete": false,
+          "S3BPacketScoreboardObjective": false,
+          "S3CPacketUpdateScore": false,
+          "S3DPacketDisplayScoreboard": false,
+          "S3EPacketTeams": false,
+          "S3FPacketCustomPayload": false,
+          "S40PacketDisconnect": false,
+          "S41PacketServerDifficulty": false,
+          "S42PacketCombatEvent": false,
+          "S43PacketCamera": false,
+          "S44PacketWorldBorder": false,
+          "S45PacketTitle": false,
+          "S46PacketSetCompressionLevel": false,
+          "S47PacketPlayerListHeaderFooter": false,
+          "S48PacketResourcePackSend": false,
+          "S49PacketUpdateEntityNBT": false
+        }
+      ]
+    },
+    {
+      "Name": "OutgoingPackets",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "OutGoingPacketsToCancel",
+      "ParentName": "Disabler",
+      "SettingList": [
+        {
+          "C00PacketKeepAlive": false,
+          "C01PacketChatMessage": false,
+          "C02PacketUseEntity": false,
+          "C03PacketPlayer": false,
+          "C04PacketPlayerPosition": false,
+          "C05PacketPlayerLook": false,
+          "C06PacketPlayerPosLook": false,
+          "C07PacketPlayerDigging": false,
+          "C08PacketPlayerBlockPlacement": false,
+          "C09PacketHeldItemChange": false,
+          "C0APacketAnimation": false,
+          "C0BPacketEntityAction": false,
+          "C0CPacketInput": false,
+          "C0DPacketCloseWindow": false,
+          "C0EPacketClickWindow": false,
+          "C0FPacketConfirmTransaction": false,
+          "C10PacketCreativeInventoryAction": false,
+          "C11PacketEnchantItem": false,
+          "C12PacketUpdateSign": false,
+          "C13PacketPlayerAbilities": false,
+          "C14PacketTabComplete": false,
+          "C15PacketClientSettings": false,
+          "C16PacketClientStatus": false,
+          "C17PacketCustomPayload": false,
+          "C18PacketSpectate": false,
+          "C19PacketResourcePackStatus": false,
+          "CAnimateHandPacket": false,
+          "CPacketPlayerTryUseItemOnBlock": false
+        }
+      ]
+    },
+    {
+      "Name": "PingSpoof",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "Delay",
+      "ParentName": "Disabler",
+      "MinValue": 1000.0,
+      "MaxValue": 1500.0
+    },
+    {
+      "Name": "RoyalPixels",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "Spectate",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "S00PacketKeepAlive",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S00PacketKeepAliveInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S00PacketKeepAliveAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S00PacketKeepAliveStartTickS00PacketKeepAliveEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S01PacketJoinGame",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S01PacketJoinGameInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S01PacketJoinGameAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S01PacketJoinGameStartTickS01PacketJoinGameEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S02PacketChat",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S02PacketChatInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S02PacketChatAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S02PacketChatStartTickS02PacketChatEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S03PacketTimeUpdate",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S03PacketTimeUpdateInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S03PacketTimeUpdateAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S03PacketTimeUpdateStartTickS03PacketTimeUpdateEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S04PacketEntityEquipment",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S04PacketEntityEquipmentInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S04PacketEntityEquipmentAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S04PacketEntityEquipmentStartTickS04PacketEntityEquipmentEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S05PacketSpawnPosition",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S05PacketSpawnPositionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S05PacketSpawnPositionAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S05PacketSpawnPositionStartTickS05PacketSpawnPositionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S06PacketUpdateHealth",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S06PacketUpdateHealthInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S06PacketUpdateHealthAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S06PacketUpdateHealthStartTickS06PacketUpdateHealthEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S07PacketRespawn",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S07PacketRespawnInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S07PacketRespawnAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S07PacketRespawnStartTickS07PacketRespawnEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S08PacketPlayerPosLook",
+      "ParentName": "Disabler",
+      "Extended": true
+    },
+    {
+      "Name": "S08PacketPlayerPosLookInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S08PacketPlayerPosLookAlways",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "S08PacketPlayerPosLookStartTickS08PacketPlayerPosLookEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "S09PacketHeldItemChange",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S09PacketHeldItemChangeInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S09PacketHeldItemChangeAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S09PacketHeldItemChangeStartTickS09PacketHeldItemChangeEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S0APacketUseBed",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S0APacketUseBedInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S0APacketUseBedAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S0APacketUseBedStartTickS0APacketUseBedEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S0BPacketAnimation",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S0BPacketAnimationInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S0BPacketAnimationAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S0BPacketAnimationStartTickS0BPacketAnimationEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S0CPacketSpawnPlayer",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S0CPacketSpawnPlayerInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S0CPacketSpawnPlayerAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S0CPacketSpawnPlayerStartTickS0CPacketSpawnPlayerEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S0DPacketCollectItem",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S0DPacketCollectItemInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S0DPacketCollectItemAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S0DPacketCollectItemStartTickS0DPacketCollectItemEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S0EPacketSpawnObject",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S0EPacketSpawnObjectInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S0EPacketSpawnObjectAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S0EPacketSpawnObjectStartTickS0EPacketSpawnObjectEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S0FPacketSpawnMob",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S0FPacketSpawnMobInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S0FPacketSpawnMobAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S0FPacketSpawnMobStartTickS0FPacketSpawnMobEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S10PacketSpawnPainting",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S10PacketSpawnPaintingInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S10PacketSpawnPaintingAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S10PacketSpawnPaintingStartTickS10PacketSpawnPaintingEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S11PacketSpawnExperienceOrb",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S11PacketSpawnExperienceOrbInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S11PacketSpawnExperienceOrbAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S11PacketSpawnExperienceOrbStartTickS11PacketSpawnExperienceOrbEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S12PacketEntityVelocity",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S12PacketEntityVelocityInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S12PacketEntityVelocityAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S12PacketEntityVelocityStartTickS12PacketEntityVelocityEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S13PacketDestroyEntities",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S13PacketDestroyEntitiesInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S13PacketDestroyEntitiesAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S13PacketDestroyEntitiesStartTickS13PacketDestroyEntitiesEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S14PacketEntity",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S14PacketEntityInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S14PacketEntityAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S14PacketEntityStartTickS14PacketEntityEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S15PacketEntityRelMove",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S15PacketEntityRelMoveInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S15PacketEntityRelMoveAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S15PacketEntityRelMoveStartTickS15PacketEntityRelMoveEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S16PacketEntityLook",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S16PacketEntityLookInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S16PacketEntityLookAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S16PacketEntityLookStartTickS16PacketEntityLookEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S17PacketEntityLookMove",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S17PacketEntityLookMoveInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S17PacketEntityLookMoveAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S17PacketEntityLookMoveStartTickS17PacketEntityLookMoveEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S18PacketEntityTeleport",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S18PacketEntityTeleportInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S18PacketEntityTeleportAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S18PacketEntityTeleportStartTickS18PacketEntityTeleportEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S19PacketEntityHeadLook",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S19PacketEntityHeadLookInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S19PacketEntityHeadLookAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S19PacketEntityHeadLookStartTickS19PacketEntityHeadLookEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S19PacketEntityStatus",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S19PacketEntityStatusInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S19PacketEntityStatusAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S19PacketEntityStatusStartTickS19PacketEntityStatusEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S1BPacketEntityAttach",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S1BPacketEntityAttachInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S1BPacketEntityAttachAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S1BPacketEntityAttachStartTickS1BPacketEntityAttachEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S1CPacketEntityMetadata",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S1CPacketEntityMetadataInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S1CPacketEntityMetadataAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S1CPacketEntityMetadataStartTickS1CPacketEntityMetadataEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S1DPacketEntityEffect",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S1DPacketEntityEffectInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S1DPacketEntityEffectAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S1DPacketEntityEffectStartTickS1DPacketEntityEffectEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S1EPacketRemoveEntityEffect",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S1EPacketRemoveEntityEffectInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S1EPacketRemoveEntityEffectAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S1EPacketRemoveEntityEffectStartTickS1EPacketRemoveEntityEffectEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S1FPacketSetExperience",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S1FPacketSetExperienceInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S1FPacketSetExperienceAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S1FPacketSetExperienceStartTickS1FPacketSetExperienceEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S20PacketEntityProperties",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S20PacketEntityPropertiesInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S20PacketEntityPropertiesAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S20PacketEntityPropertiesStartTickS20PacketEntityPropertiesEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S21PacketChunkData",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S21PacketChunkDataInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S21PacketChunkDataAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S21PacketChunkDataStartTickS21PacketChunkDataEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S22PacketMultiBlockChange",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S22PacketMultiBlockChangeInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S22PacketMultiBlockChangeAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S22PacketMultiBlockChangeStartTickS22PacketMultiBlockChangeEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S23PacketBlockChange",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S23PacketBlockChangeInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S23PacketBlockChangeAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S23PacketBlockChangeStartTickS23PacketBlockChangeEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S24PacketBlockAction",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S24PacketBlockActionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S24PacketBlockActionAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S24PacketBlockActionStartTickS24PacketBlockActionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S25PacketBlockBreakAnim",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S25PacketBlockBreakAnimInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S25PacketBlockBreakAnimAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S25PacketBlockBreakAnimStartTickS25PacketBlockBreakAnimEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S26PacketMapChunkBulk",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S26PacketMapChunkBulkInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S26PacketMapChunkBulkAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S26PacketMapChunkBulkStartTickS26PacketMapChunkBulkEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S27PacketExplosion",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S27PacketExplosionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S27PacketExplosionAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S27PacketExplosionStartTickS27PacketExplosionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S28PacketEffect",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S28PacketEffectInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S28PacketEffectAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S28PacketEffectStartTickS28PacketEffectEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S29PacketSoundEffect",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S29PacketSoundEffectInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S29PacketSoundEffectAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S29PacketSoundEffectStartTickS29PacketSoundEffectEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S2APacketParticles",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S2APacketParticlesInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S2APacketParticlesAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S2APacketParticlesStartTickS2APacketParticlesEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S2BPacketChangeGameState",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S2BPacketChangeGameStateInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S2BPacketChangeGameStateAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S2BPacketChangeGameStateStartTickS2BPacketChangeGameStateEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S2CPacketSpawnGlobalEntity",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S2CPacketSpawnGlobalEntityInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S2CPacketSpawnGlobalEntityAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S2CPacketSpawnGlobalEntityStartTickS2CPacketSpawnGlobalEntityEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S2DPacketOpenWindow",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S2DPacketOpenWindowInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S2DPacketOpenWindowAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S2DPacketOpenWindowStartTickS2DPacketOpenWindowEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S2EPacketCloseWindow",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S2EPacketCloseWindowInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S2EPacketCloseWindowAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S2EPacketCloseWindowStartTickS2EPacketCloseWindowEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S2FPacketSetSlot",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S2FPacketSetSlotInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S2FPacketSetSlotAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S2FPacketSetSlotStartTickS2FPacketSetSlotEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S30PacketWindowItems",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S30PacketWindowItemsInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S30PacketWindowItemsAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S30PacketWindowItemsStartTickS30PacketWindowItemsEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S31PacketWindowProperty",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S31PacketWindowPropertyInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S31PacketWindowPropertyAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S31PacketWindowPropertyStartTickS31PacketWindowPropertyEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S32PacketConfirmTransaction",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S32PacketConfirmTransactionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S32PacketConfirmTransactionAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S32PacketConfirmTransactionStartTickS32PacketConfirmTransactionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S33PacketUpdateSign",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S33PacketUpdateSignInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S33PacketUpdateSignAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S33PacketUpdateSignStartTickS33PacketUpdateSignEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S34PacketMaps",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S34PacketMapsInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S34PacketMapsAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S34PacketMapsStartTickS34PacketMapsEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S35PacketUpdateTileEntity",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S35PacketUpdateTileEntityInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S35PacketUpdateTileEntityAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S35PacketUpdateTileEntityStartTickS35PacketUpdateTileEntityEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S36PacketSignEditorOpen",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S36PacketSignEditorOpenInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S36PacketSignEditorOpenAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S36PacketSignEditorOpenStartTickS36PacketSignEditorOpenEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S37PacketStatistics",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S37PacketStatisticsInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S37PacketStatisticsAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S37PacketStatisticsStartTickS37PacketStatisticsEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S38PacketPlayerListItem",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S38PacketPlayerListItemInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S38PacketPlayerListItemAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S38PacketPlayerListItemStartTickS38PacketPlayerListItemEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S39PacketPlayerAbilities",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S39PacketPlayerAbilitiesInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S39PacketPlayerAbilitiesAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S39PacketPlayerAbilitiesStartTickS39PacketPlayerAbilitiesEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S3APacketTabComplete",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S3APacketTabCompleteInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S3APacketTabCompleteAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S3APacketTabCompleteStartTickS3APacketTabCompleteEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S3BPacketScoreboardObjective",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S3BPacketScoreboardObjectiveInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S3BPacketScoreboardObjectiveAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S3BPacketScoreboardObjectiveStartTickS3BPacketScoreboardObjectiveEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S3CPacketUpdateScore",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S3CPacketUpdateScoreInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S3CPacketUpdateScoreAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S3CPacketUpdateScoreStartTickS3CPacketUpdateScoreEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S3DPacketDisplayScoreboard",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S3DPacketDisplayScoreboardInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S3DPacketDisplayScoreboardAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S3DPacketDisplayScoreboardStartTickS3DPacketDisplayScoreboardEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S3EPacketTeams",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S3EPacketTeamsInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S3EPacketTeamsAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S3EPacketTeamsStartTickS3EPacketTeamsEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S3FPacketCustomPayload",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S3FPacketCustomPayloadInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S3FPacketCustomPayloadAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S3FPacketCustomPayloadStartTickS3FPacketCustomPayloadEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S40PacketDisconnect",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S40PacketDisconnectInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S40PacketDisconnectAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S40PacketDisconnectStartTickS40PacketDisconnectEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S41PacketServerDifficulty",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S41PacketServerDifficultyInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S41PacketServerDifficultyAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S41PacketServerDifficultyStartTickS41PacketServerDifficultyEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S42PacketCombatEvent",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S42PacketCombatEventInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S42PacketCombatEventAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S42PacketCombatEventStartTickS42PacketCombatEventEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S43PacketCamera",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S43PacketCameraInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S43PacketCameraAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S43PacketCameraStartTickS43PacketCameraEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S44PacketWorldBorder",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S44PacketWorldBorderInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S44PacketWorldBorderAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S44PacketWorldBorderStartTickS44PacketWorldBorderEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S45PacketTitle",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S45PacketTitleInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S45PacketTitleAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S45PacketTitleStartTickS45PacketTitleEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S46PacketSetCompressionLevel",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S46PacketSetCompressionLevelInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S46PacketSetCompressionLevelAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S46PacketSetCompressionLevelStartTickS46PacketSetCompressionLevelEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S47PacketPlayerListHeaderFooter",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S47PacketPlayerListHeaderFooterInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S47PacketPlayerListHeaderFooterAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S47PacketPlayerListHeaderFooterStartTickS47PacketPlayerListHeaderFooterEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S48PacketResourcePackSend",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S48PacketResourcePackSendInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S48PacketResourcePackSendAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S48PacketResourcePackSendStartTickS48PacketResourcePackSendEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "S49PacketUpdateEntityNBT",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "S49PacketUpdateEntityNBTInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "S49PacketUpdateEntityNBTAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "S49PacketUpdateEntityNBTStartTickS49PacketUpdateEntityNBTEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C00PacketKeepAlive",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C00PacketKeepAliveInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C00PacketKeepAliveAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C00PacketKeepAliveStartTickC00PacketKeepAliveEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C01PacketChatMessage",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C01PacketChatMessageInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C01PacketChatMessageAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C01PacketChatMessageStartTickC01PacketChatMessageEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C02PacketUseEntity",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C02PacketUseEntityInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C02PacketUseEntityAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C02PacketUseEntityStartTickC02PacketUseEntityEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C03PacketPlayer",
+      "ParentName": "Disabler",
+      "Extended": true
+    },
+    {
+      "Name": "C03PacketPlayerInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C03PacketPlayerAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C03PacketPlayerStartTickC03PacketPlayerEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "C04PacketPlayerPosition",
+      "ParentName": "Disabler",
+      "Extended": true
+    },
+    {
+      "Name": "C04PacketPlayerPositionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C04PacketPlayerPositionAlways",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "C04PacketPlayerPositionStartTickC04PacketPlayerPositionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "C05PacketPlayerLook",
+      "ParentName": "Disabler",
+      "Extended": true
+    },
+    {
+      "Name": "C05PacketPlayerLookInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C05PacketPlayerLookAlways",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "C05PacketPlayerLookStartTickC05PacketPlayerLookEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "C06PacketPlayerPosLook",
+      "ParentName": "Disabler",
+      "Extended": true
+    },
+    {
+      "Name": "C06PacketPlayerPosLookInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C06PacketPlayerPosLookAlways",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "C06PacketPlayerPosLookStartTickC06PacketPlayerPosLookEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "C07PacketPlayerDigging",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C07PacketPlayerDiggingInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C07PacketPlayerDiggingAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C07PacketPlayerDiggingStartTickC07PacketPlayerDiggingEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C08PacketPlayerBlockPlacement",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C08PacketPlayerBlockPlacementInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C08PacketPlayerBlockPlacementAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C08PacketPlayerBlockPlacementStartTickC08PacketPlayerBlockPlacementEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C09PacketHeldItemChange",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C09PacketHeldItemChangeInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C09PacketHeldItemChangeAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C09PacketHeldItemChangeStartTickC09PacketHeldItemChangeEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C0APacketAnimation",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C0APacketAnimationInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C0APacketAnimationAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C0APacketAnimationStartTickC0APacketAnimationEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C0BPacketEntityAction",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C0BPacketEntityActionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C0BPacketEntityActionAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C0BPacketEntityActionStartTickC0BPacketEntityActionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C0CPacketInput",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C0CPacketInputInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C0CPacketInputAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C0CPacketInputStartTickC0CPacketInputEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C0DPacketCloseWindow",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C0DPacketCloseWindowInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C0DPacketCloseWindowAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C0DPacketCloseWindowStartTickC0DPacketCloseWindowEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C0EPacketClickWindow",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C0EPacketClickWindowInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C0EPacketClickWindowAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C0EPacketClickWindowStartTickC0EPacketClickWindowEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C0FPacketConfirmTransaction",
+      "ParentName": "Disabler",
+      "Extended": true
+    },
+    {
+      "Name": "C0FPacketConfirmTransactionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C0FPacketConfirmTransactionAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C0FPacketConfirmTransactionStartTickC0FPacketConfirmTransactionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C10PacketCreativeInventoryAction",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C10PacketCreativeInventoryActionInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C10PacketCreativeInventoryActionAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C10PacketCreativeInventoryActionStartTickC10PacketCreativeInventoryActionEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C11PacketEnchantItem",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C11PacketEnchantItemInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C11PacketEnchantItemAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C11PacketEnchantItemStartTickC11PacketEnchantItemEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C12PacketUpdateSign",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C12PacketUpdateSignInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C12PacketUpdateSignAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C12PacketUpdateSignStartTickC12PacketUpdateSignEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C13PacketPlayerAbilities",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C13PacketPlayerAbilitiesInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C13PacketPlayerAbilitiesAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C13PacketPlayerAbilitiesStartTickC13PacketPlayerAbilitiesEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C14PacketTabComplete",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C14PacketTabCompleteInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C14PacketTabCompleteAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C14PacketTabCompleteStartTickC14PacketTabCompleteEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C15PacketClientSettings",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C15PacketClientSettingsInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C15PacketClientSettingsAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C15PacketClientSettingsStartTickC15PacketClientSettingsEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C16PacketClientStatus",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C16PacketClientStatusInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C16PacketClientStatusAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C16PacketClientStatusStartTickC16PacketClientStatusEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C17PacketCustomPayload",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C17PacketCustomPayloadInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C17PacketCustomPayloadAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C17PacketCustomPayloadStartTickC17PacketCustomPayloadEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C18PacketSpectate",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C18PacketSpectateInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C18PacketSpectateAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C18PacketSpectateStartTickC18PacketSpectateEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "C19PacketResourcePackStatus",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "C19PacketResourcePackStatusInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "C19PacketResourcePackStatusAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "C19PacketResourcePackStatusStartTickC19PacketResourcePackStatusEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "CAnimateHandPacket",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "CAnimateHandPacketInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "CAnimateHandPacketAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "CAnimateHandPacketStartTickCAnimateHandPacketEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "CPacketPlayerTryUseItemOnBlock",
+      "ParentName": "Disabler",
+      "Extended": false
+    },
+    {
+      "Name": "CPacketPlayerTryUseItemOnBlockInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "CPacketPlayerTryUseItemOnBlockAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "CPacketPlayerTryUseItemOnBlockStartTickCPacketPlayerTryUseItemOnBlockEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
       "Name": "Mode",
       "ParentName": "AutoJumpAndRun",
       "SelectedOption": "Gomme"
@@ -6707,7 +9175,7 @@
     {
       "Name": "KillMessageCustom",
       "ParentName": "KillMessage",
-      "SelectedOption": "killed by Augustusb3.4!"
+      "SelectedOption": "killed by Augustusb4.0.0-pre5!"
     },
     {
       "Name": "Range",
