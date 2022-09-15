@@ -1,7 +1,7 @@
 {
   "name": "GommeLegit",
-  "date": "08.09.2022",
-  "time": "18:18",
+  "date": "15.09.2022",
+  "time": "12:07",
   "modules": [
     {
       "Name": "Blur",
@@ -175,7 +175,7 @@
       "Name": "ClickGui",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 54
     },
     {
@@ -371,7 +371,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -937,7 +937,7 @@
     {
       "Name": "Disabler",
       "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "Toggled": false,
       "Key": 0
     },
@@ -1515,7 +1515,7 @@
     {
       "Name": "TimerTicksForward",
       "ParentName": "TimerRange",
-      "Value": 5.0
+      "Value": 2.0
     },
     {
       "Name": "Tolerance",
@@ -1530,7 +1530,7 @@
     {
       "Name": "AdditionalStop",
       "ParentName": "TimerRange",
-      "Value": 0.0
+      "Value": 22.0
     },
     {
       "Name": "OnlyOnGround",
@@ -1558,7 +1558,7 @@
       "Boolean": true
     },
     {
-      "Name": "FixMode",
+      "Name": "FixTMode",
       "ParentName": "TimerRange",
       "SelectedOption": "None"
     },
@@ -1646,6 +1646,11 @@
     },
     {
       "Name": "PerfectHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "NoLoopHit",
       "ParentName": "KillAura",
       "Boolean": true
     },
@@ -2004,6 +2009,11 @@
       "Boolean": true
     },
     {
+      "Name": "OnlyWhileSwingInProgress",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "UnblockAAC",
       "ParentName": "KillAura",
       "Value": 1.0
@@ -2054,8 +2064,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2783,7 +2793,7 @@
     {
       "Name": "AnimationTime",
       "ParentName": "ArrayList",
-      "Value": 500.0
+      "Value": 520.0
     },
     {
       "Name": "Sorting",
@@ -3617,7 +3627,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Packet"
+      "SelectedOption": "Amogus"
     },
     {
       "Name": "HudShadow",
@@ -3632,7 +3642,7 @@
     {
       "Name": "Size",
       "ParentName": "HUD",
-      "Value": 0.6
+      "Value": 0.39
     },
     {
       "Name": "Hotbar",
@@ -4238,7 +4248,7 @@
     {
       "Name": "Swords",
       "ParentName": "CustomGlint",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Tools",
@@ -4248,7 +4258,7 @@
     {
       "Name": "Armor",
       "ParentName": "CustomGlint",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Rest",
@@ -4497,7 +4507,7 @@
     {
       "Name": "Modes",
       "ParentName": "CustomName",
-      "SelectedOption": "Always"
+      "SelectedOption": "IngameName"
     },
     {
       "Name": "Cusom",
@@ -5108,6 +5118,16 @@
       "Name": "VerusSpeed",
       "ParentName": "Fly",
       "Value": 1.0
+    },
+    {
+      "Name": "CubeCraftSpeed",
+      "ParentName": "Fly",
+      "Value": 3.0
+    },
+    {
+      "Name": "CubeCraftStopDuration",
+      "ParentName": "Fly",
+      "Value": 3.0
     },
     {
       "Name": "MaxDistance",
@@ -5840,14 +5860,14 @@
     {
       "Name": "YawSpeed",
       "ParentName": "Scaffold",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
+      "MinValue": 25.0,
+      "MaxValue": 38.0
     },
     {
       "Name": "PitchSpeed",
       "ParentName": "Scaffold",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
+      "MinValue": 25.0,
+      "MaxValue": 38.0
     },
     {
       "Name": "StaticPitchBool",
@@ -5876,6 +5896,11 @@
     },
     {
       "Name": "Intave",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "IntaveSafe",
       "ParentName": "Scaffold",
       "Boolean": true
     },
@@ -6157,6 +6182,11 @@
       "ParentName": "AutoRegister",
       "MinValue": 400.0,
       "MaxValue": 800.0
+    },
+    {
+      "Name": "Intave",
+      "ParentName": "Fixes",
+      "Boolean": false
     },
     {
       "Name": "MouseDelayFix",
@@ -6455,6 +6485,91 @@
       "Name": "Intave14P_92",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
+    },
+    {
+      "Name": "Intave14PostBlockPlaceCheck",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14TimeBlockPlaceCheck",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14InvalidBlockPlace",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14RotationBlockCheck",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACInvariant",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACRelative",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACSpike",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACVariance",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACLowDeviation",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACDoubleClick",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_131",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14InventoryAnalysis",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14InventoryWalking",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14InventorySlot",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "HigthTolerance",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoClickerP1",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoClickerP2",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": false
     },
     {
       "Name": "KillAura",

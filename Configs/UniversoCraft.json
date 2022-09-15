@@ -1,7 +1,7 @@
 {
   "name": "UniversoCraft",
-  "date": "14.09.2022",
-  "time": "15:20",
+  "date": "15.09.2022",
+  "time": "12:07",
   "modules": [
     {
       "Name": "Blur",
@@ -175,7 +175,7 @@
       "Name": "ClickGui",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 54
     },
     {
@@ -2011,7 +2011,7 @@
     {
       "Name": "OnlyWhileSwingInProgress",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "UnblockAAC",
@@ -7083,11 +7083,6 @@
       "Name": "Spectate",
       "ParentName": "Disabler",
       "Boolean": true
-    },
-    {
-      "Name": "Test",
-      "ParentName": "Disabler",
-      "Boolean": false
     },
     {
       "Name": "S00PacketKeepAlive",

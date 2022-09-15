@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "11.09.2022",
-  "time": "13:41",
+  "date": "15.09.2022",
+  "time": "12:06",
   "modules": [
     {
       "Name": "Blur",
@@ -42,7 +42,7 @@
       "Name": "BackTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -175,7 +175,7 @@
       "Name": "ClickGui",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 54
     },
     {
@@ -937,7 +937,7 @@
     {
       "Name": "Disabler",
       "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "Toggled": false,
       "Key": 0
     },
@@ -1558,7 +1558,7 @@
       "Boolean": true
     },
     {
-      "Name": "FixMode",
+      "Name": "FixTMode",
       "ParentName": "TimerRange",
       "SelectedOption": "None"
     },
@@ -1646,6 +1646,11 @@
     },
     {
       "Name": "PerfectHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "NoLoopHit",
       "ParentName": "KillAura",
       "Boolean": true
     },
@@ -2004,6 +2009,11 @@
       "Boolean": true
     },
     {
+      "Name": "OnlyWhileSwingInProgress",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "UnblockAAC",
       "ParentName": "KillAura",
       "Value": 1.0
@@ -2054,8 +2064,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2783,7 +2793,7 @@
     {
       "Name": "AnimationTime",
       "ParentName": "ArrayList",
-      "Value": 500.0
+      "Value": 520.0
     },
     {
       "Name": "Sorting",
@@ -3617,7 +3627,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Packet"
+      "SelectedOption": "Amogus"
     },
     {
       "Name": "HudShadow",
@@ -3632,7 +3642,7 @@
     {
       "Name": "Size",
       "ParentName": "HUD",
-      "Value": 0.6
+      "Value": 0.39
     },
     {
       "Name": "Hotbar",
@@ -5110,6 +5120,16 @@
       "Value": 1.0
     },
     {
+      "Name": "CubeCraftSpeed",
+      "ParentName": "Fly",
+      "Value": 3.0
+    },
+    {
+      "Name": "CubeCraftStopDuration",
+      "ParentName": "Fly",
+      "Value": 3.0
+    },
+    {
       "Name": "MaxDistance",
       "ParentName": "BugUp",
       "Value": 15.0
@@ -5353,7 +5373,7 @@
     {
       "Name": "StartDelay",
       "ParentName": "AutoArmor",
-      "Value": 300.0
+      "Value": 0.0
     },
     {
       "Name": "Delay",
@@ -5432,7 +5452,7 @@
     {
       "Name": "StartDelay",
       "ParentName": "InvCleaner",
-      "Value": 300.0
+      "Value": 0.0
     },
     {
       "Name": "Sort",
@@ -5467,7 +5487,7 @@
     {
       "Name": "StartDelay",
       "ParentName": "ChestStealer",
-      "Value": 105.0
+      "Value": 0.0
     },
     {
       "Name": "Delay",
@@ -6164,6 +6184,11 @@
       "MaxValue": 800.0
     },
     {
+      "Name": "Intave",
+      "ParentName": "Fixes",
+      "Boolean": false
+    },
+    {
       "Name": "MouseDelayFix",
       "ParentName": "Fixes",
       "Boolean": true
@@ -6480,6 +6505,71 @@
       "Name": "Intave14RotationBlockCheck",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
+    },
+    {
+      "Name": "Intave14ACInvariant",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACRelative",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACSpike",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACVariance",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACLowDeviation",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14ACDoubleClick",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_131",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14InventoryAnalysis",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14InventoryWalking",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14InventorySlot",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "HigthTolerance",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoClickerP1",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoClickerP2",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": false
     },
     {
       "Name": "KillAura",
