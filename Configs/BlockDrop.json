@@ -1,18 +1,18 @@
 {
   "name": "BlockDrop",
-  "date": "14.09.2022",
-  "time": "15:06",
+  "date": "19.09.2022",
+  "time": "13:55",
   "modules": [
     {
       "Name": "Blur",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
     {
       "Name": "Shadow",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -84,7 +84,7 @@
       "Name": "MoreKB",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -476,7 +476,7 @@
       "Name": "Jesus",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 36
     },
     {
@@ -532,7 +532,7 @@
       "Name": "TargetStrafe",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -627,10 +627,17 @@
       "Key": 0
     },
     {
+      "Name": "NoJumpDelay",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "NoFall",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -938,7 +945,7 @@
       "Name": "Disabler",
       "IsInConfig": true,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1605,14 +1612,14 @@
     {
       "Name": "YawSpeed",
       "ParentName": "KillAura",
-      "MinValue": 53.0,
-      "MaxValue": 89.0
+      "MinValue": 46.0,
+      "MaxValue": 87.0
     },
     {
       "Name": "PitchSpeed",
       "ParentName": "KillAura",
-      "MinValue": 43.0,
-      "MaxValue": 83.0
+      "MinValue": 42.0,
+      "MaxValue": 69.0
     },
     {
       "Name": "AdvancedRots",
@@ -1677,7 +1684,7 @@
     {
       "Name": "SlowDown",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "CoolDown",
@@ -1712,7 +1719,7 @@
     {
       "Name": "ThroughWalls",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SmartAim",
@@ -1803,7 +1810,7 @@
       "Name": "BasicDelay",
       "ParentName": "KillAura",
       "MinValue": 88.0,
-      "MaxValue": 136.0
+      "MaxValue": 164.0
     },
     {
       "Name": "Multiplier",
@@ -1991,7 +1998,7 @@
     {
       "Name": "BlockMode",
       "ParentName": "KillAura",
-      "SelectedOption": "None"
+      "SelectedOption": "Constant"
     },
     {
       "Name": "SmartBlock",
@@ -2011,7 +2018,7 @@
     {
       "Name": "OnlyWhileSwingInProgress",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "UnblockAAC",
@@ -3627,7 +3634,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Amogus"
+      "SelectedOption": "Ausustus"
     },
     {
       "Name": "HudShadow",
@@ -4318,7 +4325,7 @@
     {
       "Name": "Y",
       "ParentName": "Notification",
-      "Value": 100.0
+      "Value": 81.5
     },
     {
       "Name": "AnimationTime",
@@ -4507,7 +4514,7 @@
     {
       "Name": "Modes",
       "ParentName": "CustomName",
-      "SelectedOption": "IngameName"
+      "SelectedOption": "Custom"
     },
     {
       "Name": "Cusom",
@@ -4847,6 +4854,16 @@
     {
       "Name": "SwitchSwordBoolean",
       "ParentName": "NoSlow",
+      "Boolean": false
+    },
+    {
+      "Name": "SwordSendSlotBoolean",
+      "ParentName": "NoSlow",
+      "Boolean": false
+    },
+    {
+      "Name": "SwordOnGroundBoolean",
+      "ParentName": "NoSlow",
       "Boolean": true
     },
     {
@@ -4882,6 +4899,16 @@
     {
       "Name": "SwitchBowBoolean",
       "ParentName": "NoSlow",
+      "Boolean": false
+    },
+    {
+      "Name": "BowSendSlotBoolean",
+      "ParentName": "NoSlow",
+      "Boolean": false
+    },
+    {
+      "Name": "BowOnGroundBoolean",
+      "ParentName": "NoSlow",
       "Boolean": true
     },
     {
@@ -4913,6 +4940,16 @@
       "Name": "SwitchRestBoolean",
       "ParentName": "NoSlow",
       "Boolean": true
+    },
+    {
+      "Name": "RestSendSlotBoolean",
+      "ParentName": "NoSlow",
+      "Boolean": false
+    },
+    {
+      "Name": "RestOnGroundBoolean",
+      "ParentName": "NoSlow",
+      "Boolean": false
     },
     {
       "Name": "ToggleRestBoolean",
@@ -5017,7 +5054,7 @@
     {
       "Name": "Mode",
       "ParentName": "Speed",
-      "SelectedOption": "Sentry"
+      "SelectedOption": "Strafe"
     },
     {
       "Name": "Speed",
@@ -5092,7 +5129,7 @@
     {
       "Name": "Mode",
       "ParentName": "Fly",
-      "SelectedOption": "AirJump"
+      "SelectedOption": "Vanilla2"
     },
     {
       "Name": "AutoJump",
@@ -5142,7 +5179,7 @@
     {
       "Name": "Radius",
       "ParentName": "TargetStrafe",
-      "Value": 0.5
+      "Value": 1.1
     },
     {
       "Name": "KillAuraTarget",
@@ -5151,6 +5188,11 @@
     },
     {
       "Name": "AutoStrafe",
+      "ParentName": "TargetStrafe",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyWhileSpace",
       "ParentName": "TargetStrafe",
       "Boolean": true
     },
@@ -6069,7 +6111,7 @@
     {
       "Name": "TowerMode",
       "ParentName": "Scaffold",
-      "SelectedOption": "NCPFast"
+      "SelectedOption": "NCP"
     },
     {
       "Name": "ConstantMotion",
@@ -6429,12 +6471,12 @@
     {
       "Name": "Intave13P_19",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave13P_56",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave14P_51",
@@ -6933,7 +6975,7 @@
     {
       "Name": "CustomPacketCanceling",
       "ParentName": "Disabler",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "IncomingPackets",
@@ -7025,7 +7067,7 @@
     {
       "Name": "OutgoingPackets",
       "ParentName": "Disabler",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "OutGoingPacketsToCancel",
@@ -7043,7 +7085,7 @@
           "C08PacketPlayerBlockPlacement": false,
           "C09PacketHeldItemChange": false,
           "C0APacketAnimation": false,
-          "C0BPacketEntityAction": false,
+          "C0BPacketEntityAction": true,
           "C0CPacketInput": false,
           "C0DPacketCloseWindow": false,
           "C0EPacketClickWindow": false,
@@ -7071,8 +7113,8 @@
     {
       "Name": "Delay",
       "ParentName": "Disabler",
-      "MinValue": 3420.0,
-      "MaxValue": 4000.0
+      "MinValue": 2420.0,
+      "MaxValue": 2420.0
     },
     {
       "Name": "RoyalPixels",
@@ -7081,11 +7123,6 @@
     },
     {
       "Name": "Spectate",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "Test",
       "ParentName": "Disabler",
       "Boolean": false
     },
@@ -8646,12 +8683,12 @@
     {
       "Name": "C00PacketKeepAlive",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C00PacketKeepAliveInterval",
       "ParentName": "Disabler",
-      "Value": 3.0
+      "Value": 0.0
     },
     {
       "Name": "C00PacketKeepAliveAlways",
@@ -8877,7 +8914,7 @@
     {
       "Name": "C0BPacketEntityAction",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C0BPacketEntityActionInterval",
@@ -8961,12 +8998,12 @@
     {
       "Name": "C0FPacketConfirmTransaction",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C0FPacketConfirmTransactionInterval",
       "ParentName": "Disabler",
-      "Value": 3.0
+      "Value": 0.0
     },
     {
       "Name": "C0FPacketConfirmTransactionAlways",

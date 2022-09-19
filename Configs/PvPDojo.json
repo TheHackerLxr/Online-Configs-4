@@ -1,18 +1,18 @@
 {
   "name": "PvPDojo",
-  "date": "15.09.2022",
-  "time": "12:07",
+  "date": "17.09.2022",
+  "time": "18:33",
   "modules": [
     {
       "Name": "Blur",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
     {
       "Name": "Shadow",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -175,7 +175,7 @@
       "Name": "ClickGui",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 54
     },
     {
@@ -937,7 +937,7 @@
     {
       "Name": "Disabler",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
@@ -2064,8 +2064,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -3627,7 +3627,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Amogus"
+      "SelectedOption": "Ausustus"
     },
     {
       "Name": "HudShadow",
@@ -4318,7 +4318,7 @@
     {
       "Name": "Y",
       "ParentName": "Notification",
-      "Value": 100.0
+      "Value": 81.5
     },
     {
       "Name": "AnimationTime",
@@ -6429,12 +6429,12 @@
     {
       "Name": "Intave13P_19",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave13P_56",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave14P_51",
@@ -7025,14 +7025,14 @@
     {
       "Name": "OutgoingPackets",
       "ParentName": "Disabler",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "OutGoingPacketsToCancel",
       "ParentName": "Disabler",
       "SettingList": [
         {
-          "C00PacketKeepAlive": true,
+          "C00PacketKeepAlive": false,
           "C01PacketChatMessage": false,
           "C02PacketUseEntity": false,
           "C03PacketPlayer": false,
@@ -7043,7 +7043,7 @@
           "C08PacketPlayerBlockPlacement": false,
           "C09PacketHeldItemChange": false,
           "C0APacketAnimation": false,
-          "C0BPacketEntityAction": true,
+          "C0BPacketEntityAction": false,
           "C0CPacketInput": false,
           "C0DPacketCloseWindow": false,
           "C0EPacketClickWindow": false,
@@ -7054,8 +7054,8 @@
           "C13PacketPlayerAbilities": false,
           "C14PacketTabComplete": false,
           "C15PacketClientSettings": false,
-          "C16PacketClientStatus": true,
-          "C17PacketCustomPayload": true,
+          "C16PacketClientStatus": false,
+          "C17PacketCustomPayload": false,
           "C18PacketSpectate": false,
           "C19PacketResourcePackStatus": false,
           "CAnimateHandPacket": false,

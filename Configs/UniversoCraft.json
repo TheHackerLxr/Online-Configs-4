@@ -1,18 +1,18 @@
 {
   "name": "UniversoCraft",
-  "date": "15.09.2022",
-  "time": "12:07",
+  "date": "19.09.2022",
+  "time": "11:37",
   "modules": [
     {
       "Name": "Blur",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
     {
       "Name": "Shadow",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -21,7 +21,7 @@
       "Name": "Velocity",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -91,7 +91,7 @@
       "Name": "KillAura",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 19
     },
     {
@@ -175,7 +175,7 @@
       "Name": "ClickGui",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 54
     },
     {
@@ -196,7 +196,7 @@
       "Name": "StorageESP",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -651,7 +651,7 @@
       "Name": "ChestStealer",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 45
     },
     {
@@ -728,7 +728,7 @@
       "Name": "FastUse",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -854,7 +854,7 @@
       "Name": "StaffDetector",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1037,7 +1037,7 @@
       "ParentName": "Shadow",
       "Alpha": 255,
       "FadeAlpha": 255,
-      "Rainbow": false,
+      "Rainbow": true,
       "Fade": false,
       "Astolfo": false,
       "Rainbow Speed": 21.0,
@@ -1046,7 +1046,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 85.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.7476943,
+      "HSB Color Red": 0.7022398,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.35836625,
@@ -1056,7 +1056,7 @@
     {
       "Name": "Sigma",
       "ParentName": "Shadow",
-      "Value": 12.6
+      "Value": 12.5
     },
     {
       "Name": "ItemsOnGround",
@@ -1081,12 +1081,12 @@
     {
       "Name": "XZVelocity",
       "ParentName": "Velocity",
-      "Value": 20.0
+      "Value": 0.0
     },
     {
       "Name": "YVelocity",
       "ParentName": "Velocity",
-      "Value": 100.0
+      "Value": 0.0
     },
     {
       "Name": "XZOnHit",
@@ -1106,7 +1106,7 @@
     {
       "Name": "Jump",
       "ParentName": "Velocity",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "JumpDelay",
@@ -1151,17 +1151,17 @@
     {
       "Name": "Push",
       "ParentName": "Velocity",
-      "Value": 50.0
+      "Value": 7.61
     },
     {
       "Name": "PushStart",
       "ParentName": "Velocity",
-      "Value": 10.0
+      "Value": 7.0
     },
     {
       "Name": "PushEnd",
       "ParentName": "Velocity",
-      "Value": 1.0
+      "Value": 3.0
     },
     {
       "Name": "ReverseStart",
@@ -1530,7 +1530,7 @@
     {
       "Name": "AdditionalStop",
       "ParentName": "TimerRange",
-      "Value": 22.0
+      "Value": 0.0
     },
     {
       "Name": "OnlyOnGround",
@@ -1570,7 +1570,7 @@
     {
       "Name": "Modes",
       "ParentName": "MoreKB",
-      "SelectedOption": "Legit"
+      "SelectedOption": "LegitFast"
     },
     {
       "Name": "SneakTicks",
@@ -3577,7 +3577,7 @@
     {
       "Name": "Shadow",
       "ParentName": "NameTags",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "2DShadow",
@@ -3627,7 +3627,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Amogus"
+      "SelectedOption": "Ausustus"
     },
     {
       "Name": "HudShadow",
@@ -4318,7 +4318,7 @@
     {
       "Name": "Y",
       "ParentName": "Notification",
-      "Value": 100.0
+      "Value": 81.5
     },
     {
       "Name": "AnimationTime",
@@ -4507,7 +4507,7 @@
     {
       "Name": "Modes",
       "ParentName": "CustomName",
-      "SelectedOption": "IngameName"
+      "SelectedOption": "Custom"
     },
     {
       "Name": "Cusom",
@@ -4792,7 +4792,7 @@
     {
       "Name": "Blur",
       "ParentName": "Chat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "AllDirection",
@@ -4902,17 +4902,17 @@
     {
       "Name": "SlowdownRestBoolean",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SprintRestBoolean",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SwitchRestBoolean",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ToggleRestBoolean",
@@ -5072,7 +5072,7 @@
     {
       "Name": "WhileKB",
       "ParentName": "Strafe",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyOnGround",
@@ -5092,7 +5092,7 @@
     {
       "Name": "Mode",
       "ParentName": "Fly",
-      "SelectedOption": "CubeCraft"
+      "SelectedOption": "UniversoCraft"
     },
     {
       "Name": "AutoJump",
@@ -5137,7 +5137,7 @@
     {
       "Name": "Mode",
       "ParentName": "BugUp",
-      "SelectedOption": "AirStuck"
+      "SelectedOption": "Speed"
     },
     {
       "Name": "Radius",
@@ -5292,7 +5292,7 @@
     {
       "Name": "VanillaHeight",
       "ParentName": "HighJump",
-      "Value": 0.42
+      "Value": 0.65
     },
     {
       "Name": "DamageHeight",
@@ -5373,13 +5373,13 @@
     {
       "Name": "StartDelay",
       "ParentName": "AutoArmor",
-      "Value": 325.0
+      "Value": 0.0
     },
     {
       "Name": "Delay",
       "ParentName": "AutoArmor",
-      "MinValue": 126.0,
-      "MaxValue": 170.0
+      "MinValue": 42.0,
+      "MaxValue": 118.0
     },
     {
       "Name": "Hotbar",
@@ -5405,7 +5405,7 @@
     {
       "Name": "SmartDelay",
       "ParentName": "AutoArmor",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "StopOnInteraction",
@@ -5415,7 +5415,7 @@
     {
       "Name": "Sequence",
       "ParentName": "AutoArmor",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Nearest"
     },
     {
       "Name": "EventToClick",
@@ -5440,8 +5440,8 @@
     {
       "Name": "Delay",
       "ParentName": "InvCleaner",
-      "MinValue": 50.0,
-      "MaxValue": 98.0
+      "MinValue": 57.0,
+      "MaxValue": 113.0
     },
     {
       "Name": "DelayBeforeAutoArmor",
@@ -5452,7 +5452,7 @@
     {
       "Name": "StartDelay",
       "ParentName": "InvCleaner",
-      "Value": 300.0
+      "Value": 0.0
     },
     {
       "Name": "Sort",
@@ -5462,7 +5462,7 @@
     {
       "Name": "SmartDelay",
       "ParentName": "InvCleaner",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "StopOnInteraction",
@@ -5477,7 +5477,7 @@
     {
       "Name": "Sequence",
       "ParentName": "InvCleaner",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Nearest"
     },
     {
       "Name": "EventToClick",
@@ -5487,7 +5487,7 @@
     {
       "Name": "StartDelay",
       "ParentName": "ChestStealer",
-      "Value": 105.0
+      "Value": 0.0
     },
     {
       "Name": "Delay",
@@ -5513,7 +5513,7 @@
     {
       "Name": "SmartDelay",
       "ParentName": "ChestStealer",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "DoubleClick",
@@ -5897,7 +5897,7 @@
     {
       "Name": "Intave",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IntaveSafe",
@@ -5927,12 +5927,12 @@
     {
       "Name": "SameY",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AutoJump",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Sprint",
@@ -5952,7 +5952,7 @@
     {
       "Name": "SpamClick",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ClickDelay",
@@ -5978,12 +5978,12 @@
     {
       "Name": "SafeWalkNoBlocks",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SneakNoBlocks",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Sneak",
@@ -6003,12 +6003,12 @@
     {
       "Name": "RemoveStop",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SneakTicks",
       "ParentName": "Scaffold",
-      "Value": 2.0
+      "Value": 999999.0
     },
     {
       "Name": "DynamicSneakTicks",
@@ -6018,12 +6018,12 @@
     {
       "Name": "SneakBlocksF",
       "ParentName": "Scaffold",
-      "Value": 12.0
+      "Value": 1.0
     },
     {
       "Name": "SneakBlocksD",
       "ParentName": "Scaffold",
-      "Value": 12.0
+      "Value": 1.0
     },
     {
       "Name": "SneakDelayBool",
@@ -6038,7 +6038,7 @@
     {
       "Name": "SneakSlowDown",
       "ParentName": "Scaffold",
-      "Value": 0.3
+      "Value": 1.0
     },
     {
       "Name": "Timer",
@@ -6069,7 +6069,7 @@
     {
       "Name": "TowerMode",
       "ParentName": "Scaffold",
-      "SelectedOption": "NCP"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "ConstantMotion",
@@ -6429,12 +6429,12 @@
     {
       "Name": "Intave13P_19",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave13P_56",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave14P_51",
@@ -7025,7 +7025,7 @@
     {
       "Name": "OutgoingPackets",
       "ParentName": "Disabler",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "OutGoingPacketsToCancel",
@@ -7082,7 +7082,7 @@
     {
       "Name": "Spectate",
       "ParentName": "Disabler",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "S00PacketKeepAlive",
@@ -8961,18 +8961,18 @@
     {
       "Name": "C0FPacketConfirmTransactionInterval",
       "ParentName": "Disabler",
-      "Value": 0.0
+      "Value": 3.0
     },
     {
       "Name": "C0FPacketConfirmTransactionAlways",
       "ParentName": "Disabler",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "C0FPacketConfirmTransactionStartTickC0FPacketConfirmTransactionEndTick",
       "ParentName": "Disabler",
-      "MinValue": 0.0,
-      "MaxValue": 100.0
+      "MinValue": 60.0,
+      "MaxValue": 1.0E8
     },
     {
       "Name": "C10PacketCreativeInventoryAction",
