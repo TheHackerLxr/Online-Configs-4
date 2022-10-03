@@ -1,7 +1,7 @@
 {
   "name": "GommeLegit",
-  "date": "19.09.2022",
-  "time": "13:55",
+  "date": "03.10.2022",
+  "time": "14:55",
   "modules": [
     {
       "Name": "Blur",
@@ -113,6 +113,13 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "TimerRangeV2",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -371,7 +378,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -420,7 +427,7 @@
       "Name": "TargetHud",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -512,14 +519,14 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Fly",
       "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "Toggled": false,
-      "Key": 35
+      "Key": 0
     },
     {
       "Name": "BugUp",
@@ -634,6 +641,13 @@
       "Key": 0
     },
     {
+      "Name": "JumpOnSlime",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "NoFall",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -722,7 +736,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "ChestAura",
@@ -764,7 +778,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "FastBreak",
@@ -2236,6 +2250,26 @@
       "Boolean": false
     },
     {
+      "Name": "LagTicks",
+      "ParentName": "TimerRangeV2",
+      "Value": 0.0
+    },
+    {
+      "Name": "TimerTicks",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
+      "Name": "Correct",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "Dynamic",
+      "ParentName": "TimerRangeV2",
+      "Boolean": true
+    },
+    {
       "Name": "Delay",
       "ParentName": "AutoClicker",
       "MinValue": 50.0,
@@ -3577,6 +3611,11 @@
       "Boolean": false
     },
     {
+      "Name": "Health",
+      "ParentName": "NameTags",
+      "Boolean": false
+    },
+    {
       "Name": "HurensohnDetector",
       "ParentName": "NameTags",
       "Boolean": true
@@ -4754,7 +4793,7 @@
     {
       "Name": "CustomName",
       "ParentName": "CustomSkin",
-      "SelectedOption": "Zlimuzin"
+      "SelectedOption": "g0mme"
     },
     {
       "Name": "CustomName",
@@ -5601,6 +5640,11 @@
       "Name": "OtherScreens",
       "ParentName": "GuiMove",
       "Boolean": true
+    },
+    {
+      "Name": "Sneak",
+      "ParentName": "GuiMove",
+      "Boolean": false
     },
     {
       "Name": "Mode",
@@ -6865,7 +6909,7 @@
           "S17PacketEntityLookMove": true,
           "S18PacketEntityTeleport": true,
           "S19PacketEntityHeadLook": true,
-          "S19PacketEntityStatus": true,
+          "S19PacketEntityStatus": false,
           "S1BPacketEntityAttach": true,
           "S1CPacketEntityMetadata": true,
           "S1DPacketEntityEffect": true,
