@@ -1,5 +1,6 @@
 Gomme
 GommeLegit
+GommeBot
 Minemora
 PvPDojo
 Gamster
