@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "03.10.2022",
-  "time": "15:36",
+  "date": "05.10.2022",
+  "time": "16:43",
   "modules": [
     {
       "Name": "Blur",
@@ -42,7 +42,7 @@
       "Name": "BackTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -427,7 +427,7 @@
       "Name": "TargetHud",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -445,10 +445,10 @@
       "Key": 0
     },
     {
-      "Name": "CustomCameraHeight",
+      "Name": "CustomCamera",
       "IsInConfig": false,
-      "IsInArraylist": false,
-      "Toggled": false,
+      "IsInArraylist": true,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -519,12 +519,12 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -959,6 +959,13 @@
       "Name": "Disabler",
       "IsInConfig": true,
       "IsInArraylist": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "AutoLeave",
+      "IsInConfig": true,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -2250,12 +2257,27 @@
       "Boolean": false
     },
     {
+      "Name": "DynamicLagTicks",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "LagTickDiff",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
       "Name": "LagTicks",
       "ParentName": "TimerRangeV2",
       "Value": 0.0
     },
     {
       "Name": "TimerTicks",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
+      "Name": "MaxTargetHurttime",
       "ParentName": "TimerRangeV2",
       "Value": 3.0
     },
@@ -3621,6 +3643,16 @@
       "Boolean": true
     },
     {
+      "Name": "Myself",
+      "ParentName": "NameTags",
+      "Boolean": true
+    },
+    {
+      "Name": "Invisible",
+      "ParentName": "NameTags",
+      "Boolean": true
+    },
+    {
       "Name": "Shadow",
       "ParentName": "NameTags",
       "Boolean": false
@@ -3634,36 +3666,6 @@
       "Name": "2DBlur",
       "ParentName": "NameTags",
       "Boolean": true
-    },
-    {
-      "Name": "Players",
-      "ParentName": "NameTags",
-      "Boolean": true
-    },
-    {
-      "Name": "Mobs",
-      "ParentName": "NameTags",
-      "Boolean": true
-    },
-    {
-      "Name": "Animals",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "ArmorStands",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "Villager",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "Invisible",
-      "ParentName": "NameTags",
-      "Boolean": false
     },
     {
       "Name": "Side",
@@ -4802,13 +4804,18 @@
     },
     {
       "Name": "CustomHeight",
-      "ParentName": "CustomCameraHeight",
+      "ParentName": "CustomCamera",
       "Value": 0.0
     },
     {
       "Name": "CustomHeightF5",
-      "ParentName": "CustomCameraHeight",
+      "ParentName": "CustomCamera",
       "Value": 0.0
+    },
+    {
+      "Name": "CustomThirdPersonDistance",
+      "ParentName": "CustomCamera",
+      "Value": 8.0
     },
     {
       "Name": "Remove",
@@ -5672,6 +5679,11 @@
       "Boolean": true
     },
     {
+      "Name": "OnlyWhileMoving",
+      "ParentName": "FakeLaag",
+      "Boolean": true
+    },
+    {
       "Name": "Mode",
       "ParentName": "Teleport",
       "SelectedOption": "Vulcan"
@@ -6413,6 +6425,11 @@
     },
     {
       "Name": "Jump",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
+      "Name": "StopWhileEating",
       "ParentName": "AutoWalk",
       "Boolean": true
     },
@@ -9311,6 +9328,56 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "CalculateWithHit",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Time",
+      "ParentName": "AutoLeave",
+      "Value": 12000.0
+    },
+    {
+      "Name": "DisplayTime",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "X-Coord",
+      "ParentName": "AutoLeave",
+      "Value": 100.0
+    },
+    {
+      "Name": "Y-Coord",
+      "ParentName": "AutoLeave",
+      "Value": 75.5
+    },
+    {
+      "Name": "AutoLeave",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Heats",
+      "ParentName": "AutoLeave",
+      "Value": 2.0
+    },
+    {
+      "Name": "Mode",
+      "ParentName": "AutoLeave",
+      "SelectedOption": "Lobby"
+    },
+    {
+      "Name": "LeaveOnKey",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Key",
+      "ParentName": "AutoLeave",
+      "Key": 48
     },
     {
       "Name": "Mode",

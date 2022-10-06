@@ -1,7 +1,7 @@
 {
   "name": "Minemora",
-  "date": "19.09.2022",
-  "time": "13:55",
+  "date": "06.10.2022",
+  "time": "15:13",
   "modules": [
     {
       "Name": "Blur",
@@ -113,6 +113,13 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "TimerRangeV2",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -280,7 +287,7 @@
       "Name": "Ambiance",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -371,7 +378,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -438,9 +445,9 @@
       "Key": 0
     },
     {
-      "Name": "CustomCameraHeight",
+      "Name": "CustomCamera",
       "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -634,6 +641,13 @@
       "Key": 0
     },
     {
+      "Name": "JumpOnSlime",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "NoFall",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -722,7 +736,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "ChestAura",
@@ -764,7 +778,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "FastBreak",
@@ -944,8 +958,15 @@
     {
       "Name": "Disabler",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
+      "Key": 35
+    },
+    {
+      "Name": "AutoLeave",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -2071,8 +2092,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2234,6 +2255,41 @@
       "Name": "Invisible",
       "ParentName": "BowAimbot",
       "Boolean": false
+    },
+    {
+      "Name": "DynamicLagTicks",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "LagTickDiff",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
+      "Name": "LagTicks",
+      "ParentName": "TimerRangeV2",
+      "Value": 0.0
+    },
+    {
+      "Name": "TimerTicks",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
+      "Name": "MaxTargetHurttime",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
+      "Name": "Correct",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "Dynamic",
+      "ParentName": "TimerRangeV2",
+      "Boolean": true
     },
     {
       "Name": "Delay",
@@ -3577,7 +3633,22 @@
       "Boolean": false
     },
     {
+      "Name": "Health",
+      "ParentName": "NameTags",
+      "Boolean": false
+    },
+    {
       "Name": "HurensohnDetector",
+      "ParentName": "NameTags",
+      "Boolean": true
+    },
+    {
+      "Name": "Myself",
+      "ParentName": "NameTags",
+      "Boolean": true
+    },
+    {
+      "Name": "Invisible",
       "ParentName": "NameTags",
       "Boolean": true
     },
@@ -3595,36 +3666,6 @@
       "Name": "2DBlur",
       "ParentName": "NameTags",
       "Boolean": true
-    },
-    {
-      "Name": "Players",
-      "ParentName": "NameTags",
-      "Boolean": true
-    },
-    {
-      "Name": "Mobs",
-      "ParentName": "NameTags",
-      "Boolean": true
-    },
-    {
-      "Name": "Animals",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "ArmorStands",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "Villager",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "Invisible",
-      "ParentName": "NameTags",
-      "Boolean": false
     },
     {
       "Name": "Side",
@@ -4754,7 +4795,7 @@
     {
       "Name": "CustomName",
       "ParentName": "CustomSkin",
-      "SelectedOption": "Zlimuzin"
+      "SelectedOption": "g0mme"
     },
     {
       "Name": "CustomName",
@@ -4763,15 +4804,20 @@
     },
     {
       "Name": "CustomHeight",
-      "ParentName": "CustomCameraHeight",
+      "ParentName": "CustomCamera",
       "Value": 0.0
     },
     {
       "Name": "CustomHeightF5",
-      "ParentName": "CustomCameraHeight",
+      "ParentName": "CustomCamera",
       "Value": 0.0
     },
     {
+      "Name": "CustomThirdPersonDistance",
+      "ParentName": "CustomCamera",
+      "Value": 8.0
+    },
+    {
       "Name": "Remove",
       "ParentName": "TabList",
       "Boolean": false
@@ -4799,7 +4845,7 @@
     {
       "Name": "Blur",
       "ParentName": "Chat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AllDirection",
@@ -5287,11 +5333,6 @@
       "Value": 10.0
     },
     {
-      "Name": "UniversoSpeed",
-      "ParentName": "LongJump",
-      "Value": 0.1
-    },
-    {
       "Name": "Distance",
       "ParentName": "VClip",
       "Value": -10.0
@@ -5603,6 +5644,11 @@
       "Boolean": true
     },
     {
+      "Name": "Sneak",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
       "Name": "Mode",
       "ParentName": "AutoTool",
       "SelectedOption": "Only Tools"
@@ -5624,6 +5670,11 @@
     },
     {
       "Name": "Esp",
+      "ParentName": "FakeLaag",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyWhileMoving",
       "ParentName": "FakeLaag",
       "Boolean": true
     },
@@ -6373,6 +6424,11 @@
       "Boolean": true
     },
     {
+      "Name": "StopWhileEating",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
       "Name": "AdStafeOnHit",
       "ParentName": "AutoWalk",
       "Boolean": true
@@ -6865,7 +6921,7 @@
           "S17PacketEntityLookMove": true,
           "S18PacketEntityTeleport": true,
           "S19PacketEntityHeadLook": true,
-          "S19PacketEntityStatus": true,
+          "S19PacketEntityStatus": false,
           "S1BPacketEntityAttach": true,
           "S1CPacketEntityMetadata": true,
           "S1DPacketEntityEffect": true,
@@ -9267,6 +9323,56 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "CalculateWithHit",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Time",
+      "ParentName": "AutoLeave",
+      "Value": 12000.0
+    },
+    {
+      "Name": "DisplayTime",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "X-Coord",
+      "ParentName": "AutoLeave",
+      "Value": 100.0
+    },
+    {
+      "Name": "Y-Coord",
+      "ParentName": "AutoLeave",
+      "Value": 75.5
+    },
+    {
+      "Name": "AutoLeave",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Heats",
+      "ParentName": "AutoLeave",
+      "Value": 2.0
+    },
+    {
+      "Name": "Mode",
+      "ParentName": "AutoLeave",
+      "SelectedOption": "Lobby"
+    },
+    {
+      "Name": "LeaveOnKey",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Key",
+      "ParentName": "AutoLeave",
+      "Key": 48
     },
     {
       "Name": "Mode",
