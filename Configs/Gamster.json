@@ -1,7 +1,7 @@
 {
   "name": "Gamster",
-  "date": "06.10.2022",
-  "time": "15:12",
+  "date": "07.10.2022",
+  "time": "11:41",
   "modules": [
     {
       "Name": "Blur",
@@ -70,7 +70,7 @@
       "Name": "TimerRange",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -117,6 +117,13 @@
     },
     {
       "Name": "TimerRangeV2",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "KeepSprint",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -322,7 +329,7 @@
       "Name": "CustomItemPos",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -526,7 +533,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 35
+      "Key": 0
     },
     {
       "Name": "BugUp",
@@ -646,6 +653,13 @@
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
+    },
+    {
+      "Name": "Clip",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 35
     },
     {
       "Name": "NoFall",
@@ -960,7 +974,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 35
+      "Key": 0
     },
     {
       "Name": "AutoLeave",
@@ -1598,7 +1612,7 @@
     {
       "Name": "Modes",
       "ParentName": "MoreKB",
-      "SelectedOption": "Legit"
+      "SelectedOption": "LegitFast"
     },
     {
       "Name": "SneakTicks",
@@ -1741,6 +1755,11 @@
       "Name": "ThroughWalls",
       "ParentName": "KillAura",
       "Boolean": false
+    },
+    {
+      "Name": "AimThroughWalls",
+      "ParentName": "KillAura",
+      "Boolean": true
     },
     {
       "Name": "SmartAim",
@@ -2274,7 +2293,7 @@
     {
       "Name": "TimerTicks",
       "ParentName": "TimerRangeV2",
-      "Value": 3.0
+      "Value": 5.0
     },
     {
       "Name": "MaxTargetHurttime",
@@ -2289,6 +2308,21 @@
     {
       "Name": "Dynamic",
       "ParentName": "TimerRangeV2",
+      "Boolean": true
+    },
+    {
+      "Name": "Debug",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "MoveSlowdown",
+      "ParentName": "KeepSprint",
+      "Value": 1.0
+    },
+    {
+      "Name": "Sprint",
+      "ParentName": "KeepSprint",
       "Boolean": true
     },
     {
@@ -2790,9 +2824,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.5699816,
-      "HSB Color Green": 0.8153153,
-      "HSB Color Blue": 0.87058824,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
@@ -2805,7 +2839,7 @@
     {
       "Name": "BackGroundColor",
       "ParentName": "ArrayList",
-      "Alpha": 164,
+      "Alpha": 199,
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
@@ -5414,6 +5448,21 @@
     },
     {
       "Name": "Mode",
+      "ParentName": "Clip",
+      "SelectedOption": "IntaveInstant"
+    },
+    {
+      "Name": "AutoDisable",
+      "ParentName": "Clip",
+      "Boolean": true
+    },
+    {
+      "Name": "Time",
+      "ParentName": "Clip",
+      "Value": 80.0
+    },
+    {
+      "Name": "Mode",
       "ParentName": "NoFall",
       "SelectedOption": "Legit"
     },
@@ -5995,7 +6044,7 @@
     {
       "Name": "IntaveSafe",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IntaveFast",
@@ -6051,7 +6100,7 @@
       "Name": "ClickDelay",
       "ParentName": "Scaffold",
       "MinValue": 0.0,
-      "MaxValue": 50.0
+      "MaxValue": 0.0
     },
     {
       "Name": "SafeWalk",
@@ -6476,7 +6525,7 @@
     {
       "Name": "Modes",
       "ParentName": "StaffDetector",
-      "SelectedOption": "Gomme"
+      "SelectedOption": "Normal"
     },
     {
       "Name": "CheckDelay",
