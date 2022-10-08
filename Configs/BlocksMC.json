@@ -1,7 +1,7 @@
 {
   "name": "BlocksMC",
   "date": "08.10.2022",
-  "time": "15:14",
+  "time": "21:37",
   "modules": [
     {
       "Name": "Blur",
@@ -908,9 +908,9 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -2757,14 +2757,20 @@
       "Boolean": true
     },
     {
-      "Name": "Delay",
+      "Name": "AlwaysPlaceWhenPossible",
       "ParentName": "AutoEagle",
-      "Value": 0.0
+      "Boolean": true
     },
     {
       "Name": "OneClick",
       "ParentName": "AutoEagle",
       "Boolean": false
+    },
+    {
+      "Name": "Delay",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "MoonWalk",
@@ -5725,9 +5731,14 @@
       "Boolean": true
     },
     {
-      "Name": "Mode",
+      "Name": "Tools",
       "ParentName": "AutoTool",
-      "SelectedOption": "Only Tools"
+      "Boolean": true
+    },
+    {
+      "Name": "Sword",
+      "ParentName": "AutoTool",
+      "Boolean": false
     },
     {
       "Name": "StartDelay",
@@ -6027,6 +6038,16 @@
       "MaxValue": 50.0
     },
     {
+      "Name": "AlwaysPlaceWhenPossible",
+      "ParentName": "FastPlace",
+      "Boolean": true
+    },
+    {
+      "Name": "OneClick",
+      "ParentName": "FastPlace",
+      "Boolean": false
+    },
+    {
       "Name": "YawSpeed",
       "ParentName": "Scaffold",
       "MinValue": 180.0,
@@ -6040,6 +6061,11 @@
     },
     {
       "Name": "StaticPitchBool",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "CalcYaw",
       "ParentName": "Scaffold",
       "Boolean": false
     },
