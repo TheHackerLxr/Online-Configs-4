@@ -1,7 +1,7 @@
 {
   "name": "BlockDrop",
-  "date": "06.10.2022",
-  "time": "15:13",
+  "date": "08.10.2022",
+  "time": "15:14",
   "modules": [
     {
       "Name": "Blur",
@@ -117,6 +117,13 @@
     },
     {
       "Name": "TimerRangeV2",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "KeepSprint",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -322,7 +329,7 @@
       "Name": "CustomItemPos",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -526,7 +533,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 35
+      "Key": 0
     },
     {
       "Name": "BugUp",
@@ -648,11 +655,18 @@
       "Key": 0
     },
     {
+      "Name": "Clip",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 35
+    },
+    {
       "Name": "NoFall",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 49
     },
     {
       "Name": "AutoArmor",
@@ -896,7 +910,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -960,7 +974,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": true,
-      "Key": 35
+      "Key": 0
     },
     {
       "Name": "AutoLeave",
@@ -1601,6 +1615,23 @@
       "SelectedOption": "Legit"
     },
     {
+      "Name": "Timing",
+      "ParentName": "MoreKB",
+      "SelectedOption": "HurtTime"
+    },
+    {
+      "Name": "TargetHurtTimeTicks",
+      "ParentName": "MoreKB",
+      "MinValue": 10.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "TicksAfterHit",
+      "ParentName": "MoreKB",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
       "Name": "SneakTicks",
       "ParentName": "MoreKB",
       "Value": 1.0
@@ -1741,6 +1772,11 @@
       "Name": "ThroughWalls",
       "ParentName": "KillAura",
       "Boolean": false
+    },
+    {
+      "Name": "AimThroughWalls",
+      "ParentName": "KillAura",
+      "Boolean": true
     },
     {
       "Name": "SmartAim",
@@ -2092,8 +2128,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2289,6 +2325,21 @@
     {
       "Name": "Dynamic",
       "ParentName": "TimerRangeV2",
+      "Boolean": true
+    },
+    {
+      "Name": "Debug",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "MoveSlowdown",
+      "ParentName": "KeepSprint",
+      "Value": 1.0
+    },
+    {
+      "Name": "Sprint",
+      "ParentName": "KeepSprint",
       "Boolean": true
     },
     {
@@ -2790,9 +2841,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.5699816,
-      "HSB Color Green": 0.8153153,
-      "HSB Color Blue": 0.87058824,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
@@ -2805,7 +2856,7 @@
     {
       "Name": "BackGroundColor",
       "ParentName": "ArrayList",
-      "Alpha": 164,
+      "Alpha": 199,
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
@@ -5153,6 +5204,11 @@
       "SelectedOption": "Normal"
     },
     {
+      "Name": "Percentage",
+      "ParentName": "Strafe",
+      "Value": 75.0
+    },
+    {
       "Name": "WhileKB",
       "ParentName": "Strafe",
       "Boolean": true
@@ -5414,6 +5470,21 @@
     },
     {
       "Name": "Mode",
+      "ParentName": "Clip",
+      "SelectedOption": "IntaveInstant"
+    },
+    {
+      "Name": "AutoDisable",
+      "ParentName": "Clip",
+      "Boolean": true
+    },
+    {
+      "Name": "Time",
+      "ParentName": "Clip",
+      "Value": 80.0
+    },
+    {
+      "Name": "Mode",
       "ParentName": "NoFall",
       "SelectedOption": "Legit"
     },
@@ -5645,6 +5716,11 @@
     },
     {
       "Name": "Sneak",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "NoInvPacket",
       "ParentName": "GuiMove",
       "Boolean": false
     },
@@ -6660,6 +6736,21 @@
       "Boolean": false
     },
     {
+      "Name": "Intave14P_200",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "IntaveInvalidPitch",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "IntaveInventorySlotDupe",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
       "Name": "AutoClickerP1",
       "ParentName": "ClientAntiCheat",
       "Boolean": false
@@ -6872,6 +6963,11 @@
     },
     {
       "Name": "DemoScreenFix",
+      "ParentName": "ExploitFixer",
+      "Boolean": true
+    },
+    {
+      "Name": "Hycraft",
       "ParentName": "ExploitFixer",
       "Boolean": true
     },
@@ -7179,6 +7275,11 @@
     },
     {
       "Name": "Spectate",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "Ride",
       "ParentName": "Disabler",
       "Boolean": false
     },

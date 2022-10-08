@@ -1,7 +1,7 @@
 {
   "name": "GommeLegit",
-  "date": "03.10.2022",
-  "time": "14:55",
+  "date": "08.10.2022",
+  "time": "15:14",
   "modules": [
     {
       "Name": "Blur",
@@ -117,6 +117,13 @@
     },
     {
       "Name": "TimerRangeV2",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "KeepSprint",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -287,7 +294,7 @@
       "Name": "Ambiance",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -322,7 +329,7 @@
       "Name": "CustomItemPos",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -427,7 +434,7 @@
       "Name": "TargetHud",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -445,9 +452,9 @@
       "Key": 0
     },
     {
-      "Name": "CustomCameraHeight",
+      "Name": "CustomCamera",
       "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -519,12 +526,12 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -648,11 +655,18 @@
       "Key": 0
     },
     {
+      "Name": "Clip",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 35
+    },
+    {
       "Name": "NoFall",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 49
     },
     {
       "Name": "AutoArmor",
@@ -896,7 +910,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -958,7 +972,14 @@
     {
       "Name": "Disabler",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "AutoLeave",
+      "IsInConfig": true,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -1594,6 +1615,23 @@
       "SelectedOption": "Legit"
     },
     {
+      "Name": "Timing",
+      "ParentName": "MoreKB",
+      "SelectedOption": "HurtTime"
+    },
+    {
+      "Name": "TargetHurtTimeTicks",
+      "ParentName": "MoreKB",
+      "MinValue": 10.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "TicksAfterHit",
+      "ParentName": "MoreKB",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
       "Name": "SneakTicks",
       "ParentName": "MoreKB",
       "Value": 1.0
@@ -1734,6 +1772,11 @@
       "Name": "ThroughWalls",
       "ParentName": "KillAura",
       "Boolean": false
+    },
+    {
+      "Name": "AimThroughWalls",
+      "ParentName": "KillAura",
+      "Boolean": true
     },
     {
       "Name": "SmartAim",
@@ -2250,12 +2293,27 @@
       "Boolean": false
     },
     {
+      "Name": "DynamicLagTicks",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "LagTickDiff",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
       "Name": "LagTicks",
       "ParentName": "TimerRangeV2",
       "Value": 0.0
     },
     {
       "Name": "TimerTicks",
+      "ParentName": "TimerRangeV2",
+      "Value": 3.0
+    },
+    {
+      "Name": "MaxTargetHurttime",
       "ParentName": "TimerRangeV2",
       "Value": 3.0
     },
@@ -2267,6 +2325,21 @@
     {
       "Name": "Dynamic",
       "ParentName": "TimerRangeV2",
+      "Boolean": true
+    },
+    {
+      "Name": "Debug",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "MoveSlowdown",
+      "ParentName": "KeepSprint",
+      "Value": 1.0
+    },
+    {
+      "Name": "Sprint",
+      "ParentName": "KeepSprint",
       "Boolean": true
     },
     {
@@ -2768,9 +2841,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.5699816,
-      "HSB Color Green": 0.8153153,
-      "HSB Color Blue": 0.87058824,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
@@ -2783,7 +2856,7 @@
     {
       "Name": "BackGroundColor",
       "ParentName": "ArrayList",
-      "Alpha": 164,
+      "Alpha": 199,
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
@@ -3621,6 +3694,16 @@
       "Boolean": true
     },
     {
+      "Name": "Myself",
+      "ParentName": "NameTags",
+      "Boolean": true
+    },
+    {
+      "Name": "Invisible",
+      "ParentName": "NameTags",
+      "Boolean": true
+    },
+    {
       "Name": "Shadow",
       "ParentName": "NameTags",
       "Boolean": false
@@ -3634,36 +3717,6 @@
       "Name": "2DBlur",
       "ParentName": "NameTags",
       "Boolean": true
-    },
-    {
-      "Name": "Players",
-      "ParentName": "NameTags",
-      "Boolean": true
-    },
-    {
-      "Name": "Mobs",
-      "ParentName": "NameTags",
-      "Boolean": true
-    },
-    {
-      "Name": "Animals",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "ArmorStands",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "Villager",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "Invisible",
-      "ParentName": "NameTags",
-      "Boolean": false
     },
     {
       "Name": "Side",
@@ -4802,15 +4855,20 @@
     },
     {
       "Name": "CustomHeight",
-      "ParentName": "CustomCameraHeight",
+      "ParentName": "CustomCamera",
       "Value": 0.0
     },
     {
       "Name": "CustomHeightF5",
-      "ParentName": "CustomCameraHeight",
+      "ParentName": "CustomCamera",
       "Value": 0.0
     },
     {
+      "Name": "CustomThirdPersonDistance",
+      "ParentName": "CustomCamera",
+      "Value": 8.0
+    },
+    {
       "Name": "Remove",
       "ParentName": "TabList",
       "Boolean": false
@@ -4838,7 +4896,7 @@
     {
       "Name": "Blur",
       "ParentName": "Chat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AllDirection",
@@ -5146,6 +5204,11 @@
       "SelectedOption": "Normal"
     },
     {
+      "Name": "Percentage",
+      "ParentName": "Strafe",
+      "Value": 100.0
+    },
+    {
       "Name": "WhileKB",
       "ParentName": "Strafe",
       "Boolean": true
@@ -5326,11 +5389,6 @@
       "Value": 10.0
     },
     {
-      "Name": "UniversoSpeed",
-      "ParentName": "LongJump",
-      "Value": 0.1
-    },
-    {
       "Name": "Distance",
       "ParentName": "VClip",
       "Value": -10.0
@@ -5409,6 +5467,21 @@
       "Name": "Boost",
       "ParentName": "GommeFly",
       "Value": 1.0
+    },
+    {
+      "Name": "Mode",
+      "ParentName": "Clip",
+      "SelectedOption": "IntaveInstant"
+    },
+    {
+      "Name": "AutoDisable",
+      "ParentName": "Clip",
+      "Boolean": true
+    },
+    {
+      "Name": "Time",
+      "ParentName": "Clip",
+      "Value": 80.0
     },
     {
       "Name": "Mode",
@@ -5647,6 +5720,11 @@
       "Boolean": false
     },
     {
+      "Name": "NoInvPacket",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
       "Name": "Mode",
       "ParentName": "AutoTool",
       "SelectedOption": "Only Tools"
@@ -5668,6 +5746,11 @@
     },
     {
       "Name": "Esp",
+      "ParentName": "FakeLaag",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyWhileMoving",
       "ParentName": "FakeLaag",
       "Boolean": true
     },
@@ -6417,6 +6500,11 @@
       "Boolean": true
     },
     {
+      "Name": "StopWhileEating",
+      "ParentName": "AutoWalk",
+      "Boolean": true
+    },
+    {
       "Name": "AdStafeOnHit",
       "ParentName": "AutoWalk",
       "Boolean": true
@@ -6648,6 +6736,21 @@
       "Boolean": false
     },
     {
+      "Name": "Intave14P_200",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "IntaveInvalidPitch",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "IntaveInventorySlotDupe",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
       "Name": "AutoClickerP1",
       "ParentName": "ClientAntiCheat",
       "Boolean": false
@@ -6860,6 +6963,11 @@
     },
     {
       "Name": "DemoScreenFix",
+      "ParentName": "ExploitFixer",
+      "Boolean": true
+    },
+    {
+      "Name": "Hycraft",
       "ParentName": "ExploitFixer",
       "Boolean": true
     },
@@ -7167,6 +7275,11 @@
     },
     {
       "Name": "Spectate",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "Ride",
       "ParentName": "Disabler",
       "Boolean": false
     },
@@ -9311,6 +9424,56 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "CalculateWithHit",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Time",
+      "ParentName": "AutoLeave",
+      "Value": 12000.0
+    },
+    {
+      "Name": "DisplayTime",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "X-Coord",
+      "ParentName": "AutoLeave",
+      "Value": 100.0
+    },
+    {
+      "Name": "Y-Coord",
+      "ParentName": "AutoLeave",
+      "Value": 75.5
+    },
+    {
+      "Name": "AutoLeave",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Heats",
+      "ParentName": "AutoLeave",
+      "Value": 2.0
+    },
+    {
+      "Name": "Mode",
+      "ParentName": "AutoLeave",
+      "SelectedOption": "Lobby"
+    },
+    {
+      "Name": "LeaveOnKey",
+      "ParentName": "AutoLeave",
+      "Boolean": true
+    },
+    {
+      "Name": "Key",
+      "ParentName": "AutoLeave",
+      "Key": 48
     },
     {
       "Name": "Mode",
