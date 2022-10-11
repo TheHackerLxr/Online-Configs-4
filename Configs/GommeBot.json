@@ -1,7 +1,7 @@
 {
   "name": "GommeBot",
-  "date": "08.10.2022",
-  "time": "21:37",
+  "date": "11.10.2022",
+  "time": "19:52",
   "modules": [
     {
       "Name": "Blur",
@@ -179,6 +179,13 @@
       "Key": 0
     },
     {
+      "Name": "MLGHelper",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "ArrayList",
       "IsInConfig": false,
       "IsInArraylist": true,
@@ -294,7 +301,7 @@
       "Name": "Ambiance",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -441,7 +448,7 @@
       "Name": "CustomSkin",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -474,6 +481,13 @@
     },
     {
       "Name": "PathFinderDebug",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "AntiStrike",
       "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": false,
@@ -589,7 +603,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 47
+      "Key": 0
     },
     {
       "Name": "VClip",
@@ -634,7 +648,7 @@
       "Key": 0
     },
     {
-      "Name": "GommeFly",
+      "Name": "OldGommeFly",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -750,7 +764,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 47
     },
     {
       "Name": "ChestAura",
@@ -792,7 +806,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "FastBreak",
@@ -908,7 +922,7 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -951,13 +965,6 @@
     {
       "Name": "PacketHandler",
       "IsInConfig": false,
-      "IsInArraylist": false,
-      "Toggled": true,
-      "Key": 0
-    },
-    {
-      "Name": "ClampConnect",
-      "IsInConfig": true,
       "IsInArraylist": false,
       "Toggled": true,
       "Key": 0
@@ -1883,8 +1890,8 @@
     {
       "Name": "SpeedChangeDelay",
       "ParentName": "KillAura",
-      "MinValue": 800.0,
-      "MaxValue": 1500.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Spikes",
@@ -1936,7 +1943,7 @@
     {
       "Name": "ReduceMulti",
       "ParentName": "KillAura",
-      "Value": 0.6
+      "Value": 0.4
     },
     {
       "Name": "0",
@@ -2026,6 +2033,17 @@
       "ParentName": "KillAura",
       "MinValue": 300.0,
       "MaxValue": 400.0
+    },
+    {
+      "Name": "SmartDoubleClick",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "SmartDoubleClickValue",
+      "ParentName": "KillAura",
+      "MinValue": 30.0,
+      "MaxValue": 35.0
     },
     {
       "Name": "TargetSort",
@@ -2128,8 +2146,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2357,8 +2375,8 @@
     {
       "Name": "SpeedChangeDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 800.0,
-      "MaxValue": 2500.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Spikes",
@@ -2410,7 +2428,7 @@
     {
       "Name": "ReduceMulti",
       "ParentName": "AutoClicker",
-      "Value": 0.6
+      "Value": 0.4
     },
     {
       "Name": "PerfectHit",
@@ -2486,6 +2504,17 @@
       "Name": "SmartClickingHurttimeEnd",
       "ParentName": "AutoClicker",
       "Value": 3.0
+    },
+    {
+      "Name": "SmartDoubleClick",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "SmartDoubleClickValue",
+      "ParentName": "AutoClicker",
+      "MinValue": 30.0,
+      "MaxValue": 40.0
     },
     {
       "Name": "Mode",
@@ -2776,6 +2805,12 @@
       "Name": "MoonWalk",
       "ParentName": "AutoEagle",
       "Boolean": false
+    },
+    {
+      "Name": "MinDistance",
+      "ParentName": "MLGHelper",
+      "MinValue": 3.0,
+      "MaxValue": 100.0
     },
     {
       "Name": "Side",
@@ -3479,8 +3514,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -3500,8 +3535,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -3657,7 +3692,7 @@
     {
       "Name": "Mode",
       "ParentName": "FullBright",
-      "SelectedOption": "Gamma"
+      "SelectedOption": "NightVision"
     },
     {
       "Name": "Other",
@@ -3732,7 +3767,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Ausustus"
+      "SelectedOption": "Basic"
     },
     {
       "Name": "HudShadow",
@@ -4093,15 +4128,15 @@
       "Rainbow": false,
       "Fade": false,
       "Astolfo": false,
-      "Rainbow Speed": 0.0,
+      "Rainbow Speed": 1.0,
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5699816,
-      "HSB Color Green": 0.8153153,
-      "HSB Color Blue": 0.87058824,
+      "HSB Color Red": 0.69169956,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
@@ -5280,6 +5315,12 @@
       "Value": 15.0
     },
     {
+      "Name": "BackFlagDist",
+      "ParentName": "BugUp",
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
       "Name": "Mode",
       "ParentName": "BugUp",
       "SelectedOption": "AirStuck"
@@ -5466,12 +5507,12 @@
     },
     {
       "Name": "Height",
-      "ParentName": "GommeFly",
+      "ParentName": "OldGommeFly",
       "Value": 1.0
     },
     {
       "Name": "Boost",
-      "ParentName": "GommeFly",
+      "ParentName": "OldGommeFly",
       "Value": 1.0
     },
     {
@@ -6384,6 +6425,11 @@
       "Boolean": false
     },
     {
+      "Name": "IntaveBlocking",
+      "ParentName": "Fixes",
+      "Boolean": true
+    },
+    {
       "Name": "MouseDelayFix",
       "ParentName": "Fixes",
       "Boolean": true
@@ -6629,12 +6675,12 @@
     {
       "Name": "Intave13P_19",
       "ParentName": "ClientAntiCheat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Intave13P_56",
       "ParentName": "ClientAntiCheat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Intave14P_51",
@@ -6767,12 +6813,22 @@
       "Boolean": true
     },
     {
+      "Name": "Intave14P141_144",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
       "Name": "IntaveInvalidPitch",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
     {
       "Name": "IntaveInventorySlotDupe",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14P_131",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
@@ -6995,7 +7051,7 @@
     {
       "Name": "Hycraft",
       "ParentName": "ExploitFixer",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Incoming",
@@ -7134,16 +7190,6 @@
           "CPacketPlayerTryUseItemOnBlock": true
         }
       ]
-    },
-    {
-      "Name": "Name",
-      "ParentName": "ClampConnect",
-      "SelectedOption": "E-Sound"
-    },
-    {
-      "Name": "Password",
-      "ParentName": "ClampConnect",
-      "SelectedOption": "LCA_MODZ"
     },
     {
       "Name": "Mode",
