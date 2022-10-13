@@ -1,7 +1,7 @@
 {
   "name": "Minemora",
   "date": "13.10.2022",
-  "time": "15:25",
+  "time": "15:50",
   "modules": [
     {
       "Name": "Blur",
@@ -896,7 +896,7 @@
       "Name": "Debug",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -917,7 +917,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {

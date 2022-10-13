@@ -1,7 +1,7 @@
 {
   "name": "GommeBot",
   "date": "13.10.2022",
-  "time": "15:25",
+  "time": "17:02",
   "modules": [
     {
       "Name": "Blur",
@@ -896,7 +896,7 @@
       "Name": "Debug",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -917,7 +917,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -2243,8 +2243,8 @@
     {
       "Name": "Health",
       "ParentName": "AutoGapple",
-      "MinValue": 7.0,
-      "MaxValue": 10.0
+      "MinValue": 11.0,
+      "MaxValue": 15.0
     },
     {
       "Name": "NotWhileKillAura",
@@ -4091,7 +4091,7 @@
     {
       "Name": "Time",
       "ParentName": "Ambiance",
-      "Value": 17880.0
+      "Value": 11880.0
     },
     {
       "Name": "TimeSpeed",
