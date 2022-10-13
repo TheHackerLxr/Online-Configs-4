@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "11.10.2022",
-  "time": "19:52",
+  "date": "13.10.2022",
+  "time": "15:25",
   "modules": [
     {
       "Name": "Blur",
@@ -350,7 +350,7 @@
       "Name": "EntityColor",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -896,7 +896,7 @@
       "Name": "Debug",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -914,17 +914,10 @@
       "Key": 0
     },
     {
-      "Name": "ClientSpoofer",
-      "IsInConfig": true,
-      "IsInArraylist": true,
-      "Toggled": false,
-      "Key": 0
-    },
-    {
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -957,7 +950,7 @@
     },
     {
       "Name": "ExploitFixer",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -1282,7 +1275,7 @@
     {
       "Name": "DelayBetweenBacktrack",
       "ParentName": "BackTrack",
-      "Value": 50.0
+      "Value": 0.0
     },
     {
       "Name": "ESP",
@@ -2146,8 +2139,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2938,7 +2931,7 @@
     {
       "Name": "FontSize",
       "ParentName": "ArrayList",
-      "Value": 16.0
+      "Value": 24.0
     },
     {
       "Name": "ToggleAnimation",
@@ -3697,7 +3690,7 @@
     {
       "Name": "Other",
       "ParentName": "FullBright",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Time",
@@ -4098,7 +4091,7 @@
     {
       "Name": "Time",
       "ParentName": "Ambiance",
-      "Value": 18960.0
+      "Value": 17880.0
     },
     {
       "Name": "TimeSpeed",
@@ -4132,10 +4125,36 @@
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 0.0,
+      "Astolfo Speed": 27.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.69169956,
-      "HSB Color Green": 0.996063,
+      "HSB Color Red": 0.79265094,
+      "HSB Color Green": 0.5,
+      "HSB Color Blue": 0.99607843,
+      "HSB FadeColor Red": 0.5699816,
+      "HSB FadeColor Green": 0.8153153,
+      "HSB FadeColor Blue": 0.87058824
+    },
+    {
+      "Name": "CustomFogColor",
+      "ParentName": "Ambiance",
+      "Boolean": true
+    },
+    {
+      "Name": "FogColor",
+      "ParentName": "Ambiance",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": false,
+      "Fade": false,
+      "Astolfo": false,
+      "Rainbow Speed": 70.0,
+      "Rainbow Dist": 60.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 27.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.762069,
+      "HSB Color Green": 0.57086617,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
@@ -4373,7 +4392,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.74285716,
+      "HSB Color Red": 0.14642857,
       "HSB Color Green": 0.6862745,
       "HSB Color Blue": 0.8,
       "HSB FadeColor Red": 0.74285716,
@@ -4536,9 +4555,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.0,
-      "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.0,
+      "HSB Color Red": 0.1969697,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 0.0
@@ -4907,7 +4926,7 @@
     {
       "Name": "CustomThirdPersonDistance",
       "ParentName": "CustomCamera",
-      "Value": 8.0
+      "Value": 6.0
     },
     {
       "Name": "Remove",
@@ -4940,7 +4959,12 @@
       "Boolean": true
     },
     {
-      "Name": "AllDirection",
+      "Name": "Mode",
+      "ParentName": "Sprint",
+      "SelectedOption": "Legit"
+    },
+    {
+      "Name": "JumpSprint",
       "ParentName": "Sprint",
       "Boolean": false
     },
@@ -5772,6 +5796,16 @@
       "Boolean": false
     },
     {
+      "Name": "SprintMode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Legit"
+    },
+    {
+      "Name": "JumpSprint",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
       "Name": "Tools",
       "ParentName": "AutoTool",
       "Boolean": true
@@ -6171,12 +6205,12 @@
       "Boolean": false
     },
     {
-      "Name": "Sprint",
+      "Name": "Mode",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "SelectedOption": "None"
     },
     {
-      "Name": "AllDirectionSprint",
+      "Name": "JumpSprint",
       "ParentName": "Scaffold",
       "Boolean": false
     },
@@ -6599,7 +6633,7 @@
     {
       "Name": "TimeManipulation",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "HitBug",
@@ -6609,10 +6643,15 @@
     {
       "Name": "PacketHandler",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ServersideChat",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "SoundName",
       "ParentName": "Debug",
       "Boolean": false
     },
@@ -6666,11 +6705,6 @@
       "Name": "FlagCounter",
       "ParentName": "FlagDetector",
       "Boolean": true
-    },
-    {
-      "Name": "Mode",
-      "ParentName": "ClientSpoofer",
-      "SelectedOption": "LabyMod"
     },
     {
       "Name": "Intave13P_19",
@@ -7099,13 +7133,13 @@
           "S17PacketEntityLookMove": true,
           "S18PacketEntityTeleport": true,
           "S19PacketEntityHeadLook": true,
-          "S19PacketEntityStatus": false,
+          "S19PacketEntityStatus": true,
           "S1BPacketEntityAttach": true,
           "S1CPacketEntityMetadata": true,
           "S1DPacketEntityEffect": true,
           "S1EPacketRemoveEntityEffect": true,
           "S1FPacketSetExperience": true,
-          "S20PacketEntityProperties": true,
+          "S20PacketEntityProperties": false,
           "S21PacketChunkData": false,
           "S22PacketMultiBlockChange": false,
           "S23PacketBlockChange": true,
@@ -7114,7 +7148,7 @@
           "S26PacketMapChunkBulk": false,
           "S27PacketExplosion": true,
           "S28PacketEffect": true,
-          "S29PacketSoundEffect": true,
+          "S29PacketSoundEffect": false,
           "S2APacketParticles": true,
           "S2BPacketChangeGameState": true,
           "S2CPacketSpawnGlobalEntity": true,
@@ -9565,13 +9599,13 @@
     {
       "Name": "Delay",
       "ParentName": "AutoReport",
-      "MinValue": 11000.0,
-      "MaxValue": 13000.0
+      "MinValue": 12450.0,
+      "MaxValue": 14250.0
     },
     {
       "Name": "HideMessages",
       "ParentName": "AutoReport",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "MoveFix",
