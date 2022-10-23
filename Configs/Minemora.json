@@ -1,7 +1,7 @@
 {
   "name": "Minemora",
-  "date": "13.10.2022",
-  "time": "15:50",
+  "date": "21.10.2022",
+  "time": "22:18",
   "modules": [
     {
       "Name": "Blur",
@@ -124,6 +124,13 @@
     },
     {
       "Name": "KeepSprint",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "LagTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -392,7 +399,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -494,6 +501,13 @@
       "Key": 0
     },
     {
+      "Name": "NoArmorOverlay",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "Sprint",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -540,7 +554,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Fly",
@@ -798,7 +812,7 @@
       "Name": "AutoRespawn",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -807,6 +821,13 @@
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 33
+    },
+    {
+      "Name": "ReverseAutoArmor",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
     },
     {
       "Name": "FastBreak",
@@ -1281,6 +1302,11 @@
       "Name": "ESP",
       "ParentName": "BackTrack",
       "SelectedOption": "Classic"
+    },
+    {
+      "Name": "Test",
+      "ParentName": "BackTrack",
+      "Boolean": false
     },
     {
       "Name": "Shadow",
@@ -2352,6 +2378,21 @@
       "Name": "Sprint",
       "ParentName": "KeepSprint",
       "Boolean": true
+    },
+    {
+      "Name": "OnlyWhenNeed",
+      "ParentName": "LagTrack",
+      "Boolean": true
+    },
+    {
+      "Name": "MaxHitRange",
+      "ParentName": "LagTrack",
+      "Value": 6.0
+    },
+    {
+      "Name": "MaxDelayPacket",
+      "ParentName": "LagTrack",
+      "Value": 3.0
     },
     {
       "Name": "Delay",
@@ -3572,7 +3613,7 @@
     {
       "Name": "Invisible",
       "ParentName": "ESP",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -4091,7 +4132,7 @@
     {
       "Name": "Time",
       "ParentName": "Ambiance",
-      "Value": 17880.0
+      "Value": 11880.0
     },
     {
       "Name": "TimeSpeed",
@@ -4168,7 +4209,7 @@
     {
       "Name": "FogDistance",
       "ParentName": "Ambiance",
-      "Value": 192.0
+      "Value": 270.0
     },
     {
       "Name": "Color",
@@ -5995,6 +6036,22 @@
       "Boolean": true
     },
     {
+      "Name": "StartDelay",
+      "ParentName": "ReverseAutoArmor",
+      "Value": 400.0
+    },
+    {
+      "Name": "Delay",
+      "ParentName": "ReverseAutoArmor",
+      "MinValue": 70.0,
+      "MaxValue": 120.0
+    },
+    {
+      "Name": "Drop",
+      "ParentName": "ReverseAutoArmor",
+      "Boolean": false
+    },
+    {
       "Name": "Instant",
       "ParentName": "FastBreak",
       "Boolean": false
@@ -6837,11 +6894,6 @@
       "Boolean": true
     },
     {
-      "Name": "HigthTolerance",
-      "ParentName": "ClientAntiCheat",
-      "Boolean": false
-    },
-    {
       "Name": "Intave14P_200",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
@@ -6852,12 +6904,17 @@
       "Boolean": true
     },
     {
-      "Name": "IntaveInvalidPitch",
+      "Name": "Intave14InvalidPitch",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
     {
-      "Name": "IntaveInventorySlotDupe",
+      "Name": "Intave14InventorySlotDupe",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave14Timer",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
@@ -7095,7 +7152,7 @@
     {
       "Name": "MacroDelay",
       "ParentName": "PacketHandler",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "EventToHandlePacket",

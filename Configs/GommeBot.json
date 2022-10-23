@@ -1,7 +1,7 @@
 {
   "name": "GommeBot",
-  "date": "13.10.2022",
-  "time": "17:02",
+  "date": "23.10.2022",
+  "time": "02:00",
   "modules": [
     {
       "Name": "Blur",
@@ -124,6 +124,13 @@
     },
     {
       "Name": "KeepSprint",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "LagTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -392,7 +399,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -494,6 +501,13 @@
       "Key": 0
     },
     {
+      "Name": "NoArmorOverlay",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "Sprint",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -540,7 +554,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Fly",
@@ -798,7 +812,7 @@
       "Name": "AutoRespawn",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -807,6 +821,13 @@
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 33
+    },
+    {
+      "Name": "ReverseAutoArmor",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
     },
     {
       "Name": "FastBreak",
@@ -852,7 +873,7 @@
     },
     {
       "Name": "Radio",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -917,7 +938,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -978,6 +999,13 @@
     },
     {
       "Name": "AutoLeave",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "Panic",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -1271,6 +1299,11 @@
       "Name": "Time",
       "ParentName": "BackTrack",
       "Value": 200.0
+    },
+    {
+      "Name": "ForceDelay",
+      "ParentName": "BackTrack",
+      "Boolean": false
     },
     {
       "Name": "DelayBetweenBacktrack",
@@ -2354,6 +2387,56 @@
       "Boolean": true
     },
     {
+      "Name": "OnlyWhenNeed",
+      "ParentName": "LagTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "MaxHitRange",
+      "ParentName": "LagTrack",
+      "Value": 6.0
+    },
+    {
+      "Name": "MaxDelayPacket",
+      "ParentName": "LagTrack",
+      "Value": 3.0
+    },
+    {
+      "Name": "CountMode",
+      "ParentName": "LagTrack",
+      "SelectedOption": "MovePacket"
+    },
+    {
+      "Name": "TargetESP",
+      "ParentName": "LagTrack",
+      "SelectedOption": "Classic"
+    },
+    {
+      "Name": "TargetShadow",
+      "ParentName": "LagTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "TargetBlur",
+      "ParentName": "LagTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "PlayerESP",
+      "ParentName": "LagTrack",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "PlayerShadow",
+      "ParentName": "LagTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "PlayerBlur",
+      "ParentName": "LagTrack",
+      "Boolean": false
+    },
+    {
       "Name": "Delay",
       "ParentName": "AutoClicker",
       "MinValue": 50.0,
@@ -2971,7 +3054,7 @@
     {
       "Name": "Alpha",
       "ParentName": "ClickGui",
-      "Value": 200.0
+      "Value": 200.2
     },
     {
       "Name": "Use Explosion Normal",
@@ -2979,7 +3062,7 @@
       "Boolean": false
     },
     {
-      "Name": "Explosion Normal Count",
+      "Name": "Explosion NormalCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -2989,7 +3072,7 @@
       "Boolean": false
     },
     {
-      "Name": "Explosion Large Count",
+      "Name": "Explosion LargeCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -2999,7 +3082,7 @@
       "Boolean": false
     },
     {
-      "Name": "Explosion Huge Count",
+      "Name": "Explosion HugeCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3009,7 +3092,7 @@
       "Boolean": false
     },
     {
-      "Name": "Fireworks Spark Count",
+      "Name": "Fireworks SparkCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3019,7 +3102,7 @@
       "Boolean": false
     },
     {
-      "Name": "Water Bubble Count",
+      "Name": "Water BubbleCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3029,7 +3112,7 @@
       "Boolean": false
     },
     {
-      "Name": "Water Splash Count",
+      "Name": "Water SplashCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3039,7 +3122,7 @@
       "Boolean": false
     },
     {
-      "Name": "Water Wake Count",
+      "Name": "Water WakeCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3049,7 +3132,7 @@
       "Boolean": false
     },
     {
-      "Name": "Suspended Count",
+      "Name": "SuspendedCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3059,7 +3142,7 @@
       "Boolean": false
     },
     {
-      "Name": "Suspended Depth Count",
+      "Name": "Suspended DepthCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3069,7 +3152,7 @@
       "Boolean": false
     },
     {
-      "Name": "Crit Count",
+      "Name": "CritCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3079,7 +3162,7 @@
       "Boolean": false
     },
     {
-      "Name": "Crit Magic Count",
+      "Name": "Crit MagicCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3089,7 +3172,7 @@
       "Boolean": false
     },
     {
-      "Name": "Smoke Normal Count",
+      "Name": "Smoke NormalCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3099,7 +3182,7 @@
       "Boolean": false
     },
     {
-      "Name": "Smoke Large Count",
+      "Name": "Smoke LargeCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3109,7 +3192,7 @@
       "Boolean": false
     },
     {
-      "Name": "Spell Count",
+      "Name": "SpellCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3119,7 +3202,7 @@
       "Boolean": false
     },
     {
-      "Name": "Spell Instant Count",
+      "Name": "Spell InstantCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3129,7 +3212,7 @@
       "Boolean": true
     },
     {
-      "Name": "Spell Mob Count",
+      "Name": "Spell MobCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3139,7 +3222,7 @@
       "Boolean": false
     },
     {
-      "Name": "Spell Mob Ambient Count",
+      "Name": "Spell Mob AmbientCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3149,7 +3232,7 @@
       "Boolean": false
     },
     {
-      "Name": "Spell Witch Count",
+      "Name": "Spell WitchCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3159,7 +3242,7 @@
       "Boolean": false
     },
     {
-      "Name": "Drip Water Count",
+      "Name": "Drip WaterCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3169,7 +3252,7 @@
       "Boolean": false
     },
     {
-      "Name": "Drip Lava Count",
+      "Name": "Drip LavaCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3179,7 +3262,7 @@
       "Boolean": false
     },
     {
-      "Name": "Villager Angry Count",
+      "Name": "Villager AngryCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3189,7 +3272,7 @@
       "Boolean": false
     },
     {
-      "Name": "Villager Happy Count",
+      "Name": "Villager HappyCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3199,7 +3282,7 @@
       "Boolean": false
     },
     {
-      "Name": "Town Aura Count",
+      "Name": "Town AuraCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3209,7 +3292,7 @@
       "Boolean": false
     },
     {
-      "Name": "Note Count",
+      "Name": "NoteCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3219,7 +3302,7 @@
       "Boolean": false
     },
     {
-      "Name": "Portal Count",
+      "Name": "PortalCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3229,7 +3312,7 @@
       "Boolean": false
     },
     {
-      "Name": "Enchantment Table Count",
+      "Name": "Enchantment TableCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3239,7 +3322,7 @@
       "Boolean": false
     },
     {
-      "Name": "Flame Count",
+      "Name": "FlameCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3249,7 +3332,7 @@
       "Boolean": false
     },
     {
-      "Name": "Lava Count",
+      "Name": "LavaCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3259,7 +3342,7 @@
       "Boolean": false
     },
     {
-      "Name": "Footstep Count",
+      "Name": "FootstepCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3269,7 +3352,7 @@
       "Boolean": false
     },
     {
-      "Name": "Cloud Count",
+      "Name": "CloudCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3279,7 +3362,7 @@
       "Boolean": false
     },
     {
-      "Name": "Redstone Count",
+      "Name": "RedstoneCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3289,7 +3372,7 @@
       "Boolean": false
     },
     {
-      "Name": "Snowball Count",
+      "Name": "SnowballCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3299,7 +3382,7 @@
       "Boolean": false
     },
     {
-      "Name": "Snow Shovel Count",
+      "Name": "Snow ShovelCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3309,7 +3392,7 @@
       "Boolean": false
     },
     {
-      "Name": "Slime Count",
+      "Name": "SlimeCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3319,7 +3402,7 @@
       "Boolean": false
     },
     {
-      "Name": "Heart Count",
+      "Name": "HeartCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3329,7 +3412,7 @@
       "Boolean": false
     },
     {
-      "Name": "Barrier Count",
+      "Name": "BarrierCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3339,7 +3422,7 @@
       "Boolean": false
     },
     {
-      "Name": "Item Crack Count",
+      "Name": "Item CrackCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3349,7 +3432,7 @@
       "Boolean": false
     },
     {
-      "Name": "Block Crack Count",
+      "Name": "Block CrackCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3359,7 +3442,7 @@
       "Boolean": false
     },
     {
-      "Name": "Block Dust Count",
+      "Name": "Block DustCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3369,7 +3452,7 @@
       "Boolean": false
     },
     {
-      "Name": "Water Drop Count",
+      "Name": "Water DropCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3379,7 +3462,7 @@
       "Boolean": false
     },
     {
-      "Name": "Item Take Count",
+      "Name": "Item TakeCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
@@ -3389,14 +3472,14 @@
       "Boolean": false
     },
     {
-      "Name": "Mob Appearance Count",
+      "Name": "Mob AppearanceCount ",
       "ParentName": "AttackEffects",
       "Value": 1.0
     },
     {
       "Name": "Mode",
       "ParentName": "ESP",
-      "SelectedOption": "FakeCorner"
+      "SelectedOption": "Vanilla"
     },
     {
       "Name": "Teamcolor",
@@ -3448,7 +3531,7 @@
     {
       "Name": "Color2",
       "ParentName": "ESP",
-      "Alpha": 65,
+      "Alpha": 255,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
@@ -3459,9 +3542,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
-      "HSB Color Green": 0.90869564,
-      "HSB Color Blue": 0.9019608,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.0,
       "HSB FadeColor Red": 0.5869219,
       "HSB FadeColor Green": 0.90869564,
       "HSB FadeColor Blue": 0.9019608
@@ -3495,7 +3578,7 @@
     {
       "Name": "HitColorColor1",
       "ParentName": "ESP",
-      "Alpha": 255,
+      "Alpha": 91,
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
@@ -3528,8 +3611,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.0,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -3572,7 +3655,7 @@
     {
       "Name": "Invisible",
       "ParentName": "ESP",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -3670,7 +3753,7 @@
     {
       "Name": "Height",
       "ParentName": "BlockAnimation",
-      "Value": 0.0
+      "Value": 0.13
     },
     {
       "Name": "FakeBlock",
@@ -3690,7 +3773,7 @@
     {
       "Name": "Other",
       "ParentName": "FullBright",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Time",
@@ -4127,8 +4210,8 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 27.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.79265094,
-      "HSB Color Green": 0.5,
+      "HSB Color Red": 0.79247314,
+      "HSB Color Green": 0.6102362,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
@@ -4168,7 +4251,7 @@
     {
       "Name": "FogDistance",
       "ParentName": "Ambiance",
-      "Value": 192.0
+      "Value": 145.0
     },
     {
       "Name": "Color",
@@ -5294,6 +5377,21 @@
       "Value": 0.0
     },
     {
+      "Name": "PlayerESP",
+      "ParentName": "Blink",
+      "SelectedOption": "PlayerModelArmor"
+    },
+    {
+      "Name": "Shadow",
+      "ParentName": "Blink",
+      "Boolean": false
+    },
+    {
+      "Name": "Blur",
+      "ParentName": "Blink",
+      "Boolean": false
+    },
+    {
       "Name": "Mode",
       "ParentName": "Fly",
       "SelectedOption": "GroundCollision"
@@ -5995,6 +6093,22 @@
       "Boolean": true
     },
     {
+      "Name": "StartDelay",
+      "ParentName": "ReverseAutoArmor",
+      "Value": 400.0
+    },
+    {
+      "Name": "Delay",
+      "ParentName": "ReverseAutoArmor",
+      "MinValue": 70.0,
+      "MaxValue": 120.0
+    },
+    {
+      "Name": "Drop",
+      "ParentName": "ReverseAutoArmor",
+      "Boolean": false
+    },
+    {
       "Name": "Instant",
       "ParentName": "FastBreak",
       "Boolean": false
@@ -6395,7 +6509,7 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 76.0
+      "Value": 80.0
     },
     {
       "Name": "RadioChannels",
@@ -6656,6 +6770,11 @@
       "Boolean": false
     },
     {
+      "Name": "Blink",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
       "Name": "OnlyDebugChat",
       "ParentName": "Debug",
       "Boolean": false
@@ -6837,11 +6956,6 @@
       "Boolean": true
     },
     {
-      "Name": "HigthTolerance",
-      "ParentName": "ClientAntiCheat",
-      "Boolean": false
-    },
-    {
       "Name": "Intave14P_200",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
@@ -6852,14 +6966,19 @@
       "Boolean": true
     },
     {
-      "Name": "IntaveInvalidPitch",
+      "Name": "Intave14InvalidPitch",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
     },
     {
-      "Name": "IntaveInventorySlotDupe",
+      "Name": "Intave14InventorySlotDupe",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
+    },
+    {
+      "Name": "Intave14Timer",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": false
     },
     {
       "Name": "Intave14P_131",
@@ -7093,9 +7212,9 @@
       "Extended": true
     },
     {
-      "Name": "MacroDelay",
+      "Name": "MacroDelayModes",
       "ParentName": "PacketHandler",
-      "Boolean": false
+      "SelectedOption": "OtherMacroDelay"
     },
     {
       "Name": "EventToHandlePacket",
@@ -7139,7 +7258,7 @@
           "S1DPacketEntityEffect": true,
           "S1EPacketRemoveEntityEffect": true,
           "S1FPacketSetExperience": true,
-          "S20PacketEntityProperties": false,
+          "S20PacketEntityProperties": true,
           "S21PacketChunkData": false,
           "S22PacketMultiBlockChange": false,
           "S23PacketBlockChange": true,
@@ -7187,7 +7306,7 @@
     {
       "Name": "Outgoing",
       "ParentName": "PacketHandler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "OutGoingPacketsToDelay",
@@ -9580,6 +9699,22 @@
       "Name": "Key",
       "ParentName": "AutoLeave",
       "Key": 48
+    },
+    {
+      "Name": "CategoriesToDisable",
+      "ParentName": "Panic",
+      "SettingList": [
+        {
+          "Combat": true,
+          "Legit": false,
+          "Movement": false,
+          "Player": false,
+          "Render": false,
+          "World": false,
+          "Misc": false,
+          "Fun": false
+        }
+      ]
     },
     {
       "Name": "Mode",
