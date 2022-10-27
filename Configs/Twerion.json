@@ -1,7 +1,7 @@
 {
   "name": "Twerion",
-  "date": "22.10.2022",
-  "time": "17:03",
+  "date": "27.10.2022",
+  "time": "16:10",
   "modules": [
     {
       "Name": "Blur",
@@ -42,7 +42,7 @@
       "Name": "BackTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -119,7 +119,7 @@
       "Name": "TimerRangeV2",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -245,7 +245,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -357,7 +357,7 @@
       "Name": "EntityColor",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -455,7 +455,7 @@
       "Name": "CustomSkin",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -830,6 +830,13 @@
       "Key": 0
     },
     {
+      "Name": "Crafter",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "FastBreak",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -999,6 +1006,13 @@
     },
     {
       "Name": "AutoLeave",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "Panic",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -1690,14 +1704,14 @@
     {
       "Name": "YawSpeed",
       "ParentName": "KillAura",
-      "MinValue": 142.0,
-      "MaxValue": 162.0
+      "MinValue": 79.0,
+      "MaxValue": 104.0
     },
     {
       "Name": "PitchSpeed",
       "ParentName": "KillAura",
-      "MinValue": 180.0,
-      "MaxValue": 180.0
+      "MinValue": 75.0,
+      "MaxValue": 105.0
     },
     {
       "Name": "AdvancedRots",
@@ -2370,6 +2384,11 @@
       "Boolean": false
     },
     {
+      "Name": "FixTMode",
+      "ParentName": "TimerRangeV2",
+      "SelectedOption": "Fix2"
+    },
+    {
       "Name": "MoveSlowdown",
       "ParentName": "KeepSprint",
       "Value": 1.0
@@ -2395,9 +2414,14 @@
       "Value": 3.0
     },
     {
-      "Name": "Mode",
+      "Name": "DelayBetweenLags",
       "ParentName": "LagTrack",
-      "SelectedOption": "ForceTick"
+      "Value": 280.0
+    },
+    {
+      "Name": "CountMode",
+      "ParentName": "LagTrack",
+      "SelectedOption": "MovePacket"
     },
     {
       "Name": "TargetESP",
@@ -2943,18 +2967,18 @@
       "Alpha": 255,
       "FadeAlpha": 255,
       "Rainbow": false,
-      "Fade": false,
-      "Astolfo": true,
+      "Fade": true,
+      "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
-      "Fade Speed": 0.0,
-      "Fade Dist": 0.0,
+      "Fade Speed": 95.0,
+      "Fade Dist": 47.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.0,
-      "HSB Color Green": 0.0,
+      "HSB Color Red": 0.1870883,
+      "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
-      "HSB FadeColor Red": 0.5699816,
+      "HSB FadeColor Red": 0.014732967,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
     },
@@ -3472,7 +3496,7 @@
     {
       "Name": "Mode",
       "ParentName": "ESP",
-      "SelectedOption": "Vanilla"
+      "SelectedOption": "FakeCorner"
     },
     {
       "Name": "Teamcolor",
@@ -4747,7 +4771,7 @@
     {
       "Name": "Cusom",
       "ParentName": "CustomName",
-      "SelectedOption": "E-sound"
+      "SelectedOption": "E-soundus"
     },
     {
       "Name": "Players",
@@ -5072,10 +5096,15 @@
     {
       "Name": "SwitchOnlyEmptySlot",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SwitchGomme",
+      "ParentName": "NoSlow",
+      "Boolean": true
+    },
+    {
+      "Name": "PreSwitch",
       "ParentName": "NoSlow",
       "Boolean": false
     },
@@ -5739,6 +5768,11 @@
       "SelectedOption": "EventTick"
     },
     {
+      "Name": "ClickMode",
+      "ParentName": "AutoArmor",
+      "SelectedOption": "Basic"
+    },
+    {
       "Name": "Mode",
       "ParentName": "InvCleaner",
       "SelectedOption": "OpenInv"
@@ -5754,10 +5788,16 @@
       "Boolean": true
     },
     {
-      "Name": "Delay",
+      "Name": "SortDelay",
       "ParentName": "InvCleaner",
       "MinValue": 70.0,
       "MaxValue": 120.0
+    },
+    {
+      "Name": "DropDelay",
+      "ParentName": "InvCleaner",
+      "MinValue": 70.0,
+      "MaxValue": 118.0
     },
     {
       "Name": "DelayBeforeAutoArmor",
@@ -5799,6 +5839,11 @@
       "Name": "EventToClick",
       "ParentName": "InvCleaner",
       "SelectedOption": "EventTick"
+    },
+    {
+      "Name": "ClickMode",
+      "ParentName": "InvCleaner",
+      "SelectedOption": "Basic"
     },
     {
       "Name": "StartDelay",
@@ -5850,6 +5895,11 @@
       "Name": "EventToClick",
       "ParentName": "ChestStealer",
       "SelectedOption": "EventTick"
+    },
+    {
+      "Name": "ClickMode",
+      "ParentName": "ChestStealer",
+      "SelectedOption": "Basic"
     },
     {
       "Name": "ToggleStorageESP",
@@ -6100,6 +6150,32 @@
       "Name": "Drop",
       "ParentName": "ReverseAutoArmor",
       "Boolean": false
+    },
+    {
+      "Name": "Delay",
+      "ParentName": "Crafter",
+      "MinValue": 44.0,
+      "MaxValue": 84.0
+    },
+    {
+      "Name": "StartDelay",
+      "ParentName": "Crafter",
+      "Value": 0.0
+    },
+    {
+      "Name": "SmartDelay",
+      "ParentName": "Crafter",
+      "Boolean": true
+    },
+    {
+      "Name": "EventToClick",
+      "ParentName": "Crafter",
+      "SelectedOption": "EventTick"
+    },
+    {
+      "Name": "ClickMode",
+      "ParentName": "Crafter",
+      "SelectedOption": "Exploit"
     },
     {
       "Name": "Instant",
@@ -6502,7 +6578,7 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 79.0
+      "Value": 100.0
     },
     {
       "Name": "RadioChannels",
@@ -7205,9 +7281,9 @@
       "Extended": true
     },
     {
-      "Name": "MacroDelay",
+      "Name": "MacroDelayModes",
       "ParentName": "PacketHandler",
-      "Boolean": true
+      "SelectedOption": "OtherMacroDelay"
     },
     {
       "Name": "EventToHandlePacket",
@@ -7251,7 +7327,7 @@
           "S1DPacketEntityEffect": true,
           "S1EPacketRemoveEntityEffect": true,
           "S1FPacketSetExperience": true,
-          "S20PacketEntityProperties": true,
+          "S20PacketEntityProperties": false,
           "S21PacketChunkData": false,
           "S22PacketMultiBlockChange": false,
           "S23PacketBlockChange": true,
@@ -9692,6 +9768,22 @@
       "Name": "Key",
       "ParentName": "AutoLeave",
       "Key": 48
+    },
+    {
+      "Name": "CategoriesToDisable",
+      "ParentName": "Panic",
+      "SettingList": [
+        {
+          "Combat": true,
+          "Legit": false,
+          "Movement": false,
+          "Player": false,
+          "Render": false,
+          "World": false,
+          "Misc": false,
+          "Fun": false
+        }
+      ]
     },
     {
       "Name": "Mode",
