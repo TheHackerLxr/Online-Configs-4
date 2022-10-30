@@ -1,7 +1,7 @@
 {
   "name": "GommeBot",
-  "date": "27.10.2022",
-  "time": "16:09",
+  "date": "30.10.2022",
+  "time": "14:02",
   "modules": [
     {
       "Name": "Blur",
@@ -245,7 +245,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -985,7 +985,7 @@
     },
     {
       "Name": "PacketHandler",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": false,
       "Toggled": true,
       "Key": 0
@@ -1138,17 +1138,17 @@
     {
       "Name": "ItemsOnGround",
       "ParentName": "Shadow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ItemsInHand",
       "ParentName": "Shadow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ItemsInHotbar",
       "ParentName": "Shadow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -2039,35 +2039,6 @@
       "Value": 3.0
     },
     {
-      "Name": "AverageCPS",
-      "ParentName": "KillAura",
-      "MinValue": 15.0,
-      "MaxValue": 20.0
-    },
-    {
-      "Name": "MaxCPSPerTick",
-      "ParentName": "KillAura",
-      "Value": 1.0
-    },
-    {
-      "Name": "MultiDelay",
-      "ParentName": "KillAura",
-      "MinValue": 1.0,
-      "MaxValue": 1.0
-    },
-    {
-      "Name": "BFDelay",
-      "ParentName": "KillAura",
-      "MinValue": 150.0,
-      "MaxValue": 250.0
-    },
-    {
-      "Name": "Duration",
-      "ParentName": "KillAura",
-      "MinValue": 300.0,
-      "MaxValue": 400.0
-    },
-    {
       "Name": "SmartDoubleClick",
       "ParentName": "KillAura",
       "Boolean": false
@@ -2092,6 +2063,44 @@
       "Name": "Randomize",
       "ParentName": "KillAura",
       "SelectedOption": "Circle"
+    },
+    {
+      "Name": "ReducedRotate",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "SmartRotate",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "InnerRadiusRadius",
+      "ParentName": "KillAura",
+      "MinValue": 5.55,
+      "MaxValue": 9.23
+    },
+    {
+      "Name": "MinAbsDist",
+      "ParentName": "KillAura",
+      "Value": 0.5
+    },
+    {
+      "Name": "XRelDist",
+      "ParentName": "KillAura",
+      "MinValue": 0.8,
+      "MaxValue": 2.6
+    },
+    {
+      "Name": "YRelDist",
+      "ParentName": "KillAura",
+      "MinValue": 0.8,
+      "MaxValue": 2.6
+    },
+    {
+      "Name": "MaxRotationAngle",
+      "ParentName": "KillAura",
+      "Value": 90.0
     },
     {
       "Name": "RandomStrength",
@@ -2386,7 +2395,7 @@
     {
       "Name": "FixTMode",
       "ParentName": "TimerRangeV2",
-      "SelectedOption": "Fix2"
+      "SelectedOption": "None"
     },
     {
       "Name": "MoveSlowdown",
@@ -2916,11 +2925,6 @@
       "SelectedOption": "Length"
     },
     {
-      "Name": "ToggleSound",
-      "ParentName": "ArrayList",
-      "Boolean": true
-    },
-    {
       "Name": "Suffix",
       "ParentName": "ArrayList",
       "SelectedOption": "Bracket"
@@ -2975,10 +2979,10 @@
       "Fade Dist": 47.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.1870883,
+      "HSB Color Red": 0.54018444,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
-      "HSB FadeColor Red": 0.014732967,
+      "HSB FadeColor Red": 0.752302,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
     },
@@ -3506,18 +3510,18 @@
     {
       "Name": "Color",
       "ParentName": "ESP",
-      "Alpha": 65,
+      "Alpha": 127,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
-      "Astolfo": true,
+      "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
       "Astolfo Speed": 60.0,
       "Astolfo Dist": 84.0,
-      "HSB Color Red": 0.5869219,
+      "HSB Color Red": 0.58054227,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
@@ -4145,7 +4149,7 @@
     {
       "Name": "AuraLine",
       "ParentName": "Line",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AuraColor",
@@ -5374,19 +5378,34 @@
       "SelectedOption": "Normal"
     },
     {
+      "Name": "Event",
+      "ParentName": "Strafe",
+      "SelectedOption": "Pre"
+    },
+    {
       "Name": "Percentage",
       "ParentName": "Strafe",
       "Value": 100.0
     },
     {
-      "Name": "WhileKB",
+      "Name": "StrafeOnGround",
       "ParentName": "Strafe",
       "Boolean": true
     },
     {
-      "Name": "OnlyOnGround",
+      "Name": "TimingOnGround",
       "ParentName": "Strafe",
-      "Boolean": false
+      "SelectedOption": "Always"
+    },
+    {
+      "Name": "StrafeOnAir",
+      "ParentName": "Strafe",
+      "Boolean": true
+    },
+    {
+      "Name": "TiminInAir",
+      "ParentName": "Strafe",
+      "SelectedOption": "Always"
     },
     {
       "Name": "PacketDirection",
@@ -5778,6 +5797,11 @@
       "SelectedOption": "OpenInv"
     },
     {
+      "Name": "StartDelay",
+      "ParentName": "InvCleaner",
+      "Value": 0.0
+    },
+    {
       "Name": "NoMove",
       "ParentName": "InvCleaner",
       "Boolean": true
@@ -5804,11 +5828,6 @@
       "ParentName": "InvCleaner",
       "MinValue": 70.0,
       "MaxValue": 120.0
-    },
-    {
-      "Name": "StartDelay",
-      "ParentName": "InvCleaner",
-      "Value": 0.0
     },
     {
       "Name": "Sort",
@@ -6152,15 +6171,15 @@
       "Boolean": false
     },
     {
+      "Name": "StartDelay",
+      "ParentName": "Crafter",
+      "Value": 0.0
+    },
+    {
       "Name": "Delay",
       "ParentName": "Crafter",
       "MinValue": 44.0,
       "MaxValue": 84.0
-    },
-    {
-      "Name": "StartDelay",
-      "ParentName": "Crafter",
-      "Value": 0.0
     },
     {
       "Name": "SmartDelay",
@@ -6290,10 +6309,28 @@
       "Value": 3000.0
     },
     {
-      "Name": "Delay",
+      "Name": "Items",
       "ParentName": "FastPlace",
-      "MinValue": 0.0,
-      "MaxValue": 50.0
+      "SettingList": [
+        {
+          "Blocks": true,
+          "XP-Bottles": true,
+          "SnowBalls": true,
+          "Eggs": false,
+          "Potions": false
+        }
+      ]
+    },
+    {
+      "Name": "Blocks",
+      "ParentName": "FastPlace",
+      "Extended": true
+    },
+    {
+      "Name": "BlocksCPS",
+      "ParentName": "FastPlace",
+      "MinValue": 16.0,
+      "MaxValue": 24.0
     },
     {
       "Name": "AlwaysPlaceWhenPossible",
@@ -6304,6 +6341,50 @@
       "Name": "OneClick",
       "ParentName": "FastPlace",
       "Boolean": false
+    },
+    {
+      "Name": "XP-Bottles",
+      "ParentName": "FastPlace",
+      "Extended": true
+    },
+    {
+      "Name": "XP-BottlesCPS",
+      "ParentName": "FastPlace",
+      "MinValue": 16.0,
+      "MaxValue": 24.0
+    },
+    {
+      "Name": "SnowBalls",
+      "ParentName": "FastPlace",
+      "Extended": true
+    },
+    {
+      "Name": "SnowBallsCPS",
+      "ParentName": "FastPlace",
+      "MinValue": 16.0,
+      "MaxValue": 24.0
+    },
+    {
+      "Name": "Eggs",
+      "ParentName": "FastPlace",
+      "Extended": false
+    },
+    {
+      "Name": "EggsCPS",
+      "ParentName": "FastPlace",
+      "MinValue": 16.0,
+      "MaxValue": 24.0
+    },
+    {
+      "Name": "Potions",
+      "ParentName": "FastPlace",
+      "Extended": false
+    },
+    {
+      "Name": "PotionsCPS",
+      "ParentName": "FastPlace",
+      "MinValue": 16.0,
+      "MaxValue": 24.0
     },
     {
       "Name": "YawSpeed",
@@ -7412,6 +7493,11 @@
           "CPacketPlayerTryUseItemOnBlock": true
         }
       ]
+    },
+    {
+      "Name": "ModuleToggleSound",
+      "ParentName": "Sounds",
+      "Boolean": true
     },
     {
       "Name": "Mode",
