@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
   "date": "30.10.2022",
-  "time": "14:02",
+  "time": "22:41",
   "modules": [
     {
       "Name": "Blur",
@@ -364,7 +364,7 @@
       "Name": "Chams",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -399,7 +399,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -854,7 +854,7 @@
       "Name": "FastPlace",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -945,7 +945,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -2062,12 +2062,17 @@
     {
       "Name": "Randomize",
       "ParentName": "KillAura",
-      "SelectedOption": "Circle"
+      "SelectedOption": "Advanced"
     },
     {
       "Name": "ReducedRotate",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
+    },
+    {
+      "Name": "ReduceRotationPercentage",
+      "ParentName": "KillAura",
+      "Value": 40.0
     },
     {
       "Name": "SmartRotate",
@@ -2077,30 +2082,50 @@
     {
       "Name": "InnerRadiusRadius",
       "ParentName": "KillAura",
-      "MinValue": 5.55,
-      "MaxValue": 9.23
+      "MinValue": 9.0,
+      "MaxValue": 12.0
+    },
+    {
+      "Name": "BestHitXMinDist",
+      "ParentName": "KillAura",
+      "Value": 5.55
+    },
+    {
+      "Name": "BestHitYMInDist",
+      "ParentName": "KillAura",
+      "Value": 5.45
     },
     {
       "Name": "MinAbsDist",
       "ParentName": "KillAura",
-      "Value": 0.5
+      "Value": 0.1
+    },
+    {
+      "Name": "MaxXAbsDist",
+      "ParentName": "KillAura",
+      "Value": 5.0
+    },
+    {
+      "Name": "MaxYAbsDist",
+      "ParentName": "KillAura",
+      "Value": 20.0
     },
     {
       "Name": "XRelDist",
       "ParentName": "KillAura",
-      "MinValue": 0.8,
-      "MaxValue": 2.6
+      "MinValue": 0.1,
+      "MaxValue": 3.0
     },
     {
       "Name": "YRelDist",
       "ParentName": "KillAura",
-      "MinValue": 0.8,
-      "MaxValue": 2.6
+      "MinValue": 0.1,
+      "MaxValue": 3.0
     },
     {
       "Name": "MaxRotationAngle",
       "ParentName": "KillAura",
-      "Value": 90.0
+      "Value": 60.0
     },
     {
       "Name": "RandomStrength",
@@ -4130,8 +4155,8 @@
       "Astolfo Speed": 36.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.7167325,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.7169935,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -4149,7 +4174,7 @@
     {
       "Name": "AuraLine",
       "ParentName": "Line",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "AuraColor",
@@ -4166,8 +4191,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.7167325,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.7169935,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -6171,6 +6196,11 @@
       "Boolean": false
     },
     {
+      "Name": "Bot",
+      "ParentName": "ReverseAutoArmor",
+      "Boolean": false
+    },
+    {
       "Name": "StartDelay",
       "ParentName": "Crafter",
       "Value": 0.0
@@ -6313,9 +6343,9 @@
       "ParentName": "FastPlace",
       "SettingList": [
         {
-          "Blocks": true,
+          "Blocks": false,
           "XP-Bottles": true,
-          "SnowBalls": true,
+          "SnowBalls": false,
           "Eggs": false,
           "Potions": false
         }
@@ -6683,6 +6713,11 @@
     },
     {
       "Name": "Reverse",
+      "ParentName": "MidClick",
+      "Boolean": false
+    },
+    {
+      "Name": "Simple",
       "ParentName": "MidClick",
       "Boolean": false
     },
@@ -7495,14 +7530,14 @@
       ]
     },
     {
-      "Name": "ModuleToggleSound",
-      "ParentName": "Sounds",
-      "Boolean": true
-    },
-    {
       "Name": "Mode",
       "ParentName": "Sounds",
       "SelectedOption": "Sigma"
+    },
+    {
+      "Name": "ModuleToggleSound",
+      "ParentName": "Sounds",
+      "Boolean": true
     },
     {
       "Name": "CustomPacketCanceling",
