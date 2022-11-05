@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "30.10.2022",
-  "time": "22:41",
+  "date": "04.11.2022",
+  "time": "17:02",
   "modules": [
     {
       "Name": "Blur",
@@ -399,7 +399,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -487,13 +487,6 @@
       "Key": 0
     },
     {
-      "Name": "PathFinderDebug",
-      "IsInConfig": false,
-      "IsInArraylist": true,
-      "Toggled": false,
-      "Key": 0
-    },
-    {
       "Name": "AntiStrike",
       "IsInConfig": false,
       "IsInArraylist": true,
@@ -502,6 +495,20 @@
     },
     {
       "Name": "NoArmorOverlay",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "Model",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "RenderPotion",
       "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": false,
@@ -753,10 +760,10 @@
       "Key": 0
     },
     {
-      "Name": "RotationLimiter",
+      "Name": "RotationHandler",
       "IsInConfig": true,
-      "IsInArraylist": true,
-      "Toggled": false,
+      "IsInArraylist": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1114,7 +1121,7 @@
       "ParentName": "Shadow",
       "Alpha": 255,
       "FadeAlpha": 255,
-      "Rainbow": true,
+      "Rainbow": false,
       "Fade": false,
       "Astolfo": false,
       "Rainbow Speed": 21.0,
@@ -1123,7 +1130,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 85.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.7022398,
+      "HSB Color Red": 0.9644269,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.35836625,
@@ -1719,17 +1726,17 @@
       "Boolean": false
     },
     {
-      "Name": "SmoothBackRotate",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
       "Name": "InInv",
       "ParentName": "KillAura",
       "Boolean": false
     },
     {
       "Name": "NoSwing",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "LockView",
       "ParentName": "KillAura",
       "Boolean": false
     },
@@ -2952,7 +2959,7 @@
     {
       "Name": "Suffix",
       "ParentName": "ArrayList",
-      "SelectedOption": "Bracket"
+      "SelectedOption": "Dash"
     },
     {
       "Name": "SuffixColor",
@@ -3000,12 +3007,12 @@
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
-      "Fade Speed": 95.0,
+      "Fade Speed": 43.0,
       "Fade Dist": 47.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.54018444,
-      "HSB Color Green": 0.996063,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.752302,
       "HSB FadeColor Green": 0.8153153,
@@ -3019,7 +3026,7 @@
     {
       "Name": "BackGroundColor",
       "ParentName": "ArrayList",
-      "Alpha": 199,
+      "Alpha": 119,
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
@@ -3859,7 +3866,7 @@
     {
       "Name": "Myself",
       "ParentName": "NameTags",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Invisible",
@@ -4155,8 +4162,8 @@
       "Astolfo Speed": 36.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.7167325,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.7169935,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -4191,8 +4198,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.7167325,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.7169935,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -4800,7 +4807,7 @@
     {
       "Name": "Cusom",
       "ParentName": "CustomName",
-      "SelectedOption": "E-soundus"
+      "SelectedOption": "E-sound"
     },
     {
       "Name": "Players",
@@ -5085,6 +5092,72 @@
     {
       "Name": "Blur",
       "ParentName": "Chat",
+      "Boolean": true
+    },
+    {
+      "Name": "X-Coord",
+      "ParentName": "Model",
+      "Value": 0.0
+    },
+    {
+      "Name": "Y-Coord",
+      "ParentName": "Model",
+      "Value": 24.5
+    },
+    {
+      "Name": "Scale",
+      "ParentName": "Model",
+      "Value": 45.0
+    },
+    {
+      "Name": "YawRot",
+      "ParentName": "Model",
+      "Boolean": true
+    },
+    {
+      "Name": "X-Coord",
+      "ParentName": "RenderPotion",
+      "Value": 0.0
+    },
+    {
+      "Name": "Y-Coord",
+      "ParentName": "RenderPotion",
+      "Value": 0.0
+    },
+    {
+      "Name": "Scale",
+      "ParentName": "RenderPotion",
+      "Value": 1.0
+    },
+    {
+      "Name": "BackgroundColor",
+      "ParentName": "RenderPotion",
+      "Alpha": 150,
+      "FadeAlpha": 150,
+      "Rainbow": false,
+      "Fade": false,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.0,
+      "HSB FadeColor Red": 0.0,
+      "HSB FadeColor Green": 0.0,
+      "HSB FadeColor Blue": 0.0
+    },
+    {
+      "Name": "Shadow",
+      "ParentName": "RenderPotion",
+      "Boolean": true
+    },
+    {
+      "Name": "Blur",
+      "ParentName": "RenderPotion",
       "Boolean": true
     },
     {
@@ -6036,24 +6109,29 @@
       "Boolean": true
     },
     {
+      "Name": "RotationMode",
+      "ParentName": "RotationHandler",
+      "SelectedOption": "Tick"
+    },
+    {
+      "Name": "SmoothBackRotate",
+      "ParentName": "RotationHandler",
+      "Boolean": false
+    },
+    {
       "Name": "MaxYaw",
-      "ParentName": "RotationLimiter",
-      "Value": 50.0
+      "ParentName": "RotationHandler",
+      "Value": 11.0
     },
     {
       "Name": "MaxPitch",
-      "ParentName": "RotationLimiter",
-      "Value": 50.0
+      "ParentName": "RotationHandler",
+      "Value": 16.0
     },
     {
       "Name": "MoveFix",
-      "ParentName": "RotationLimiter",
+      "ParentName": "RotationHandler",
       "Boolean": true
-    },
-    {
-      "Name": "OnlyBackRotateCheck",
-      "ParentName": "RotationLimiter",
-      "Boolean": false
     },
     {
       "Name": "Health",
@@ -6858,6 +6936,11 @@
       "Name": "UpdateTicks",
       "ParentName": "AutoWalk",
       "Value": 3.0
+    },
+    {
+      "Name": "Smooth",
+      "ParentName": "AutoWalk",
+      "Boolean": true
     },
     {
       "Name": "Player",
@@ -9960,12 +10043,12 @@
     {
       "Name": "Sequence",
       "ParentName": "KillMessage",
-      "SelectedOption": "YourFirst"
+      "SelectedOption": "OpponentFirst"
     },
     {
       "Name": "KillMessageMode",
       "ParentName": "KillMessage",
-      "SelectedOption": "Augustus"
+      "SelectedOption": "L"
     },
     {
       "Name": "KillMessageCustom",
