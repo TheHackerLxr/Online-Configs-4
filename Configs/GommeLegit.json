@@ -1,7 +1,7 @@
 {
   "name": "GommeLegit",
-  "date": "05.11.2022",
-  "time": "16:38",
+  "date": "23.12.2022",
+  "time": "19:47",
   "modules": [
     {
       "Name": "Blur",
@@ -202,8 +202,8 @@
     {
       "Name": "ClickGui",
       "IsInConfig": false,
-      "IsInArraylist": false,
-      "Toggled": true,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 54
     },
     {
@@ -244,7 +244,7 @@
     {
       "Name": "Protector",
       "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -533,7 +533,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 36
+      "Key": 0
     },
     {
       "Name": "NoSlow",
@@ -568,7 +568,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -636,9 +636,9 @@
     {
       "Name": "VClip",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
-      "Key": 24
+      "Key": 0
     },
     {
       "Name": "SafeWalk",
@@ -659,7 +659,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 50
+      "Key": 0
     },
     {
       "Name": "FreeCam",
@@ -686,7 +686,7 @@
       "Name": "NoJumpDelay",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -792,7 +792,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 47
+      "Key": 0
     },
     {
       "Name": "ChestAura",
@@ -824,7 +824,7 @@
     },
     {
       "Name": "AutoRespawn",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -834,7 +834,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "ReverseAutoArmor",
@@ -894,7 +894,7 @@
     },
     {
       "Name": "Radio",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -936,8 +936,8 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInConfig": true,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -957,14 +957,14 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
     {
       "Name": "AutoDisable",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -972,7 +972,7 @@
     {
       "Name": "AntiAchievement",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
@@ -1034,14 +1034,14 @@
     },
     {
       "Name": "AutoJumpAndRun",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "PartySpammer",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1055,28 +1055,28 @@
     },
     {
       "Name": "AutoReport",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "SpinBot",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "KillMessage",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "JobSystemBreaker",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1185,6 +1185,21 @@
       "Value": 0.6
     },
     {
+      "Name": "IntaveSmart",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveBoost",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveBoostDelay",
+      "ParentName": "Velocity",
+      "Value": 1000.0
+    },
+    {
       "Name": "XZVelocityIntave",
       "ParentName": "Velocity",
       "Value": -100.0
@@ -1195,7 +1210,17 @@
       "Value": 20.0
     },
     {
+      "Name": "SneakInAir",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
       "Name": "Jump",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "JumpInInv",
       "ParentName": "Velocity",
       "Boolean": false
     },
@@ -1203,31 +1228,6 @@
       "Name": "JumpDelay",
       "ParentName": "Velocity",
       "Value": 0.0
-    },
-    {
-      "Name": "AutoSneak",
-      "ParentName": "Velocity",
-      "Boolean": true
-    },
-    {
-      "Name": "OwnDamageCheck",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "TargetSwingCheck",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "AlwaysSneak",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "Range",
-      "ParentName": "Velocity",
-      "Value": 3.3
     },
     {
       "Name": "Explosion",
@@ -1266,6 +1266,11 @@
     },
     {
       "Name": "OnGround",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "JumpInInv",
       "ParentName": "Velocity",
       "Boolean": false
     },
@@ -1806,6 +1811,11 @@
       "Boolean": false
     },
     {
+      "Name": "MissClick",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "LockView",
       "ParentName": "KillAura",
       "Boolean": true
@@ -1996,6 +2006,11 @@
       "ParentName": "KillAura",
       "MinValue": 20.0,
       "MaxValue": 20.0
+    },
+    {
+      "Name": "CPSLimiter",
+      "ParentName": "KillAura",
+      "Value": 19.0
     },
     {
       "Name": "SpeedChangeDelay",
@@ -3048,9 +3063,16 @@
       "Boolean": true
     },
     {
+      "Name": "StartSneakDistToBlock",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.05,
+      "MaxValue": 0.2
+    },
+    {
       "Name": "MinSneakTicks",
       "ParentName": "AutoEagle",
-      "Value": 1.0
+      "MinValue": 1.0,
+      "MaxValue": 2.0
     },
     {
       "Name": "FastPlace",
@@ -3200,7 +3222,7 @@
     {
       "Name": "Scale",
       "ParentName": "ArrayList",
-      "Value": 1.0
+      "Value": 2.0
     },
     {
       "Name": "FontSize",
@@ -5729,6 +5751,16 @@
       "SelectedOption": "Legit"
     },
     {
+      "Name": "IgnoreCollisions",
+      "ParentName": "Sprint",
+      "Boolean": false
+    },
+    {
+      "Name": "HungerSprint",
+      "ParentName": "Sprint",
+      "Boolean": false
+    },
+    {
       "Name": "JumpSprint",
       "ParentName": "Sprint",
       "Boolean": false
@@ -8029,6 +8061,11 @@
     },
     {
       "Name": "DemoScreenFix",
+      "ParentName": "ExploitFixer",
+      "Boolean": true
+    },
+    {
+      "Name": "SignCrash",
       "ParentName": "ExploitFixer",
       "Boolean": true
     },

@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "04.11.2022",
-  "time": "17:02",
+  "date": "23.12.2022",
+  "time": "19:47",
   "modules": [
     {
       "Name": "Blur",
@@ -119,7 +119,7 @@
       "Name": "TimerRangeV2",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -202,8 +202,8 @@
     {
       "Name": "ClickGui",
       "IsInConfig": false,
-      "IsInArraylist": false,
-      "Toggled": true,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 54
     },
     {
@@ -244,7 +244,7 @@
     {
       "Name": "Protector",
       "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -515,6 +515,13 @@
       "Key": 0
     },
     {
+      "Name": "Particle",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
       "Name": "Sprint",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -526,7 +533,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 36
+      "Key": 0
     },
     {
       "Name": "NoSlow",
@@ -561,7 +568,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -629,9 +636,9 @@
     {
       "Name": "VClip",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
-      "Key": 24
+      "Key": 0
     },
     {
       "Name": "SafeWalk",
@@ -652,7 +659,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 50
+      "Key": 0
     },
     {
       "Name": "FreeCam",
@@ -679,7 +686,7 @@
       "Name": "NoJumpDelay",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -785,7 +792,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 47
+      "Key": 0
     },
     {
       "Name": "ChestAura",
@@ -817,7 +824,7 @@
     },
     {
       "Name": "AutoRespawn",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -827,7 +834,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "ReverseAutoArmor",
@@ -887,7 +894,7 @@
     },
     {
       "Name": "Radio",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -929,8 +936,8 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInConfig": true,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -950,14 +957,14 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "AutoDisable",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -965,7 +972,7 @@
     {
       "Name": "AntiAchievement",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
@@ -1027,14 +1034,14 @@
     },
     {
       "Name": "AutoJumpAndRun",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "PartySpammer",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1048,28 +1055,28 @@
     },
     {
       "Name": "AutoReport",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "SpinBot",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "KillMessage",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "JobSystemBreaker",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1178,14 +1185,34 @@
       "Value": 0.6
     },
     {
+      "Name": "IntaveSmart",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveBoost",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveBoostDelay",
+      "ParentName": "Velocity",
+      "Value": 1000.0
+    },
+    {
       "Name": "XZVelocityIntave",
       "ParentName": "Velocity",
-      "Value": -100.0
+      "Value": -50.0
     },
     {
       "Name": "YVelocityIntave",
       "ParentName": "Velocity",
-      "Value": 20.0
+      "Value": 120.0
+    },
+    {
+      "Name": "SneakInAir",
+      "ParentName": "Velocity",
+      "Boolean": false
     },
     {
       "Name": "Jump",
@@ -1193,34 +1220,14 @@
       "Boolean": false
     },
     {
+      "Name": "JumpInInv",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
       "Name": "JumpDelay",
       "ParentName": "Velocity",
       "Value": 0.0
-    },
-    {
-      "Name": "AutoSneak",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "OwnDamageCheck",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "TargetSwingCheck",
-      "ParentName": "Velocity",
-      "Boolean": true
-    },
-    {
-      "Name": "AlwaysSneak",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "Range",
-      "ParentName": "Velocity",
-      "Value": 3.0
     },
     {
       "Name": "Explosion",
@@ -1259,6 +1266,11 @@
     },
     {
       "Name": "OnGround",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "JumpInInv",
       "ParentName": "Velocity",
       "Boolean": false
     },
@@ -1502,46 +1514,6 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "RandomTypeInRotationModule",
-      "ParentName": "AntiFireBall",
-      "SelectedOption": "SecureRandom"
-    },
-    {
-      "Name": "RandomizeInRotationModule",
-      "ParentName": "AntiFireBall",
-      "SelectedOption": "OnlyRotation"
-    },
-    {
-      "Name": "RandomStrengthInRotationModule",
-      "ParentName": "AntiFireBall",
-      "Value": 1.25
-    },
-    {
-      "Name": "AdvancedRotsInRotationModule",
-      "ParentName": "AntiFireBall",
-      "Boolean": true
-    },
-    {
-      "Name": "InterpolationInRotationModule",
-      "ParentName": "AntiFireBall",
-      "Boolean": false
-    },
-    {
-      "Name": "MoveFixInRotationModule",
-      "ParentName": "AntiFireBall",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFixInRotationModule",
-      "ParentName": "AntiFireBall",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFixIntaveInRotationModule",
-      "ParentName": "AntiFireBall",
-      "Boolean": true
-    },
-    {
       "Name": "RotationModeInEntityRotationModule",
       "ParentName": "AntiFireBall",
       "SelectedOption": "BestHitVec"
@@ -1565,6 +1537,109 @@
       "Name": "HitBoxPercentageHorizontalInEntityRotationModule1",
       "ParentName": "AntiFireBall",
       "Value": 100.0
+    },
+    {
+      "Name": "AdvancedRotsInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Boolean": true
+    },
+    {
+      "Name": "InterpolationInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomTypeInRotationModule",
+      "ParentName": "AntiFireBall",
+      "SelectedOption": "SecureRandom"
+    },
+    {
+      "Name": "RandomizeInRotationModule",
+      "ParentName": "AntiFireBall",
+      "SelectedOption": "OnlyRotation"
+    },
+    {
+      "Name": "ReducedRotateInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Boolean": false
+    },
+    {
+      "Name": "ReduceRotationPercentageInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 100.0
+    },
+    {
+      "Name": "SmartRotateInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Boolean": false
+    },
+    {
+      "Name": "InnerRadiusInRotationModuleRadiusInRotationModule",
+      "ParentName": "AntiFireBall",
+      "MinValue": 4.0,
+      "MaxValue": 9.0
+    },
+    {
+      "Name": "BestHitXMinDistInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 2.0
+    },
+    {
+      "Name": "BestHitYMInDistInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 2.0
+    },
+    {
+      "Name": "MinAbsDistInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 0.5
+    },
+    {
+      "Name": "MaxXAbsDistInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 5.0
+    },
+    {
+      "Name": "MaxYAbsDistInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 20.0
+    },
+    {
+      "Name": "XRelDistInRotationModule",
+      "ParentName": "AntiFireBall",
+      "MinValue": 0.5,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "YRelDistInRotationModule",
+      "ParentName": "AntiFireBall",
+      "MinValue": 0.5,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "MaxRotationAngleInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 90.0
+    },
+    {
+      "Name": "RandomStrengthInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Value": 1.25
+    },
+    {
+      "Name": "MoveFixInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFixInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFixIntaveInRotationModule",
+      "ParentName": "AntiFireBall",
+      "Boolean": true
     },
     {
       "Name": "NoRotate",
@@ -1717,8 +1792,8 @@
     {
       "Name": "PitchSpeed",
       "ParentName": "KillAura",
-      "MinValue": 8.0,
-      "MaxValue": 16.0
+      "MinValue": 30.0,
+      "MaxValue": 50.0
     },
     {
       "Name": "AdvancedRots",
@@ -1732,6 +1807,11 @@
     },
     {
       "Name": "NoSwing",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "MissClick",
       "ParentName": "KillAura",
       "Boolean": false
     },
@@ -1903,7 +1983,7 @@
     {
       "Name": "ValidSlot",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ClickMode",
@@ -1926,6 +2006,11 @@
       "ParentName": "KillAura",
       "MinValue": 20.0,
       "MaxValue": 20.0
+    },
+    {
+      "Name": "CPSLimiter",
+      "ParentName": "KillAura",
+      "Value": 19.0
     },
     {
       "Name": "SpeedChangeDelay",
@@ -2048,13 +2133,13 @@
     {
       "Name": "SmartDoubleClick",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SmartDoubleClickValue",
       "ParentName": "KillAura",
-      "MinValue": 30.0,
-      "MaxValue": 35.0
+      "MinValue": 20.0,
+      "MaxValue": 30.0
     },
     {
       "Name": "TargetSort",
@@ -2683,46 +2768,6 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "RandomTypeInRotationModule",
-      "ParentName": "AimBot",
-      "SelectedOption": "SecureRandom"
-    },
-    {
-      "Name": "RandomizeInRotationModule",
-      "ParentName": "AimBot",
-      "SelectedOption": "OnlyRotation"
-    },
-    {
-      "Name": "RandomStrengthInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 1.25
-    },
-    {
-      "Name": "AdvancedRotsInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "InterpolationInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "MoveFixInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFixInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFixIntaveInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
       "Name": "RotationModeInEntityRotationModule",
       "ParentName": "AimBot",
       "SelectedOption": "BestHitVec"
@@ -2746,6 +2791,109 @@
       "Name": "HitBoxPercentageHorizontalInEntityRotationModule1",
       "ParentName": "AimBot",
       "Value": 100.0
+    },
+    {
+      "Name": "AdvancedRotsInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "InterpolationInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomTypeInRotationModule",
+      "ParentName": "AimBot",
+      "SelectedOption": "SecureRandom"
+    },
+    {
+      "Name": "RandomizeInRotationModule",
+      "ParentName": "AimBot",
+      "SelectedOption": "OnlyRotation"
+    },
+    {
+      "Name": "ReducedRotateInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "ReduceRotationPercentageInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 100.0
+    },
+    {
+      "Name": "SmartRotateInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "InnerRadiusInRotationModuleRadiusInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 9.0,
+      "MaxValue": 12.0
+    },
+    {
+      "Name": "BestHitXMinDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 5.0
+    },
+    {
+      "Name": "BestHitYMInDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 5.0
+    },
+    {
+      "Name": "MinAbsDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 0.1
+    },
+    {
+      "Name": "MaxXAbsDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 5.0
+    },
+    {
+      "Name": "MaxYAbsDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 20.0
+    },
+    {
+      "Name": "XRelDistInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 0.1,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "YRelDistInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 0.1,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "MaxRotationAngleInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 60.0
+    },
+    {
+      "Name": "RandomStrengthInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 1.25
+    },
+    {
+      "Name": "MoveFixInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFixInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFixIntaveInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
     },
     {
       "Name": "PreAimRange",
@@ -2789,6 +2937,11 @@
     },
     {
       "Name": "DiggingCheck",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "Improve",
       "ParentName": "AimBot",
       "Boolean": true
     },
@@ -2910,9 +3063,16 @@
       "Boolean": true
     },
     {
+      "Name": "StartSneakDistToBlock",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.05,
+      "MaxValue": 0.2
+    },
+    {
       "Name": "MinSneakTicks",
       "ParentName": "AutoEagle",
-      "Value": 2.0
+      "MinValue": 1.0,
+      "MaxValue": 2.0
     },
     {
       "Name": "FastPlace",
@@ -3062,7 +3222,7 @@
     {
       "Name": "Scale",
       "ParentName": "ArrayList",
-      "Value": 1.0
+      "Value": 2.0
     },
     {
       "Name": "FontSize",
@@ -5161,9 +5321,444 @@
       "Boolean": true
     },
     {
+      "Name": "OnlyWhileMoving",
+      "ParentName": "Particle",
+      "Boolean": true
+    },
+    {
+      "Name": "Use Explosion Normal",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Explosion NormalDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Explosion Large",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Explosion LargeDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Explosion Huge",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Explosion HugeDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Fireworks Spark",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Fireworks SparkDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Water Bubble",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Water BubbleDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Water Splash",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Water SplashDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Water Wake",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Water WakeDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Suspended",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "SuspendedDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Suspended Depth",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Suspended DepthDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Crit",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "CritDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Crit Magic",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Crit MagicDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Smoke Normal",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Smoke NormalDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Smoke Large",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Smoke LargeDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Spell",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "SpellDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Spell Instant",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Spell InstantDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Spell Mob",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Spell MobDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Spell Mob Ambient",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Spell Mob AmbientDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Spell Witch",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Spell WitchDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Drip Water",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Drip WaterDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Drip Lava",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Drip LavaDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Villager Angry",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Villager AngryDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Villager Happy",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Villager HappyDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Town Aura",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Town AuraDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Note",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "NoteDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Portal",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "PortalDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Enchantment Table",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Enchantment TableDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Flame",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "FlameDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Lava",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "LavaDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Footstep",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "FootstepDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Cloud",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "CloudDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Redstone",
+      "ParentName": "Particle",
+      "Boolean": true
+    },
+    {
+      "Name": "RedstoneDelay ",
+      "ParentName": "Particle",
+      "Value": 55.0
+    },
+    {
+      "Name": "Use Snowball",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "SnowballDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Snow Shovel",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Snow ShovelDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Slime",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "SlimeDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Heart",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "HeartDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Barrier",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "BarrierDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Item Crack",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Item CrackDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Block Crack",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Block CrackDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Block Dust",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Block DustDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Water Drop",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Water DropDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Item Take",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Item TakeDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
+      "Name": "Use Mob Appearance",
+      "ParentName": "Particle",
+      "Boolean": false
+    },
+    {
+      "Name": "Mob AppearanceDelay ",
+      "ParentName": "Particle",
+      "Value": 250.0
+    },
+    {
       "Name": "Mode",
       "ParentName": "Sprint",
       "SelectedOption": "Legit"
+    },
+    {
+      "Name": "IgnoreCollisions",
+      "ParentName": "Sprint",
+      "Boolean": true
+    },
+    {
+      "Name": "HungerSprint",
+      "ParentName": "Sprint",
+      "Boolean": true
     },
     {
       "Name": "JumpSprint",
@@ -6114,6 +6709,11 @@
       "SelectedOption": "Tick"
     },
     {
+      "Name": "MouseSensMode",
+      "ParentName": "RotationHandler",
+      "SelectedOption": "Advanced"
+    },
+    {
       "Name": "SmoothBackRotate",
       "ParentName": "RotationHandler",
       "Boolean": false
@@ -6508,11 +7108,6 @@
     },
     {
       "Name": "StaticPitchBool",
-      "ParentName": "Scaffold",
-      "Boolean": false
-    },
-    {
-      "Name": "CalcYaw",
       "ParentName": "Scaffold",
       "Boolean": false
     },
@@ -7470,6 +8065,11 @@
       "Boolean": true
     },
     {
+      "Name": "SignCrash",
+      "ParentName": "ExploitFixer",
+      "Boolean": true
+    },
+    {
       "Name": "Hycraft",
       "ParentName": "ExploitFixer",
       "Boolean": false
@@ -7482,7 +8082,7 @@
     {
       "Name": "MacroDelayModes",
       "ParentName": "PacketHandler",
-      "SelectedOption": "OtherMacroDelay"
+      "SelectedOption": "None"
     },
     {
       "Name": "EventToHandlePacket",
@@ -7526,16 +8126,16 @@
           "S1DPacketEntityEffect": true,
           "S1EPacketRemoveEntityEffect": true,
           "S1FPacketSetExperience": true,
-          "S20PacketEntityProperties": false,
-          "S21PacketChunkData": false,
-          "S22PacketMultiBlockChange": false,
+          "S20PacketEntityProperties": true,
+          "S21PacketChunkData": true,
+          "S22PacketMultiBlockChange": true,
           "S23PacketBlockChange": true,
           "S24PacketBlockAction": true,
           "S25PacketBlockBreakAnim": true,
-          "S26PacketMapChunkBulk": false,
+          "S26PacketMapChunkBulk": true,
           "S27PacketExplosion": true,
           "S28PacketEffect": true,
-          "S29PacketSoundEffect": false,
+          "S29PacketSoundEffect": true,
           "S2APacketParticles": true,
           "S2BPacketChangeGameState": true,
           "S2CPacketSpawnGlobalEntity": true,
