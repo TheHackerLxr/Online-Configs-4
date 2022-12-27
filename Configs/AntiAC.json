@@ -1,7 +1,7 @@
 {
   "name": "AntiAC",
-  "date": "05.11.2022",
-  "time": "16:39",
+  "date": "27.12.2022",
+  "time": "17:19",
   "modules": [
     {
       "Name": "Blur",
@@ -36,13 +36,6 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
-    },
-    {
-      "Name": "BackTrack",
-      "IsInConfig": true,
-      "IsInArraylist": true,
-      "Toggled": true,
       "Key": 0
     },
     {
@@ -130,10 +123,17 @@
       "Key": 0
     },
     {
-      "Name": "LagTrack",
+      "Name": "LagRange",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "BackTrack",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -202,7 +202,7 @@
     {
       "Name": "ClickGui",
       "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
       "Key": 54
     },
@@ -238,7 +238,7 @@
       "Name": "FullBright",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -273,7 +273,7 @@
       "Name": "ItemESP",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -350,14 +350,14 @@
       "Name": "Notification",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "EntityColor",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -483,7 +483,7 @@
       "Name": "Chat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -533,7 +533,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 36
+      "Key": 0
     },
     {
       "Name": "NoSlow",
@@ -568,7 +568,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -636,9 +636,9 @@
     {
       "Name": "VClip",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": false,
-      "Key": 24
+      "Key": 0
     },
     {
       "Name": "SafeWalk",
@@ -659,7 +659,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 50
+      "Key": 0
     },
     {
       "Name": "FreeCam",
@@ -792,7 +792,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 47
+      "Key": 0
     },
     {
       "Name": "ChestAura",
@@ -824,7 +824,7 @@
     },
     {
       "Name": "AutoRespawn",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -834,7 +834,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "ReverseAutoArmor",
@@ -894,7 +894,7 @@
     },
     {
       "Name": "Radio",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -936,8 +936,8 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": false,
-      "IsInArraylist": false,
+      "IsInConfig": true,
+      "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
@@ -957,14 +957,14 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
     {
       "Name": "AutoDisable",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -972,7 +972,7 @@
     {
       "Name": "AntiAchievement",
       "IsInConfig": true,
-      "IsInArraylist": false,
+      "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
     },
@@ -1034,14 +1034,14 @@
     },
     {
       "Name": "AutoJumpAndRun",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "PartySpammer",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1055,28 +1055,35 @@
     },
     {
       "Name": "AutoReport",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "SpinBot",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "KillMessage",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
     },
     {
       "Name": "JobSystemBreaker",
-      "IsInConfig": false,
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "FriendFinder",
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1185,6 +1192,21 @@
       "Value": 0.6
     },
     {
+      "Name": "IntaveSmart",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveBoost",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveBoostDelay",
+      "ParentName": "Velocity",
+      "Value": 1000.0
+    },
+    {
       "Name": "XZVelocityIntave",
       "ParentName": "Velocity",
       "Value": -100.0
@@ -1195,7 +1217,17 @@
       "Value": 20.0
     },
     {
+      "Name": "SneakInAir",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
       "Name": "Jump",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "JumpInInv",
       "ParentName": "Velocity",
       "Boolean": false
     },
@@ -1203,31 +1235,6 @@
       "Name": "JumpDelay",
       "ParentName": "Velocity",
       "Value": 0.0
-    },
-    {
-      "Name": "AutoSneak",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "OwnDamageCheck",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "TargetSwingCheck",
-      "ParentName": "Velocity",
-      "Boolean": true
-    },
-    {
-      "Name": "AlwaysSneak",
-      "ParentName": "Velocity",
-      "Boolean": false
-    },
-    {
-      "Name": "Range",
-      "ParentName": "Velocity",
-      "Value": 3.0
     },
     {
       "Name": "Explosion",
@@ -1266,6 +1273,11 @@
     },
     {
       "Name": "OnGround",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
+      "Name": "JumpInInv",
       "ParentName": "Velocity",
       "Boolean": false
     },
@@ -1312,93 +1324,19 @@
       "SelectedOption": "Color"
     },
     {
-      "Name": "MaxHitRange",
-      "ParentName": "BackTrack",
-      "Value": 6.0
-    },
-    {
-      "Name": "Time",
-      "ParentName": "BackTrack",
-      "Value": 1000.0
-    },
-    {
-      "Name": "ForceDelay",
-      "ParentName": "BackTrack",
-      "Boolean": false
-    },
-    {
-      "Name": "DelayBetweenBacktrack",
-      "ParentName": "BackTrack",
-      "Value": 0.0
-    },
-    {
-      "Name": "ESP",
-      "ParentName": "BackTrack",
-      "SelectedOption": "Classic"
-    },
-    {
-      "Name": "Shadow",
-      "ParentName": "BackTrack",
-      "Boolean": false
-    },
-    {
-      "Name": "Blur",
-      "ParentName": "BackTrack",
-      "Boolean": false
-    },
-    {
-      "Name": "OnlyWhenNeed",
-      "ParentName": "BackTrack",
-      "Boolean": true
-    },
-    {
-      "Name": "Player",
-      "ParentName": "BackTrack",
-      "Boolean": false
-    },
-    {
-      "Name": "Mob",
-      "ParentName": "BackTrack",
-      "Boolean": true
-    },
-    {
-      "Name": "Animal",
-      "ParentName": "BackTrack",
-      "Boolean": true
-    },
-    {
-      "Name": "Villager",
-      "ParentName": "BackTrack",
-      "Boolean": true
-    },
-    {
-      "Name": "ArmorStand",
-      "ParentName": "BackTrack",
-      "Boolean": true
-    },
-    {
-      "Name": "PreAimRange",
-      "ParentName": "BackTrack",
-      "Value": 4.0
-    },
-    {
-      "Name": "OnlyKillAura",
-      "ParentName": "BackTrack",
-      "Boolean": true
-    },
-    {
-      "Name": "ClickCheck",
-      "ParentName": "BackTrack",
-      "Boolean": false
-    },
-    {
       "Name": "Health",
       "ParentName": "AutoSoup",
       "MinValue": 11.0,
       "MaxValue": 14.0
     },
     {
-      "Name": "Delay",
+      "Name": "DelayBefore",
+      "ParentName": "AutoSoup",
+      "MinValue": 50.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "DelayAfter",
       "ParentName": "AutoSoup",
       "MinValue": 50.0,
       "MaxValue": 100.0
@@ -1421,6 +1359,11 @@
     },
     {
       "Name": "Craft",
+      "ParentName": "AutoSoup",
+      "Boolean": true
+    },
+    {
+      "Name": "Random",
       "ParentName": "AutoSoup",
       "Boolean": true
     },
@@ -1806,6 +1749,11 @@
       "Boolean": false
     },
     {
+      "Name": "MissClick",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "LockView",
       "ParentName": "KillAura",
       "Boolean": false
@@ -1936,39 +1884,24 @@
       "Boolean": false
     },
     {
-      "Name": "Player",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "Mob",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "Animal",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "Villager",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "ArmorStand",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "Invisible",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
       "Name": "Heuristics",
       "ParentName": "KillAura",
       "SelectedOption": "None"
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "KillAura",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": true,
+          "Animal": false,
+          "Villager": false,
+          "ArmorStand": false,
+          "Invisible": true,
+          "Dead": false
+        }
+      ]
     },
     {
       "Name": "ValidSlot",
@@ -1996,6 +1929,11 @@
       "ParentName": "KillAura",
       "MinValue": 20.0,
       "MaxValue": 20.0
+    },
+    {
+      "Name": "CPSLimiter",
+      "ParentName": "KillAura",
+      "Value": 19.0
     },
     {
       "Name": "SpeedChangeDelay",
@@ -2290,8 +2228,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2510,58 +2448,131 @@
       "Boolean": true
     },
     {
-      "Name": "OnlyWhenNeed",
-      "ParentName": "LagTrack",
+      "Name": "Ticks",
+      "ParentName": "LagRange",
+      "Value": 5.0
+    },
+    {
+      "Name": "Correct",
+      "ParentName": "LagRange",
       "Boolean": false
     },
     {
+      "Name": "Mode",
+      "ParentName": "BackTrack",
+      "SelectedOption": "Gomme"
+    },
+    {
       "Name": "MaxHitRange",
-      "ParentName": "LagTrack",
+      "ParentName": "BackTrack",
       "Value": 6.0
     },
     {
-      "Name": "MaxDelayPacket",
-      "ParentName": "LagTrack",
-      "Value": 3.0
+      "Name": "BackTrackTime",
+      "ParentName": "BackTrack",
+      "Value": 225.0
+    },
+    {
+      "Name": "ForceDelay",
+      "ParentName": "BackTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "DelayBetweenBacktrack",
+      "ParentName": "BackTrack",
+      "Value": 0.0
+    },
+    {
+      "Name": "MaxLagPackets",
+      "ParentName": "BackTrack",
+      "Value": 4.0
     },
     {
       "Name": "DelayBetweenLags",
-      "ParentName": "LagTrack",
-      "Value": 280.0
+      "ParentName": "BackTrack",
+      "Value": 0.0
     },
     {
       "Name": "CountMode",
-      "ParentName": "LagTrack",
-      "SelectedOption": "MovePacket"
+      "ParentName": "BackTrack",
+      "SelectedOption": "Tick"
+    },
+    {
+      "Name": "LagPackets",
+      "ParentName": "BackTrack",
+      "Value": 4.0
+    },
+    {
+      "Name": "OnlyWhenNeed",
+      "ParentName": "BackTrack",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyKillAura",
+      "ParentName": "BackTrack",
+      "Boolean": true
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "BackTrack",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": true,
+          "Animal": true,
+          "Villager": true,
+          "ArmorStand": true
+        }
+      ]
+    },
+    {
+      "Name": "PreAimRange",
+      "ParentName": "BackTrack",
+      "Value": 4.0
+    },
+    {
+      "Name": "ClickCheck",
+      "ParentName": "BackTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "TargetESPs",
+      "ParentName": "BackTrack",
+      "Extended": true
     },
     {
       "Name": "TargetESP",
-      "ParentName": "LagTrack",
-      "SelectedOption": "Classic"
+      "ParentName": "BackTrack",
+      "SelectedOption": "PlayerModel"
     },
     {
       "Name": "TargetShadow",
-      "ParentName": "LagTrack",
+      "ParentName": "BackTrack",
       "Boolean": false
     },
     {
       "Name": "TargetBlur",
-      "ParentName": "LagTrack",
+      "ParentName": "BackTrack",
       "Boolean": false
     },
     {
+      "Name": "PlayerESPs",
+      "ParentName": "BackTrack",
+      "Extended": false
+    },
+    {
       "Name": "PlayerESP",
-      "ParentName": "LagTrack",
+      "ParentName": "BackTrack",
       "SelectedOption": "None"
     },
     {
       "Name": "PlayerShadow",
-      "ParentName": "LagTrack",
+      "ParentName": "BackTrack",
       "Boolean": false
     },
     {
       "Name": "PlayerBlur",
-      "ParentName": "LagTrack",
+      "ParentName": "BackTrack",
       "Boolean": false
     },
     {
@@ -2575,6 +2586,11 @@
       "ParentName": "AutoClicker",
       "MinValue": 13.0,
       "MaxValue": 20.0
+    },
+    {
+      "Name": "CPSLimiter",
+      "ParentName": "AutoClicker",
+      "Value": 18.0
     },
     {
       "Name": "SpeedChangeDelay",
@@ -3048,9 +3064,16 @@
       "Boolean": true
     },
     {
+      "Name": "StartSneakDistToBlock",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.05,
+      "MaxValue": 0.2
+    },
+    {
       "Name": "MinSneakTicks",
       "ParentName": "AutoEagle",
-      "Value": 2.0
+      "MinValue": 1.0,
+      "MaxValue": 2.0
     },
     {
       "Name": "FastPlace",
@@ -3200,7 +3223,7 @@
     {
       "Name": "Scale",
       "ParentName": "ArrayList",
-      "Value": 1.0
+      "Value": 2.0
     },
     {
       "Name": "FontSize",
@@ -3811,7 +3834,7 @@
     {
       "Name": "LineWidth",
       "ParentName": "ESP",
-      "Value": 6.0
+      "Value": 4.0
     },
     {
       "Name": "LineWidthHitBox",
@@ -4365,7 +4388,7 @@
     {
       "Name": "Time",
       "ParentName": "Ambiance",
-      "Value": 11880.0
+      "Value": 6120.0
     },
     {
       "Name": "TimeSpeed",
@@ -4429,7 +4452,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.762069,
       "HSB Color Green": 0.57086617,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
@@ -5729,6 +5752,16 @@
       "SelectedOption": "Legit"
     },
     {
+      "Name": "IgnoreCollisions",
+      "ParentName": "Sprint",
+      "Boolean": true
+    },
+    {
+      "Name": "HungerSprint",
+      "ParentName": "Sprint",
+      "Boolean": true
+    },
+    {
       "Name": "JumpSprint",
       "ParentName": "Sprint",
       "Boolean": false
@@ -6310,6 +6343,11 @@
       "Value": 0.42
     },
     {
+      "Name": "Speed",
+      "ParentName": "FreeCam",
+      "Value": 1.0
+    },
+    {
       "Name": "Mode",
       "ParentName": "Sneak",
       "SelectedOption": "Legit"
@@ -6644,7 +6682,8 @@
     {
       "Name": "LagPackets",
       "ParentName": "FakeLaag",
-      "Value": 4.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "Modes",
@@ -6658,6 +6697,11 @@
     },
     {
       "Name": "OnlyWhileMoving",
+      "ParentName": "FakeLaag",
+      "Boolean": true
+    },
+    {
+      "Name": "Gomme",
       "ParentName": "FakeLaag",
       "Boolean": true
     },
@@ -7294,7 +7338,7 @@
     {
       "Name": "Shadow",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Blur",
@@ -7609,6 +7653,11 @@
       "Name": "OnlyDebugChat",
       "ParentName": "Debug",
       "Boolean": false
+    },
+    {
+      "Name": "Kit1V1Damage",
+      "ParentName": "Debug",
+      "Boolean": true
     },
     {
       "Name": "Modes",
@@ -8029,6 +8078,11 @@
     },
     {
       "Name": "DemoScreenFix",
+      "ParentName": "ExploitFixer",
+      "Boolean": true
+    },
+    {
+      "Name": "SignCrash",
       "ParentName": "ExploitFixer",
       "Boolean": true
     },
@@ -10622,6 +10676,16 @@
       "Name": "Range",
       "ParentName": "JobSystemBreaker",
       "Value": 6.0
+    },
+    {
+      "Name": "InviteDelay",
+      "ParentName": "FriendFinder",
+      "Value": 6000.0
+    },
+    {
+      "Name": "HideFriendMessage",
+      "ParentName": "FriendFinder",
+      "Boolean": true
     }
   ]
 }
