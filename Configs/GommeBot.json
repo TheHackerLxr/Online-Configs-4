@@ -1,7 +1,7 @@
 {
   "name": "GommeBot",
-  "date": "27.12.2022",
-  "time": "17:18",
+  "date": "06.01.2023",
+  "time": "15:37",
   "modules": [
     {
       "Name": "Blur",
@@ -238,14 +238,14 @@
       "Name": "FullBright",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -343,7 +343,7 @@
       "Name": "CustomItemPos",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -575,7 +575,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 35
     },
     {
       "Name": "BugUp",
@@ -701,7 +701,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 35
+      "Key": 0
     },
     {
       "Name": "NoFall",
@@ -1087,6 +1087,13 @@
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
+    },
+    {
+      "Name": "Lag",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
     }
   ],
   "settings": [
@@ -1101,14 +1108,14 @@
       "Boolean": true
     },
     {
-      "Name": "MotionBlur Strength",
-      "ParentName": "Blur",
-      "Value": 5.0
-    },
-    {
       "Name": "MotionBlur",
       "ParentName": "Blur",
       "Boolean": false
+    },
+    {
+      "Name": "MotionBlur Strength",
+      "ParentName": "Blur",
+      "Value": 5.0
     },
     {
       "Name": "ItemsOnGround",
@@ -2228,8 +2235,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -3693,7 +3700,7 @@
     {
       "Name": "Mode",
       "ParentName": "ESP",
-      "SelectedOption": "FakeCorner"
+      "SelectedOption": "Box"
     },
     {
       "Name": "Teamcolor",
@@ -3703,7 +3710,7 @@
     {
       "Name": "Color",
       "ParentName": "ESP",
-      "Alpha": 127,
+      "Alpha": 91,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
@@ -3724,7 +3731,7 @@
     {
       "Name": "Color1",
       "ParentName": "ESP",
-      "Alpha": 65,
+      "Alpha": 106,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
@@ -3771,7 +3778,7 @@
     {
       "Name": "HitColorColor",
       "ParentName": "ESP",
-      "Alpha": 255,
+      "Alpha": 94,
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
@@ -4373,7 +4380,7 @@
     {
       "Name": "AuraLineTime",
       "ParentName": "Line",
-      "Value": 3000.0
+      "Value": 20000.0
     },
     {
       "Name": "Shadow",
@@ -4452,7 +4459,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.762069,
       "HSB Color Green": 0.57086617,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
@@ -4759,7 +4766,7 @@
     {
       "Name": "Scale",
       "ParentName": "CustomItemPos",
-      "Value": 0.5
+      "Value": 1.0
     },
     {
       "Name": "Modes",
@@ -4820,7 +4827,7 @@
     {
       "Name": "HitColor",
       "ParentName": "EntityColor",
-      "Alpha": 36,
+      "Alpha": 127,
       "FadeAlpha": 36,
       "Rainbow": false,
       "Fade": false,
@@ -4831,7 +4838,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.0,
+      "HSB Color Red": 0.13636364,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
@@ -4841,7 +4848,7 @@
     {
       "Name": "Color",
       "ParentName": "EntityColor",
-      "Alpha": 0,
+      "Alpha": 127,
       "FadeAlpha": 0,
       "Rainbow": false,
       "Fade": false,
@@ -4852,9 +4859,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.1969697,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Red": 0.41898146,
+      "HSB Color Green": 0.49315068,
+      "HSB Color Blue": 0.57254905,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 0.0
@@ -5178,7 +5185,7 @@
     {
       "Name": "Scale",
       "ParentName": "TargetHud",
-      "Value": 1.0
+      "Value": 0.75
     },
     {
       "Name": "ToggleAnimation",
@@ -5283,7 +5290,7 @@
     {
       "Name": "Y-Coord",
       "ParentName": "RenderPotion",
-      "Value": 0.0
+      "Value": 6.5
     },
     {
       "Name": "Scale",
@@ -5293,7 +5300,7 @@
     {
       "Name": "BackgroundColor",
       "ParentName": "RenderPotion",
-      "Alpha": 150,
+      "Alpha": 81,
       "FadeAlpha": 150,
       "Rainbow": false,
       "Fade": false,
@@ -7257,32 +7264,24 @@
     {
       "Name": "SneakTicks",
       "ParentName": "Scaffold",
-      "Value": 2.0
+      "MinValue": 2.0,
+      "MaxValue": 3.0
     },
     {
-      "Name": "DynamicSneakTicks",
+      "Name": "StartSneakDistToBlock",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "MinValue": 0.05,
+      "MaxValue": 0.2
     },
     {
       "Name": "SneakBlocksF",
       "ParentName": "Scaffold",
-      "Value": 12.0
+      "Value": 8.0
     },
     {
       "Name": "SneakBlocksD",
       "ParentName": "Scaffold",
-      "Value": 12.0
-    },
-    {
-      "Name": "SneakDelayBool",
-      "ParentName": "Scaffold",
-      "Boolean": false
-    },
-    {
-      "Name": "SneakDelay",
-      "ParentName": "Scaffold",
-      "Value": 1000.0
+      "Value": 8.0
     },
     {
       "Name": "SneakSlowDown",
@@ -8143,16 +8142,16 @@
           "S1DPacketEntityEffect": true,
           "S1EPacketRemoveEntityEffect": true,
           "S1FPacketSetExperience": true,
-          "S20PacketEntityProperties": false,
-          "S21PacketChunkData": false,
-          "S22PacketMultiBlockChange": false,
+          "S20PacketEntityProperties": true,
+          "S21PacketChunkData": true,
+          "S22PacketMultiBlockChange": true,
           "S23PacketBlockChange": true,
           "S24PacketBlockAction": true,
           "S25PacketBlockBreakAnim": true,
-          "S26PacketMapChunkBulk": false,
+          "S26PacketMapChunkBulk": true,
           "S27PacketExplosion": true,
           "S28PacketEffect": true,
-          "S29PacketSoundEffect": false,
+          "S29PacketSoundEffect": true,
           "S2APacketParticles": true,
           "S2BPacketChangeGameState": true,
           "S2CPacketSpawnGlobalEntity": true,
@@ -10686,6 +10685,11 @@
       "Name": "HideFriendMessage",
       "ParentName": "FriendFinder",
       "Boolean": true
+    },
+    {
+      "Name": "LagToggleKey",
+      "ParentName": "Lag",
+      "Key": 22
     }
   ]
 }
