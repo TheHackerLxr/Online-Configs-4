@@ -1,7 +1,7 @@
 {
   "name": "Gamster",
-  "date": "06.01.2023",
-  "time": "15:39",
+  "date": "19.01.2023",
+  "time": "16:25",
   "modules": [
     {
       "Name": "Blur",
@@ -245,7 +245,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -343,7 +343,7 @@
       "Name": "CustomItemPos",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -792,7 +792,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "ChestAura",
@@ -883,7 +883,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 25
     },
     {
       "Name": "NoPlaceDelay",
@@ -957,7 +957,7 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -1100,12 +1100,12 @@
     {
       "Name": "Sigma",
       "ParentName": "Blur",
-      "Value": 12.2
+      "Value": 21.0
     },
     {
       "Name": "Fast",
       "ParentName": "Blur",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "MotionBlur",
@@ -1115,7 +1115,7 @@
     {
       "Name": "MotionBlur Strength",
       "ParentName": "Blur",
-      "Value": 5.0
+      "Value": 7.5
     },
     {
       "Name": "ItemsOnGround",
@@ -1151,7 +1151,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 85.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.9644269,
+      "HSB Color Red": 0.97496706,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.35836625,
@@ -1161,7 +1161,7 @@
     {
       "Name": "Sigma",
       "ParentName": "Shadow",
-      "Value": 12.5
+      "Value": 22.1
     },
     {
       "Name": "ItemsOnGround",
@@ -1337,16 +1337,10 @@
       "MaxValue": 14.0
     },
     {
-      "Name": "DelayBefore",
+      "Name": "TickDelayBefore",
       "ParentName": "AutoSoup",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
-    },
-    {
-      "Name": "DelayAfter",
-      "ParentName": "AutoSoup",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Drop",
@@ -1354,10 +1348,16 @@
       "Boolean": true
     },
     {
-      "Name": "DropDelay",
+      "Name": "TickDelayDrop",
       "ParentName": "AutoSoup",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "TickDelayAfter",
+      "ParentName": "AutoSoup",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Fill",
@@ -1911,11 +1911,6 @@
       ]
     },
     {
-      "Name": "ValidSlot",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
       "Name": "ClickMode",
       "ParentName": "KillAura",
       "SelectedOption": "Advanced"
@@ -1934,13 +1929,18 @@
     {
       "Name": "CPS",
       "ParentName": "KillAura",
-      "MinValue": 14.0,
+      "MinValue": 20.0,
       "MaxValue": 20.0
     },
     {
       "Name": "CPSLimiter",
       "ParentName": "KillAura",
-      "Value": 19.0
+      "Value": 14.0
+    },
+    {
+      "Name": "CpsLimiterIntave",
+      "ParentName": "KillAura",
+      "Boolean": true
     },
     {
       "Name": "SpeedChangeDelay",
@@ -2061,15 +2061,9 @@
       "Value": 3.0
     },
     {
-      "Name": "SmartDoubleClick",
+      "Name": "DoubleClickFirstHit",
       "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartDoubleClickValue",
-      "ParentName": "KillAura",
-      "MinValue": 30.0,
-      "MaxValue": 35.0
+      "Boolean": true
     },
     {
       "Name": "TargetSort",
@@ -2235,8 +2229,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2600,6 +2594,11 @@
       "Value": 18.0
     },
     {
+      "Name": "CpsLimiterIntave",
+      "ParentName": "AutoClicker",
+      "Boolean": true
+    },
+    {
       "Name": "SpeedChangeDelay",
       "ParentName": "AutoClicker",
       "MinValue": 800.0,
@@ -2733,15 +2732,9 @@
       "Value": 3.0
     },
     {
-      "Name": "SmartDoubleClick",
+      "Name": "DoubleClickFirstHit",
       "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartDoubleClickValue",
-      "ParentName": "AutoClicker",
-      "MinValue": 30.0,
-      "MaxValue": 40.0
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -2750,11 +2743,6 @@
     },
     {
       "Name": "BreakBlocks",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "ValidSlot",
       "ParentName": "AutoClicker",
       "Boolean": true
     },
@@ -4103,6 +4091,11 @@
     },
     {
       "Name": "ItemRectangle",
+      "ParentName": "HUD",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentSlot",
       "ParentName": "HUD",
       "Boolean": true
     },
