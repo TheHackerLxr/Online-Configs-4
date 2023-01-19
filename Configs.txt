@@ -8,5 +8,4 @@ Gamster
 BlockDrop
 AntiAC
 Twerion
-Hypixel
 BlocksMC
