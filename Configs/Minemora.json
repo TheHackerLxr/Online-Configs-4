@@ -1,7 +1,7 @@
 {
   "name": "Minemora",
-  "date": "19.01.2023",
-  "time": "16:25",
+  "date": "20.01.2023",
+  "time": "12:55",
   "modules": [
     {
       "Name": "Blur",
@@ -959,7 +959,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1938,9 +1938,9 @@
       "Value": 20.0
     },
     {
-      "Name": "CpsLimiterIntave",
+      "Name": "CPSLimiterIntave",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SpeedChangeDelay",
@@ -2229,8 +2229,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2594,7 +2594,7 @@
       "Value": 18.0
     },
     {
-      "Name": "CpsLimiterIntave",
+      "Name": "CPSLimiterIntave",
       "ParentName": "AutoClicker",
       "Boolean": true
     },
@@ -7735,7 +7735,7 @@
     {
       "Name": "Intave14P_84",
       "ParentName": "ClientAntiCheat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Intave14P_85",
