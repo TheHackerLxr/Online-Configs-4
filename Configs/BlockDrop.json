@@ -1,7 +1,7 @@
 {
   "name": "BlockDrop",
-  "date": "06.01.2023",
-  "time": "15:39",
+  "date": "21.01.2023",
+  "time": "11:13",
   "modules": [
     {
       "Name": "Blur",
@@ -245,7 +245,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -364,7 +364,7 @@
       "Name": "Chams",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -483,7 +483,7 @@
       "Name": "Chat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -792,7 +792,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "ChestAura",
@@ -883,7 +883,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 25
     },
     {
       "Name": "NoPlaceDelay",
@@ -936,9 +936,9 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -957,7 +957,7 @@
     },
     {
       "Name": "ClientAntiCheat",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -1033,6 +1033,13 @@
       "Key": 0
     },
     {
+      "Name": "NoDiscordRPC",
+      "IsInConfig": false,
+      "IsInArraylist": false,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
       "Name": "AutoJumpAndRun",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -1100,12 +1107,12 @@
     {
       "Name": "Sigma",
       "ParentName": "Blur",
-      "Value": 12.2
+      "Value": 21.0
     },
     {
       "Name": "Fast",
       "ParentName": "Blur",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "MotionBlur",
@@ -1115,7 +1122,7 @@
     {
       "Name": "MotionBlur Strength",
       "ParentName": "Blur",
-      "Value": 5.0
+      "Value": 7.5
     },
     {
       "Name": "ItemsOnGround",
@@ -1151,7 +1158,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 85.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.9644269,
+      "HSB Color Red": 0.97496706,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.35836625,
@@ -1161,7 +1168,7 @@
     {
       "Name": "Sigma",
       "ParentName": "Shadow",
-      "Value": 12.5
+      "Value": 22.1
     },
     {
       "Name": "ItemsOnGround",
@@ -1337,16 +1344,10 @@
       "MaxValue": 14.0
     },
     {
-      "Name": "DelayBefore",
+      "Name": "TickDelayBefore",
       "ParentName": "AutoSoup",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
-    },
-    {
-      "Name": "DelayAfter",
-      "ParentName": "AutoSoup",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Drop",
@@ -1354,10 +1355,16 @@
       "Boolean": true
     },
     {
-      "Name": "DropDelay",
+      "Name": "TickDelayDrop",
       "ParentName": "AutoSoup",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "TickDelayAfter",
+      "ParentName": "AutoSoup",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Fill",
@@ -1577,9 +1584,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AntiFireBall",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -1793,7 +1800,7 @@
     {
       "Name": "SilentMoveFix",
       "ParentName": "KillAura",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntave",
@@ -1911,11 +1918,6 @@
       ]
     },
     {
-      "Name": "ValidSlot",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
       "Name": "ClickMode",
       "ParentName": "KillAura",
       "SelectedOption": "Basic"
@@ -1941,6 +1943,11 @@
       "Name": "CPSLimiter",
       "ParentName": "KillAura",
       "Value": 19.0
+    },
+    {
+      "Name": "CPSLimiterIntave",
+      "ParentName": "KillAura",
+      "Boolean": true
     },
     {
       "Name": "SpeedChangeDelay",
@@ -2061,15 +2068,9 @@
       "Value": 4.0
     },
     {
-      "Name": "SmartDoubleClick",
+      "Name": "DoubleClickFirstHit",
       "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartDoubleClickValue",
-      "ParentName": "KillAura",
-      "MinValue": 30.0,
-      "MaxValue": 35.0
+      "Boolean": true
     },
     {
       "Name": "TargetSort",
@@ -2235,8 +2236,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2371,6 +2372,11 @@
     },
     {
       "Name": "MoveFix",
+      "ParentName": "BowAimbot",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "MoveFixIntave",
       "ParentName": "BowAimbot",
       "Boolean": true
     },
@@ -2600,6 +2606,11 @@
       "Value": 18.0
     },
     {
+      "Name": "CPSLimiterIntave",
+      "ParentName": "AutoClicker",
+      "Boolean": true
+    },
+    {
       "Name": "SpeedChangeDelay",
       "ParentName": "AutoClicker",
       "MinValue": 800.0,
@@ -2733,15 +2744,9 @@
       "Value": 3.0
     },
     {
-      "Name": "SmartDoubleClick",
+      "Name": "DoubleClickFirstHit",
       "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartDoubleClickValue",
-      "ParentName": "AutoClicker",
-      "MinValue": 30.0,
-      "MaxValue": 40.0
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -2752,11 +2757,6 @@
       "Name": "BreakBlocks",
       "ParentName": "AutoClicker",
       "Boolean": false
-    },
-    {
-      "Name": "ValidSlot",
-      "ParentName": "AutoClicker",
-      "Boolean": true
     },
     {
       "Name": "AutoBlock",
@@ -2894,9 +2894,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AimBot",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -3700,7 +3700,7 @@
     {
       "Name": "Mode",
       "ParentName": "ESP",
-      "SelectedOption": "Box"
+      "SelectedOption": "FakeCorner"
     },
     {
       "Name": "Teamcolor",
@@ -4103,6 +4103,11 @@
     },
     {
       "Name": "ItemRectangle",
+      "ParentName": "HUD",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentSlot",
       "ParentName": "HUD",
       "Boolean": true
     },
@@ -4526,6 +4531,11 @@
       "Boolean": false
     },
     {
+      "Name": "CalculateColor",
+      "ParentName": "Trajectories",
+      "Boolean": true
+    },
+    {
       "Name": "Color",
       "ParentName": "Trajectories",
       "Alpha": 66,
@@ -4547,14 +4557,9 @@
       "HSB FadeColor Blue": 0.9019608
     },
     {
-      "Name": "CalculateColor",
-      "ParentName": "Trajectories",
-      "Boolean": true
-    },
-    {
       "Name": "LineWidth",
       "ParentName": "Trajectories",
-      "Value": 3.0
+      "Value": 5.0
     },
     {
       "Name": "Bow",
@@ -6682,6 +6687,12 @@
       "Boolean": false
     },
     {
+      "Name": "BackSwitchDelay",
+      "ParentName": "AutoTool",
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
       "Name": "StartDelay",
       "ParentName": "FakeLaag",
       "Value": 500.0
@@ -6976,9 +6987,9 @@
       "Boolean": false
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "Fucker",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -7138,7 +7149,7 @@
     {
       "Name": "MoveFix",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "SelectedOption": "Default"
     },
     {
       "Name": "MoveFixIntave",
@@ -7509,9 +7520,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AutoWalk",
-      "Boolean": false
+      "SelectedOption": "None"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -7656,7 +7667,7 @@
     {
       "Name": "Kit1V1Damage",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Modes",
@@ -8104,6 +8115,11 @@
       "Name": "EventToHandlePacket",
       "ParentName": "PacketHandler",
       "SelectedOption": "Vanilla"
+    },
+    {
+      "Name": "KickFix",
+      "ParentName": "PacketHandler",
+      "Boolean": true
     },
     {
       "Name": "IncomingPacketsToDelay",

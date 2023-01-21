@@ -1,7 +1,7 @@
 {
   "name": "Gamster",
-  "date": "20.01.2023",
-  "time": "20:10",
+  "date": "21.01.2023",
+  "time": "11:13",
   "modules": [
     {
       "Name": "Blur",
@@ -959,7 +959,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1584,9 +1584,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AntiFireBall",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -1800,7 +1800,7 @@
     {
       "Name": "SilentMoveFix",
       "ParentName": "KillAura",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntave",
@@ -2236,8 +2236,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2372,6 +2372,11 @@
     },
     {
       "Name": "MoveFix",
+      "ParentName": "BowAimbot",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "MoveFixIntave",
       "ParentName": "BowAimbot",
       "Boolean": true
     },
@@ -2889,9 +2894,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AimBot",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -4526,6 +4531,11 @@
       "Boolean": false
     },
     {
+      "Name": "CalculateColor",
+      "ParentName": "Trajectories",
+      "Boolean": true
+    },
+    {
       "Name": "Color",
       "ParentName": "Trajectories",
       "Alpha": 66,
@@ -4545,11 +4555,6 @@
       "HSB FadeColor Red": 0.5869219,
       "HSB FadeColor Green": 0.90869564,
       "HSB FadeColor Blue": 0.9019608
-    },
-    {
-      "Name": "CalculateColor",
-      "ParentName": "Trajectories",
-      "Boolean": true
     },
     {
       "Name": "LineWidth",
@@ -6982,9 +6987,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "Fucker",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -7144,7 +7149,7 @@
     {
       "Name": "MoveFix",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "MoveFixIntave",
@@ -7515,9 +7520,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AutoWalk",
-      "Boolean": false
+      "SelectedOption": "None"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -7748,7 +7753,7 @@
     {
       "Name": "Intave14P_84",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave14P_85",

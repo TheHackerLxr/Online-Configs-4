@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
   "date": "21.01.2023",
-  "time": "00:41",
+  "time": "11:13",
   "modules": [
     {
       "Name": "Blur",
@@ -1584,9 +1584,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AntiFireBall",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -1800,7 +1800,7 @@
     {
       "Name": "SilentMoveFix",
       "ParentName": "KillAura",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntave",
@@ -2373,6 +2373,11 @@
     {
       "Name": "MoveFix",
       "ParentName": "BowAimbot",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "MoveFixIntave",
+      "ParentName": "BowAimbot",
       "Boolean": true
     },
     {
@@ -2889,9 +2894,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AimBot",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -4526,6 +4531,11 @@
       "Boolean": false
     },
     {
+      "Name": "CalculateColor",
+      "ParentName": "Trajectories",
+      "Boolean": true
+    },
+    {
       "Name": "Color",
       "ParentName": "Trajectories",
       "Alpha": 66,
@@ -4545,11 +4555,6 @@
       "HSB FadeColor Red": 0.5869219,
       "HSB FadeColor Green": 0.90869564,
       "HSB FadeColor Blue": 0.9019608
-    },
-    {
-      "Name": "CalculateColor",
-      "ParentName": "Trajectories",
-      "Boolean": true
     },
     {
       "Name": "LineWidth",
@@ -6982,9 +6987,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "Fucker",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -7144,7 +7149,7 @@
     {
       "Name": "MoveFix",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "MoveFixIntave",
@@ -7515,9 +7520,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AutoWalk",
-      "Boolean": false
+      "SelectedOption": "None"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",

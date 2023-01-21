@@ -1,7 +1,7 @@
 {
   "name": "MineBlaze",
-  "date": "20.01.2023",
-  "time": "13:10",
+  "date": "21.01.2023",
+  "time": "11:13",
   "modules": [
     {
       "Name": "Blur",
@@ -343,7 +343,7 @@
       "Name": "CustomItemPos",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -364,7 +364,7 @@
       "Name": "Chams",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -483,7 +483,7 @@
       "Name": "Chat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -936,9 +936,9 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -959,7 +959,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1030,6 +1030,13 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "NoDiscordRPC",
+      "IsInConfig": false,
+      "IsInArraylist": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1577,9 +1584,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AntiFireBall",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -1793,12 +1800,12 @@
     {
       "Name": "SilentMoveFix",
       "ParentName": "KillAura",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntave",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "NoRotation",
@@ -2366,6 +2373,11 @@
     {
       "Name": "MoveFix",
       "ParentName": "BowAimbot",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "MoveFixIntave",
+      "ParentName": "BowAimbot",
       "Boolean": true
     },
     {
@@ -2882,9 +2894,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AimBot",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -3688,7 +3700,7 @@
     {
       "Name": "Mode",
       "ParentName": "ESP",
-      "SelectedOption": "Box"
+      "SelectedOption": "FakeCorner"
     },
     {
       "Name": "Teamcolor",
@@ -4519,6 +4531,11 @@
       "Boolean": false
     },
     {
+      "Name": "CalculateColor",
+      "ParentName": "Trajectories",
+      "Boolean": true
+    },
+    {
       "Name": "Color",
       "ParentName": "Trajectories",
       "Alpha": 66,
@@ -4540,14 +4557,9 @@
       "HSB FadeColor Blue": 0.9019608
     },
     {
-      "Name": "CalculateColor",
-      "ParentName": "Trajectories",
-      "Boolean": true
-    },
-    {
       "Name": "LineWidth",
       "ParentName": "Trajectories",
-      "Value": 3.0
+      "Value": 5.0
     },
     {
       "Name": "Bow",
@@ -6675,6 +6687,12 @@
       "Boolean": false
     },
     {
+      "Name": "BackSwitchDelay",
+      "ParentName": "AutoTool",
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
       "Name": "StartDelay",
       "ParentName": "FakeLaag",
       "Value": 0.0
@@ -6969,9 +6987,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "Fucker",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -7131,7 +7149,7 @@
     {
       "Name": "MoveFix",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "SelectedOption": "Default"
     },
     {
       "Name": "MoveFixIntave",
@@ -7502,9 +7520,9 @@
       "Boolean": true
     },
     {
-      "Name": "SilentMoveFixInRotationModule",
+      "Name": "SilentMoveFix",
       "ParentName": "AutoWalk",
-      "Boolean": false
+      "SelectedOption": "None"
     },
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
@@ -7649,7 +7667,7 @@
     {
       "Name": "Kit1V1Damage",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Modes",
@@ -7735,7 +7753,7 @@
     {
       "Name": "Intave14P_84",
       "ParentName": "ClientAntiCheat",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave14P_85",
@@ -8097,6 +8115,11 @@
       "Name": "EventToHandlePacket",
       "ParentName": "PacketHandler",
       "SelectedOption": "Vanilla"
+    },
+    {
+      "Name": "KickFix",
+      "ParentName": "PacketHandler",
+      "Boolean": true
     },
     {
       "Name": "IncomingPacketsToDelay",
