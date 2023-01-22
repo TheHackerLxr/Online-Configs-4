@@ -1,7 +1,7 @@
 {
   "name": "GommeBotPath",
-  "date": "21.01.2023",
-  "time": "11:13",
+  "date": "22.01.2023",
+  "time": "20:21",
   "modules": [
     {
       "Name": "Blur",
@@ -202,7 +202,7 @@
     {
       "Name": "ClickGui",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "Toggled": true,
       "Key": 54
     },
@@ -568,7 +568,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Fly",
@@ -792,7 +792,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "ChestAura",
@@ -1711,6 +1711,11 @@
       "Value": 1.0
     },
     {
+      "Name": "RotationsGroupygroupy",
+      "ParentName": "KillAura",
+      "Extended": false
+    },
+    {
       "Name": "PreAimRange",
       "ParentName": "KillAura",
       "Value": 6.0
@@ -1731,11 +1736,6 @@
       "Value": 180.0
     },
     {
-      "Name": "TargetDelay",
-      "ParentName": "KillAura",
-      "Value": 0.0
-    },
-    {
       "Name": "YawSpeed",
       "ParentName": "KillAura",
       "MinValue": 30.0,
@@ -1748,119 +1748,14 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "AdvancedRots",
+      "Name": "FixRotationMode",
       "ParentName": "KillAura",
-      "Boolean": false
+      "SelectedOption": "None"
     },
     {
-      "Name": "InInv",
+      "Name": "Heuristics",
       "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "NoSwing",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "MissClick",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "LockView",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "Interpolation",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "Intave13",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "PerfectHit",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "NoLoopHit",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "MoveFix",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFix",
-      "ParentName": "KillAura",
-      "SelectedOption": "Default"
-    },
-    {
-      "Name": "SilentMoveFixIntave",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "NoRotation",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "SlowDown",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "CoolDown",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "PreHit",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "PreHitRange",
-      "ParentName": "KillAura",
-      "Value": 6.0
-    },
-    {
-      "Name": "HazeRange",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "HazeAdd",
-      "ParentName": "KillAura",
-      "Value": 0.5
-    },
-    {
-      "Name": "HazeMax",
-      "ParentName": "KillAura",
-      "Value": 4.5
-    },
-    {
-      "Name": "ThroughWalls",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "AimThroughWalls",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "SmartAim",
-      "ParentName": "KillAura",
-      "Boolean": false
+      "SelectedOption": "None"
     },
     {
       "Name": "RotationMode",
@@ -1888,34 +1783,127 @@
       "Value": 100.0
     },
     {
-      "Name": "FixRotationMode",
+      "Name": "RandomizeGroupygroupy",
       "ParentName": "KillAura",
-      "SelectedOption": "None"
+      "Extended": false
     },
     {
-      "Name": "SlotWhiteList",
+      "Name": "RandomType",
+      "ParentName": "KillAura",
+      "SelectedOption": "Intave"
+    },
+    {
+      "Name": "Randomize",
+      "ParentName": "KillAura",
+      "SelectedOption": "Circle"
+    },
+    {
+      "Name": "ReducedRotate",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "ReduceRotationPercentage",
+      "ParentName": "KillAura",
+      "Value": 40.0
+    },
+    {
+      "Name": "SmartRotate",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "InnerRadiusRadius",
+      "ParentName": "KillAura",
+      "MinValue": 5.55,
+      "MaxValue": 9.23
+    },
+    {
+      "Name": "BestHitXMinDist",
+      "ParentName": "KillAura",
+      "Value": 5.55
+    },
+    {
+      "Name": "BestHitYMInDist",
+      "ParentName": "KillAura",
+      "Value": 5.45
+    },
+    {
+      "Name": "MinAbsDist",
+      "ParentName": "KillAura",
+      "Value": 0.5
+    },
+    {
+      "Name": "MaxXAbsDist",
+      "ParentName": "KillAura",
+      "Value": 5.0
+    },
+    {
+      "Name": "MaxYAbsDist",
+      "ParentName": "KillAura",
+      "Value": 20.0
+    },
+    {
+      "Name": "XRelDist",
+      "ParentName": "KillAura",
+      "MinValue": 0.8,
+      "MaxValue": 2.6
+    },
+    {
+      "Name": "YRelDist",
+      "ParentName": "KillAura",
+      "MinValue": 0.8,
+      "MaxValue": 2.6
+    },
+    {
+      "Name": "MaxRotationAngle",
+      "ParentName": "KillAura",
+      "Value": 90.0
+    },
+    {
+      "Name": "RandomStrength",
+      "ParentName": "KillAura",
+      "Value": 0.96
+    },
+    {
+      "Name": "SmartAim",
       "ParentName": "KillAura",
       "Boolean": false
     },
     {
-      "Name": "Heuristics",
+      "Name": "AdvancedRots",
       "ParentName": "KillAura",
-      "SelectedOption": "None"
+      "Boolean": false
     },
     {
-      "Name": "Targets",
+      "Name": "Interpolation",
       "ParentName": "KillAura",
-      "SettingList": [
-        {
-          "Player": true,
-          "Mob": true,
-          "Animal": false,
-          "Villager": false,
-          "ArmorStand": false,
-          "Invisible": true,
-          "Dead": false
-        }
-      ]
+      "Boolean": false
+    },
+    {
+      "Name": "LockView",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "ThroughWalls",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "AimThroughWalls",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "ClickingGroupygroupy",
+      "ParentName": "KillAura",
+      "Extended": true
+    },
+    {
+      "Name": "ClickSettingsGroupygroupy",
+      "ParentName": "KillAura",
+      "Extended": true
     },
     {
       "Name": "ClickMode",
@@ -2073,87 +2061,9 @@
       "Boolean": false
     },
     {
-      "Name": "TargetSort",
+      "Name": "InteractionsGroupygroupy",
       "ParentName": "KillAura",
-      "SelectedOption": "UltimateSwitch"
-    },
-    {
-      "Name": "RandomType",
-      "ParentName": "KillAura",
-      "SelectedOption": "Intave"
-    },
-    {
-      "Name": "Randomize",
-      "ParentName": "KillAura",
-      "SelectedOption": "Circle"
-    },
-    {
-      "Name": "ReducedRotate",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "ReduceRotationPercentage",
-      "ParentName": "KillAura",
-      "Value": 40.0
-    },
-    {
-      "Name": "SmartRotate",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "InnerRadiusRadius",
-      "ParentName": "KillAura",
-      "MinValue": 5.55,
-      "MaxValue": 9.23
-    },
-    {
-      "Name": "BestHitXMinDist",
-      "ParentName": "KillAura",
-      "Value": 5.55
-    },
-    {
-      "Name": "BestHitYMInDist",
-      "ParentName": "KillAura",
-      "Value": 5.45
-    },
-    {
-      "Name": "MinAbsDist",
-      "ParentName": "KillAura",
-      "Value": 0.5
-    },
-    {
-      "Name": "MaxXAbsDist",
-      "ParentName": "KillAura",
-      "Value": 5.0
-    },
-    {
-      "Name": "MaxYAbsDist",
-      "ParentName": "KillAura",
-      "Value": 20.0
-    },
-    {
-      "Name": "XRelDist",
-      "ParentName": "KillAura",
-      "MinValue": 0.8,
-      "MaxValue": 2.6
-    },
-    {
-      "Name": "YRelDist",
-      "ParentName": "KillAura",
-      "MinValue": 0.8,
-      "MaxValue": 2.6
-    },
-    {
-      "Name": "MaxRotationAngle",
-      "ParentName": "KillAura",
-      "Value": 90.0
-    },
-    {
-      "Name": "RandomStrength",
-      "ParentName": "KillAura",
-      "Value": 0.96
+      "Extended": true
     },
     {
       "Name": "AttackMode",
@@ -2191,9 +2101,144 @@
       "Value": 1.0
     },
     {
+      "Name": "PreHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "PreHitRange",
+      "ParentName": "KillAura",
+      "Value": 6.0
+    },
+    {
+      "Name": "MissClick",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "PerfectHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "NoLoopHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "NoRotation",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "NoSwing",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "SlowDown",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "CoolDown",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "MovementGroupygroupy",
+      "ParentName": "KillAura",
+      "Extended": true
+    },
+    {
+      "Name": "MoveFix",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFix",
+      "ParentName": "KillAura",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "SilentMoveFixIntave",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "TargetsGroupygroupy",
+      "ParentName": "KillAura",
+      "Extended": true
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "KillAura",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": true,
+          "Animal": false,
+          "Villager": false,
+          "ArmorStand": false,
+          "Invisible": true,
+          "Dead": false
+        }
+      ]
+    },
+    {
+      "Name": "TargetSort",
+      "ParentName": "KillAura",
+      "SelectedOption": "UltimateSwitch"
+    },
+    {
+      "Name": "TargetDelay",
+      "ParentName": "KillAura",
+      "Value": 0.0
+    },
+    {
+      "Name": "MiscellaneousGroupygroupy",
+      "ParentName": "KillAura",
+      "Extended": true
+    },
+    {
+      "Name": "InInv",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "SlotWhiteList",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "Intave13",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "HazeRange",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "HazeAdd",
+      "ParentName": "KillAura",
+      "Value": 0.5
+    },
+    {
+      "Name": "HazeMax",
+      "ParentName": "KillAura",
+      "Value": 4.5
+    },
+    {
+      "Name": "VisualsGroupygroupy",
+      "ParentName": "KillAura",
+      "Extended": false
+    },
+    {
       "Name": "TargetESP",
       "ParentName": "KillAura",
-      "SelectedOption": "Sigma"
+      "SelectedOption": "Box"
     },
     {
       "Name": "TargetEspColor",
@@ -2236,8 +2281,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2271,6 +2316,37 @@
       "Name": "AdjustYPos",
       "ParentName": "KillAura",
       "Value": 0.14
+    },
+    {
+      "Name": "Dot",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "DotSize",
+      "ParentName": "KillAura",
+      "Value": 0.3
+    },
+    {
+      "Name": "DotColor",
+      "ParentName": "KillAura",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": false,
+      "Fade": false,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.5699816,
+      "HSB Color Green": 0.8153153,
+      "HSB Color Blue": 0.87058824,
+      "HSB FadeColor Red": 0.5699816,
+      "HSB FadeColor Green": 0.8153153,
+      "HSB FadeColor Blue": 0.87058824
     },
     {
       "Name": "Slot1",
@@ -2549,9 +2625,9 @@
       "Boolean": false
     },
     {
-      "Name": "TargetESPs",
+      "Name": "TargetESPsGroupygroupy",
       "ParentName": "BackTrack",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "TargetESP",
@@ -2569,7 +2645,7 @@
       "Boolean": false
     },
     {
-      "Name": "PlayerESPs",
+      "Name": "PlayerESPsGroupygroupy",
       "ParentName": "BackTrack",
       "Extended": false
     },
@@ -7060,9 +7136,9 @@
       ]
     },
     {
-      "Name": "Blocks",
+      "Name": "BlocksGroupygroupy",
       "ParentName": "FastPlace",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "BlocksCPS",
@@ -7081,9 +7157,9 @@
       "Boolean": false
     },
     {
-      "Name": "XP-Bottles",
+      "Name": "XP-BottlesGroupygroupy",
       "ParentName": "FastPlace",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "XP-BottlesCPS",
@@ -7092,9 +7168,9 @@
       "MaxValue": 24.0
     },
     {
-      "Name": "SnowBalls",
+      "Name": "SnowBallsGroupygroupy",
       "ParentName": "FastPlace",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "SnowBallsCPS",
@@ -7103,7 +7179,7 @@
       "MaxValue": 24.0
     },
     {
-      "Name": "Eggs",
+      "Name": "EggsGroupygroupy",
       "ParentName": "FastPlace",
       "Extended": false
     },
@@ -7114,7 +7190,7 @@
       "MaxValue": 24.0
     },
     {
-      "Name": "Potions",
+      "Name": "PotionsGroupygroupy",
       "ParentName": "FastPlace",
       "Extended": false
     },
@@ -7670,6 +7746,11 @@
       "Boolean": false
     },
     {
+      "Name": "PacketLog",
+      "ParentName": "Debug",
+      "SelectedOption": "None"
+    },
+    {
       "Name": "Modes",
       "ParentName": "StaffDetector",
       "SelectedOption": "Gomme"
@@ -7966,9 +8047,9 @@
       "Boolean": true
     },
     {
-      "Name": "TimerRange",
+      "Name": "TimerRangeGroupygroupy",
       "ParentName": "TimeManipulation",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "Delay",
@@ -8102,7 +8183,7 @@
       "Boolean": false
     },
     {
-      "Name": "Incoming",
+      "Name": "IncomingGroupygroupy",
       "ParentName": "PacketHandler",
       "Extended": true
     },
@@ -8204,7 +8285,7 @@
       ]
     },
     {
-      "Name": "Outgoing",
+      "Name": "OutgoingGroupygroupy",
       "ParentName": "PacketHandler",
       "Extended": true
     },
@@ -8255,12 +8336,12 @@
       "Boolean": true
     },
     {
-      "Name": "CustomPacketCanceling",
+      "Name": "CustomPacketCancelingGroupygroupy",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
-      "Name": "IncomingPackets",
+      "Name": "IncomingPacketsGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8347,7 +8428,7 @@
       ]
     },
     {
-      "Name": "OutgoingPackets",
+      "Name": "OutgoingPacketsGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8414,7 +8495,7 @@
       "Boolean": false
     },
     {
-      "Name": "S00PacketKeepAlive",
+      "Name": "S00PacketKeepAliveGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8435,7 +8516,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S01PacketJoinGame",
+      "Name": "S01PacketJoinGameGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8456,7 +8537,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S02PacketChat",
+      "Name": "S02PacketChatGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8477,7 +8558,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S03PacketTimeUpdate",
+      "Name": "S03PacketTimeUpdateGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8498,7 +8579,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S04PacketEntityEquipment",
+      "Name": "S04PacketEntityEquipmentGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8519,7 +8600,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S05PacketSpawnPosition",
+      "Name": "S05PacketSpawnPositionGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8540,7 +8621,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S06PacketUpdateHealth",
+      "Name": "S06PacketUpdateHealthGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8561,7 +8642,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S07PacketRespawn",
+      "Name": "S07PacketRespawnGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8582,9 +8663,9 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S08PacketPlayerPosLook",
+      "Name": "S08PacketPlayerPosLookGroupygroupy",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "S08PacketPlayerPosLookInterval",
@@ -8603,7 +8684,7 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "S09PacketHeldItemChange",
+      "Name": "S09PacketHeldItemChangeGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8624,7 +8705,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0APacketUseBed",
+      "Name": "S0APacketUseBedGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8645,7 +8726,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0BPacketAnimation",
+      "Name": "S0BPacketAnimationGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8666,7 +8747,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0CPacketSpawnPlayer",
+      "Name": "S0CPacketSpawnPlayerGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8687,7 +8768,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0DPacketCollectItem",
+      "Name": "S0DPacketCollectItemGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8708,7 +8789,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0EPacketSpawnObject",
+      "Name": "S0EPacketSpawnObjectGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8729,7 +8810,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0FPacketSpawnMob",
+      "Name": "S0FPacketSpawnMobGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8750,7 +8831,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S10PacketSpawnPainting",
+      "Name": "S10PacketSpawnPaintingGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8771,7 +8852,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S11PacketSpawnExperienceOrb",
+      "Name": "S11PacketSpawnExperienceOrbGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8792,7 +8873,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S12PacketEntityVelocity",
+      "Name": "S12PacketEntityVelocityGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8813,7 +8894,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S13PacketDestroyEntities",
+      "Name": "S13PacketDestroyEntitiesGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8834,7 +8915,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S14PacketEntity",
+      "Name": "S14PacketEntityGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8855,7 +8936,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S15PacketEntityRelMove",
+      "Name": "S15PacketEntityRelMoveGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8876,7 +8957,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S16PacketEntityLook",
+      "Name": "S16PacketEntityLookGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8897,7 +8978,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S17PacketEntityLookMove",
+      "Name": "S17PacketEntityLookMoveGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8918,7 +8999,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S18PacketEntityTeleport",
+      "Name": "S18PacketEntityTeleportGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8939,7 +9020,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S19PacketEntityHeadLook",
+      "Name": "S19PacketEntityHeadLookGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8960,7 +9041,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S19PacketEntityStatus",
+      "Name": "S19PacketEntityStatusGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -8981,7 +9062,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S1BPacketEntityAttach",
+      "Name": "S1BPacketEntityAttachGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9002,7 +9083,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S1CPacketEntityMetadata",
+      "Name": "S1CPacketEntityMetadataGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9023,7 +9104,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S1DPacketEntityEffect",
+      "Name": "S1DPacketEntityEffectGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9044,7 +9125,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S1EPacketRemoveEntityEffect",
+      "Name": "S1EPacketRemoveEntityEffectGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9065,7 +9146,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S1FPacketSetExperience",
+      "Name": "S1FPacketSetExperienceGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9086,7 +9167,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S20PacketEntityProperties",
+      "Name": "S20PacketEntityPropertiesGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9107,7 +9188,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S21PacketChunkData",
+      "Name": "S21PacketChunkDataGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9128,7 +9209,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S22PacketMultiBlockChange",
+      "Name": "S22PacketMultiBlockChangeGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9149,7 +9230,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S23PacketBlockChange",
+      "Name": "S23PacketBlockChangeGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9170,7 +9251,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S24PacketBlockAction",
+      "Name": "S24PacketBlockActionGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9191,7 +9272,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S25PacketBlockBreakAnim",
+      "Name": "S25PacketBlockBreakAnimGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9212,7 +9293,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S26PacketMapChunkBulk",
+      "Name": "S26PacketMapChunkBulkGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9233,7 +9314,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S27PacketExplosion",
+      "Name": "S27PacketExplosionGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9254,7 +9335,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S28PacketEffect",
+      "Name": "S28PacketEffectGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9275,7 +9356,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S29PacketSoundEffect",
+      "Name": "S29PacketSoundEffectGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9296,7 +9377,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2APacketParticles",
+      "Name": "S2APacketParticlesGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9317,7 +9398,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2BPacketChangeGameState",
+      "Name": "S2BPacketChangeGameStateGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9338,7 +9419,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2CPacketSpawnGlobalEntity",
+      "Name": "S2CPacketSpawnGlobalEntityGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9359,7 +9440,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2DPacketOpenWindow",
+      "Name": "S2DPacketOpenWindowGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9380,7 +9461,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2EPacketCloseWindow",
+      "Name": "S2EPacketCloseWindowGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9401,7 +9482,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2FPacketSetSlot",
+      "Name": "S2FPacketSetSlotGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9422,7 +9503,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S30PacketWindowItems",
+      "Name": "S30PacketWindowItemsGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9443,7 +9524,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S31PacketWindowProperty",
+      "Name": "S31PacketWindowPropertyGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9464,7 +9545,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S32PacketConfirmTransaction",
+      "Name": "S32PacketConfirmTransactionGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9485,7 +9566,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S33PacketUpdateSign",
+      "Name": "S33PacketUpdateSignGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9506,7 +9587,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S34PacketMaps",
+      "Name": "S34PacketMapsGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9527,7 +9608,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S35PacketUpdateTileEntity",
+      "Name": "S35PacketUpdateTileEntityGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9548,7 +9629,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S36PacketSignEditorOpen",
+      "Name": "S36PacketSignEditorOpenGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9569,7 +9650,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S37PacketStatistics",
+      "Name": "S37PacketStatisticsGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9590,7 +9671,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S38PacketPlayerListItem",
+      "Name": "S38PacketPlayerListItemGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9611,7 +9692,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S39PacketPlayerAbilities",
+      "Name": "S39PacketPlayerAbilitiesGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9632,7 +9713,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3APacketTabComplete",
+      "Name": "S3APacketTabCompleteGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9653,7 +9734,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3BPacketScoreboardObjective",
+      "Name": "S3BPacketScoreboardObjectiveGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9674,7 +9755,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3CPacketUpdateScore",
+      "Name": "S3CPacketUpdateScoreGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9695,7 +9776,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3DPacketDisplayScoreboard",
+      "Name": "S3DPacketDisplayScoreboardGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9716,7 +9797,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3EPacketTeams",
+      "Name": "S3EPacketTeamsGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9737,7 +9818,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3FPacketCustomPayload",
+      "Name": "S3FPacketCustomPayloadGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9758,7 +9839,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S40PacketDisconnect",
+      "Name": "S40PacketDisconnectGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9779,7 +9860,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S41PacketServerDifficulty",
+      "Name": "S41PacketServerDifficultyGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9800,7 +9881,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S42PacketCombatEvent",
+      "Name": "S42PacketCombatEventGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9821,7 +9902,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S43PacketCamera",
+      "Name": "S43PacketCameraGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9842,7 +9923,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S44PacketWorldBorder",
+      "Name": "S44PacketWorldBorderGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9863,7 +9944,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S45PacketTitle",
+      "Name": "S45PacketTitleGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9884,7 +9965,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S46PacketSetCompressionLevel",
+      "Name": "S46PacketSetCompressionLevelGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9905,7 +9986,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S47PacketPlayerListHeaderFooter",
+      "Name": "S47PacketPlayerListHeaderFooterGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9926,7 +10007,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S48PacketResourcePackSend",
+      "Name": "S48PacketResourcePackSendGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9947,7 +10028,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S49PacketUpdateEntityNBT",
+      "Name": "S49PacketUpdateEntityNBTGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9968,7 +10049,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C00PacketKeepAlive",
+      "Name": "C00PacketKeepAliveGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -9989,7 +10070,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C01PacketChatMessage",
+      "Name": "C01PacketChatMessageGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10010,7 +10091,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C02PacketUseEntity",
+      "Name": "C02PacketUseEntityGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10031,9 +10112,9 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C03PacketPlayer",
+      "Name": "C03PacketPlayerGroupygroupy",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C03PacketPlayerInterval",
@@ -10052,9 +10133,9 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "C04PacketPlayerPosition",
+      "Name": "C04PacketPlayerPositionGroupygroupy",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C04PacketPlayerPositionInterval",
@@ -10073,9 +10154,9 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "C05PacketPlayerLook",
+      "Name": "C05PacketPlayerLookGroupygroupy",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C05PacketPlayerLookInterval",
@@ -10094,9 +10175,9 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "C06PacketPlayerPosLook",
+      "Name": "C06PacketPlayerPosLookGroupygroupy",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C06PacketPlayerPosLookInterval",
@@ -10115,7 +10196,7 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "C07PacketPlayerDigging",
+      "Name": "C07PacketPlayerDiggingGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10136,7 +10217,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C08PacketPlayerBlockPlacement",
+      "Name": "C08PacketPlayerBlockPlacementGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10157,7 +10238,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C09PacketHeldItemChange",
+      "Name": "C09PacketHeldItemChangeGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10178,7 +10259,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0APacketAnimation",
+      "Name": "C0APacketAnimationGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10199,7 +10280,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0BPacketEntityAction",
+      "Name": "C0BPacketEntityActionGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10220,7 +10301,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0CPacketInput",
+      "Name": "C0CPacketInputGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10241,7 +10322,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0DPacketCloseWindow",
+      "Name": "C0DPacketCloseWindowGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10262,7 +10343,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0EPacketClickWindow",
+      "Name": "C0EPacketClickWindowGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10283,9 +10364,9 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0FPacketConfirmTransaction",
+      "Name": "C0FPacketConfirmTransactionGroupygroupy",
       "ParentName": "Disabler",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "C0FPacketConfirmTransactionInterval",
@@ -10304,7 +10385,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C10PacketCreativeInventoryAction",
+      "Name": "C10PacketCreativeInventoryActionGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10325,7 +10406,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C11PacketEnchantItem",
+      "Name": "C11PacketEnchantItemGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10346,7 +10427,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C12PacketUpdateSign",
+      "Name": "C12PacketUpdateSignGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10367,7 +10448,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C13PacketPlayerAbilities",
+      "Name": "C13PacketPlayerAbilitiesGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10388,7 +10469,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C14PacketTabComplete",
+      "Name": "C14PacketTabCompleteGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10409,7 +10490,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C15PacketClientSettings",
+      "Name": "C15PacketClientSettingsGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10430,7 +10511,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C16PacketClientStatus",
+      "Name": "C16PacketClientStatusGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10451,7 +10532,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C17PacketCustomPayload",
+      "Name": "C17PacketCustomPayloadGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10472,7 +10553,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C18PacketSpectate",
+      "Name": "C18PacketSpectateGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10493,7 +10574,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C19PacketResourcePackStatus",
+      "Name": "C19PacketResourcePackStatusGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10514,7 +10595,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "CAnimateHandPacket",
+      "Name": "CAnimateHandPacketGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },
@@ -10535,7 +10616,7 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "CPacketPlayerTryUseItemOnBlock",
+      "Name": "CPacketPlayerTryUseItemOnBlockGroupygroupy",
       "ParentName": "Disabler",
       "Extended": false
     },

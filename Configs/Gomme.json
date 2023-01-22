@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
   "date": "21.01.2023",
-  "time": "11:13",
+  "time": "23:14",
   "modules": [
     {
       "Name": "Blur",
@@ -568,7 +568,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Fly",
@@ -1765,7 +1765,7 @@
     {
       "Name": "MissClick",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "LockView",
@@ -2193,7 +2193,38 @@
     {
       "Name": "TargetESP",
       "ParentName": "KillAura",
-      "SelectedOption": "Sigma"
+      "Extended": true
+    },
+    {
+      "Name": "TargetESP",
+      "ParentName": "KillAura",
+      "SelectedOption": "Box"
+    },
+    {
+      "Name": "Dot",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "DotColor",
+      "ParentName": "KillAura",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": false,
+      "Fade": false,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.5699816,
+      "HSB Color Green": 0.8153153,
+      "HSB Color Blue": 0.87058824,
+      "HSB FadeColor Red": 0.5699816,
+      "HSB FadeColor Green": 0.8153153,
+      "HSB FadeColor Blue": 0.87058824
     },
     {
       "Name": "TargetEspColor",
