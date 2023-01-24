@@ -1,7 +1,7 @@
 {
   "name": "GommeBotPath",
-  "date": "22.01.2023",
-  "time": "20:21",
+  "date": "24.01.2023",
+  "time": "17:03",
   "modules": [
     {
       "Name": "Blur",
@@ -370,7 +370,7 @@
     {
       "Name": "LegacyAnimations",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "Toggled": true,
       "Key": 0
     },
@@ -448,7 +448,7 @@
       "Name": "TargetHud",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -519,6 +519,27 @@
       "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "CustomZoom",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "Freelook",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "MoveCircles",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -685,7 +706,7 @@
     {
       "Name": "NoJumpDelay",
       "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "Toggled": true,
       "Key": 0
     },
@@ -936,9 +957,9 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1037,6 +1058,13 @@
       "IsInConfig": false,
       "IsInArraylist": false,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "ClientSpoofer",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1158,7 +1186,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 85.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.97496706,
+      "HSB Color Red": 0.9953887,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.35836625,
@@ -1168,7 +1196,7 @@
     {
       "Name": "Sigma",
       "ParentName": "Shadow",
-      "Value": 22.1
+      "Value": 12.5
     },
     {
       "Name": "ItemsOnGround",
@@ -2745,16 +2773,6 @@
       "Value": 0.4
     },
     {
-      "Name": "PerfectHit",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "OnlyOnTarget",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
       "Name": "Multiplier",
       "ParentName": "AutoClicker",
       "Value": 3.0
@@ -2818,6 +2836,16 @@
       "Name": "SmartClickingHurttimeEnd",
       "ParentName": "AutoClicker",
       "Value": 3.0
+    },
+    {
+      "Name": "PerfectHit",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyOnTarget",
+      "ParentName": "AutoClicker",
+      "Boolean": false
     },
     {
       "Name": "DoubleClickFirstHit",
@@ -3249,18 +3277,18 @@
       "Rainbow": false,
       "Fade": true,
       "Astolfo": false,
-      "Rainbow Speed": 0.0,
-      "Rainbow Dist": 0.0,
+      "Rainbow Speed": 35.0,
+      "Rainbow Dist": 65.0,
       "Fade Speed": 43.0,
       "Fade Dist": 47.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.0,
+      "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
-      "HSB FadeColor Red": 0.752302,
-      "HSB FadeColor Green": 0.8153153,
-      "HSB FadeColor Blue": 0.87058824
+      "HSB FadeColor Red": 0.09617919,
+      "HSB FadeColor Green": 0.996063,
+      "HSB FadeColor Blue": 0.99607843
     },
     {
       "Name": "Backgound",
@@ -4817,7 +4845,7 @@
     {
       "Name": "X",
       "ParentName": "CustomItemPos",
-      "Value": -0.01
+      "Value": -0.2
     },
     {
       "Name": "Y",
@@ -5835,6 +5863,92 @@
       "Value": 250.0
     },
     {
+      "Name": "ZoomFactor",
+      "ParentName": "CustomZoom",
+      "Value": 4.0
+    },
+    {
+      "Name": "AnimationModes",
+      "ParentName": "CustomZoom",
+      "SelectedOption": "easeInQuint"
+    },
+    {
+      "Name": "AnimationTime",
+      "ParentName": "CustomZoom",
+      "Value": 200.0
+    },
+    {
+      "Name": "ThirdPerson",
+      "ParentName": "Freelook",
+      "Boolean": true
+    },
+    {
+      "Name": "CircleRadius",
+      "ParentName": "MoveCircles",
+      "Value": 0.32
+    },
+    {
+      "Name": "CircleWidth",
+      "ParentName": "MoveCircles",
+      "Value": 2.17
+    },
+    {
+      "Name": "CircleColor",
+      "ParentName": "MoveCircles",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": true,
+      "Fade": false,
+      "Astolfo": false,
+      "Rainbow Speed": 23.0,
+      "Rainbow Dist": 19.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 83.0,
+      "Astolfo Dist": 11.0,
+      "HSB Color Red": 0.5329341,
+      "HSB Color Green": 0.69008267,
+      "HSB Color Blue": 0.9490196,
+      "HSB FadeColor Red": 0.5329341,
+      "HSB FadeColor Green": 0.69008267,
+      "HSB FadeColor Blue": 0.9490196
+    },
+    {
+      "Name": "CircleAnimation",
+      "ParentName": "MoveCircles",
+      "SelectedOption": "easeInSine"
+    },
+    {
+      "Name": "AnimationTime",
+      "ParentName": "MoveCircles",
+      "Value": 318.0
+    },
+    {
+      "Name": "FadeOut",
+      "ParentName": "MoveCircles",
+      "Boolean": true
+    },
+    {
+      "Name": "FadeOutAnimation",
+      "ParentName": "MoveCircles",
+      "SelectedOption": "easeInSine"
+    },
+    {
+      "Name": "FadeOutTime",
+      "ParentName": "MoveCircles",
+      "Value": 296.0
+    },
+    {
+      "Name": "TicksBetweenCircles",
+      "ParentName": "MoveCircles",
+      "Value": 1.0
+    },
+    {
+      "Name": "OnlyAfterJump",
+      "ParentName": "MoveCircles",
+      "Boolean": false
+    },
+    {
       "Name": "Mode",
       "ParentName": "Sprint",
       "SelectedOption": "Legit"
@@ -6464,6 +6578,11 @@
       "Name": "Boost",
       "ParentName": "OldGommeFly",
       "Value": 1.0
+    },
+    {
+      "Name": "InInv",
+      "ParentName": "JumpOnSlime",
+      "Boolean": false
     },
     {
       "Name": "Mode",
@@ -7201,6 +7320,11 @@
       "MaxValue": 24.0
     },
     {
+      "Name": "RotationsGroupygroupy",
+      "ParentName": "Scaffold",
+      "Extended": true
+    },
+    {
       "Name": "YawSpeed",
       "ParentName": "Scaffold",
       "MinValue": 25.0,
@@ -7223,19 +7347,24 @@
       "Value": 83.0
     },
     {
-      "Name": "MoveFix",
-      "ParentName": "Scaffold",
-      "SelectedOption": "Default"
-    },
-    {
-      "Name": "MoveFixIntave",
+      "Name": "Improve",
       "ParentName": "Scaffold",
       "Boolean": true
     },
     {
-      "Name": "AdStrafe",
+      "Name": "EdgeRotateCheck",
       "ParentName": "Scaffold",
       "Boolean": false
+    },
+    {
+      "Name": "EdgePlaceCheck",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "Strafe",
+      "ParentName": "Scaffold",
+      "Boolean": true
     },
     {
       "Name": "Intave",
@@ -7253,39 +7382,9 @@
       "Boolean": false
     },
     {
-      "Name": "Improve",
+      "Name": "ClickingGroupygroupy",
       "ParentName": "Scaffold",
-      "Boolean": true
-    },
-    {
-      "Name": "EdgeRotateCheck",
-      "ParentName": "Scaffold",
-      "Boolean": false
-    },
-    {
-      "Name": "EdgePlaceCheck",
-      "ParentName": "Scaffold",
-      "Boolean": true
-    },
-    {
-      "Name": "SameY",
-      "ParentName": "Scaffold",
-      "Boolean": false
-    },
-    {
-      "Name": "AutoJump",
-      "ParentName": "Scaffold",
-      "Boolean": false
-    },
-    {
-      "Name": "Mode",
-      "ParentName": "Scaffold",
-      "SelectedOption": "None"
-    },
-    {
-      "Name": "JumpSprint",
-      "ParentName": "Scaffold",
-      "Boolean": false
+      "Extended": true
     },
     {
       "Name": "NoSwing",
@@ -7302,6 +7401,90 @@
       "ParentName": "Scaffold",
       "MinValue": 0.0,
       "MaxValue": 50.0
+    },
+    {
+      "Name": "MovementGroupygroupy",
+      "ParentName": "Scaffold",
+      "Extended": true
+    },
+    {
+      "Name": "SneakingGroupygroupy",
+      "ParentName": "Scaffold",
+      "Extended": false
+    },
+    {
+      "Name": "Sneak",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "RemoveSneakStop",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "SneakTicks",
+      "ParentName": "Scaffold",
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "StartSneakDistToBlock",
+      "ParentName": "Scaffold",
+      "MinValue": 0.05,
+      "MaxValue": 0.2
+    },
+    {
+      "Name": "SneakBlocksForward",
+      "ParentName": "Scaffold",
+      "MinValue": 8.0,
+      "MaxValue": 12.0
+    },
+    {
+      "Name": "SneakBlocksDiagonal",
+      "ParentName": "Scaffold",
+      "MinValue": 8.0,
+      "MaxValue": 12.0
+    },
+    {
+      "Name": "SneakSlowDown",
+      "ParentName": "Scaffold",
+      "Value": 0.3
+    },
+    {
+      "Name": "MoveFix",
+      "ParentName": "Scaffold",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "MoveFixIntave",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "Mode",
+      "ParentName": "Scaffold",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "JumpSprint",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "AdStrafe",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "SameY",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoJump",
+      "ParentName": "Scaffold",
+      "Boolean": false
     },
     {
       "Name": "SafeWalk",
@@ -7329,53 +7512,6 @@
       "Boolean": true
     },
     {
-      "Name": "Sneak",
-      "ParentName": "Scaffold",
-      "Boolean": true
-    },
-    {
-      "Name": "HideSneakAnimation",
-      "ParentName": "Scaffold",
-      "Boolean": true
-    },
-    {
-      "Name": "OtherSneak",
-      "ParentName": "Scaffold",
-      "Boolean": false
-    },
-    {
-      "Name": "RemoveStop",
-      "ParentName": "Scaffold",
-      "Boolean": false
-    },
-    {
-      "Name": "SneakTicks",
-      "ParentName": "Scaffold",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
-    },
-    {
-      "Name": "StartSneakDistToBlock",
-      "ParentName": "Scaffold",
-      "MinValue": 0.05,
-      "MaxValue": 0.2
-    },
-    {
-      "Name": "SneakBlocksF",
-      "ParentName": "Scaffold",
-      "Value": 8.0
-    },
-    {
-      "Name": "SneakBlocksD",
-      "ParentName": "Scaffold",
-      "Value": 9.0
-    },
-    {
-      "Name": "SneakSlowDown",
-      "ParentName": "Scaffold",
-      "Value": 0.3
-    },
-    {
       "Name": "Timer",
       "ParentName": "Scaffold",
       "Value": 1.0
@@ -7397,9 +7533,9 @@
       "Value": 1.0
     },
     {
-      "Name": "SilentMode",
+      "Name": "MiscellaneousGroupygroupy",
       "ParentName": "Scaffold",
-      "SelectedOption": "Spoof"
+      "Extended": true
     },
     {
       "Name": "TowerMode",
@@ -7417,17 +7553,22 @@
       "Value": 0.37
     },
     {
-      "Name": "ESP",
+      "Name": "Silent",
       "ParentName": "Scaffold",
       "Boolean": true
     },
     {
-      "Name": "Shadow",
+      "Name": "VisualsGroupygroupy",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Extended": true
     },
     {
-      "Name": "Blur",
+      "Name": "HideSneakAnimation",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "ESP",
       "ParentName": "Scaffold",
       "Boolean": true
     },
@@ -7451,6 +7592,16 @@
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
       "HSB FadeColor Blue": 0.87058824
+    },
+    {
+      "Name": "Shadow",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "Blur",
+      "ParentName": "Scaffold",
+      "Boolean": true
     },
     {
       "Name": "OnlyAtDigging",
@@ -7797,6 +7948,21 @@
       "Boolean": true
     },
     {
+      "Name": "SendChatMessage",
+      "ParentName": "FlagDetector",
+      "Boolean": true
+    },
+    {
+      "Name": "ShowOverHotbar",
+      "ParentName": "FlagDetector",
+      "Boolean": true
+    },
+    {
+      "Name": "ChecksForMyselfGroupygroupy",
+      "ParentName": "ClientAntiCheat",
+      "Extended": true
+    },
+    {
       "Name": "Intave13P_19",
       "ParentName": "ClientAntiCheat",
       "Boolean": false
@@ -7965,6 +8131,26 @@
       "Name": "AutoClickerP2",
       "ParentName": "ClientAntiCheat",
       "Boolean": false
+    },
+    {
+      "Name": "AimP1",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "AimP2",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "AimP3",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
+      "Name": "AimP4",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
     },
     {
       "Name": "KillAura",
@@ -10701,6 +10887,11 @@
           "Fun": false
         }
       ]
+    },
+    {
+      "Name": "Clients",
+      "ParentName": "ClientSpoofer",
+      "SelectedOption": "LabyMod"
     },
     {
       "Name": "Mode",
