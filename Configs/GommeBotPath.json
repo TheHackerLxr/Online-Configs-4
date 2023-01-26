@@ -1,7 +1,7 @@
 {
   "name": "GommeBotPath",
-  "date": "24.01.2023",
-  "time": "17:03",
+  "date": "26.01.2023",
+  "time": "23:38",
   "modules": [
     {
       "Name": "Blur",
@@ -193,6 +193,13 @@
       "Key": 0
     },
     {
+      "Name": "CustomClientColor",
+      "IsInConfig": false,
+      "IsInArraylist": false,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
       "Name": "ArrayList",
       "IsInConfig": false,
       "IsInArraylist": true,
@@ -210,14 +217,14 @@
       "Name": "AttackEffects",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "ESP",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -343,7 +350,7 @@
       "Name": "CustomItemPos",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -420,7 +427,7 @@
       "Name": "KeyStrokes",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -441,7 +448,7 @@
       "Name": "InvisMode",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -957,7 +964,7 @@
     },
     {
       "Name": "Debug",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -971,7 +978,7 @@
     },
     {
       "Name": "FlagDetector",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -1057,7 +1064,7 @@
       "Name": "NoDiscordRPC",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1135,7 +1142,7 @@
     {
       "Name": "Sigma",
       "ParentName": "Blur",
-      "Value": 21.0
+      "Value": 17.4
     },
     {
       "Name": "Fast",
@@ -1179,6 +1186,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 21.0,
       "Rainbow Dist": 0.0,
@@ -1717,7 +1726,7 @@
       "SelectedOption": "LegitFast"
     },
     {
-      "Name": "Timing",
+      "Name": "Timnig",
       "ParentName": "MoreKB",
       "SelectedOption": "HurtTime"
     },
@@ -1736,7 +1745,8 @@
     {
       "Name": "SneakTicks",
       "ParentName": "MoreKB",
-      "Value": 1.0
+      "MinValue": 2.0,
+      "MaxValue": 2.0
     },
     {
       "Name": "RotationsGroupygroupy",
@@ -2081,7 +2091,7 @@
     {
       "Name": "SmartClickingHurttimeEnd",
       "ParentName": "KillAura",
-      "Value": 2.0
+      "Value": 3.0
     },
     {
       "Name": "DoubleClickFirstHit",
@@ -2144,7 +2154,17 @@
       "Boolean": true
     },
     {
+      "Name": "MissClickPercentage",
+      "ParentName": "KillAura",
+      "Value": 5.0
+    },
+    {
       "Name": "PerfectHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "CritFix",
       "ParentName": "KillAura",
       "Boolean": true
     },
@@ -2275,6 +2295,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": true,
+      "ClientColorAlpha": 87,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -2301,6 +2323,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -2362,6 +2386,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": true,
+      "ClientColorAlpha": 255,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -2420,6 +2446,11 @@
       "Name": "Slot9",
       "ParentName": "KillAura",
       "Boolean": false
+    },
+    {
+      "Name": "BetterHit",
+      "ParentName": "KillAura",
+      "Boolean": true
     },
     {
       "Name": "ExpandXZ",
@@ -3219,6 +3250,29 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "ColorSetting",
+      "ParentName": "CustomClientColor",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": false,
+      "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 241,
+      "Astolfo": false,
+      "Rainbow Speed": 29.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 37.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 47.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.05582137,
+      "HSB Color Green": 0.8228347,
+      "HSB Color Blue": 0.99607843,
+      "HSB FadeColor Red": 0.2578269,
+      "HSB FadeColor Green": 0.8153153,
+      "HSB FadeColor Blue": 0.87058824
+    },
+    {
       "Name": "Side",
       "ParentName": "ArrayList",
       "SelectedOption": "Right"
@@ -3240,6 +3294,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3276,6 +3332,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": true,
+      "ClientColor": false,
+      "ClientColorAlpha": 1,
       "Astolfo": false,
       "Rainbow Speed": 35.0,
       "Rainbow Dist": 65.0,
@@ -3302,6 +3360,8 @@
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3818,6 +3878,8 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3839,6 +3901,8 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3860,6 +3924,8 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3886,6 +3952,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3907,6 +3975,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3928,6 +3998,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -3994,6 +4066,8 @@
       "FadeAlpha": 66,
       "Rainbow": false,
       "Fade": true,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4015,6 +4089,8 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4036,6 +4112,8 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4237,6 +4315,8 @@
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4258,6 +4338,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4267,7 +4349,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -4279,6 +4361,8 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4380,15 +4464,17 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
-      "Astolfo": true,
+      "ClientColor": true,
+      "ClientColorAlpha": 73,
+      "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
       "Astolfo Speed": 126.0,
       "Astolfo Dist": 84.0,
-      "HSB Color Red": 0.5869219,
-      "HSB Color Green": 0.90869564,
+      "HSB Color Red": 0.6518884,
+      "HSB Color Green": 0.8826087,
       "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
       "HSB FadeColor Green": 0.90869564,
@@ -4431,6 +4517,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": true,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4467,6 +4555,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4533,6 +4623,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 1.0,
       "Rainbow Dist": 0.0,
@@ -4559,6 +4651,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 70.0,
       "Rainbow Dist": 60.0,
@@ -4590,6 +4684,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": true,
+      "ClientColorAlpha": 255,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4646,6 +4742,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4717,6 +4815,8 @@
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4798,6 +4898,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4909,6 +5011,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4940,6 +5044,8 @@
       "FadeAlpha": 36,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4961,6 +5067,8 @@
       "FadeAlpha": 0,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5027,6 +5135,8 @@
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": true,
+      "ClientColorAlpha": 81,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5034,7 +5144,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
+      "HSB Color Red": 0.5709729,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
@@ -5123,6 +5233,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5164,6 +5276,8 @@
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5185,6 +5299,8 @@
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5206,6 +5322,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5227,6 +5345,8 @@
       "FadeAlpha": 255,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5413,6 +5533,8 @@
       "FadeAlpha": 150,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -5899,6 +6021,8 @@
       "FadeAlpha": 255,
       "Rainbow": true,
       "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
       "Astolfo": false,
       "Rainbow Speed": 23.0,
       "Rainbow Dist": 19.0,
@@ -7579,6 +7703,8 @@
       "FadeAlpha": 100,
       "Rainbow": false,
       "Fade": false,
+      "ClientColor": true,
+      "ClientColorAlpha": 82,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -7869,7 +7995,7 @@
     {
       "Name": "PacketHandler",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ServersideChat",
@@ -7893,6 +8019,31 @@
     },
     {
       "Name": "Kit1V1Damage",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "BetaFeaturesGroupygroupy",
+      "ParentName": "Debug",
+      "Extended": true
+    },
+    {
+      "Name": "DamageDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DamageUnsafe",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DebugAllChat",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "HitDebug",
       "ParentName": "Debug",
       "Boolean": false
     },
@@ -7950,12 +8101,22 @@
     {
       "Name": "SendChatMessage",
       "ParentName": "FlagDetector",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ShowOverHotbar",
       "ParentName": "FlagDetector",
       "Boolean": true
+    },
+    {
+      "Name": "X-Coord",
+      "ParentName": "FlagDetector",
+      "Value": 0.0
+    },
+    {
+      "Name": "Y-Coord",
+      "ParentName": "FlagDetector",
+      "Value": 3.5
     },
     {
       "Name": "ChecksForMyselfGroupygroupy",
@@ -7971,6 +8132,11 @@
       "Name": "Intave13P_56",
       "ParentName": "ClientAntiCheat",
       "Boolean": false
+    },
+    {
+      "Name": "Intave14P_41",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
     },
     {
       "Name": "Intave14P_51",
@@ -8103,6 +8269,11 @@
       "Boolean": true
     },
     {
+      "Name": "Intave14P_231",
+      "ParentName": "ClientAntiCheat",
+      "Boolean": true
+    },
+    {
       "Name": "Intave14InvalidPitch",
       "ParentName": "ClientAntiCheat",
       "Boolean": true
@@ -8135,22 +8306,22 @@
     {
       "Name": "AimP1",
       "ParentName": "ClientAntiCheat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "AimP2",
       "ParentName": "ClientAntiCheat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "AimP3",
       "ParentName": "ClientAntiCheat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "AimP4",
       "ParentName": "ClientAntiCheat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "KillAura",
