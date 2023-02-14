@@ -1,7 +1,7 @@
 {
   "name": "GommeLegit",
-  "date": "26.01.2023",
-  "time": "23:38",
+  "date": "14.02.2023",
+  "time": "12:04",
   "modules": [
     {
       "Name": "Blur",
@@ -448,7 +448,7 @@
       "Name": "InvisMode",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -987,7 +987,7 @@
       "Name": "ClientAntiCheat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1064,11 +1064,18 @@
       "Name": "NoDiscordRPC",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "ClientSpoofer",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "Ping",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -1743,15 +1750,15 @@
       "MaxValue": 0.0
     },
     {
-      "Name": "SneakTicks",
+      "Name": "SprintResetTicks",
       "ParentName": "MoreKB",
-      "MinValue": 2.0,
-      "MaxValue": 2.0
+      "MinValue": 1.0,
+      "MaxValue": 1.0
     },
     {
       "Name": "RotationsGroupygroupy",
       "ParentName": "KillAura",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "PreAimRange",
@@ -1823,7 +1830,7 @@
     {
       "Name": "RandomizeGroupygroupy",
       "ParentName": "KillAura",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "RandomType",
@@ -1853,18 +1860,18 @@
     {
       "Name": "InnerRadiusRadius",
       "ParentName": "KillAura",
-      "MinValue": 9.0,
-      "MaxValue": 12.0
+      "MinValue": 6.0,
+      "MaxValue": 10.0
     },
     {
       "Name": "BestHitXMinDist",
       "ParentName": "KillAura",
-      "Value": 5.55
+      "Value": 0.0
     },
     {
       "Name": "BestHitYMInDist",
       "ParentName": "KillAura",
-      "Value": 5.45
+      "Value": 0.0
     },
     {
       "Name": "MinAbsDist",
@@ -2649,6 +2656,11 @@
       "Name": "LagPackets",
       "ParentName": "BackTrack",
       "Value": 4.0
+    },
+    {
+      "Name": "PingDelay",
+      "ParentName": "BackTrack",
+      "Value": 200.0
     },
     {
       "Name": "OnlyWhenNeed",
@@ -3953,7 +3965,7 @@
       "Rainbow": false,
       "Fade": false,
       "ClientColor": false,
-      "ClientColorAlpha": 0,
+      "ClientColorAlpha": 154,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4349,7 +4361,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -5439,7 +5451,7 @@
     {
       "Name": "CustomName",
       "ParentName": "CustomSkin",
-      "SelectedOption": "g0mme"
+      "SelectedOption": "Esound"
     },
     {
       "Name": "CustomName",
@@ -6493,6 +6505,11 @@
       "Value": 3.0
     },
     {
+      "Name": "BlockDropSpeed",
+      "ParentName": "Fly",
+      "Value": 1.0
+    },
+    {
       "Name": "MaxDistance",
       "ParentName": "BugUp",
       "Value": 15.0
@@ -6956,6 +6973,11 @@
       "Boolean": true
     },
     {
+      "Name": "ToggleChestAura",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
       "Name": "Mode",
       "ParentName": "GuiMove",
       "SelectedOption": "Basic"
@@ -7254,7 +7276,22 @@
       "SelectedOption": "Basic"
     },
     {
+      "Name": "NoBlockHitDelay",
+      "ParentName": "FastBreak",
+      "Boolean": false
+    },
+    {
       "Name": "Instant",
+      "ParentName": "FastBreak",
+      "Boolean": false
+    },
+    {
+      "Name": "NoBed",
+      "ParentName": "FastBreak",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyWhenBlink",
       "ParentName": "FastBreak",
       "Boolean": false
     },
@@ -7611,6 +7648,11 @@
       "Boolean": false
     },
     {
+      "Name": "TellyBridge",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
       "Name": "SafeWalk",
       "ParentName": "Scaffold",
       "Boolean": false
@@ -7735,6 +7777,11 @@
       "Boolean": true
     },
     {
+      "Name": "OnlyAtRightClicking",
+      "ParentName": "NoMiningTrace",
+      "Boolean": true
+    },
+    {
       "Name": "Volume",
       "ParentName": "Radio",
       "Value": 100.0
@@ -7743,6 +7790,11 @@
       "Name": "RadioChannels",
       "ParentName": "Radio",
       "SelectedOption": "I love Radio"
+    },
+    {
+      "Name": "MidClickDistance",
+      "ParentName": "MidClick",
+      "Value": 4.5
     },
     {
       "Name": "AutoUnfriend",
@@ -8048,6 +8100,11 @@
       "Boolean": false
     },
     {
+      "Name": "InputRecorder",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
       "Name": "PacketLog",
       "ParentName": "Debug",
       "SelectedOption": "None"
@@ -8101,12 +8158,12 @@
     {
       "Name": "SendChatMessage",
       "ParentName": "FlagDetector",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ShowOverHotbar",
       "ParentName": "FlagDetector",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "X-Coord",
@@ -8116,7 +8173,7 @@
     {
       "Name": "Y-Coord",
       "ParentName": "FlagDetector",
-      "Value": 3.5
+      "Value": 2.5
     },
     {
       "Name": "ChecksForMyselfGroupygroupy",
@@ -11063,6 +11120,70 @@
       "Name": "Clients",
       "ParentName": "ClientSpoofer",
       "SelectedOption": "LabyMod"
+    },
+    {
+      "Name": "IncomingPing",
+      "ParentName": "Ping",
+      "Value": 190.0
+    },
+    {
+      "Name": "OutgoingPing",
+      "ParentName": "Ping",
+      "Value": 0.0
+    },
+    {
+      "Name": "TargetESPsGroupygroupy",
+      "ParentName": "Ping",
+      "Extended": true
+    },
+    {
+      "Name": "TargetESP",
+      "ParentName": "Ping",
+      "SelectedOption": "Classic"
+    },
+    {
+      "Name": "TargetShadow",
+      "ParentName": "Ping",
+      "Boolean": false
+    },
+    {
+      "Name": "TargetBlur",
+      "ParentName": "Ping",
+      "Boolean": false
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "Ping",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": false,
+          "Animal": false,
+          "Villager": false,
+          "Invisible": false,
+          "Dead": false
+        }
+      ]
+    },
+    {
+      "Name": "PlayerESPsGroupygroupy",
+      "ParentName": "Ping",
+      "Extended": true
+    },
+    {
+      "Name": "PlayerESP",
+      "ParentName": "Ping",
+      "SelectedOption": "PlayerModel"
+    },
+    {
+      "Name": "PlayerShadow",
+      "ParentName": "Ping",
+      "Boolean": false
+    },
+    {
+      "Name": "PlayerBlur",
+      "ParentName": "Ping",
+      "Boolean": false
     },
     {
       "Name": "Mode",
