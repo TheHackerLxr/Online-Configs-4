@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
   "date": "16.02.2023",
-  "time": "19:37",
+  "time": "20:01",
   "modules": [
     {
       "Name": "Blur",
@@ -252,7 +252,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1740,7 +1740,7 @@
     {
       "Name": "Modes",
       "ParentName": "MoreKB",
-      "SelectedOption": "One"
+      "SelectedOption": "LegitFast"
     },
     {
       "Name": "Timnig",
@@ -2350,8 +2350,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -2461,11 +2461,6 @@
     },
     {
       "Name": "Slot9",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "BetterHit",
       "ParentName": "KillAura",
       "Boolean": false
     },
@@ -6024,7 +6019,7 @@
     {
       "Name": "FastZoom",
       "ParentName": "CustomZoom",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ThirdPerson",
@@ -8088,41 +8083,6 @@
       "Name": "Kit1V1Damage",
       "ParentName": "Debug",
       "Boolean": false
-    },
-    {
-      "Name": "BetaFeaturesGroupygroupy",
-      "ParentName": "Debug",
-      "Extended": true
-    },
-    {
-      "Name": "DamageDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "DamageUnsafe",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "DebugAllChat",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "HitDebug",
-      "ParentName": "Debug",
-      "Boolean": true
-    },
-    {
-      "Name": "InputRecorder",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "PacketLog",
-      "ParentName": "Debug",
-      "SelectedOption": "None"
     },
     {
       "Name": "Modes",
