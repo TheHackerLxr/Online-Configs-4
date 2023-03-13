@@ -11,3 +11,4 @@ AntiAC
 Twerion
 BlocksMC
 MineBlaze
+Vulcan
