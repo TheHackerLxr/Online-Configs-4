@@ -9,6 +9,5 @@ Gamster
 BlockDrop
 AntiAC
 Twerion
-BlocksMC
 MineBlaze
 Vulcan
