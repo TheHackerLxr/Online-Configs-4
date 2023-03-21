@@ -1,7 +1,7 @@
 {
   "name": "Rinaoro",
   "date": "21.03.2023",
-  "time": "17:13",
+  "time": "17:29",
   "modules": [
     {
       "Name": "Blur",
@@ -931,7 +931,7 @@
       "Name": "Fucker",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 25
     },
     {
@@ -2141,8 +2141,8 @@
     {
       "Name": "CPS",
       "ParentName": "KillAura",
-      "MinValue": 40.0,
-      "MaxValue": 40.0
+      "MinValue": 20.0,
+      "MaxValue": 20.0
     },
     {
       "Name": "CPSLimiter",
@@ -62455,7 +62455,7 @@
     {
       "Name": "Instant",
       "ParentName": "Fucker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "FriendMyBlock",
