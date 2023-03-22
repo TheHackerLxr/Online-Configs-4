@@ -3,7 +3,7 @@ GommeSafe
 GommeLegit
 GommeBot
 GommeBotPath
-Minemora
+Minemen
 PvPDojo
 Gamster
 BlockDrop
