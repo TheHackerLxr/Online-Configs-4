@@ -1,7 +1,7 @@
 {
   "name": "Minemen",
-  "date": "23.03.2023",
-  "time": "00:46",
+  "date": "25.03.2023",
+  "time": "13:11",
   "modules": [
     {
       "Name": "Blur",
@@ -21,7 +21,7 @@
       "Name": "Velocity",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -543,13 +543,6 @@
       "Key": 0
     },
     {
-      "Name": "Freelook",
-      "IsInConfig": false,
-      "IsInArraylist": true,
-      "Toggled": false,
-      "Key": 0
-    },
-    {
       "Name": "MoveCircles",
       "IsInConfig": false,
       "IsInArraylist": true,
@@ -568,6 +561,13 @@
       "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "Child",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -725,13 +725,6 @@
       "Key": 0
     },
     {
-      "Name": "OldGommeFly",
-      "IsInConfig": true,
-      "IsInArraylist": true,
-      "Toggled": false,
-      "Key": 0
-    },
-    {
       "Name": "NoJumpDelay",
       "IsInConfig": true,
       "IsInArraylist": false,
@@ -764,7 +757,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 37
     },
     {
       "Name": "RotationHandler",
@@ -916,6 +909,13 @@
     {
       "Name": "SelfDamage",
       "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "Freelook",
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1288,7 +1288,7 @@
     {
       "Name": "Mode",
       "ParentName": "Velocity",
-      "SelectedOption": "Intave"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "XZVelocity",
@@ -3120,9 +3120,19 @@
       "SelectedOption": "Advanced"
     },
     {
+      "Name": "AttackFriends",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
       "Name": "BreakBlocks",
       "ParentName": "AutoClicker",
       "Boolean": true
+    },
+    {
+      "Name": "BreakTickDelay",
+      "ParentName": "AutoClicker",
+      "Value": 5.0
     },
     {
       "Name": "AutoBlock",
@@ -4924,6 +4934,16 @@
       "Value": 70.0
     },
     {
+      "Name": "DefaultCrossHair",
+      "ParentName": "Crosshair",
+      "Boolean": false
+    },
+    {
+      "Name": "ThirdPerson",
+      "ParentName": "Crosshair",
+      "Boolean": false
+    },
+    {
       "Name": "Color",
       "ParentName": "Crosshair",
       "Alpha": 255,
@@ -5688,9 +5708,19 @@
       "SelectedOption": "propyro2011"
     },
     {
-      "Name": "CustomName",
+      "Name": "Type",
       "ParentName": "CustomCape",
-      "SelectedOption": "propyro2011"
+      "SelectedOption": "Mojang"
+    },
+    {
+      "Name": "LabyModCapes",
+      "ParentName": "CustomCape",
+      "SelectedOption": "Sky"
+    },
+    {
+      "Name": "MojangCapes",
+      "ParentName": "CustomCape",
+      "SelectedOption": "MineCon2015"
     },
     {
       "Name": "CustomHeight",
@@ -6251,11 +6281,6 @@
       "Boolean": false
     },
     {
-      "Name": "ThirdPerson",
-      "ParentName": "Freelook",
-      "Boolean": true
-    },
-    {
       "Name": "CircleRadius",
       "ParentName": "MoveCircles",
       "Value": 0.32
@@ -6388,6 +6413,11 @@
       "Name": "Y-Coord",
       "ParentName": "TntESP",
       "Value": 45.0
+    },
+    {
+      "Name": "EditEyeHeight",
+      "ParentName": "Child",
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -6795,11 +6825,6 @@
       "Boolean": true
     },
     {
-      "Name": "DistanceFlown",
-      "ParentName": "Fly",
-      "Boolean": true
-    },
-    {
       "Name": "VanillaSpeed",
       "ParentName": "Fly",
       "Value": 1.0
@@ -6838,6 +6863,26 @@
       "Name": "CollisionY",
       "ParentName": "Fly",
       "Value": 1.0
+    },
+    {
+      "Name": "Height",
+      "ParentName": "Fly",
+      "Value": 1.0
+    },
+    {
+      "Name": "Boost",
+      "ParentName": "Fly",
+      "Value": 1.0
+    },
+    {
+      "Name": "DistanceFlown",
+      "ParentName": "Fly",
+      "Boolean": true
+    },
+    {
+      "Name": "DisableAura",
+      "ParentName": "Fly",
+      "Boolean": false
     },
     {
       "Name": "MaxDistance",
@@ -7049,16 +7094,6 @@
       "Name": "SneakInInv",
       "ParentName": "Sneak",
       "Boolean": false
-    },
-    {
-      "Name": "Height",
-      "ParentName": "OldGommeFly",
-      "Value": 1.0
-    },
-    {
-      "Name": "Boost",
-      "ParentName": "OldGommeFly",
-      "Value": 1.0
     },
     {
       "Name": "InInv",
@@ -61746,6 +61781,311 @@
       "Value": 0.0
     },
     {
+      "Name": "OnEnableGroupygroupy",
+      "ParentName": "MotionModifier",
+      "Extended": false
+    },
+    {
+      "Name": "OnEnableEditTick",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableJump",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableSpoofGround",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableEditStaticY",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableStaticY",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.42,
+      "MaxValue": 0.42
+    },
+    {
+      "Name": "OnEnableEditStaticXZ",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableStaticXZ",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.2,
+      "MaxValue": 0.2
+    },
+    {
+      "Name": "OnEnableEditAddY",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableAddY",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.02,
+      "MaxValue": 0.02
+    },
+    {
+      "Name": "OnEnableEditAddXZ",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableAddXZ",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.02,
+      "MaxValue": 0.02
+    },
+    {
+      "Name": "OnEnableEditMultiplyY",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableMultiplyY",
+      "ParentName": "MotionModifier",
+      "MinValue": 1.1,
+      "MaxValue": 1.1
+    },
+    {
+      "Name": "OnEnableEditMultiplyXZ",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableMultiplyXZ",
+      "ParentName": "MotionModifier",
+      "MinValue": 1.1,
+      "MaxValue": 1.1
+    },
+    {
+      "Name": "OnEnableEditSpeedInAir",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableSpeedInAir",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.02,
+      "MaxValue": 0.02
+    },
+    {
+      "Name": "OnEnableEditTimerSpeed",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnEnableTimerSpeed",
+      "ParentName": "MotionModifier",
+      "MinValue": 1.0,
+      "MaxValue": 1.0
+    },
+    {
+      "Name": "OnEnableStrafePercentage",
+      "ParentName": "MotionModifier",
+      "Value": 0.0
+    },
+    {
+      "Name": "OnEnableSelfDamageMode",
+      "ParentName": "MotionModifier",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "OnEnableSetPositionYAdd",
+      "ParentName": "MotionModifier",
+      "Value": 3.1
+    },
+    {
+      "Name": "OnEnableMotion",
+      "ParentName": "MotionModifier",
+      "Value": 5.0
+    },
+    {
+      "Name": "OnEnableLoops",
+      "ParentName": "MotionModifier",
+      "Value": 51.0
+    },
+    {
+      "Name": "OnEnableYAddInLoopFirst",
+      "ParentName": "MotionModifier",
+      "Value": 0.02
+    },
+    {
+      "Name": "OnEnableSecondPacket",
+      "ParentName": "MotionModifier",
+      "Boolean": true
+    },
+    {
+      "Name": "OnEnableYAddInLoopSecond",
+      "ParentName": "MotionModifier",
+      "Value": 0.02
+    },
+    {
+      "Name": "OnEnableFinishPacket",
+      "ParentName": "MotionModifier",
+      "Boolean": true
+    },
+    {
+      "Name": "OnEnableYAddFinish",
+      "ParentName": "MotionModifier",
+      "Value": 0.0
+    },
+    {
+      "Name": "OnDisableGroupygroupy",
+      "ParentName": "MotionModifier",
+      "Extended": false
+    },
+    {
+      "Name": "OnDisableEditTick",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableJump",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableSpoofGround",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableEditStaticY",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableStaticY",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.42,
+      "MaxValue": 0.42
+    },
+    {
+      "Name": "OnDisableEditStaticXZ",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableStaticXZ",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.2,
+      "MaxValue": 0.2
+    },
+    {
+      "Name": "OnDisableEditAddY",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableAddY",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.02,
+      "MaxValue": 0.02
+    },
+    {
+      "Name": "OnDisableEditAddXZ",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableAddXZ",
+      "ParentName": "MotionModifier",
+      "MinValue": 0.02,
+      "MaxValue": 0.02
+    },
+    {
+      "Name": "OnDisableEditMultiplyY",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableMultiplyY",
+      "ParentName": "MotionModifier",
+      "MinValue": 1.1,
+      "MaxValue": 1.1
+    },
+    {
+      "Name": "OnDisableEditMultiplyXZ",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableMultiplyXZ",
+      "ParentName": "MotionModifier",
+      "MinValue": 1.1,
+      "MaxValue": 1.1
+    },
+    {
+      "Name": "OnDisableEditTimerSpeed",
+      "ParentName": "MotionModifier",
+      "Boolean": false
+    },
+    {
+      "Name": "OnDisableTimerSpeed",
+      "ParentName": "MotionModifier",
+      "MinValue": 1.0,
+      "MaxValue": 1.0
+    },
+    {
+      "Name": "OnDisableStrafePercentage",
+      "ParentName": "MotionModifier",
+      "Value": 0.0
+    },
+    {
+      "Name": "OnDisableSelfDamageMode",
+      "ParentName": "MotionModifier",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "OnDisableSetPositionYAdd",
+      "ParentName": "MotionModifier",
+      "Value": 3.1
+    },
+    {
+      "Name": "OnDisableMotion",
+      "ParentName": "MotionModifier",
+      "Value": 5.0
+    },
+    {
+      "Name": "OnDisableLoops",
+      "ParentName": "MotionModifier",
+      "Value": 51.0
+    },
+    {
+      "Name": "OnDisableYAddInLoopFirst",
+      "ParentName": "MotionModifier",
+      "Value": 0.02
+    },
+    {
+      "Name": "OnDisableSecondPacket",
+      "ParentName": "MotionModifier",
+      "Boolean": true
+    },
+    {
+      "Name": "OnDisableYAddInLoopSecond",
+      "ParentName": "MotionModifier",
+      "Value": 0.02
+    },
+    {
+      "Name": "OnDisableFinishPacket",
+      "ParentName": "MotionModifier",
+      "Boolean": true
+    },
+    {
+      "Name": "OnDisableYAddFinish",
+      "ParentName": "MotionModifier",
+      "Value": 0.0
+    },
+    {
       "Name": "RotationMode",
       "ParentName": "RotationHandler",
       "SelectedOption": "Tick"
@@ -62377,6 +62717,11 @@
       "Value": 140.0
     },
     {
+      "Name": "ThirdPerson",
+      "ParentName": "Freelook",
+      "Boolean": true
+    },
+    {
       "Name": "NoBlockHitDelay",
       "ParentName": "FastBreak",
       "Boolean": false
@@ -62899,11 +63244,6 @@
     },
     {
       "Name": "AutoUnfriend",
-      "ParentName": "MidClick",
-      "Boolean": true
-    },
-    {
-      "Name": "UnfriendAtHit",
       "ParentName": "MidClick",
       "Boolean": true
     },
@@ -66637,11 +66977,6 @@
       "Boolean": false
     },
     {
-      "Name": "OldGommeFly",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
       "Name": "NoJumpDelay",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -67042,11 +67377,6 @@
       "Boolean": false
     },
     {
-      "Name": "Freelook",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
       "Name": "MoveCircles",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -67058,6 +67388,16 @@
     },
     {
       "Name": "TntESP",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "Child",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "Freelook",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
