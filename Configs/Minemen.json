@@ -1,7 +1,7 @@
 {
   "name": "Minemen",
   "date": "25.03.2023",
-  "time": "13:11",
+  "time": "13:12",
   "modules": [
     {
       "Name": "Blur",
@@ -581,14 +581,14 @@
       "Name": "Jesus",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "NoSlow",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -6442,12 +6442,12 @@
     {
       "Name": "Mode",
       "ParentName": "Jesus",
-      "SelectedOption": "Solid"
+      "SelectedOption": "Speed"
     },
     {
       "Name": "Speed",
       "ParentName": "Jesus",
-      "Value": 1.0
+      "Value": 4.5
     },
     {
       "Name": "Motion",
@@ -6482,7 +6482,7 @@
     {
       "Name": "SlowdownSword",
       "ParentName": "NoSlow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SprintSwordBoolean",
@@ -6527,7 +6527,7 @@
     {
       "Name": "SlowdownBowBoolean",
       "ParentName": "NoSlow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SprintBowBoolean",
@@ -6567,7 +6567,7 @@
     {
       "Name": "SlowdownRestBoolean",
       "ParentName": "NoSlow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SprintRestBoolean",
@@ -6617,12 +6617,12 @@
     {
       "Name": "SwordForward",
       "ParentName": "NoSlow",
-      "Value": 0.2
+      "Value": 1.0
     },
     {
       "Name": "SwordStrafe",
       "ParentName": "NoSlow",
-      "Value": 0.2
+      "Value": 1.0
     },
     {
       "Name": "TimerSword",
