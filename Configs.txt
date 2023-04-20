@@ -8,9 +8,7 @@ PvPDojo
 Gamster
 BlockDrop
 AntiAC
-Twerion
 MineBlaze
 Vulcan
-Pika
-Rinaorc
+Grim
 Verus
