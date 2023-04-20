@@ -1,20 +1,20 @@
 {
-  "name": "BlockDrop",
+  "name": "Rianorc",
   "date": "20.04.2023",
-  "time": "22:49",
+  "time": "23:22",
   "modules": [
     {
       "Name": "Blur",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "Shadow",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -28,14 +28,14 @@
       "Name": "AntiBot",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "Teams",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -49,14 +49,14 @@
       "Name": "AutoPot",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "AntiFireBall",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -77,7 +77,7 @@
       "Name": "MoreKB",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -112,7 +112,7 @@
       "Name": "TimerRangeV2",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -133,7 +133,7 @@
       "Name": "BackTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -511,7 +511,7 @@
       "Name": "Chat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -665,7 +665,7 @@
       "Name": "Strafe",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 21
     },
     {
@@ -693,7 +693,7 @@
       "Name": "TargetStrafe",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -714,7 +714,7 @@
       "Name": "NoWeb",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -784,7 +784,7 @@
       "Name": "NoJumpDelay",
       "IsInConfig": true,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -903,7 +903,7 @@
       "Name": "NoRotationSet",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -931,7 +931,7 @@
       "Name": "AntiCactus",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -966,7 +966,7 @@
       "Name": "Crafter",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1355,7 +1355,7 @@
     {
       "Name": "Mode",
       "ParentName": "Velocity",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "XZVelocity",
@@ -1365,7 +1365,7 @@
     {
       "Name": "YVelocity",
       "ParentName": "Velocity",
-      "Value": 0.0
+      "Value": 42.0
     },
     {
       "Name": "XZOnHit",
@@ -1395,12 +1395,12 @@
     {
       "Name": "XZVelocityIntave",
       "ParentName": "Velocity",
-      "Value": -100.0
+      "Value": -50.0
     },
     {
       "Name": "YVelocityIntave",
       "ParentName": "Velocity",
-      "Value": 20.0
+      "Value": 120.0
     },
     {
       "Name": "SneakInAir",
@@ -1410,7 +1410,7 @@
     {
       "Name": "Jump",
       "ParentName": "Velocity",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "JumpInInv",
@@ -1430,32 +1430,32 @@
     {
       "Name": "OnlyOnGround",
       "ParentName": "Velocity",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Push",
       "ParentName": "Velocity",
-      "Value": 1.1
+      "Value": 7.01
     },
     {
       "Name": "PushStart",
       "ParentName": "Velocity",
-      "Value": 9.0
+      "Value": 8.0
     },
     {
       "Name": "PushEnd",
       "ParentName": "Velocity",
-      "Value": 2.0
+      "Value": 1.0
     },
     {
       "Name": "ReverseStart",
       "ParentName": "Velocity",
-      "Value": 9.0
+      "Value": 8.0
     },
     {
       "Name": "ReverseStrafe",
       "ParentName": "Velocity",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnGround",
@@ -1475,7 +1475,7 @@
     {
       "Name": "Water",
       "ParentName": "Velocity",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "NotWhileSPressed",
@@ -1511,7 +1511,7 @@
           "Swinged": false,
           "ItemInHand": false,
           "Armor": false,
-          "Sound": false
+          "Sound": true
         }
       ]
     },
@@ -1528,7 +1528,7 @@
     {
       "Name": "CheckDistance",
       "ParentName": "AntiBot",
-      "Value": 6.0
+      "Value": 10.0
     },
     {
       "Name": "Debug",
@@ -1608,12 +1608,12 @@
     {
       "Name": "AutoClose",
       "ParentName": "AutoSoup",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "StartDelay",
       "ParentName": "AutoSoup",
-      "Value": 200.0
+      "Value": 0.0
     },
     {
       "Name": "InvDelay",
@@ -1820,17 +1820,17 @@
     {
       "Name": "PreAimRange",
       "ParentName": "AntiFireBall",
-      "Value": 4.0
+      "Value": 6.0
     },
     {
       "Name": "Delay",
       "ParentName": "AntiFireBall",
-      "Value": 60.0
+      "Value": 0.0
     },
     {
       "Name": "Range",
       "ParentName": "AntiFireBall",
-      "Value": 4.0
+      "Value": 6.0
     },
     {
       "Name": "SlowDown",
@@ -1840,7 +1840,7 @@
     {
       "Name": "TicksExisted",
       "ParentName": "AntiFireBall",
-      "Value": 10.0
+      "Value": 0.0
     },
     {
       "Name": "NotWhileDigging",
@@ -1850,12 +1850,12 @@
     {
       "Name": "Delay",
       "ParentName": "TimerRange",
-      "Value": 0.0
+      "Value": 300.0
     },
     {
       "Name": "TimerTicksForward",
       "ParentName": "TimerRange",
-      "Value": 5.0
+      "Value": 3.0
     },
     {
       "Name": "Tolerance",
@@ -1865,12 +1865,12 @@
     {
       "Name": "BalanceCheck",
       "ParentName": "TimerRange",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AdditionalStop",
       "ParentName": "TimerRange",
-      "Value": 22.0
+      "Value": 1.0
     },
     {
       "Name": "OnlyOnGround",
@@ -1905,7 +1905,7 @@
     {
       "Name": "Mode",
       "ParentName": "Criticals",
-      "SelectedOption": "Packet"
+      "SelectedOption": "NoGround"
     },
     {
       "Name": "UseC06",
@@ -1915,7 +1915,7 @@
     {
       "Name": "Interval",
       "ParentName": "Criticals",
-      "Value": 5.0
+      "Value": 3.0
     },
     {
       "Name": "SendFirst",
@@ -1941,18 +1941,18 @@
     {
       "Name": "OnGroundSecond",
       "ParentName": "Criticals",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "YAddSecond",
       "ParentName": "Criticals",
-      "MinValue": 0.0,
-      "MaxValue": 0.0
+      "MinValue": 0.001,
+      "MaxValue": 0.001
     },
     {
       "Name": "SendThird",
       "ParentName": "Criticals",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnGroundThird",
@@ -1962,13 +1962,13 @@
     {
       "Name": "YAddThird",
       "ParentName": "Criticals",
-      "MinValue": 0.0,
-      "MaxValue": 0.0
+      "MinValue": 0.001,
+      "MaxValue": 0.001
     },
     {
       "Name": "SendFourth",
       "ParentName": "Criticals",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnGroundFourth",
@@ -1978,8 +1978,8 @@
     {
       "Name": "YAddFourth",
       "ParentName": "Criticals",
-      "MinValue": 0.0,
-      "MaxValue": 0.0
+      "MinValue": 0.001,
+      "MaxValue": 0.001
     },
     {
       "Name": "SetOnGroundToFalse",
@@ -1995,7 +1995,7 @@
     {
       "Name": "Modes",
       "ParentName": "MoreKB",
-      "SelectedOption": "Legit"
+      "SelectedOption": "LegitFast"
     },
     {
       "Name": "Timing",
@@ -2005,8 +2005,8 @@
     {
       "Name": "TargetHurtTimeTicks",
       "ParentName": "MoreKB",
-      "MinValue": 10.0,
-      "MaxValue": 10.0
+      "MinValue": 6.0,
+      "MaxValue": 6.0
     },
     {
       "Name": "TicksAfterHit",
@@ -2023,17 +2023,17 @@
     {
       "Name": "RotationsGroupygroupy",
       "ParentName": "KillAura",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "PreAimRange",
       "ParentName": "KillAura",
-      "Value": 5.0
+      "Value": 6.0
     },
     {
       "Name": "Range",
       "ParentName": "KillAura",
-      "Value": 3.5
+      "Value": 3.0
     },
     {
       "Name": "YawFov",
@@ -2048,14 +2048,14 @@
     {
       "Name": "YawSpeed",
       "ParentName": "KillAura",
-      "MinValue": 46.0,
-      "MaxValue": 87.0
+      "MinValue": 180.0,
+      "MaxValue": 180.0
     },
     {
       "Name": "PitchSpeed",
       "ParentName": "KillAura",
-      "MinValue": 42.0,
-      "MaxValue": 69.0
+      "MinValue": 180.0,
+      "MaxValue": 180.0
     },
     {
       "Name": "FixRotationMode",
@@ -2065,7 +2065,7 @@
     {
       "Name": "Heuristics",
       "ParentName": "KillAura",
-      "SelectedOption": "Pattern1"
+      "SelectedOption": "None"
     },
     {
       "Name": "RotationMode",
@@ -2095,17 +2095,17 @@
     {
       "Name": "RandomizeGroupygroupy",
       "ParentName": "KillAura",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "RandomType",
       "ParentName": "KillAura",
-      "SelectedOption": "SecureRandom"
+      "SelectedOption": "Intave"
     },
     {
       "Name": "Randomize",
       "ParentName": "KillAura",
-      "SelectedOption": "Circle"
+      "SelectedOption": "None"
     },
     {
       "Name": "ReducedRotate",
@@ -2120,23 +2120,23 @@
     {
       "Name": "SmartRotate",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "InnerRadiusRadius",
       "ParentName": "KillAura",
-      "MinValue": 9.0,
-      "MaxValue": 12.0
+      "MinValue": 3.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "BestHitXMinDist",
       "ParentName": "KillAura",
-      "Value": 5.55
+      "Value": 0.0
     },
     {
       "Name": "BestHitYMInDist",
       "ParentName": "KillAura",
-      "Value": 5.45
+      "Value": 0.0
     },
     {
       "Name": "MinAbsDist",
@@ -2173,12 +2173,12 @@
     {
       "Name": "RandomStrength",
       "ParentName": "KillAura",
-      "Value": 2.36
+      "Value": 0.96
     },
     {
       "Name": "SmartAim",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "AdvancedRots",
@@ -2198,12 +2198,12 @@
     {
       "Name": "ThroughWalls",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AimThroughWalls",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ClickingGroupygroupy",
@@ -2218,13 +2218,13 @@
     {
       "Name": "ClickMode",
       "ParentName": "KillAura",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Advanced"
     },
     {
       "Name": "BasicDelay",
       "ParentName": "KillAura",
-      "MinValue": 102.0,
-      "MaxValue": 150.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "DeviationCPS",
@@ -2255,24 +2255,24 @@
     {
       "Name": "CPS",
       "ParentName": "KillAura",
-      "MinValue": 14.0,
+      "MinValue": 20.0,
       "MaxValue": 20.0
     },
     {
       "Name": "CPSLimiter",
       "ParentName": "KillAura",
-      "Value": 19.0
+      "Value": 40.0
     },
     {
       "Name": "CPSLimiterIntave",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SpeedChangeDelay",
       "ParentName": "KillAura",
-      "MinValue": 800.0,
-      "MaxValue": 1500.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Spikes",
@@ -2319,7 +2319,7 @@
     {
       "Name": "ReduceInAir",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ReduceMulti",
@@ -2386,12 +2386,12 @@
     {
       "Name": "SmartClicking",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SmartClickingHurttimeEnd",
       "ParentName": "KillAura",
-      "Value": 4.0
+      "Value": 3.0
     },
     {
       "Name": "DoubleClickFirstHit",
@@ -2426,7 +2426,7 @@
     {
       "Name": "InteractAutoBlock",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnlyRightClickBlock",
@@ -2446,12 +2446,12 @@
     {
       "Name": "PreHit",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "PreHitRange",
       "ParentName": "KillAura",
-      "Value": 5.0
+      "Value": 6.0
     },
     {
       "Name": "MissClick",
@@ -2476,7 +2476,7 @@
     {
       "Name": "NoLoopHit",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "NoRotation",
@@ -2491,7 +2491,7 @@
     {
       "Name": "SlowDown",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "CoolDown",
@@ -2506,7 +2506,7 @@
     {
       "Name": "MoveFix",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SilentMoveFix",
@@ -2529,7 +2529,7 @@
       "SettingList": [
         {
           "Player": true,
-          "Mob": true,
+          "Mob": false,
           "Animal": false,
           "Villager": false,
           "ArmorStand": false,
@@ -2556,7 +2556,7 @@
     {
       "Name": "InInv",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Grim",
@@ -2581,7 +2581,7 @@
     {
       "Name": "HazeAdd",
       "ParentName": "KillAura",
-      "Value": 0.1
+      "Value": 0.5
     },
     {
       "Name": "HazeMax",
@@ -2591,7 +2591,7 @@
     {
       "Name": "VisualsGroupygroupy",
       "ParentName": "KillAura",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "Dot",
@@ -2684,7 +2684,7 @@
     {
       "Name": "BetterHit",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ExpandXZ",
@@ -2752,7 +2752,7 @@
     {
       "Name": "AutoShoot",
       "ParentName": "BowAimbot",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Players",
@@ -2832,7 +2832,7 @@
     {
       "Name": "Ticks",
       "ParentName": "LagRange",
-      "Value": 5.0
+      "Value": 4.0
     },
     {
       "Name": "Correct",
@@ -2842,17 +2842,17 @@
     {
       "Name": "Mode",
       "ParentName": "BackTrack",
-      "SelectedOption": "Gomme"
+      "SelectedOption": "BackTrack"
     },
     {
       "Name": "MaxHitRange",
       "ParentName": "BackTrack",
-      "Value": 6.0
+      "Value": 8.0
     },
     {
       "Name": "BackTrackTime",
       "ParentName": "BackTrack",
-      "Value": 225.0
+      "Value": 20000.0
     },
     {
       "Name": "ForceDelay",
@@ -2897,7 +2897,7 @@
     {
       "Name": "OnlyWhenNeed",
       "ParentName": "BackTrack",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyKillAura",
@@ -2930,12 +2930,12 @@
     {
       "Name": "TargetESPsGroupygroupy",
       "ParentName": "BackTrack",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "TargetESP",
       "ParentName": "BackTrack",
-      "SelectedOption": "PlayerModel"
+      "SelectedOption": "Classic"
     },
     {
       "Name": "TargetShadow",
@@ -2981,7 +2981,7 @@
     {
       "Name": "CPS",
       "ParentName": "AutoClicker",
-      "MinValue": 13.0,
+      "MinValue": 20.0,
       "MaxValue": 20.0
     },
     {
@@ -3013,8 +3013,8 @@
     {
       "Name": "SpeedChangeDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 800.0,
-      "MaxValue": 2500.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Spikes",
@@ -3045,7 +3045,7 @@
     {
       "Name": "DropDelay",
       "ParentName": "AutoClicker",
-      "Value": 7000.0
+      "Value": 7333.0
     },
     {
       "Name": "DropDuration",
@@ -3061,7 +3061,7 @@
     {
       "Name": "ReduceInAir",
       "ParentName": "AutoClicker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ReduceMulti",
@@ -3078,7 +3078,7 @@
     {
       "Name": "Multiplier",
       "ParentName": "AutoClicker",
-      "Value": 1.5
+      "Value": 3.0
     },
     {
       "Name": "RecordedAirMultiplier",
@@ -3168,7 +3168,7 @@
     {
       "Name": "Mode",
       "ParentName": "AutoClicker",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Advanced"
     },
     {
       "Name": "AttackFriends",
@@ -3178,7 +3178,7 @@
     {
       "Name": "BreakBlocks",
       "ParentName": "AutoClicker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "BreakTickDelay",
@@ -3343,37 +3343,37 @@
     {
       "Name": "PreAimRange",
       "ParentName": "AimBot",
-      "Value": 5.0
+      "Value": 4.4
     },
     {
       "Name": "OwnYawMul",
       "ParentName": "AimBot",
-      "Value": 0.5
+      "Value": 1.0
     },
     {
       "Name": "OwnPitchMul",
       "ParentName": "AimBot",
-      "Value": 0.5
+      "Value": 1.0
     },
     {
       "Name": "AssistYawMul",
       "ParentName": "AimBot",
-      "Value": 0.5
+      "Value": 0.41
     },
     {
       "Name": "AssistPitchMul",
       "ParentName": "AimBot",
-      "Value": 0.5
+      "Value": 1.0
     },
     {
       "Name": "YawFov",
       "ParentName": "AimBot",
-      "Value": 45.0
+      "Value": 108.0
     },
     {
       "Name": "PitchFov",
       "ParentName": "AimBot",
-      "Value": 26.0
+      "Value": 87.0
     },
     {
       "Name": "Click",
@@ -3398,17 +3398,17 @@
     {
       "Name": "Mob",
       "ParentName": "AimBot",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Animal",
       "ParentName": "AimBot",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Villager",
       "ParentName": "AimBot",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ArmorStand",
@@ -3423,7 +3423,7 @@
     {
       "Name": "OnlyWhileSprinting",
       "ParentName": "Range",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ThroughWalls",
@@ -3455,7 +3455,7 @@
     {
       "Name": "MaxRodRange",
       "ParentName": "AutoRod",
-      "Value": 20.0
+      "Value": 10.0
     },
     {
       "Name": "MoveFix",
@@ -3484,12 +3484,12 @@
     {
       "Name": "Mobs",
       "ParentName": "AutoRod",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Animals",
       "ParentName": "AutoRod",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Invisible",
@@ -3509,7 +3509,7 @@
     {
       "Name": "Click",
       "ParentName": "AutoRod",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ESP",
@@ -4644,7 +4644,7 @@
     {
       "Name": "Armor",
       "ParentName": "NameTags",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ArmorDurability",
@@ -7001,22 +7001,22 @@
     {
       "Name": "ComboHits",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 0.0
     },
     {
       "Name": "ComboTime",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 5.0
     },
     {
       "Name": "Mode",
       "ParentName": "Sprint",
-      "SelectedOption": "AllDirectionMotion"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "IgnoreCollisions",
       "ParentName": "Sprint",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "HungerSprint",
@@ -7026,17 +7026,17 @@
     {
       "Name": "JumpSprint",
       "ParentName": "Sprint",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Mode",
       "ParentName": "Jesus",
-      "SelectedOption": "Speed"
+      "SelectedOption": "Solid"
     },
     {
       "Name": "Speed",
       "ParentName": "Jesus",
-      "Value": 2.5
+      "Value": 1.0
     },
     {
       "Name": "Motion",
@@ -7086,7 +7086,7 @@
     {
       "Name": "SwitchSwordBoolean",
       "ParentName": "NoSlow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SwordSendSlotBoolean",
@@ -7131,7 +7131,7 @@
     {
       "Name": "SwitchBowBoolean",
       "ParentName": "NoSlow",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "BowSendSlotBoolean",
@@ -7141,7 +7141,7 @@
     {
       "Name": "BowOnGroundBoolean",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ToggleBowBoolean",
@@ -7276,22 +7276,22 @@
     {
       "Name": "RestSneakForward",
       "ParentName": "NoSlow",
-      "Value": 0.79
+      "Value": 0.42
     },
     {
       "Name": "RestSneakStrafe",
       "ParentName": "NoSlow",
-      "Value": 0.79
+      "Value": 0.2
     },
     {
       "Name": "Mode",
       "ParentName": "Speed",
-      "SelectedOption": "Strafe"
+      "SelectedOption": "LegitHop"
     },
     {
       "Name": "Speed",
       "ParentName": "Speed",
-      "Value": 1.0
+      "Value": 2.7
     },
     {
       "Name": "DojoSpeed",
@@ -7301,7 +7301,7 @@
     {
       "Name": "Height",
       "ParentName": "Speed",
-      "Value": 1.0
+      "Value": 1.75
     },
     {
       "Name": "DamageBoost",
@@ -7316,12 +7316,12 @@
     {
       "Name": "Strafe",
       "ParentName": "Speed",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "TimeManipulationTimer",
       "ParentName": "Speed",
-      "Value": 2.05
+      "Value": 3.05
     },
     {
       "Name": "TimeManipulationTPTicks",
@@ -7331,7 +7331,7 @@
     {
       "Name": "Time",
       "ParentName": "Timer",
-      "Value": 1.1
+      "Value": 0.1
     },
     {
       "Name": "Mode",
@@ -7361,17 +7361,17 @@
     {
       "Name": "StrafeOnAir",
       "ParentName": "Strafe",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "TiminInAir",
       "ParentName": "Strafe",
-      "SelectedOption": "OnlyWhileKB"
+      "SelectedOption": "Always"
     },
     {
       "Name": "PacketDirection",
       "ParentName": "Blink",
-      "SelectedOption": "OnlyIncoming"
+      "SelectedOption": "OnlyOutgoing"
     },
     {
       "Name": "AutoDisable",
@@ -7401,12 +7401,12 @@
     {
       "Name": "Mode",
       "ParentName": "Fly",
-      "SelectedOption": "Vanilla2"
+      "SelectedOption": "GroundCollision"
     },
     {
       "Name": "WaitForDamage",
       "ParentName": "Fly",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AutoJump",
@@ -7436,7 +7436,7 @@
     {
       "Name": "VerusSpeedCombined",
       "ParentName": "Fly",
-      "Value": 5.0
+      "Value": 1.0
     },
     {
       "Name": "CubeCraftSpeed",
@@ -7461,12 +7461,12 @@
     {
       "Name": "Height",
       "ParentName": "Fly",
-      "Value": 0.2
+      "Value": 1.0
     },
     {
       "Name": "Boost",
       "ParentName": "Fly",
-      "Value": 0.0
+      "Value": 1.0
     },
     {
       "Name": "DistanceFlown",
@@ -7492,12 +7492,12 @@
     {
       "Name": "Mode",
       "ParentName": "BugUp",
-      "SelectedOption": "Teleport"
+      "SelectedOption": "AirStuck"
     },
     {
       "Name": "Radius",
       "ParentName": "TargetStrafe",
-      "Value": 1.1
+      "Value": 2.5
     },
     {
       "Name": "KillAuraTarget",
@@ -7507,7 +7507,7 @@
     {
       "Name": "AutoStrafe",
       "ParentName": "TargetStrafe",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnlyWhileSpace",
@@ -7517,7 +7517,7 @@
     {
       "Name": "MotionY",
       "ParentName": "FastLadder",
-      "Value": 0.21
+      "Value": 0.4
     },
     {
       "Name": "StopOnEnd",
@@ -7532,7 +7532,7 @@
     {
       "Name": "MotionToJump",
       "ParentName": "Spider",
-      "Value": 0.16
+      "Value": -0.2
     },
     {
       "Name": "CustomMotionAtJump",
@@ -7542,7 +7542,7 @@
     {
       "Name": "CustomMotion",
       "ParentName": "Spider",
-      "Value": 0.42
+      "Value": 0.3
     },
     {
       "Name": "GroundPacket",
@@ -7567,12 +7567,12 @@
     {
       "Name": "BoostTicks",
       "ParentName": "Booster",
-      "Value": 1.0
+      "Value": 5.0
     },
     {
       "Name": "Delay",
       "ParentName": "Booster",
-      "Value": 50.0
+      "Value": 1900.0
     },
     {
       "Name": "Height",
@@ -7582,7 +7582,7 @@
     {
       "Name": "Delay",
       "ParentName": "Step",
-      "Value": 0.0
+      "Value": 400.0
     },
     {
       "Name": "Timer",
@@ -7592,7 +7592,7 @@
     {
       "Name": "Modes",
       "ParentName": "Step",
-      "SelectedOption": "Vanilla"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "AutoDisable",
@@ -7602,12 +7602,12 @@
     {
       "Name": "Modes",
       "ParentName": "LongJump",
-      "SelectedOption": "NCP"
+      "SelectedOption": "Minemen"
     },
     {
       "Name": "NCPSpeed",
       "ParentName": "LongJump",
-      "Value": 4.24
+      "Value": 10.0
     },
     {
       "Name": "Distance",
@@ -7622,7 +7622,7 @@
     {
       "Name": "MaxSmartDistance",
       "ParentName": "VClip",
-      "Value": -9.9
+      "Value": -10.0
     },
     {
       "Name": "DistanceToHeadBlock",
@@ -7642,7 +7642,7 @@
     {
       "Name": "EdgeCheck",
       "ParentName": "SafeWalk",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AutoDisable",
@@ -7657,7 +7657,7 @@
     {
       "Name": "VanillaHeight",
       "ParentName": "HighJump",
-      "Value": 0.58
+      "Value": 0.42
     },
     {
       "Name": "DamageHeight",
@@ -7672,7 +7672,7 @@
     {
       "Name": "Mode",
       "ParentName": "Sneak",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "SneakForward",
@@ -7687,7 +7687,7 @@
     {
       "Name": "RemoveSneakStop",
       "ParentName": "Sneak",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SneakInInv",
@@ -7737,7 +7737,7 @@
     {
       "Name": "SelfDamageSavingsOnlyOnGround",
       "ParentName": "MotionModifier",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SelfDamageSavingsSelfDamageMode",
@@ -17046,13 +17046,13 @@
     {
       "Name": "Tick0TicksInAirPreUpdateEditSpeedInAir",
       "ParentName": "MotionModifier",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Tick0TicksInAirPreUpdateSpeedInAir",
       "ParentName": "MotionModifier",
-      "MinValue": 0.1,
-      "MaxValue": 0.1
+      "MinValue": 0.02,
+      "MaxValue": 0.02
     },
     {
       "Name": "Tick0TicksInAirPreUpdateEditTimerSpeed",
@@ -17209,8 +17209,8 @@
     {
       "Name": "Tick1TicksInAirPreUpdateSpeedInAir",
       "ParentName": "MotionModifier",
-      "MinValue": 0.03,
-      "MaxValue": 0.03
+      "MinValue": 0.02,
+      "MaxValue": 0.02
     },
     {
       "Name": "Tick1TicksInAirPreUpdateEditTimerSpeed",
@@ -17362,7 +17362,7 @@
     {
       "Name": "Tick2TicksInAirPreUpdateEditSpeedInAir",
       "ParentName": "MotionModifier",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Tick2TicksInAirPreUpdateSpeedInAir",
@@ -62717,7 +62717,7 @@
     {
       "Name": "MouseSensMode",
       "ParentName": "RotationHandler",
-      "SelectedOption": "Default"
+      "SelectedOption": "Advanced"
     },
     {
       "Name": "SmoothBackRotate",
@@ -62727,12 +62727,12 @@
     {
       "Name": "MaxYaw",
       "ParentName": "RotationHandler",
-      "Value": 29.0
+      "Value": 11.0
     },
     {
       "Name": "MaxPitch",
       "ParentName": "RotationHandler",
-      "Value": 27.0
+      "Value": 16.0
     },
     {
       "Name": "MoveFix",
@@ -62752,7 +62752,7 @@
     {
       "Name": "MinFallDist",
       "ParentName": "NoFall",
-      "Value": 6.0
+      "Value": 4.0
     },
     {
       "Name": "MinLegitFallDist",
@@ -62773,17 +62773,17 @@
     {
       "Name": "Mode",
       "ParentName": "AutoArmor",
-      "SelectedOption": "OpenInv"
+      "SelectedOption": "Basic"
     },
     {
       "Name": "NoMove",
       "ParentName": "AutoArmor",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "InteractCheck",
       "ParentName": "AutoArmor",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "StopMovement",
@@ -62798,13 +62798,13 @@
     {
       "Name": "Delay",
       "ParentName": "AutoArmor",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Hotbar",
       "ParentName": "AutoArmor",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "GommeQSG",
@@ -62830,7 +62830,7 @@
     {
       "Name": "StopOnInteraction",
       "ParentName": "AutoArmor",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Visualize",
@@ -62840,7 +62840,7 @@
     {
       "Name": "Sequence",
       "ParentName": "AutoArmor",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Nearest"
     },
     {
       "Name": "EventToClick",
@@ -62855,17 +62855,17 @@
     {
       "Name": "Mode",
       "ParentName": "InvCleaner",
-      "SelectedOption": "OpenInv"
+      "SelectedOption": "Basic"
     },
     {
       "Name": "NoMove",
       "ParentName": "InvCleaner",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "InteractCheck",
       "ParentName": "InvCleaner",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "StopMovement",
@@ -62880,20 +62880,20 @@
     {
       "Name": "SortDelay",
       "ParentName": "InvCleaner",
-      "MinValue": 70.0,
-      "MaxValue": 120.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "DropDelay",
       "ParentName": "InvCleaner",
-      "MinValue": 70.0,
-      "MaxValue": 118.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "DelayBeforeAutoArmor",
       "ParentName": "InvCleaner",
-      "MinValue": 70.0,
-      "MaxValue": 120.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Sort",
@@ -62908,7 +62908,7 @@
     {
       "Name": "StopOnInteraction",
       "ParentName": "InvCleaner",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Visualize",
@@ -62918,7 +62918,7 @@
     {
       "Name": "FailRate",
       "ParentName": "InvCleaner",
-      "Value": 5.0
+      "Value": 0.0
     },
     {
       "Name": "Sequence",
@@ -62938,13 +62938,13 @@
     {
       "Name": "StartDelay",
       "ParentName": "ChestStealer",
-      "Value": 200.0
+      "Value": 0.0
     },
     {
       "Name": "Delay",
       "ParentName": "ChestStealer",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Intelligent",
@@ -63014,12 +63014,12 @@
     {
       "Name": "Inventory",
       "ParentName": "GuiMove",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Container",
       "ParentName": "GuiMove",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OtherScreens",
@@ -63070,7 +63070,7 @@
     {
       "Name": "StartDelay",
       "ParentName": "FakeLaag",
-      "Value": 500.0
+      "Value": 0.0
     },
     {
       "Name": "LagPackets",
@@ -63101,7 +63101,7 @@
     {
       "Name": "Mode",
       "ParentName": "Teleport",
-      "SelectedOption": "OldKarhu"
+      "SelectedOption": "Vulcan"
     },
     {
       "Name": "AutoDisable",
@@ -63131,22 +63131,22 @@
     {
       "Name": "Mode",
       "ParentName": "AirStuck",
-      "SelectedOption": "Intave"
+      "SelectedOption": "NoRotate"
     },
     {
       "Name": "Sneak",
       "ParentName": "AirStuck",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyInAir",
       "ParentName": "AirStuck",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "PreRange",
       "ParentName": "ChestAura",
-      "Value": 4.5
+      "Value": 6.0
     },
     {
       "Name": "Range",
@@ -63168,8 +63168,8 @@
     {
       "Name": "Delay",
       "ParentName": "ChestAura",
-      "MinValue": 200.0,
-      "MaxValue": 500.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "ThroughWalls",
@@ -63189,27 +63189,27 @@
     {
       "Name": "MoveFix",
       "ParentName": "ChestAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Mode",
       "ParentName": "FastUse",
-      "SelectedOption": "Packet"
+      "SelectedOption": "TimeManipulation"
     },
     {
       "Name": "OnlyWhileMoving",
       "ParentName": "FastUse",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "PacketLoops",
       "ParentName": "FastUse",
-      "Value": 2.0
+      "Value": 1.0
     },
     {
       "Name": "Packets",
       "ParentName": "FastUse",
-      "Value": 15.0
+      "Value": 26.0
     },
     {
       "Name": "TimePackets",
@@ -63222,7 +63222,7 @@
       "SettingList": [
         {
           "Food": true,
-          "Bow": false,
+          "Bow": true,
           "Other": true
         }
       ]
@@ -63353,12 +63353,12 @@
     {
       "Name": "Repeat",
       "ParentName": "SelfDamage",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "RepeatTicks",
       "ParentName": "SelfDamage",
-      "Value": 52.0
+      "Value": 140.0
     },
     {
       "Name": "ThirdPerson",
@@ -63388,19 +63388,19 @@
     {
       "Name": "Multiplier",
       "ParentName": "FastBreak",
-      "Value": 1.3
+      "Value": 1.1
     },
     {
       "Name": "YawSpeedInRotationModule",
       "ParentName": "Fucker",
-      "MinValue": 180.0,
-      "MaxValue": 180.0
+      "MinValue": 30.0,
+      "MaxValue": 50.0
     },
     {
       "Name": "PitchSpeedInRotationModule",
       "ParentName": "Fucker",
-      "MinValue": 180.0,
-      "MaxValue": 180.0
+      "MinValue": 30.0,
+      "MaxValue": 50.0
     },
     {
       "Name": "RandomTypeInRotationModule",
@@ -63430,7 +63430,7 @@
     {
       "Name": "MoveFixInRotationModule",
       "ParentName": "Fucker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SilentMoveFix",
@@ -63440,7 +63440,7 @@
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
       "ParentName": "Fucker",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Block",
@@ -63485,21 +63485,21 @@
     {
       "Name": "BedBlink",
       "ParentName": "Fucker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "BedBlinkTime",
       "ParentName": "Fucker",
-      "Value": 10000.0
+      "Value": 3000.0
     },
     {
       "Name": "Items",
       "ParentName": "FastPlace",
       "SettingList": [
         {
-          "Blocks": true,
+          "Blocks": false,
           "XP-Bottles": true,
-          "SnowBalls": true,
+          "SnowBalls": false,
           "Eggs": false,
           "Potions": false
         }
@@ -63578,14 +63578,14 @@
     {
       "Name": "YawSpeed",
       "ParentName": "Scaffold",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
+      "MinValue": 180.0,
+      "MaxValue": 180.0
     },
     {
       "Name": "PitchSpeed",
       "ParentName": "Scaffold",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
+      "MinValue": 180.0,
+      "MaxValue": 180.0
     },
     {
       "Name": "StaticPitchBool",
@@ -63616,17 +63616,17 @@
     {
       "Name": "EdgePlaceCheck",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Strafe",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Flick",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Intave",
@@ -63682,7 +63682,7 @@
     {
       "Name": "SneakingGroupygroupy",
       "ParentName": "Scaffold",
-      "Extended": false
+      "Extended": true
     },
     {
       "Name": "Sneak",
@@ -63698,7 +63698,7 @@
       "Name": "SneakTicks",
       "ParentName": "Scaffold",
       "MinValue": 2.0,
-      "MaxValue": 2.0
+      "MaxValue": 4.0
     },
     {
       "Name": "StartSneakDistToBlock",
@@ -63721,7 +63721,7 @@
     {
       "Name": "SneakSlowDown",
       "ParentName": "Scaffold",
-      "Value": 0.8
+      "Value": 0.3
     },
     {
       "Name": "MoveFix",
@@ -63731,12 +63731,12 @@
     {
       "Name": "MoveFixIntave",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Mode",
       "ParentName": "Scaffold",
-      "SelectedOption": "None"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "JumpSprint",
@@ -63756,7 +63756,7 @@
     {
       "Name": "AutoJump",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "TellyBridge",
@@ -63771,17 +63771,17 @@
     {
       "Name": "SafeWalkAir",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SafeWalkOnlyDiagonal",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SafeWalkNoBlocks",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SneakNoBlocks",
@@ -63822,17 +63822,17 @@
     {
       "Name": "TowerMode",
       "ParentName": "Scaffold",
-      "SelectedOption": "NCP"
+      "SelectedOption": "Legit"
     },
     {
       "Name": "ConstantMotion",
       "ParentName": "Scaffold",
-      "Value": 0.01
+      "Value": 0.4
     },
     {
       "Name": "JumpMotion",
       "ParentName": "Scaffold",
-      "Value": 0.39
+      "Value": 0.37
     },
     {
       "Name": "Silent",
@@ -63872,7 +63872,7 @@
     {
       "Name": "BackGround",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "RoundFactor",
@@ -63892,7 +63892,7 @@
     {
       "Name": "ESP",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Color",
@@ -64072,7 +64072,7 @@
     {
       "Name": "Mode",
       "ParentName": "AutoPlay",
-      "SelectedOption": "PikaSkywars"
+      "SelectedOption": "MinemenUnranked"
     },
     {
       "Name": "Gamemode",
@@ -64087,7 +64087,7 @@
     {
       "Name": "RemoveEscape",
       "ParentName": "AutoPlay",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Delay",
@@ -64098,12 +64098,12 @@
     {
       "Name": "Intave",
       "ParentName": "Fixes",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "IntaveBlocking",
       "ParentName": "Fixes",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "MouseDelayFix",
@@ -64113,7 +64113,7 @@
     {
       "Name": "HitDelayFix",
       "ParentName": "Fixes",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "HitDelayFixOther",
@@ -64123,7 +64123,7 @@
     {
       "Name": "MemoryFix",
       "ParentName": "Fixes",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "YawSpeedInRotationModule",
@@ -64360,7 +64360,7 @@
     {
       "Name": "Modes",
       "ParentName": "StaffDetector",
-      "SelectedOption": "Normal"
+      "SelectedOption": "Gomme"
     },
     {
       "Name": "CheckDelay",
@@ -64386,12 +64386,12 @@
     {
       "Name": "AcousticWarning",
       "ParentName": "StaffDetector",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Volume",
       "ParentName": "StaffDetector",
-      "Value": 90.0
+      "Value": 93.0
     },
     {
       "Name": "TeleportFix",
@@ -64631,7 +64631,7 @@
     {
       "Name": "MinTicksAvailable",
       "ParentName": "TimeManipulation",
-      "Value": 10.0
+      "Value": 0.0
     },
     {
       "Name": "MaxChargingTicks",
@@ -64661,7 +64661,7 @@
     {
       "Name": "TimerRangeBool",
       "ParentName": "TimeManipulation",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "TimerRangeGroupygroupy",
@@ -64817,7 +64817,7 @@
     {
       "Name": "KickFix",
       "ParentName": "PacketHandler",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IncomingPacketsToDelay",
@@ -64830,7 +64830,7 @@
           "S03PacketTimeUpdate": true,
           "S04PacketEntityEquipment": true,
           "S05PacketSpawnPosition": true,
-          "S06PacketUpdateHealth": true,
+          "S06PacketUpdateHealth": false,
           "S07PacketRespawn": true,
           "S08PacketPlayerPosLook": true,
           "S09PacketHeldItemChange": true,
@@ -64850,7 +64850,7 @@
           "S17PacketEntityLookMove": true,
           "S18PacketEntityTeleport": true,
           "S19PacketEntityHeadLook": true,
-          "S19PacketEntityStatus": true,
+          "S19PacketEntityStatus": false,
           "S1BPacketEntityAttach": true,
           "S1CPacketEntityMetadata": true,
           "S1DPacketEntityEffect": true,
@@ -64865,7 +64865,7 @@
           "S26PacketMapChunkBulk": true,
           "S27PacketExplosion": true,
           "S28PacketEffect": true,
-          "S29PacketSoundEffect": true,
+          "S29PacketSoundEffect": false,
           "S2APacketParticles": true,
           "S2BPacketChangeGameState": true,
           "S2CPacketSpawnGlobalEntity": true,
@@ -65065,7 +65065,7 @@
           "C08PacketPlayerBlockPlacement": false,
           "C09PacketHeldItemChange": false,
           "C0APacketAnimation": false,
-          "C0BPacketEntityAction": true,
+          "C0BPacketEntityAction": false,
           "C0CPacketInput": false,
           "C0DPacketCloseWindow": false,
           "C0EPacketClickWindow": false,
@@ -65106,8 +65106,8 @@
     {
       "Name": "Delay",
       "ParentName": "Disabler",
-      "MinValue": 2420.0,
-      "MaxValue": 2420.0
+      "MinValue": 1000.0,
+      "MaxValue": 1500.0
     },
     {
       "Name": "RoyalPixels",
@@ -67355,7 +67355,7 @@
     {
       "Name": "IncomingPing",
       "ParentName": "Ping",
-      "Value": 190.0
+      "Value": 130.0
     },
     {
       "Name": "OutgoingPing",
@@ -67676,7 +67676,7 @@
     {
       "Name": "MOVEMENTGroupygroupy",
       "ParentName": "AutoDisable",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "Sprint",
@@ -67716,7 +67716,7 @@
     {
       "Name": "Fly",
       "ParentName": "AutoDisable",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "BugUp",
@@ -67726,7 +67726,7 @@
     {
       "Name": "TargetStrafe",
       "ParentName": "AutoDisable",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "FastLadder",
@@ -67931,7 +67931,7 @@
     {
       "Name": "SelfDamage",
       "ParentName": "AutoDisable",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "RENDERGroupygroupy",
@@ -68296,7 +68296,7 @@
     {
       "Name": "MISCGroupygroupy",
       "ParentName": "AutoDisable",
-      "Extended": true
+      "Extended": false
     },
     {
       "Name": "RotationHandler",
