@@ -1,20 +1,20 @@
 {
   "name": "Minemen",
-  "date": "20.04.2023",
-  "time": "23:21",
+  "date": "21.04.2023",
+  "time": "12:09",
   "modules": [
     {
       "Name": "Blur",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "Shadow",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -56,7 +56,7 @@
       "Name": "AntiFireBall",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -511,7 +511,7 @@
       "Name": "Chat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1078,7 +1078,7 @@
       "Name": "Debug",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -7001,12 +7001,12 @@
     {
       "Name": "ComboHits",
       "ParentName": "Emojify",
-      "Value": 0.0
+      "Value": 2.0
     },
     {
       "Name": "ComboTime",
       "ParentName": "Emojify",
-      "Value": 5.0
+      "Value": 2.0
     },
     {
       "Name": "Mode",
@@ -62725,14 +62725,16 @@
       "Boolean": false
     },
     {
-      "Name": "MaxYaw",
+      "Name": "YawSpeed",
       "ParentName": "RotationHandler",
-      "Value": 11.0
+      "MinValue": 18.0,
+      "MaxValue": 24.0
     },
     {
-      "Name": "MaxPitch",
+      "Name": "PitchSpeed",
       "ParentName": "RotationHandler",
-      "Value": 16.0
+      "MinValue": 18.0,
+      "MaxValue": 24.0
     },
     {
       "Name": "MoveFix",
