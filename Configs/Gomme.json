@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "03.05.2023",
-  "time": "20:21",
+  "date": "11.05.2023",
+  "time": "21:57",
   "modules": [
     {
       "Name": "Blur",
@@ -119,21 +119,21 @@
       "Name": "KeepSprint",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "LagRange",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "BackTrack",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -266,7 +266,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1071,7 +1071,7 @@
       "Name": "Debug",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -2642,11 +2642,6 @@
       "Boolean": false
     },
     {
-      "Name": "BetterHit",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
       "Name": "ExpandXZ",
       "ParentName": "HitBox",
       "Value": 0.0
@@ -2802,7 +2797,7 @@
     {
       "Name": "Ticks",
       "ParentName": "LagRange",
-      "Value": 5.0
+      "Value": 3.0
     },
     {
       "Name": "Correct",
@@ -2827,17 +2822,30 @@
     {
       "Name": "MaxHitRange",
       "ParentName": "BackTrack",
-      "Value": 6.0
+      "MinValue": 6.0,
+      "MaxValue": 6.0
     },
     {
       "Name": "BackTrackTime",
       "ParentName": "BackTrack",
-      "Value": 200.0
+      "MinValue": 195.0,
+      "MaxValue": 195.0
+    },
+    {
+      "Name": "CalculateWithOwnPing",
+      "ParentName": "BackTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "MaxBackTrackPing",
+      "ParentName": "BackTrack",
+      "MinValue": 240.0,
+      "MaxValue": 340.0
     },
     {
       "Name": "ForceDelay",
       "ParentName": "BackTrack",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Predict",
@@ -2847,7 +2855,7 @@
     {
       "Name": "DelayBetweenBacktrack",
       "ParentName": "BackTrack",
-      "Value": 0.0
+      "Value": 25.0
     },
     {
       "Name": "MaxLagPackets",
@@ -2877,7 +2885,7 @@
     {
       "Name": "OnlyWhenNeed",
       "ParentName": "BackTrack",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyKillAura",
@@ -3521,8 +3529,8 @@
     {
       "Name": "StartDistToBlock",
       "ParentName": "AutoEagle",
-      "MinValue": 0.38,
-      "MaxValue": 0.38
+      "MinValue": 0.05,
+      "MaxValue": 0.2
     },
     {
       "Name": "FastPlace",
@@ -3628,6 +3636,16 @@
       "SelectedOption": "Dash"
     },
     {
+      "Name": "Casing",
+      "ParentName": "ArrayList",
+      "SelectedOption": "LowerCase"
+    },
+    {
+      "Name": "SuffixCasing",
+      "ParentName": "ArrayList",
+      "SelectedOption": "LowerCase"
+    },
+    {
       "Name": "SuffixColor",
       "ParentName": "ArrayList",
       "Alpha": 255,
@@ -3645,7 +3663,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 0.5019608
@@ -3682,11 +3700,11 @@
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
       "HSB Color Red": 0.5,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
-      "HSB FadeColor Red": 0.44949496,
-      "HSB FadeColor Green": 0.9952153,
-      "HSB FadeColor Blue": 0.9952153
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
+      "HSB FadeColor Red": 0.44927537,
+      "HSB FadeColor Green": 0.996063,
+      "HSB FadeColor Blue": 0.99607843
     },
     {
       "Name": "Backgound",
@@ -6040,7 +6058,7 @@
     {
       "Name": "PingNumber",
       "ParentName": "TabList",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Shadow",
@@ -6968,6 +6986,11 @@
       "Name": "SilentSlot",
       "ParentName": "Hotbar",
       "Boolean": false
+    },
+    {
+      "Name": "OtherPingCalculation",
+      "ParentName": "Hotbar",
+      "Boolean": true
     },
     {
       "Name": "InventoryItems",
@@ -61748,6 +61771,40 @@
       "Boolean": false
     },
     {
+      "Name": "OneStackForward",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "MinOffGroundSneakTickForward",
+      "ParentName": "Scaffold",
+      "MinValue": 1.0,
+      "MaxValue": 2.0
+    },
+    {
+      "Name": "MaxOffGroundSneakTickForward",
+      "ParentName": "Scaffold",
+      "MinValue": 10.0,
+      "MaxValue": 11.0
+    },
+    {
+      "Name": "OneStackDiagonal",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "MinOffGroundSneakTickDiagonal",
+      "ParentName": "Scaffold",
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "MaxOffGroundSneakTickDiagonal",
+      "ParentName": "Scaffold",
+      "MinValue": 10.0,
+      "MaxValue": 11.0
+    },
+    {
       "Name": "SneakTicks",
       "ParentName": "Scaffold",
       "MinValue": 2.0,
@@ -61892,7 +61949,7 @@
     {
       "Name": "JumpMotion",
       "ParentName": "Scaffold",
-      "Value": 0.37
+      "Value": 0.39
     },
     {
       "Name": "Silent",
@@ -62289,41 +62346,6 @@
       "Name": "Kit1V1Damage",
       "ParentName": "Debug",
       "Boolean": false
-    },
-    {
-      "Name": "DamageDebug",
-      "ParentName": "Debug",
-      "Boolean": true
-    },
-    {
-      "Name": "DamageUnsafe",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "DebugAllChat",
-      "ParentName": "Debug",
-      "Boolean": true
-    },
-    {
-      "Name": "HitDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "InputRecorder",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "IntaveVeloDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "PacketLog",
-      "ParentName": "Debug",
-      "SelectedOption": "None"
     },
     {
       "Name": "Modes",

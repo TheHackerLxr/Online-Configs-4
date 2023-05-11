@@ -1,20 +1,20 @@
 {
   "name": "GommeBot",
-  "date": "20.04.2023",
-  "time": "23:15",
+  "date": "11.05.2023",
+  "time": "21:54",
   "modules": [
     {
       "Name": "Blur",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "Shadow",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -266,7 +266,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -427,7 +427,7 @@
       "Name": "CustomName",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -511,7 +511,7 @@
       "Name": "Chat",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -623,7 +623,7 @@
       "Name": "Emojify",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -666,7 +666,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 21
+      "Key": 0
     },
     {
       "Name": "Blink",
@@ -1026,13 +1026,6 @@
       "Key": 0
     },
     {
-      "Name": "NewFucker",
-      "IsInConfig": true,
-      "IsInArraylist": true,
-      "Toggled": false,
-      "Key": 0
-    },
-    {
       "Name": "Radio",
       "IsInConfig": false,
       "IsInArraylist": true,
@@ -1078,12 +1071,12 @@
       "Name": "Debug",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "StaffDetector",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "Toggled": true,
       "Key": 0
@@ -1273,6 +1266,13 @@
     {
       "Name": "Spammer",
       "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "MLG",
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1584,6 +1584,11 @@
       "ParentName": "AutoSoup",
       "MinValue": 0.0,
       "MaxValue": 0.0
+    },
+    {
+      "Name": "Silent",
+      "ParentName": "AutoSoup",
+      "Boolean": true
     },
     {
       "Name": "Fill",
@@ -2021,11 +2026,6 @@
       "MaxValue": 1.0
     },
     {
-      "Name": "RotationsGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": true
-    },
-    {
       "Name": "PreAimRange",
       "ParentName": "KillAura",
       "Value": 60.0
@@ -2091,11 +2091,6 @@
       "Name": "HitBoxPercentageHorizontal1",
       "ParentName": "KillAura",
       "Value": 100.0
-    },
-    {
-      "Name": "RandomizeGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": false
     },
     {
       "Name": "RandomType",
@@ -2204,16 +2199,6 @@
       "Name": "AimThroughWalls",
       "ParentName": "KillAura",
       "Boolean": true
-    },
-    {
-      "Name": "ClickingGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": true
-    },
-    {
-      "Name": "ClickSettingsGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": true
     },
     {
       "Name": "ClickMode",
@@ -2399,11 +2384,6 @@
       "Boolean": false
     },
     {
-      "Name": "InteractionsGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": true
-    },
-    {
       "Name": "AttackMode",
       "ParentName": "KillAura",
       "SelectedOption": "Legit"
@@ -2499,11 +2479,6 @@
       "Boolean": false
     },
     {
-      "Name": "MovementGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": true
-    },
-    {
       "Name": "MoveFix",
       "ParentName": "KillAura",
       "Boolean": true
@@ -2517,11 +2492,6 @@
       "Name": "SilentMoveFixIntave",
       "ParentName": "KillAura",
       "Boolean": true
-    },
-    {
-      "Name": "TargetsGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": true
     },
     {
       "Name": "Targets",
@@ -2547,11 +2517,6 @@
       "Name": "TargetDelay",
       "ParentName": "KillAura",
       "Value": 0.0
-    },
-    {
-      "Name": "MiscellaneousGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": true
     },
     {
       "Name": "InInv",
@@ -2587,11 +2552,6 @@
       "Name": "HazeMax",
       "ParentName": "KillAura",
       "Value": 4.5
-    },
-    {
-      "Name": "VisualsGroupygroupy",
-      "ParentName": "KillAura",
-      "Extended": false
     },
     {
       "Name": "Dot",
@@ -2678,11 +2638,6 @@
     },
     {
       "Name": "Slot9",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "BetterHit",
       "ParentName": "KillAura",
       "Boolean": false
     },
@@ -2810,6 +2765,11 @@
       "Boolean": true
     },
     {
+      "Name": "Accurate",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
       "Name": "Debug",
       "ParentName": "TimerRangeV2",
       "Boolean": false
@@ -2830,6 +2790,11 @@
       "Boolean": true
     },
     {
+      "Name": "PredictTicks",
+      "ParentName": "LagRange",
+      "Value": 5.0
+    },
+    {
       "Name": "Ticks",
       "ParentName": "LagRange",
       "Value": 5.0
@@ -2840,6 +2805,16 @@
       "Boolean": false
     },
     {
+      "Name": "Stop",
+      "ParentName": "LagRange",
+      "Boolean": false
+    },
+    {
+      "Name": "STap",
+      "ParentName": "LagRange",
+      "Boolean": true
+    },
+    {
       "Name": "Mode",
       "ParentName": "BackTrack",
       "SelectedOption": "Gomme"
@@ -2847,12 +2822,25 @@
     {
       "Name": "MaxHitRange",
       "ParentName": "BackTrack",
-      "Value": 6.0
+      "MinValue": 6.0,
+      "MaxValue": 6.0
     },
     {
       "Name": "BackTrackTime",
       "ParentName": "BackTrack",
-      "Value": 225.0
+      "MinValue": 195.0,
+      "MaxValue": 195.0
+    },
+    {
+      "Name": "CalculateWithOwnPing",
+      "ParentName": "BackTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "MaxBackTrackPing",
+      "ParentName": "BackTrack",
+      "MinValue": 240.0,
+      "MaxValue": 340.0
     },
     {
       "Name": "ForceDelay",
@@ -2928,11 +2916,6 @@
       "Boolean": false
     },
     {
-      "Name": "TargetESPsGroupygroupy",
-      "ParentName": "BackTrack",
-      "Extended": false
-    },
-    {
       "Name": "TargetESP",
       "ParentName": "BackTrack",
       "SelectedOption": "PlayerModel"
@@ -2946,11 +2929,6 @@
       "Name": "TargetBlur",
       "ParentName": "BackTrack",
       "Boolean": false
-    },
-    {
-      "Name": "PlayerESPsGroupygroupy",
-      "ParentName": "BackTrack",
-      "Extended": false
     },
     {
       "Name": "PlayerESP",
@@ -3532,16 +3510,27 @@
       "Boolean": true
     },
     {
-      "Name": "StartSneakDistToBlock",
+      "Name": "MoonWalk",
       "ParentName": "AutoEagle",
-      "MinValue": 0.05,
-      "MaxValue": 0.2
+      "Boolean": false
     },
     {
       "Name": "MinSneakTicks",
       "ParentName": "AutoEagle",
       "MinValue": 1.0,
       "MaxValue": 2.0
+    },
+    {
+      "Name": "MoonWalkWideness",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.2,
+      "MaxValue": 0.2
+    },
+    {
+      "Name": "StartDistToBlock",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.38,
+      "MaxValue": 0.38
     },
     {
       "Name": "FastPlace",
@@ -3561,11 +3550,6 @@
     },
     {
       "Name": "OneClick",
-      "ParentName": "AutoEagle",
-      "Boolean": false
-    },
-    {
-      "Name": "MoonWalk",
       "ParentName": "AutoEagle",
       "Boolean": false
     },
@@ -3652,6 +3636,16 @@
       "SelectedOption": "Dash"
     },
     {
+      "Name": "Casing",
+      "ParentName": "ArrayList",
+      "SelectedOption": "LowerCase"
+    },
+    {
+      "Name": "SuffixCasing",
+      "ParentName": "ArrayList",
+      "SelectedOption": "LowerCase"
+    },
+    {
       "Name": "SuffixColor",
       "ParentName": "ArrayList",
       "Alpha": 255,
@@ -3705,10 +3699,10 @@
       "Fade Dist": 47.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.0,
+      "HSB Color Red": 0.5,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
-      "HSB FadeColor Red": 0.09617919,
+      "HSB FadeColor Red": 0.44927537,
       "HSB FadeColor Green": 0.996063,
       "HSB FadeColor Blue": 0.99607843
     },
@@ -6064,7 +6058,7 @@
     {
       "Name": "PingNumber",
       "ParentName": "TabList",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Shadow",
@@ -6083,6 +6077,11 @@
     },
     {
       "Name": "NoChatLimit",
+      "ParentName": "Chat",
+      "Boolean": true
+    },
+    {
+      "Name": "BackGround",
       "ParentName": "Chat",
       "Boolean": true
     },
@@ -6989,6 +6988,11 @@
       "Boolean": false
     },
     {
+      "Name": "OtherPingCalculation",
+      "ParentName": "Hotbar",
+      "Boolean": true
+    },
+    {
       "Name": "InventoryItems",
       "ParentName": "Hotbar",
       "Boolean": false
@@ -7001,12 +7005,12 @@
     {
       "Name": "ComboHits",
       "ParentName": "Emojify",
-      "Value": 0.0
+      "Value": 2.0
     },
     {
       "Name": "ComboTime",
       "ParentName": "Emojify",
-      "Value": 5.0
+      "Value": 2.0
     },
     {
       "Name": "Mode",
@@ -7730,11 +7734,6 @@
       "Boolean": false
     },
     {
-      "Name": "SelfDamageStartGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "SelfDamageSavingsOnlyOnGround",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -7783,16 +7782,6 @@
       "Name": "SelfDamageSavingsYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "PreUpdateGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": true
-    },
-    {
-      "Name": "MotionYLessZeroGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "MotionYLessZeroPreUpdateEditTick",
@@ -7948,11 +7937,6 @@
       "Value": 0.0
     },
     {
-      "Name": "MotionYHigherZeroGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "MotionYHigherZeroPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -8106,11 +8090,6 @@
       "Value": 0.0
     },
     {
-      "Name": "TicksOnGroundGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "TicksOnGroundPreUpdateResetTicksAt",
       "ParentName": "MotionModifier",
       "MinValue": 0.0,
@@ -8120,11 +8099,6 @@
       "Name": "TicksOnGroundPreUpdateResetAtOppositeState",
       "ParentName": "MotionModifier",
       "Boolean": true
-    },
-    {
-      "Name": "Tick0Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick0TicksOnGroundPreUpdateEditTick",
@@ -8269,11 +8243,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick1Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick1TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -8414,11 +8383,6 @@
       "Name": "Tick1TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick2Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick2TicksOnGroundPreUpdateEditTick",
@@ -8563,11 +8527,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick3Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick3TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -8708,11 +8667,6 @@
       "Name": "Tick3TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick4Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick4TicksOnGroundPreUpdateEditTick",
@@ -8857,11 +8811,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick5Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick5TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -9002,11 +8951,6 @@
       "Name": "Tick5TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick6Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick6TicksOnGroundPreUpdateEditTick",
@@ -9151,11 +9095,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick7Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick7TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -9296,11 +9235,6 @@
       "Name": "Tick7TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick8Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick8TicksOnGroundPreUpdateEditTick",
@@ -9445,11 +9379,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick9Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick9TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -9590,11 +9519,6 @@
       "Name": "Tick9TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick10Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick10TicksOnGroundPreUpdateEditTick",
@@ -9739,11 +9663,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick11Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick11TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -9884,11 +9803,6 @@
       "Name": "Tick11TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick12Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick12TicksOnGroundPreUpdateEditTick",
@@ -10033,11 +9947,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick13Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick13TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -10178,11 +10087,6 @@
       "Name": "Tick13TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick14Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick14TicksOnGroundPreUpdateEditTick",
@@ -10327,11 +10231,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick15Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick15TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -10472,11 +10371,6 @@
       "Name": "Tick15TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick16Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick16TicksOnGroundPreUpdateEditTick",
@@ -10621,11 +10515,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick17Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick17TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -10766,11 +10655,6 @@
       "Name": "Tick17TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick18Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick18TicksOnGroundPreUpdateEditTick",
@@ -10915,11 +10799,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick19Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick19TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -11060,11 +10939,6 @@
       "Name": "Tick19TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick20Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick20TicksOnGroundPreUpdateEditTick",
@@ -11209,11 +11083,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick21Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick21TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -11354,11 +11223,6 @@
       "Name": "Tick21TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick22Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick22TicksOnGroundPreUpdateEditTick",
@@ -11503,11 +11367,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick23Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick23TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -11648,11 +11507,6 @@
       "Name": "Tick23TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick24Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick24TicksOnGroundPreUpdateEditTick",
@@ -11797,11 +11651,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick25Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick25TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -11942,11 +11791,6 @@
       "Name": "Tick25TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick26Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick26TicksOnGroundPreUpdateEditTick",
@@ -12091,11 +11935,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick27Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick27TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -12236,11 +12075,6 @@
       "Name": "Tick27TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick28Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick28TicksOnGroundPreUpdateEditTick",
@@ -12385,11 +12219,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick29Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick29TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -12530,11 +12359,6 @@
       "Name": "Tick29TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick30Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick30TicksOnGroundPreUpdateEditTick",
@@ -12679,11 +12503,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick31Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick31TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -12824,11 +12643,6 @@
       "Name": "Tick31TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick32Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick32TicksOnGroundPreUpdateEditTick",
@@ -12973,11 +12787,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick33Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick33TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -13118,11 +12927,6 @@
       "Name": "Tick33TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick34Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick34TicksOnGroundPreUpdateEditTick",
@@ -13267,11 +13071,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick35Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick35TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -13412,11 +13211,6 @@
       "Name": "Tick35TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick36Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick36TicksOnGroundPreUpdateEditTick",
@@ -13561,11 +13355,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick37Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick37TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -13706,11 +13495,6 @@
       "Name": "Tick37TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick38Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick38TicksOnGroundPreUpdateEditTick",
@@ -13855,11 +13639,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick39Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick39TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -14000,11 +13779,6 @@
       "Name": "Tick39TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick40Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick40TicksOnGroundPreUpdateEditTick",
@@ -14149,11 +13923,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick41Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick41TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -14294,11 +14063,6 @@
       "Name": "Tick41TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick42Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick42TicksOnGroundPreUpdateEditTick",
@@ -14443,11 +14207,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick43Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick43TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -14588,11 +14347,6 @@
       "Name": "Tick43TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick44Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick44TicksOnGroundPreUpdateEditTick",
@@ -14737,11 +14491,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick45Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick45TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -14882,11 +14631,6 @@
       "Name": "Tick45TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick46Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick46TicksOnGroundPreUpdateEditTick",
@@ -15031,11 +14775,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick47Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick47TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -15176,11 +14915,6 @@
       "Name": "Tick47TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick48Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick48TicksOnGroundPreUpdateEditTick",
@@ -15325,11 +15059,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick49Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick49TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -15470,11 +15199,6 @@
       "Name": "Tick49TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick50Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick50TicksOnGroundPreUpdateEditTick",
@@ -15619,11 +15343,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick51Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick51TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -15764,11 +15483,6 @@
       "Name": "Tick51TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick52Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick52TicksOnGroundPreUpdateEditTick",
@@ -15913,11 +15627,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick53Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick53TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -16058,11 +15767,6 @@
       "Name": "Tick53TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick54Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick54TicksOnGroundPreUpdateEditTick",
@@ -16207,11 +15911,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick55Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick55TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -16352,11 +16051,6 @@
       "Name": "Tick55TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick56Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick56TicksOnGroundPreUpdateEditTick",
@@ -16501,11 +16195,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick57Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick57TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -16646,11 +16335,6 @@
       "Name": "Tick57TicksOnGroundPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick58Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick58TicksOnGroundPreUpdateEditTick",
@@ -16795,11 +16479,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick59Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick59TicksOnGroundPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -16942,11 +16621,6 @@
       "Value": 0.0
     },
     {
-      "Name": "TicksInAirGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "TicksInAirPreUpdateResetTicksAt",
       "ParentName": "MotionModifier",
       "MinValue": 0.0,
@@ -16956,11 +16630,6 @@
       "Name": "TicksInAirPreUpdateResetAtOppositeState",
       "ParentName": "MotionModifier",
       "Boolean": true
-    },
-    {
-      "Name": "Tick0Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick0TicksInAirPreUpdateEditTick",
@@ -17116,11 +16785,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick1Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick1TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -17272,11 +16936,6 @@
       "Name": "Tick1TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick2Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick2TicksInAirPreUpdateEditTick",
@@ -17432,11 +17091,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick3Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick3TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -17588,11 +17242,6 @@
       "Name": "Tick3TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick4Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick4TicksInAirPreUpdateEditTick",
@@ -17748,11 +17397,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick5Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick5TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -17904,11 +17548,6 @@
       "Name": "Tick5TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick6Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick6TicksInAirPreUpdateEditTick",
@@ -18064,11 +17703,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick7Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick7TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -18220,11 +17854,6 @@
       "Name": "Tick7TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick8Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick8TicksInAirPreUpdateEditTick",
@@ -18380,11 +18009,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick9Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick9TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -18536,11 +18160,6 @@
       "Name": "Tick9TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick10Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick10TicksInAirPreUpdateEditTick",
@@ -18696,11 +18315,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick11Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick11TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -18852,11 +18466,6 @@
       "Name": "Tick11TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick12Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick12TicksInAirPreUpdateEditTick",
@@ -19012,11 +18621,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick13Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick13TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -19168,11 +18772,6 @@
       "Name": "Tick13TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick14Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick14TicksInAirPreUpdateEditTick",
@@ -19328,11 +18927,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick15Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick15TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -19484,11 +19078,6 @@
       "Name": "Tick15TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick16Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick16TicksInAirPreUpdateEditTick",
@@ -19644,11 +19233,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick17Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick17TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -19800,11 +19384,6 @@
       "Name": "Tick17TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick18Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick18TicksInAirPreUpdateEditTick",
@@ -19960,11 +19539,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick19Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick19TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -20116,11 +19690,6 @@
       "Name": "Tick19TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick20Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick20TicksInAirPreUpdateEditTick",
@@ -20276,11 +19845,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick21Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick21TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -20432,11 +19996,6 @@
       "Name": "Tick21TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick22Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick22TicksInAirPreUpdateEditTick",
@@ -20592,11 +20151,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick23Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick23TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -20748,11 +20302,6 @@
       "Name": "Tick23TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick24Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick24TicksInAirPreUpdateEditTick",
@@ -20908,11 +20457,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick25Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick25TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -21064,11 +20608,6 @@
       "Name": "Tick25TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick26Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick26TicksInAirPreUpdateEditTick",
@@ -21224,11 +20763,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick27Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick27TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -21380,11 +20914,6 @@
       "Name": "Tick27TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick28Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick28TicksInAirPreUpdateEditTick",
@@ -21540,11 +21069,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick29Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick29TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -21696,11 +21220,6 @@
       "Name": "Tick29TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick30Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick30TicksInAirPreUpdateEditTick",
@@ -21856,11 +21375,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick31Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick31TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -22012,11 +21526,6 @@
       "Name": "Tick31TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick32Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick32TicksInAirPreUpdateEditTick",
@@ -22172,11 +21681,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick33Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick33TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -22328,11 +21832,6 @@
       "Name": "Tick33TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick34Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick34TicksInAirPreUpdateEditTick",
@@ -22488,11 +21987,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick35Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick35TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -22644,11 +22138,6 @@
       "Name": "Tick35TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick36Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick36TicksInAirPreUpdateEditTick",
@@ -22804,11 +22293,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick37Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick37TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -22960,11 +22444,6 @@
       "Name": "Tick37TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick38Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick38TicksInAirPreUpdateEditTick",
@@ -23120,11 +22599,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick39Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick39TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -23276,11 +22750,6 @@
       "Name": "Tick39TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick40Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick40TicksInAirPreUpdateEditTick",
@@ -23436,11 +22905,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick41Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick41TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -23592,11 +23056,6 @@
       "Name": "Tick41TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick42Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick42TicksInAirPreUpdateEditTick",
@@ -23752,11 +23211,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick43Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick43TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -23908,11 +23362,6 @@
       "Name": "Tick43TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick44Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick44TicksInAirPreUpdateEditTick",
@@ -24068,11 +23517,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick45Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick45TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -24224,11 +23668,6 @@
       "Name": "Tick45TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick46Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick46TicksInAirPreUpdateEditTick",
@@ -24384,11 +23823,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick47Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick47TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -24540,11 +23974,6 @@
       "Name": "Tick47TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick48Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick48TicksInAirPreUpdateEditTick",
@@ -24700,11 +24129,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick49Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick49TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -24856,11 +24280,6 @@
       "Name": "Tick49TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick50Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick50TicksInAirPreUpdateEditTick",
@@ -25016,11 +24435,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick51Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick51TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -25172,11 +24586,6 @@
       "Name": "Tick51TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick52Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick52TicksInAirPreUpdateEditTick",
@@ -25332,11 +24741,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick53Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick53TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -25488,11 +24892,6 @@
       "Name": "Tick53TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick54Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick54TicksInAirPreUpdateEditTick",
@@ -25648,11 +25047,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick55Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick55TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -25804,11 +25198,6 @@
       "Name": "Tick55TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick56Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick56TicksInAirPreUpdateEditTick",
@@ -25964,11 +25353,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick57Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick57TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -26120,11 +25504,6 @@
       "Name": "Tick57TicksInAirPreUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick58Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick58TicksInAirPreUpdateEditTick",
@@ -26280,11 +25659,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick59Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick59TicksInAirPreUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -26438,16 +25812,6 @@
       "Value": 0.0
     },
     {
-      "Name": "PostUpdateGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": true
-    },
-    {
-      "Name": "MotionYLessZeroGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "MotionYLessZeroPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -26588,11 +25952,6 @@
       "Name": "MotionYLessZeroPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "MotionYHigherZeroGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "MotionYHigherZeroPostUpdateEditTick",
@@ -26737,11 +26096,6 @@
       "Value": 0.0
     },
     {
-      "Name": "TicksOnGroundGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "TicksOnGroundPostUpdateResetTicksAt",
       "ParentName": "MotionModifier",
       "MinValue": 0.0,
@@ -26751,11 +26105,6 @@
       "Name": "TicksOnGroundPostUpdateResetAtOppositeState",
       "ParentName": "MotionModifier",
       "Boolean": true
-    },
-    {
-      "Name": "Tick0Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick0TicksOnGroundPostUpdateEditTick",
@@ -26900,11 +26249,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick1Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick1TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -27045,11 +26389,6 @@
       "Name": "Tick1TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick2Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick2TicksOnGroundPostUpdateEditTick",
@@ -27194,11 +26533,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick3Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick3TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -27339,11 +26673,6 @@
       "Name": "Tick3TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick4Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick4TicksOnGroundPostUpdateEditTick",
@@ -27488,11 +26817,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick5Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick5TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -27633,11 +26957,6 @@
       "Name": "Tick5TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick6Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick6TicksOnGroundPostUpdateEditTick",
@@ -27782,11 +27101,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick7Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick7TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -27927,11 +27241,6 @@
       "Name": "Tick7TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick8Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick8TicksOnGroundPostUpdateEditTick",
@@ -28076,11 +27385,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick9Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick9TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -28221,11 +27525,6 @@
       "Name": "Tick9TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick10Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick10TicksOnGroundPostUpdateEditTick",
@@ -28370,11 +27669,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick11Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick11TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -28515,11 +27809,6 @@
       "Name": "Tick11TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick12Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick12TicksOnGroundPostUpdateEditTick",
@@ -28664,11 +27953,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick13Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick13TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -28809,11 +28093,6 @@
       "Name": "Tick13TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick14Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick14TicksOnGroundPostUpdateEditTick",
@@ -28958,11 +28237,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick15Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick15TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -29103,11 +28377,6 @@
       "Name": "Tick15TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick16Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick16TicksOnGroundPostUpdateEditTick",
@@ -29252,11 +28521,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick17Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick17TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -29397,11 +28661,6 @@
       "Name": "Tick17TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick18Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick18TicksOnGroundPostUpdateEditTick",
@@ -29546,11 +28805,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick19Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick19TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -29691,11 +28945,6 @@
       "Name": "Tick19TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick20Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick20TicksOnGroundPostUpdateEditTick",
@@ -29840,11 +29089,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick21Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick21TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -29985,11 +29229,6 @@
       "Name": "Tick21TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick22Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick22TicksOnGroundPostUpdateEditTick",
@@ -30134,11 +29373,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick23Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick23TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -30279,11 +29513,6 @@
       "Name": "Tick23TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick24Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick24TicksOnGroundPostUpdateEditTick",
@@ -30428,11 +29657,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick25Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick25TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -30573,11 +29797,6 @@
       "Name": "Tick25TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick26Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick26TicksOnGroundPostUpdateEditTick",
@@ -30722,11 +29941,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick27Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick27TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -30867,11 +30081,6 @@
       "Name": "Tick27TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick28Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick28TicksOnGroundPostUpdateEditTick",
@@ -31016,11 +30225,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick29Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick29TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -31161,11 +30365,6 @@
       "Name": "Tick29TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick30Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick30TicksOnGroundPostUpdateEditTick",
@@ -31310,11 +30509,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick31Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick31TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -31455,11 +30649,6 @@
       "Name": "Tick31TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick32Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick32TicksOnGroundPostUpdateEditTick",
@@ -31604,11 +30793,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick33Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick33TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -31749,11 +30933,6 @@
       "Name": "Tick33TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick34Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick34TicksOnGroundPostUpdateEditTick",
@@ -31898,11 +31077,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick35Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick35TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -32043,11 +31217,6 @@
       "Name": "Tick35TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick36Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick36TicksOnGroundPostUpdateEditTick",
@@ -32192,11 +31361,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick37Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick37TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -32337,11 +31501,6 @@
       "Name": "Tick37TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick38Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick38TicksOnGroundPostUpdateEditTick",
@@ -32486,11 +31645,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick39Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick39TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -32631,11 +31785,6 @@
       "Name": "Tick39TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick40Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick40TicksOnGroundPostUpdateEditTick",
@@ -32780,11 +31929,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick41Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick41TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -32925,11 +32069,6 @@
       "Name": "Tick41TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick42Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick42TicksOnGroundPostUpdateEditTick",
@@ -33074,11 +32213,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick43Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick43TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -33219,11 +32353,6 @@
       "Name": "Tick43TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick44Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick44TicksOnGroundPostUpdateEditTick",
@@ -33368,11 +32497,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick45Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick45TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -33513,11 +32637,6 @@
       "Name": "Tick45TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick46Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick46TicksOnGroundPostUpdateEditTick",
@@ -33662,11 +32781,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick47Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick47TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -33807,11 +32921,6 @@
       "Name": "Tick47TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick48Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick48TicksOnGroundPostUpdateEditTick",
@@ -33956,11 +33065,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick49Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick49TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -34101,11 +33205,6 @@
       "Name": "Tick49TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick50Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick50TicksOnGroundPostUpdateEditTick",
@@ -34250,11 +33349,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick51Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick51TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -34395,11 +33489,6 @@
       "Name": "Tick51TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick52Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick52TicksOnGroundPostUpdateEditTick",
@@ -34544,11 +33633,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick53Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick53TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -34689,11 +33773,6 @@
       "Name": "Tick53TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick54Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick54TicksOnGroundPostUpdateEditTick",
@@ -34838,11 +33917,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick55Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick55TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -34983,11 +34057,6 @@
       "Name": "Tick55TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick56Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick56TicksOnGroundPostUpdateEditTick",
@@ -35132,11 +34201,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick57Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick57TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -35277,11 +34341,6 @@
       "Name": "Tick57TicksOnGroundPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick58Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick58TicksOnGroundPostUpdateEditTick",
@@ -35426,11 +34485,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick59Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick59TicksOnGroundPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -35573,11 +34627,6 @@
       "Value": 0.0
     },
     {
-      "Name": "TicksInAirGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "TicksInAirPostUpdateResetTicksAt",
       "ParentName": "MotionModifier",
       "MinValue": 0.0,
@@ -35587,11 +34636,6 @@
       "Name": "TicksInAirPostUpdateResetAtOppositeState",
       "ParentName": "MotionModifier",
       "Boolean": true
-    },
-    {
-      "Name": "Tick0Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick0TicksInAirPostUpdateEditTick",
@@ -35736,11 +34780,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick1Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick1TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -35881,11 +34920,6 @@
       "Name": "Tick1TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick2Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick2TicksInAirPostUpdateEditTick",
@@ -36030,11 +35064,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick3Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick3TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -36175,11 +35204,6 @@
       "Name": "Tick3TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick4Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick4TicksInAirPostUpdateEditTick",
@@ -36324,11 +35348,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick5Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick5TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -36469,11 +35488,6 @@
       "Name": "Tick5TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick6Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick6TicksInAirPostUpdateEditTick",
@@ -36618,11 +35632,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick7Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick7TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -36763,11 +35772,6 @@
       "Name": "Tick7TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick8Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick8TicksInAirPostUpdateEditTick",
@@ -36912,11 +35916,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick9Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick9TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -37057,11 +36056,6 @@
       "Name": "Tick9TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick10Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick10TicksInAirPostUpdateEditTick",
@@ -37206,11 +36200,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick11Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick11TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -37351,11 +36340,6 @@
       "Name": "Tick11TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick12Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick12TicksInAirPostUpdateEditTick",
@@ -37500,11 +36484,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick13Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick13TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -37645,11 +36624,6 @@
       "Name": "Tick13TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick14Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick14TicksInAirPostUpdateEditTick",
@@ -37794,11 +36768,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick15Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick15TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -37939,11 +36908,6 @@
       "Name": "Tick15TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick16Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick16TicksInAirPostUpdateEditTick",
@@ -38088,11 +37052,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick17Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick17TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -38233,11 +37192,6 @@
       "Name": "Tick17TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick18Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick18TicksInAirPostUpdateEditTick",
@@ -38382,11 +37336,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick19Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick19TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -38527,11 +37476,6 @@
       "Name": "Tick19TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick20Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick20TicksInAirPostUpdateEditTick",
@@ -38676,11 +37620,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick21Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick21TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": true
@@ -38821,11 +37760,6 @@
       "Name": "Tick21TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick22Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick22TicksInAirPostUpdateEditTick",
@@ -38970,11 +37904,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick23Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick23TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -39115,11 +38044,6 @@
       "Name": "Tick23TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick24Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick24TicksInAirPostUpdateEditTick",
@@ -39264,11 +38188,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick25Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick25TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -39409,11 +38328,6 @@
       "Name": "Tick25TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick26Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick26TicksInAirPostUpdateEditTick",
@@ -39558,11 +38472,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick27Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick27TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -39703,11 +38612,6 @@
       "Name": "Tick27TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick28Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick28TicksInAirPostUpdateEditTick",
@@ -39852,11 +38756,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick29Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick29TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -39997,11 +38896,6 @@
       "Name": "Tick29TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick30Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick30TicksInAirPostUpdateEditTick",
@@ -40146,11 +39040,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick31Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick31TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -40291,11 +39180,6 @@
       "Name": "Tick31TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick32Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick32TicksInAirPostUpdateEditTick",
@@ -40440,11 +39324,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick33Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick33TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -40585,11 +39464,6 @@
       "Name": "Tick33TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick34Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick34TicksInAirPostUpdateEditTick",
@@ -40734,11 +39608,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick35Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick35TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -40879,11 +39748,6 @@
       "Name": "Tick35TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick36Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick36TicksInAirPostUpdateEditTick",
@@ -41028,11 +39892,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick37Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick37TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -41173,11 +40032,6 @@
       "Name": "Tick37TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick38Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick38TicksInAirPostUpdateEditTick",
@@ -41322,11 +40176,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick39Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick39TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -41467,11 +40316,6 @@
       "Name": "Tick39TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick40Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick40TicksInAirPostUpdateEditTick",
@@ -41616,11 +40460,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick41Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick41TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -41761,11 +40600,6 @@
       "Name": "Tick41TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick42Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick42TicksInAirPostUpdateEditTick",
@@ -41910,11 +40744,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick43Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick43TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -42055,11 +40884,6 @@
       "Name": "Tick43TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick44Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick44TicksInAirPostUpdateEditTick",
@@ -42204,11 +41028,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick45Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick45TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -42349,11 +41168,6 @@
       "Name": "Tick45TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick46Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick46TicksInAirPostUpdateEditTick",
@@ -42498,11 +41312,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick47Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick47TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -42643,11 +41452,6 @@
       "Name": "Tick47TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick48Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick48TicksInAirPostUpdateEditTick",
@@ -42792,11 +41596,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick49Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick49TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -42937,11 +41736,6 @@
       "Name": "Tick49TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick50Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick50TicksInAirPostUpdateEditTick",
@@ -43086,11 +41880,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick51Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick51TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -43231,11 +42020,6 @@
       "Name": "Tick51TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick52Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick52TicksInAirPostUpdateEditTick",
@@ -43380,11 +42164,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick53Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick53TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -43525,11 +42304,6 @@
       "Name": "Tick53TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick54Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick54TicksInAirPostUpdateEditTick",
@@ -43674,11 +42448,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick55Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick55TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -43819,11 +42588,6 @@
       "Name": "Tick55TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick56Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick56TicksInAirPostUpdateEditTick",
@@ -43968,11 +42732,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick57Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick57TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -44113,11 +42872,6 @@
       "Name": "Tick57TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick58Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick58TicksInAirPostUpdateEditTick",
@@ -44262,11 +43016,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick59Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick59TicksInAirPostUpdateEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -44407,16 +43156,6 @@
       "Name": "Tick59TicksInAirPostUpdateYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "MoveEntityGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": true
-    },
-    {
-      "Name": "MotionYLessZeroGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "MotionYLessZeroMoveEntityEditTick",
@@ -44561,11 +43300,6 @@
       "Value": 0.0
     },
     {
-      "Name": "MotionYHigherZeroGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "MotionYHigherZeroMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -44708,11 +43442,6 @@
       "Value": 0.0
     },
     {
-      "Name": "TicksOnGroundGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "TicksOnGroundMoveEntityResetTicksAt",
       "ParentName": "MotionModifier",
       "MinValue": 0.0,
@@ -44722,11 +43451,6 @@
       "Name": "TicksOnGroundMoveEntityResetAtOppositeState",
       "ParentName": "MotionModifier",
       "Boolean": true
-    },
-    {
-      "Name": "Tick0Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick0TicksOnGroundMoveEntityEditTick",
@@ -44871,11 +43595,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick1Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick1TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -45016,11 +43735,6 @@
       "Name": "Tick1TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick2Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick2TicksOnGroundMoveEntityEditTick",
@@ -45165,11 +43879,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick3Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick3TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -45310,11 +44019,6 @@
       "Name": "Tick3TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick4Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick4TicksOnGroundMoveEntityEditTick",
@@ -45459,11 +44163,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick5Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick5TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -45604,11 +44303,6 @@
       "Name": "Tick5TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick6Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick6TicksOnGroundMoveEntityEditTick",
@@ -45753,11 +44447,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick7Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick7TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -45898,11 +44587,6 @@
       "Name": "Tick7TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick8Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick8TicksOnGroundMoveEntityEditTick",
@@ -46047,11 +44731,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick9Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick9TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -46192,11 +44871,6 @@
       "Name": "Tick9TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick10Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick10TicksOnGroundMoveEntityEditTick",
@@ -46341,11 +45015,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick11Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick11TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -46486,11 +45155,6 @@
       "Name": "Tick11TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick12Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick12TicksOnGroundMoveEntityEditTick",
@@ -46635,11 +45299,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick13Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick13TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -46780,11 +45439,6 @@
       "Name": "Tick13TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick14Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick14TicksOnGroundMoveEntityEditTick",
@@ -46929,11 +45583,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick15Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick15TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -47074,11 +45723,6 @@
       "Name": "Tick15TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick16Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick16TicksOnGroundMoveEntityEditTick",
@@ -47223,11 +45867,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick17Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick17TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -47368,11 +46007,6 @@
       "Name": "Tick17TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick18Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick18TicksOnGroundMoveEntityEditTick",
@@ -47517,11 +46151,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick19Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick19TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -47662,11 +46291,6 @@
       "Name": "Tick19TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick20Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick20TicksOnGroundMoveEntityEditTick",
@@ -47811,11 +46435,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick21Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick21TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -47956,11 +46575,6 @@
       "Name": "Tick21TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick22Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick22TicksOnGroundMoveEntityEditTick",
@@ -48105,11 +46719,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick23Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick23TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -48250,11 +46859,6 @@
       "Name": "Tick23TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick24Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick24TicksOnGroundMoveEntityEditTick",
@@ -48399,11 +47003,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick25Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick25TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -48544,11 +47143,6 @@
       "Name": "Tick25TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick26Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick26TicksOnGroundMoveEntityEditTick",
@@ -48693,11 +47287,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick27Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick27TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -48838,11 +47427,6 @@
       "Name": "Tick27TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick28Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick28TicksOnGroundMoveEntityEditTick",
@@ -48987,11 +47571,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick29Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick29TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -49132,11 +47711,6 @@
       "Name": "Tick29TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick30Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick30TicksOnGroundMoveEntityEditTick",
@@ -49281,11 +47855,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick31Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick31TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -49426,11 +47995,6 @@
       "Name": "Tick31TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick32Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick32TicksOnGroundMoveEntityEditTick",
@@ -49575,11 +48139,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick33Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick33TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -49720,11 +48279,6 @@
       "Name": "Tick33TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick34Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick34TicksOnGroundMoveEntityEditTick",
@@ -49869,11 +48423,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick35Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick35TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -50014,11 +48563,6 @@
       "Name": "Tick35TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick36Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick36TicksOnGroundMoveEntityEditTick",
@@ -50163,11 +48707,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick37Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick37TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -50308,11 +48847,6 @@
       "Name": "Tick37TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick38Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick38TicksOnGroundMoveEntityEditTick",
@@ -50457,11 +48991,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick39Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick39TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -50602,11 +49131,6 @@
       "Name": "Tick39TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick40Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick40TicksOnGroundMoveEntityEditTick",
@@ -50751,11 +49275,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick41Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick41TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -50896,11 +49415,6 @@
       "Name": "Tick41TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick42Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick42TicksOnGroundMoveEntityEditTick",
@@ -51045,11 +49559,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick43Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick43TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -51190,11 +49699,6 @@
       "Name": "Tick43TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick44Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick44TicksOnGroundMoveEntityEditTick",
@@ -51339,11 +49843,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick45Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick45TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -51484,11 +49983,6 @@
       "Name": "Tick45TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick46Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick46TicksOnGroundMoveEntityEditTick",
@@ -51633,11 +50127,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick47Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick47TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -51778,11 +50267,6 @@
       "Name": "Tick47TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick48Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick48TicksOnGroundMoveEntityEditTick",
@@ -51927,11 +50411,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick49Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick49TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -52072,11 +50551,6 @@
       "Name": "Tick49TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick50Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick50TicksOnGroundMoveEntityEditTick",
@@ -52221,11 +50695,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick51Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick51TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -52366,11 +50835,6 @@
       "Name": "Tick51TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick52Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick52TicksOnGroundMoveEntityEditTick",
@@ -52515,11 +50979,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick53Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick53TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -52660,11 +51119,6 @@
       "Name": "Tick53TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick54Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick54TicksOnGroundMoveEntityEditTick",
@@ -52809,11 +51263,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick55Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick55TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -52954,11 +51403,6 @@
       "Name": "Tick55TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick56Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick56TicksOnGroundMoveEntityEditTick",
@@ -53103,11 +51547,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick57Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick57TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -53248,11 +51687,6 @@
       "Name": "Tick57TicksOnGroundMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick58Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick58TicksOnGroundMoveEntityEditTick",
@@ -53397,11 +51831,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick59Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick59TicksOnGroundMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -53544,11 +51973,6 @@
       "Value": 0.0
     },
     {
-      "Name": "TicksInAirGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "TicksInAirMoveEntityResetTicksAt",
       "ParentName": "MotionModifier",
       "MinValue": 0.0,
@@ -53558,11 +51982,6 @@
       "Name": "TicksInAirMoveEntityResetAtOppositeState",
       "ParentName": "MotionModifier",
       "Boolean": true
-    },
-    {
-      "Name": "Tick0Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick0TicksInAirMoveEntityEditTick",
@@ -53707,11 +52126,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick1Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick1TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": true
@@ -53852,11 +52266,6 @@
       "Name": "Tick1TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick2Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick2TicksInAirMoveEntityEditTick",
@@ -54001,11 +52410,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick3Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick3TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -54146,11 +52550,6 @@
       "Name": "Tick3TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick4Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick4TicksInAirMoveEntityEditTick",
@@ -54295,11 +52694,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick5Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick5TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -54440,11 +52834,6 @@
       "Name": "Tick5TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick6Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick6TicksInAirMoveEntityEditTick",
@@ -54589,11 +52978,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick7Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick7TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -54734,11 +53118,6 @@
       "Name": "Tick7TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick8Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick8TicksInAirMoveEntityEditTick",
@@ -54883,11 +53262,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick9Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick9TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -55028,11 +53402,6 @@
       "Name": "Tick9TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick10Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick10TicksInAirMoveEntityEditTick",
@@ -55177,11 +53546,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick11Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick11TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -55322,11 +53686,6 @@
       "Name": "Tick11TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick12Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick12TicksInAirMoveEntityEditTick",
@@ -55471,11 +53830,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick13Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick13TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -55616,11 +53970,6 @@
       "Name": "Tick13TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick14Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick14TicksInAirMoveEntityEditTick",
@@ -55765,11 +54114,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick15Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick15TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -55910,11 +54254,6 @@
       "Name": "Tick15TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick16Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick16TicksInAirMoveEntityEditTick",
@@ -56059,11 +54398,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick17Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick17TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -56204,11 +54538,6 @@
       "Name": "Tick17TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick18Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick18TicksInAirMoveEntityEditTick",
@@ -56353,11 +54682,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick19Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick19TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -56498,11 +54822,6 @@
       "Name": "Tick19TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick20Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick20TicksInAirMoveEntityEditTick",
@@ -56647,11 +54966,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick21Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick21TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -56792,11 +55106,6 @@
       "Name": "Tick21TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick22Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick22TicksInAirMoveEntityEditTick",
@@ -56941,11 +55250,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick23Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick23TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -57086,11 +55390,6 @@
       "Name": "Tick23TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick24Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick24TicksInAirMoveEntityEditTick",
@@ -57235,11 +55534,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick25Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick25TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -57380,11 +55674,6 @@
       "Name": "Tick25TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick26Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick26TicksInAirMoveEntityEditTick",
@@ -57529,11 +55818,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick27Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick27TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -57674,11 +55958,6 @@
       "Name": "Tick27TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick28Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick28TicksInAirMoveEntityEditTick",
@@ -57823,11 +56102,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick29Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick29TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -57968,11 +56242,6 @@
       "Name": "Tick29TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick30Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick30TicksInAirMoveEntityEditTick",
@@ -58117,11 +56386,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick31Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick31TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -58262,11 +56526,6 @@
       "Name": "Tick31TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick32Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick32TicksInAirMoveEntityEditTick",
@@ -58411,11 +56670,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick33Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick33TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -58556,11 +56810,6 @@
       "Name": "Tick33TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick34Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick34TicksInAirMoveEntityEditTick",
@@ -58705,11 +56954,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick35Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick35TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -58850,11 +57094,6 @@
       "Name": "Tick35TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick36Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick36TicksInAirMoveEntityEditTick",
@@ -58999,11 +57238,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick37Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick37TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -59144,11 +57378,6 @@
       "Name": "Tick37TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick38Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick38TicksInAirMoveEntityEditTick",
@@ -59293,11 +57522,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick39Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick39TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -59438,11 +57662,6 @@
       "Name": "Tick39TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick40Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick40TicksInAirMoveEntityEditTick",
@@ -59587,11 +57806,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick41Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick41TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -59732,11 +57946,6 @@
       "Name": "Tick41TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick42Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick42TicksInAirMoveEntityEditTick",
@@ -59881,11 +58090,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick43Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick43TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -60026,11 +58230,6 @@
       "Name": "Tick43TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick44Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick44TicksInAirMoveEntityEditTick",
@@ -60175,11 +58374,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick45Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick45TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -60320,11 +58514,6 @@
       "Name": "Tick45TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick46Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick46TicksInAirMoveEntityEditTick",
@@ -60469,11 +58658,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick47Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick47TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -60614,11 +58798,6 @@
       "Name": "Tick47TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick48Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick48TicksInAirMoveEntityEditTick",
@@ -60763,11 +58942,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick49Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick49TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -60908,11 +59082,6 @@
       "Name": "Tick49TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick50Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick50TicksInAirMoveEntityEditTick",
@@ -61057,11 +59226,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick51Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick51TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -61202,11 +59366,6 @@
       "Name": "Tick51TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick52Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick52TicksInAirMoveEntityEditTick",
@@ -61351,11 +59510,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick53Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick53TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -61496,11 +59650,6 @@
       "Name": "Tick53TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick54Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick54TicksInAirMoveEntityEditTick",
@@ -61645,11 +59794,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick55Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick55TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -61790,11 +59934,6 @@
       "Name": "Tick55TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick56Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick56TicksInAirMoveEntityEditTick",
@@ -61939,11 +60078,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick57Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick57TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -62084,11 +60218,6 @@
       "Name": "Tick57TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "Tick58Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "Tick58TicksInAirMoveEntityEditTick",
@@ -62233,11 +60362,6 @@
       "Value": 0.0
     },
     {
-      "Name": "Tick59Groupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
-    },
-    {
       "Name": "Tick59TicksInAirMoveEntityEditTick",
       "ParentName": "MotionModifier",
       "Boolean": false
@@ -62378,11 +60502,6 @@
       "Name": "Tick59TicksInAirMoveEntityYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "OnEnableGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "OnEnableEditTick",
@@ -62536,11 +60655,6 @@
       "Name": "OnEnableYAddFinish",
       "ParentName": "MotionModifier",
       "Value": 0.0
-    },
-    {
-      "Name": "OnDisableGroupygroupy",
-      "ParentName": "MotionModifier",
-      "Extended": false
     },
     {
       "Name": "OnDisableEditTick",
@@ -62725,14 +60839,16 @@
       "Boolean": true
     },
     {
-      "Name": "MaxYaw",
+      "Name": "YawSpeed",
       "ParentName": "RotationHandler",
-      "Value": 40.0
+      "MinValue": 18.0,
+      "MaxValue": 24.0
     },
     {
-      "Name": "MaxPitch",
+      "Name": "PitchSpeed",
       "ParentName": "RotationHandler",
-      "Value": 45.0
+      "MinValue": 18.0,
+      "MaxValue": 24.0
     },
     {
       "Name": "MoveFix",
@@ -63050,6 +61166,11 @@
       "Name": "JumpSprint",
       "ParentName": "GuiMove",
       "Boolean": false
+    },
+    {
+      "Name": "MotionMultiplier",
+      "ParentName": "GuiMove",
+      "Value": 1.0
     },
     {
       "Name": "Tools",
@@ -63506,11 +61627,6 @@
       ]
     },
     {
-      "Name": "BlocksGroupygroupy",
-      "ParentName": "FastPlace",
-      "Extended": false
-    },
-    {
       "Name": "BlocksCPS",
       "ParentName": "FastPlace",
       "MinValue": 16.0,
@@ -63527,20 +61643,10 @@
       "Boolean": false
     },
     {
-      "Name": "XP-BottlesGroupygroupy",
-      "ParentName": "FastPlace",
-      "Extended": false
-    },
-    {
       "Name": "XP-BottlesCPS",
       "ParentName": "FastPlace",
       "MinValue": 16.0,
       "MaxValue": 24.0
-    },
-    {
-      "Name": "SnowBallsGroupygroupy",
-      "ParentName": "FastPlace",
-      "Extended": false
     },
     {
       "Name": "SnowBallsCPS",
@@ -63549,31 +61655,16 @@
       "MaxValue": 24.0
     },
     {
-      "Name": "EggsGroupygroupy",
-      "ParentName": "FastPlace",
-      "Extended": false
-    },
-    {
       "Name": "EggsCPS",
       "ParentName": "FastPlace",
       "MinValue": 16.0,
       "MaxValue": 24.0
     },
     {
-      "Name": "PotionsGroupygroupy",
-      "ParentName": "FastPlace",
-      "Extended": false
-    },
-    {
       "Name": "PotionsCPS",
       "ParentName": "FastPlace",
       "MinValue": 16.0,
       "MaxValue": 24.0
-    },
-    {
-      "Name": "RotationsGroupygroupy",
-      "ParentName": "Scaffold",
-      "Extended": true
     },
     {
       "Name": "YawSpeed",
@@ -63644,11 +61735,6 @@
       "Boolean": false
     },
     {
-      "Name": "ClickingGroupygroupy",
-      "ParentName": "Scaffold",
-      "Extended": true
-    },
-    {
       "Name": "NoSwing",
       "ParentName": "Scaffold",
       "Boolean": true
@@ -63675,16 +61761,6 @@
       "Boolean": false
     },
     {
-      "Name": "MovementGroupygroupy",
-      "ParentName": "Scaffold",
-      "Extended": true
-    },
-    {
-      "Name": "SneakingGroupygroupy",
-      "ParentName": "Scaffold",
-      "Extended": false
-    },
-    {
       "Name": "Sneak",
       "ParentName": "Scaffold",
       "Boolean": true
@@ -63693,6 +61769,40 @@
       "Name": "RemoveSneakStop",
       "ParentName": "Scaffold",
       "Boolean": false
+    },
+    {
+      "Name": "OneStackForward",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "MinOffGroundSneakTickForward",
+      "ParentName": "Scaffold",
+      "MinValue": 1.0,
+      "MaxValue": 2.0
+    },
+    {
+      "Name": "MaxOffGroundSneakTickForward",
+      "ParentName": "Scaffold",
+      "MinValue": 10.0,
+      "MaxValue": 11.0
+    },
+    {
+      "Name": "OneStackDiagonal",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "MinOffGroundSneakTickDiagonal",
+      "ParentName": "Scaffold",
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "MaxOffGroundSneakTickDiagonal",
+      "ParentName": "Scaffold",
+      "MinValue": 10.0,
+      "MaxValue": 11.0
     },
     {
       "Name": "SneakTicks",
@@ -63744,9 +61854,21 @@
       "Boolean": false
     },
     {
-      "Name": "AdStrafe",
+      "Name": "MoonWalk",
       "ParentName": "Scaffold",
       "Boolean": false
+    },
+    {
+      "Name": "MoonWalkWideness",
+      "ParentName": "Scaffold",
+      "MinValue": 0.2,
+      "MaxValue": 0.2
+    },
+    {
+      "Name": "MoonWalkStartDistToBlock",
+      "ParentName": "Scaffold",
+      "MinValue": 0.38,
+      "MaxValue": 0.38
     },
     {
       "Name": "SameY",
@@ -63815,11 +61937,6 @@
       "Value": 1.0
     },
     {
-      "Name": "MiscellaneousGroupygroupy",
-      "ParentName": "Scaffold",
-      "Extended": true
-    },
-    {
       "Name": "TowerMode",
       "ParentName": "Scaffold",
       "SelectedOption": "Intave1"
@@ -63838,11 +61955,6 @@
       "Name": "Silent",
       "ParentName": "Scaffold",
       "Boolean": true
-    },
-    {
-      "Name": "VisualsGroupygroupy",
-      "ParentName": "Scaffold",
-      "Extended": true
     },
     {
       "Name": "HideSneakAnimation",
@@ -63872,12 +61984,12 @@
     {
       "Name": "BackGround",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "RoundFactor",
       "ParentName": "Scaffold",
-      "Value": 0.0
+      "Value": 5.0
     },
     {
       "Name": "BlockCountShadow",
@@ -63936,93 +62048,6 @@
       "Name": "OnlyAtRightClicking",
       "ParentName": "NoMiningTrace",
       "Boolean": true
-    },
-    {
-      "Name": "YawSpeedInRotationModule",
-      "ParentName": "NewFucker",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
-    },
-    {
-      "Name": "PitchSpeedInRotationModule",
-      "ParentName": "NewFucker",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
-    },
-    {
-      "Name": "RandomTypeInRotationModule",
-      "ParentName": "NewFucker",
-      "SelectedOption": "SecureRandom"
-    },
-    {
-      "Name": "RandomizeInRotationModule",
-      "ParentName": "NewFucker",
-      "SelectedOption": "OnlyRotation"
-    },
-    {
-      "Name": "RandomStrengthInRotationModule",
-      "ParentName": "NewFucker",
-      "Value": 1.25
-    },
-    {
-      "Name": "AdvancedRotsInRotationModule",
-      "ParentName": "NewFucker",
-      "Boolean": true
-    },
-    {
-      "Name": "InterpolationInRotationModule",
-      "ParentName": "NewFucker",
-      "Boolean": false
-    },
-    {
-      "Name": "MoveFixInRotationModule",
-      "ParentName": "NewFucker",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFix",
-      "ParentName": "NewFucker",
-      "SelectedOption": "Default"
-    },
-    {
-      "Name": "SilentMoveFixIntaveInRotationModule",
-      "ParentName": "NewFucker",
-      "Boolean": true
-    },
-    {
-      "Name": "SearchRadius",
-      "ParentName": "NewFucker",
-      "Value": 10.0
-    },
-    {
-      "Name": "AimRange",
-      "ParentName": "NewFucker",
-      "Value": 4.5
-    },
-    {
-      "Name": "Block",
-      "ParentName": "NewFucker",
-      "SelectedOption": "Bed"
-    },
-    {
-      "Name": "CustomID",
-      "ParentName": "NewFucker",
-      "Value": 26.0
-    },
-    {
-      "Name": "Action",
-      "ParentName": "NewFucker",
-      "SelectedOption": "Break"
-    },
-    {
-      "Name": "ThroughWall",
-      "ParentName": "NewFucker",
-      "Boolean": true
-    },
-    {
-      "Name": "Delay",
-      "ParentName": "NewFucker",
-      "Value": 500.0
     },
     {
       "Name": "Volume",
@@ -64278,6 +62303,11 @@
       "Boolean": false
     },
     {
+      "Name": "LagRangeDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
       "Name": "TimeManipulation",
       "ParentName": "Debug",
       "Boolean": false
@@ -64318,46 +62348,6 @@
       "Boolean": false
     },
     {
-      "Name": "BetaFeaturesGroupygroupy",
-      "ParentName": "Debug",
-      "Extended": true
-    },
-    {
-      "Name": "DamageDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "DamageUnsafe",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "DebugAllChat",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "HitDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "InputRecorder",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "IntaveVeloDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "PacketLog",
-      "ParentName": "Debug",
-      "SelectedOption": "None"
-    },
-    {
       "Name": "Modes",
       "ParentName": "StaffDetector",
       "SelectedOption": "Gomme"
@@ -64367,6 +62357,11 @@
       "ParentName": "StaffDetector",
       "MinValue": 2000.0,
       "MaxValue": 3000.0
+    },
+    {
+      "Name": "Scale",
+      "ParentName": "StaffDetector",
+      "Value": 2.0
     },
     {
       "Name": "Shadow",
@@ -64386,7 +62381,7 @@
     {
       "Name": "AcousticWarning",
       "ParentName": "StaffDetector",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Volume",
@@ -64422,11 +62417,6 @@
       "Name": "Y-Coord",
       "ParentName": "FlagDetector",
       "Value": 2.5
-    },
-    {
-      "Name": "ChecksForMyselfGroupygroupy",
-      "ParentName": "ClientAntiCheat",
-      "Extended": true
     },
     {
       "Name": "Intave13P_19",
@@ -64664,11 +62654,6 @@
       "Boolean": true
     },
     {
-      "Name": "TimerRangeGroupygroupy",
-      "ParentName": "TimeManipulation",
-      "Extended": false
-    },
-    {
       "Name": "Delay",
       "ParentName": "TimeManipulation",
       "Value": 0.0
@@ -64800,11 +62785,6 @@
       "Boolean": false
     },
     {
-      "Name": "IncomingGroupygroupy",
-      "ParentName": "PacketHandler",
-      "Extended": true
-    },
-    {
       "Name": "MacroDelayModes",
       "ParentName": "PacketHandler",
       "SelectedOption": "OtherMacroDelay"
@@ -64902,11 +62882,6 @@
       ]
     },
     {
-      "Name": "OutgoingGroupygroupy",
-      "ParentName": "PacketHandler",
-      "Extended": true
-    },
-    {
       "Name": "OutGoingPacketsToDelay",
       "ParentName": "PacketHandler",
       "SettingList": [
@@ -64951,16 +62926,6 @@
       "Name": "ModuleToggleSound",
       "ParentName": "Sounds",
       "Boolean": true
-    },
-    {
-      "Name": "CustomPacketCancelingGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
-      "Name": "IncomingPacketsGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "IncomingPacketsToCancel",
@@ -65043,11 +63008,6 @@
           "S49PacketUpdateEntityNBT": false
         }
       ]
-    },
-    {
-      "Name": "OutgoingPacketsGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "OutGoingPacketsToCancel",
@@ -65135,11 +63095,6 @@
       "Boolean": true
     },
     {
-      "Name": "S00PacketKeepAliveGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S00PacketKeepAliveInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65154,11 +63109,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S01PacketJoinGameGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S01PacketJoinGameInterval",
@@ -65177,11 +63127,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S02PacketChatGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S02PacketChatInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65196,11 +63141,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S03PacketTimeUpdateGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S03PacketTimeUpdateInterval",
@@ -65219,11 +63159,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S04PacketEntityEquipmentGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S04PacketEntityEquipmentInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65238,11 +63173,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S05PacketSpawnPositionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S05PacketSpawnPositionInterval",
@@ -65261,11 +63191,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S06PacketUpdateHealthGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S06PacketUpdateHealthInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65280,11 +63205,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S07PacketRespawnGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S07PacketRespawnInterval",
@@ -65303,11 +63223,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S08PacketPlayerPosLookGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S08PacketPlayerPosLookInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65322,11 +63237,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 50.0
-    },
-    {
-      "Name": "S09PacketHeldItemChangeGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S09PacketHeldItemChangeInterval",
@@ -65345,11 +63255,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0APacketUseBedGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S0APacketUseBedInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65364,11 +63269,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S0BPacketAnimationGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S0BPacketAnimationInterval",
@@ -65387,11 +63287,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0CPacketSpawnPlayerGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S0CPacketSpawnPlayerInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65406,11 +63301,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S0DPacketCollectItemGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S0DPacketCollectItemInterval",
@@ -65429,11 +63319,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S0EPacketSpawnObjectGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S0EPacketSpawnObjectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65448,11 +63333,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S0FPacketSpawnMobGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S0FPacketSpawnMobInterval",
@@ -65471,11 +63351,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S10PacketSpawnPaintingGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S10PacketSpawnPaintingInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65490,11 +63365,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S11PacketSpawnExperienceOrbGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S11PacketSpawnExperienceOrbInterval",
@@ -65513,11 +63383,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S12PacketEntityVelocityGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S12PacketEntityVelocityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65532,11 +63397,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S13PacketDestroyEntitiesGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S13PacketDestroyEntitiesInterval",
@@ -65555,11 +63415,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S14PacketEntityGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S14PacketEntityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65574,11 +63429,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S15PacketEntityRelMoveGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S15PacketEntityRelMoveInterval",
@@ -65597,11 +63447,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S16PacketEntityLookGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S16PacketEntityLookInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65616,11 +63461,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S17PacketEntityLookMoveGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S17PacketEntityLookMoveInterval",
@@ -65639,11 +63479,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S18PacketEntityTeleportGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S18PacketEntityTeleportInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65658,11 +63493,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S19PacketEntityHeadLookGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S19PacketEntityHeadLookInterval",
@@ -65681,11 +63511,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S19PacketEntityStatusGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S19PacketEntityStatusInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65700,11 +63525,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S1BPacketEntityAttachGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S1BPacketEntityAttachInterval",
@@ -65723,11 +63543,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S1CPacketEntityMetadataGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S1CPacketEntityMetadataInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65742,11 +63557,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S1DPacketEntityEffectGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S1DPacketEntityEffectInterval",
@@ -65765,11 +63575,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S1EPacketRemoveEntityEffectGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S1EPacketRemoveEntityEffectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65784,11 +63589,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S1FPacketSetExperienceGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S1FPacketSetExperienceInterval",
@@ -65807,11 +63607,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S20PacketEntityPropertiesGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S20PacketEntityPropertiesInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65826,11 +63621,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S21PacketChunkDataGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S21PacketChunkDataInterval",
@@ -65849,11 +63639,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S22PacketMultiBlockChangeGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S22PacketMultiBlockChangeInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65868,11 +63653,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S23PacketBlockChangeGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S23PacketBlockChangeInterval",
@@ -65891,11 +63671,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S24PacketBlockActionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S24PacketBlockActionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65910,11 +63685,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S25PacketBlockBreakAnimGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S25PacketBlockBreakAnimInterval",
@@ -65933,11 +63703,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S26PacketMapChunkBulkGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S26PacketMapChunkBulkInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65952,11 +63717,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S27PacketExplosionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S27PacketExplosionInterval",
@@ -65975,11 +63735,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S28PacketEffectGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S28PacketEffectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -65994,11 +63749,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S29PacketSoundEffectGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S29PacketSoundEffectInterval",
@@ -66017,11 +63767,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2APacketParticlesGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S2APacketParticlesInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66036,11 +63781,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S2BPacketChangeGameStateGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S2BPacketChangeGameStateInterval",
@@ -66059,11 +63799,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2CPacketSpawnGlobalEntityGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S2CPacketSpawnGlobalEntityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66078,11 +63813,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S2DPacketOpenWindowGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S2DPacketOpenWindowInterval",
@@ -66101,11 +63831,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S2EPacketCloseWindowGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S2EPacketCloseWindowInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66120,11 +63845,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S2FPacketSetSlotGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S2FPacketSetSlotInterval",
@@ -66143,11 +63863,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S30PacketWindowItemsGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S30PacketWindowItemsInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66162,11 +63877,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S31PacketWindowPropertyGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S31PacketWindowPropertyInterval",
@@ -66185,11 +63895,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S32PacketConfirmTransactionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S32PacketConfirmTransactionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66204,11 +63909,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S33PacketUpdateSignGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S33PacketUpdateSignInterval",
@@ -66227,11 +63927,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S34PacketMapsGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S34PacketMapsInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66246,11 +63941,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S35PacketUpdateTileEntityGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S35PacketUpdateTileEntityInterval",
@@ -66269,11 +63959,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S36PacketSignEditorOpenGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S36PacketSignEditorOpenInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66288,11 +63973,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S37PacketStatisticsGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S37PacketStatisticsInterval",
@@ -66311,11 +63991,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S38PacketPlayerListItemGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S38PacketPlayerListItemInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66330,11 +64005,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S39PacketPlayerAbilitiesGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S39PacketPlayerAbilitiesInterval",
@@ -66353,11 +64023,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3APacketTabCompleteGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S3APacketTabCompleteInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66372,11 +64037,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S3BPacketScoreboardObjectiveGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S3BPacketScoreboardObjectiveInterval",
@@ -66395,11 +64055,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3CPacketUpdateScoreGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S3CPacketUpdateScoreInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66414,11 +64069,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S3DPacketDisplayScoreboardGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S3DPacketDisplayScoreboardInterval",
@@ -66437,11 +64087,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S3EPacketTeamsGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S3EPacketTeamsInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66456,11 +64101,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S3FPacketCustomPayloadGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S3FPacketCustomPayloadInterval",
@@ -66479,11 +64119,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S40PacketDisconnectGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S40PacketDisconnectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66498,11 +64133,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S41PacketServerDifficultyGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S41PacketServerDifficultyInterval",
@@ -66521,11 +64151,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S42PacketCombatEventGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S42PacketCombatEventInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66540,11 +64165,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S43PacketCameraGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S43PacketCameraInterval",
@@ -66563,11 +64183,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S44PacketWorldBorderGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S44PacketWorldBorderInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66582,11 +64197,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S45PacketTitleGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S45PacketTitleInterval",
@@ -66605,11 +64215,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S46PacketSetCompressionLevelGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S46PacketSetCompressionLevelInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66624,11 +64229,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S47PacketPlayerListHeaderFooterGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S47PacketPlayerListHeaderFooterInterval",
@@ -66647,11 +64247,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "S48PacketResourcePackSendGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "S48PacketResourcePackSendInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66666,11 +64261,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "S49PacketUpdateEntityNBTGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "S49PacketUpdateEntityNBTInterval",
@@ -66689,11 +64279,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C00PacketKeepAliveGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C00PacketKeepAliveInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66708,11 +64293,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C01PacketChatMessageGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C01PacketChatMessageInterval",
@@ -66731,11 +64311,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C02PacketUseEntityGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C02PacketUseEntityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66750,11 +64325,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C03PacketPlayerGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C03PacketPlayerInterval",
@@ -66773,11 +64343,6 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "C04PacketPlayerPositionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C04PacketPlayerPositionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66792,11 +64357,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 50.0
-    },
-    {
-      "Name": "C05PacketPlayerLookGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C05PacketPlayerLookInterval",
@@ -66815,11 +64375,6 @@
       "MaxValue": 50.0
     },
     {
-      "Name": "C06PacketPlayerPosLookGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C06PacketPlayerPosLookInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66834,11 +64389,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 50.0
-    },
-    {
-      "Name": "C07PacketPlayerDiggingGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C07PacketPlayerDiggingInterval",
@@ -66857,11 +64407,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C08PacketPlayerBlockPlacementGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C08PacketPlayerBlockPlacementInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66876,11 +64421,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C09PacketHeldItemChangeGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C09PacketHeldItemChangeInterval",
@@ -66899,11 +64439,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0APacketAnimationGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C0APacketAnimationInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66918,11 +64453,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C0BPacketEntityActionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C0BPacketEntityActionInterval",
@@ -66941,11 +64471,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0CPacketInputGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C0CPacketInputInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -66960,11 +64485,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C0DPacketCloseWindowGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C0DPacketCloseWindowInterval",
@@ -66983,11 +64503,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C0EPacketClickWindowGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C0EPacketClickWindowInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -67002,11 +64517,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C0FPacketConfirmTransactionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C0FPacketConfirmTransactionInterval",
@@ -67025,11 +64535,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C10PacketCreativeInventoryActionGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C10PacketCreativeInventoryActionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -67044,11 +64549,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C11PacketEnchantItemGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C11PacketEnchantItemInterval",
@@ -67067,11 +64567,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C12PacketUpdateSignGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C12PacketUpdateSignInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -67086,11 +64581,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C13PacketPlayerAbilitiesGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C13PacketPlayerAbilitiesInterval",
@@ -67109,11 +64599,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C14PacketTabCompleteGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C14PacketTabCompleteInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -67128,11 +64613,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C15PacketClientSettingsGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C15PacketClientSettingsInterval",
@@ -67151,11 +64631,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C16PacketClientStatusGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C16PacketClientStatusInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -67170,11 +64645,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C17PacketCustomPayloadGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C17PacketCustomPayloadInterval",
@@ -67193,11 +64663,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "C18PacketSpectateGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "C18PacketSpectateInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -67212,11 +64677,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "C19PacketResourcePackStatusGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "C19PacketResourcePackStatusInterval",
@@ -67235,11 +64695,6 @@
       "MaxValue": 100.0
     },
     {
-      "Name": "CAnimateHandPacketGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
-    },
-    {
       "Name": "CAnimateHandPacketInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -67254,11 +64709,6 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
-    },
-    {
-      "Name": "CPacketPlayerTryUseItemOnBlockGroupygroupy",
-      "ParentName": "Disabler",
-      "Extended": false
     },
     {
       "Name": "CPacketPlayerTryUseItemOnBlockInterval",
@@ -67363,11 +64813,6 @@
       "Value": 0.0
     },
     {
-      "Name": "TargetESPsGroupygroupy",
-      "ParentName": "Ping",
-      "Extended": true
-    },
-    {
       "Name": "TargetESP",
       "ParentName": "Ping",
       "SelectedOption": "Classic"
@@ -67395,11 +64840,6 @@
           "Dead": false
         }
       ]
-    },
-    {
-      "Name": "PlayerESPsGroupygroupy",
-      "ParentName": "Ping",
-      "Extended": true
     },
     {
       "Name": "PlayerESP",
@@ -67529,11 +64969,6 @@
       "SelectedOption": "@a adhs? "
     },
     {
-      "Name": "COMBATGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
-    },
-    {
       "Name": "Velocity",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -67624,11 +65059,6 @@
       "Boolean": false
     },
     {
-      "Name": "LEGITGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
-    },
-    {
       "Name": "HitBox",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -67672,11 +65102,6 @@
       "Name": "MLGHelper",
       "ParentName": "AutoDisable",
       "Boolean": false
-    },
-    {
-      "Name": "MOVEMENTGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
     },
     {
       "Name": "Sprint",
@@ -67824,11 +65249,6 @@
       "Boolean": false
     },
     {
-      "Name": "PLAYERGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
-    },
-    {
       "Name": "NoFall",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -67932,11 +65352,6 @@
       "Name": "SelfDamage",
       "ParentName": "AutoDisable",
       "Boolean": false
-    },
-    {
-      "Name": "RENDERGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
     },
     {
       "Name": "Blur",
@@ -68254,11 +65669,6 @@
       "Boolean": false
     },
     {
-      "Name": "WORLDGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
-    },
-    {
       "Name": "FastBreak",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -68287,16 +65697,6 @@
       "Name": "NoPlaceDelay",
       "ParentName": "AutoDisable",
       "Boolean": false
-    },
-    {
-      "Name": "NewFucker",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
-      "Name": "MISCGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
     },
     {
       "Name": "RotationHandler",
@@ -68424,11 +65824,6 @@
       "Boolean": false
     },
     {
-      "Name": "FUNGroupygroupy",
-      "ParentName": "AutoDisable",
-      "Extended": false
-    },
-    {
       "Name": "AutoJumpAndRun",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -68475,6 +65870,11 @@
     },
     {
       "Name": "Spammer",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "MLG",
       "ParentName": "AutoDisable",
       "Boolean": false
     }
