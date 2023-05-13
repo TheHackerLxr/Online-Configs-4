@@ -1,7 +1,7 @@
 {
-  "name": "Polar",
-  "date": "11.05.2023",
-  "time": "21:54",
+  "name": "PolarTest",
+  "date": "13.05.2023",
+  "time": "15:05",
   "modules": [
     {
       "Name": "Blur",
@@ -266,7 +266,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -714,7 +714,7 @@
       "Name": "NoWeb",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1076,7 +1076,7 @@
     },
     {
       "Name": "StaffDetector",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -2638,6 +2638,11 @@
     },
     {
       "Name": "Slot9",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "BetterHit",
       "ParentName": "KillAura",
       "Boolean": false
     },
@@ -62348,6 +62353,41 @@
       "Boolean": false
     },
     {
+      "Name": "DamageDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DamageUnsafe",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DebugAllChat",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "HitDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "InputRecorder",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveVeloDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "PacketLog",
+      "ParentName": "Debug",
+      "SelectedOption": "None"
+    },
+    {
       "Name": "Modes",
       "ParentName": "StaffDetector",
       "SelectedOption": "Gomme"
@@ -63088,6 +63128,11 @@
       "Name": "Place",
       "ParentName": "Disabler",
       "Boolean": false
+    },
+    {
+      "Name": "KarhuClicking",
+      "ParentName": "Disabler",
+      "Boolean": true
     },
     {
       "Name": "NotWhileAttack",
