@@ -1,7 +1,7 @@
 {
   "name": "PolarTest",
-  "date": "13.05.2023",
-  "time": "15:05",
+  "date": "15.05.2023",
+  "time": "14:51",
   "modules": [
     {
       "Name": "Blur",
@@ -126,7 +126,7 @@
       "Name": "LagRange",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -189,7 +189,7 @@
       "Name": "AutoEagle",
       "IsInConfig": true,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -308,7 +308,7 @@
       "Name": "BlockESP",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -627,6 +627,13 @@
       "Key": 0
     },
     {
+      "Name": "BlockTraceESP",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
       "Name": "Sprint",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -673,7 +680,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -743,7 +750,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 24
+      "Key": 0
     },
     {
       "Name": "SafeWalk",
@@ -883,7 +890,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Phase",
@@ -1020,6 +1027,13 @@
     },
     {
       "Name": "NoPlaceDelay",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "NewFucker",
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
@@ -1366,6 +1380,11 @@
       "Name": "YVelocity",
       "ParentName": "Velocity",
       "Value": 42.0
+    },
+    {
+      "Name": "XZMotion",
+      "ParentName": "Velocity",
+      "Value": 0.0
     },
     {
       "Name": "XZOnHit",
@@ -1875,7 +1894,8 @@
     {
       "Name": "AdditionalStop",
       "ParentName": "TimerRange",
-      "Value": 1.0
+      "MinValue": 1.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "OnlyOnGround",
@@ -2010,7 +2030,7 @@
     {
       "Name": "TargetHurtTimeTicks",
       "ParentName": "MoreKB",
-      "MinValue": 6.0,
+      "MinValue": 5.0,
       "MaxValue": 6.0
     },
     {
@@ -2415,6 +2435,11 @@
     },
     {
       "Name": "OnlyWhileSwingInProgress",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyWhileHurt",
       "ParentName": "KillAura",
       "Boolean": false
     },
@@ -2860,7 +2885,7 @@
     {
       "Name": "DelayBetweenBacktrack",
       "ParentName": "BackTrack",
-      "Value": 25.0
+      "Value": 75.0
     },
     {
       "Name": "MaxLagPackets",
@@ -3618,7 +3643,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 47.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.05582137,
+      "HSB Color Red": 0.7527911,
       "HSB Color Green": 0.8228347,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.2578269,
@@ -4265,12 +4290,12 @@
     {
       "Name": "Color1",
       "ParentName": "ESP",
-      "Alpha": 106,
+      "Alpha": 109,
       "FadeAlpha": 65,
       "Rainbow": false,
       "Fade": false,
-      "ClientColor": false,
-      "ClientColorAlpha": 0,
+      "ClientColor": true,
+      "ClientColorAlpha": 110,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
@@ -4278,7 +4303,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
+      "HSB Color Red": 0.692185,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
@@ -4353,8 +4378,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -7018,6 +7043,97 @@
       "Value": 2.0
     },
     {
+      "Name": "Block",
+      "ParentName": "BlockTraceESP",
+      "SelectedOption": "Bed"
+    },
+    {
+      "Name": "CustomID",
+      "ParentName": "BlockTraceESP",
+      "Value": 26.0
+    },
+    {
+      "Name": "BlockColor",
+      "ParentName": "BlockTraceESP",
+      "Alpha": 55,
+      "FadeAlpha": 65,
+      "Rainbow": false,
+      "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.0861244,
+      "HSB Color Green": 0.90869564,
+      "HSB Color Blue": 0.9019608,
+      "HSB FadeColor Red": 0.5869219,
+      "HSB FadeColor Green": 0.90869564,
+      "HSB FadeColor Blue": 0.9019608
+    },
+    {
+      "Name": "BlockLineWidth",
+      "ParentName": "BlockTraceESP",
+      "Value": 6.0
+    },
+    {
+      "Name": "BlockDistance",
+      "ParentName": "BlockTraceESP",
+      "Value": 50.0
+    },
+    {
+      "Name": "BlockShadow",
+      "ParentName": "BlockTraceESP",
+      "Boolean": true
+    },
+    {
+      "Name": "BlockBlur",
+      "ParentName": "BlockTraceESP",
+      "Boolean": false
+    },
+    {
+      "Name": "PathColor",
+      "ParentName": "BlockTraceESP",
+      "Alpha": 52,
+      "FadeAlpha": 65,
+      "Rainbow": false,
+      "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.7623604,
+      "HSB Color Green": 0.90869564,
+      "HSB Color Blue": 0.9019608,
+      "HSB FadeColor Red": 0.5869219,
+      "HSB FadeColor Green": 0.90869564,
+      "HSB FadeColor Blue": 0.9019608
+    },
+    {
+      "Name": "PathShadow",
+      "ParentName": "BlockTraceESP",
+      "Boolean": true
+    },
+    {
+      "Name": "PathBlur",
+      "ParentName": "BlockTraceESP",
+      "Boolean": false
+    },
+    {
+      "Name": "PathSearchRange",
+      "ParentName": "BlockTraceESP",
+      "Value": 10.0
+    },
+    {
       "Name": "Mode",
       "ParentName": "Sprint",
       "SelectedOption": "Legit"
@@ -7085,17 +7201,17 @@
     {
       "Name": "SlowdownSword",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SprintSwordBoolean",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SwitchSwordBoolean",
       "ParentName": "NoSlow",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SwordSendSlotBoolean",
@@ -61153,12 +61269,22 @@
       "Boolean": false
     },
     {
+      "Name": "Jump",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
       "Name": "NoInvPacket",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
       "Name": "Rotate",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyOnGround",
       "ParentName": "GuiMove",
       "Boolean": false
     },
@@ -61594,6 +61720,11 @@
       "Boolean": false
     },
     {
+      "Name": "Surrounding",
+      "ParentName": "Fucker",
+      "Boolean": false
+    },
+    {
       "Name": "Instant",
       "ParentName": "Fucker",
       "Boolean": false
@@ -61947,6 +62078,11 @@
       "SelectedOption": "Jump"
     },
     {
+      "Name": "TowerWhileMoving",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
       "Name": "ConstantMotion",
       "ParentName": "Scaffold",
       "Value": 0.4
@@ -62053,6 +62189,93 @@
       "Name": "OnlyAtRightClicking",
       "ParentName": "NoMiningTrace",
       "Boolean": true
+    },
+    {
+      "Name": "YawSpeedInRotationModule",
+      "ParentName": "NewFucker",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "PitchSpeedInRotationModule",
+      "ParentName": "NewFucker",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "RandomTypeInRotationModule",
+      "ParentName": "NewFucker",
+      "SelectedOption": "SecureRandom"
+    },
+    {
+      "Name": "RandomizeInRotationModule",
+      "ParentName": "NewFucker",
+      "SelectedOption": "OnlyRotation"
+    },
+    {
+      "Name": "RandomStrengthInRotationModule",
+      "ParentName": "NewFucker",
+      "Value": 1.25
+    },
+    {
+      "Name": "AdvancedRotsInRotationModule",
+      "ParentName": "NewFucker",
+      "Boolean": true
+    },
+    {
+      "Name": "InterpolationInRotationModule",
+      "ParentName": "NewFucker",
+      "Boolean": false
+    },
+    {
+      "Name": "MoveFixInRotationModule",
+      "ParentName": "NewFucker",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFix",
+      "ParentName": "NewFucker",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "SilentMoveFixIntaveInRotationModule",
+      "ParentName": "NewFucker",
+      "Boolean": true
+    },
+    {
+      "Name": "SearchRadius",
+      "ParentName": "NewFucker",
+      "Value": 10.0
+    },
+    {
+      "Name": "AimRange",
+      "ParentName": "NewFucker",
+      "Value": 4.5
+    },
+    {
+      "Name": "Block",
+      "ParentName": "NewFucker",
+      "SelectedOption": "Bed"
+    },
+    {
+      "Name": "CustomID",
+      "ParentName": "NewFucker",
+      "Value": 26.0
+    },
+    {
+      "Name": "Action",
+      "ParentName": "NewFucker",
+      "SelectedOption": "Break"
+    },
+    {
+      "Name": "ThroughWall",
+      "ParentName": "NewFucker",
+      "Boolean": false
+    },
+    {
+      "Name": "Delay",
+      "ParentName": "NewFucker",
+      "Value": 500.0
     },
     {
       "Name": "Volume",
@@ -63133,6 +63356,11 @@
       "Name": "KarhuClicking",
       "ParentName": "Disabler",
       "Boolean": true
+    },
+    {
+      "Name": "OnGroundTrue",
+      "ParentName": "Disabler",
+      "Boolean": false
     },
     {
       "Name": "NotWhileAttack",
@@ -65709,6 +65937,11 @@
       "Boolean": false
     },
     {
+      "Name": "BlockTraceESP",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
       "Name": "Freelook",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -65740,6 +65973,11 @@
     },
     {
       "Name": "NoPlaceDelay",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "NewFucker",
       "ParentName": "AutoDisable",
       "Boolean": false
     },

@@ -1,7 +1,7 @@
 {
   "name": "Gamster",
-  "date": "11.05.2023",
-  "time": "21:54",
+  "date": "15.05.2023",
+  "time": "11:08",
   "modules": [
     {
       "Name": "Blur",
@@ -266,7 +266,7 @@
       "Name": "Protector",
       "IsInConfig": false,
       "IsInArraylist": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -673,7 +673,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -743,7 +743,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 24
+      "Key": 0
     },
     {
       "Name": "SafeWalk",
@@ -883,7 +883,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Phase",
@@ -1076,7 +1076,7 @@
     },
     {
       "Name": "StaffDetector",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
       "Key": 0
@@ -1366,6 +1366,11 @@
       "Name": "YVelocity",
       "ParentName": "Velocity",
       "Value": 42.0
+    },
+    {
+      "Name": "XZMotion",
+      "ParentName": "Velocity",
+      "Value": 0.0
     },
     {
       "Name": "XZOnHit",
@@ -1875,7 +1880,8 @@
     {
       "Name": "AdditionalStop",
       "ParentName": "TimerRange",
-      "Value": 22.0
+      "MinValue": 1.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "OnlyOnGround",
@@ -2419,6 +2425,11 @@
       "Boolean": false
     },
     {
+      "Name": "OnlyWhileHurt",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "UnblockAAC",
       "ParentName": "KillAura",
       "Value": 1.0
@@ -2642,6 +2653,11 @@
       "Boolean": false
     },
     {
+      "Name": "BetterHit",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "ExpandXZ",
       "ParentName": "HitBox",
       "Value": 0.0
@@ -2834,13 +2850,13 @@
     {
       "Name": "CalculateWithOwnPing",
       "ParentName": "BackTrack",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "MaxBackTrackPing",
       "ParentName": "BackTrack",
-      "MinValue": 240.0,
-      "MaxValue": 340.0
+      "MinValue": 200.0,
+      "MaxValue": 200.0
     },
     {
       "Name": "ForceDelay",
@@ -2855,7 +2871,7 @@
     {
       "Name": "DelayBetweenBacktrack",
       "ParentName": "BackTrack",
-      "Value": 0.0
+      "Value": 75.0
     },
     {
       "Name": "MaxLagPackets",
@@ -2885,7 +2901,7 @@
     {
       "Name": "OnlyWhenNeed",
       "ParentName": "BackTrack",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyKillAura",
@@ -61148,12 +61164,22 @@
       "Boolean": false
     },
     {
+      "Name": "Jump",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
       "Name": "NoInvPacket",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
       "Name": "Rotate",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyOnGround",
       "ParentName": "GuiMove",
       "Boolean": false
     },
@@ -61942,6 +61968,11 @@
       "SelectedOption": "Legit"
     },
     {
+      "Name": "TowerWhileMoving",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
       "Name": "ConstantMotion",
       "ParentName": "Scaffold",
       "Value": 0.4
@@ -62346,6 +62377,41 @@
       "Name": "Kit1V1Damage",
       "ParentName": "Debug",
       "Boolean": false
+    },
+    {
+      "Name": "DamageDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DamageUnsafe",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DebugAllChat",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "HitDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "InputRecorder",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveVeloDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "PacketLog",
+      "ParentName": "Debug",
+      "SelectedOption": "None"
     },
     {
       "Name": "Modes",
@@ -63086,6 +63152,16 @@
     },
     {
       "Name": "Place",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "KarhuClicking",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "OnGroundTrue",
       "ParentName": "Disabler",
       "Boolean": false
     },
