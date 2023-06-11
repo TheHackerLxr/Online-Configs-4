@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "02.06.2023",
-  "time": "21:13",
+  "date": "11.06.2023",
+  "time": "20:30",
   "modules": [
     {
       "Name": "Blur",
@@ -238,7 +238,7 @@
       "Name": "ESP",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -294,7 +294,7 @@
       "Name": "ItemESP",
       "IsInConfig": false,
       "IsInArraylist": true,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -939,7 +939,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "ChestAura",
@@ -1002,7 +1002,7 @@
       "IsInConfig": true,
       "IsInArraylist": true,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "Freelook",
@@ -1431,6 +1431,11 @@
       "Value": 0.0
     },
     {
+      "Name": "InstantJumpLegit",
+      "ParentName": "Velocity",
+      "Boolean": false
+    },
+    {
       "Name": "XZOnHit",
       "ParentName": "Velocity",
       "Value": 0.6
@@ -1484,6 +1489,11 @@
       "Name": "JumpDelay",
       "ParentName": "Velocity",
       "Value": 0.0
+    },
+    {
+      "Name": "InstantJumpIntave",
+      "ParentName": "Velocity",
+      "Boolean": false
     },
     {
       "Name": "CheckFallDamage",
@@ -2540,6 +2550,11 @@
       "Boolean": true
     },
     {
+      "Name": "LongClick",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "CritFix",
       "ParentName": "KillAura",
       "Boolean": true
@@ -2919,8 +2934,8 @@
     {
       "Name": "BackTrackTime",
       "ParentName": "BackTrack",
-      "MinValue": 195.0,
-      "MaxValue": 195.0
+      "MinValue": 150.0,
+      "MaxValue": 150.0
     },
     {
       "Name": "CalculateWithOwnPing",
@@ -2930,8 +2945,8 @@
     {
       "Name": "MaxBackTrackPing",
       "ParentName": "BackTrack",
-      "MinValue": 200.0,
-      "MaxValue": 200.0
+      "MinValue": 150.0,
+      "MaxValue": 150.0
     },
     {
       "Name": "ForceDelay",
@@ -3238,6 +3253,11 @@
       "Name": "CritFix",
       "ParentName": "AutoClicker",
       "Boolean": true
+    },
+    {
+      "Name": "LongClick",
+      "ParentName": "AutoClicker",
+      "Boolean": false
     },
     {
       "Name": "Mode",
@@ -3805,7 +3825,7 @@
       "Fade Dist": 47.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 146.0,
-      "HSB Color Red": 0.5507247,
+      "HSB Color Red": 0.54018444,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.44927537,
@@ -4877,7 +4897,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -7081,7 +7101,7 @@
     {
       "Name": "Armor",
       "ParentName": "Hotbar",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ArmorDurability",
@@ -62656,6 +62676,11 @@
       "Name": "MemoryFix",
       "ParentName": "Fixes",
       "Boolean": true
+    },
+    {
+      "Name": "RenderCashing",
+      "ParentName": "Fixes",
+      "Boolean": false
     },
     {
       "Name": "YawSpeedInRotationModule",
