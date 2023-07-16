@@ -9,7 +9,5 @@ Gamster
 BlockDrop
 AntiAC
 MineBlaze
-Vulcan
 Grim
-Verus
 PolarTest
