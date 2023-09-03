@@ -1,7 +1,7 @@
 {
   "name": "Gamster",
-  "date": "22.08.2023",
-  "time": "19:55",
+  "date": "25.08.2023",
+  "time": "18:12",
   "modules": [
     {
       "Name": "Blur",
@@ -9,7 +9,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -18,7 +18,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -136,7 +136,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 44
+      "Key": 0
     },
     {
       "Name": "HitBox",
@@ -946,7 +946,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "Strafe",
@@ -1261,7 +1261,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "ChestAura",
@@ -1476,7 +1476,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1485,7 +1485,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1615,7 +1615,7 @@
       "Key": 0
     },
     {
-      "Name": "MurderFinder",
+      "Name": "MurdererFinder",
       "IsInConfig": true,
       "IsInArraylist": true,
       "IsToggleSound": true,
@@ -1736,12 +1736,12 @@
     {
       "Name": "Sigma",
       "ParentName": "Blur",
-      "Value": 13.1
+      "Value": 21.2
     },
     {
       "Name": "InScreens",
       "ParentName": "Blur",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ItemsOnGround",
@@ -3711,6 +3711,11 @@
       "Boolean": true
     },
     {
+      "Name": "Fix (Beta)",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
       "Name": "NoRotation",
       "ParentName": "KillAura",
       "Boolean": false
@@ -5363,9 +5368,9 @@
       "Boolean": true
     },
     {
-      "Name": "MoonWalk",
+      "Name": "Mode",
       "ParentName": "AutoEagle",
-      "Boolean": true
+      "SelectedOption": "Eagle"
     },
     {
       "Name": "MinSneakTicks",
@@ -5384,6 +5389,21 @@
       "ParentName": "AutoEagle",
       "MinValue": 0.38,
       "MaxValue": 0.38
+    },
+    {
+      "Name": "SilentRotation",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "MidRotation",
+      "ParentName": "AutoEagle",
+      "Boolean": false
     },
     {
       "Name": "FastPlace",
@@ -7123,7 +7143,7 @@
     {
       "Name": "Rain",
       "ParentName": "Ambiance",
-      "Value": 1.0
+      "Value": 0.53
     },
     {
       "Name": "Snow",
@@ -7335,7 +7355,7 @@
     {
       "Name": "Rod",
       "ParentName": "Trajectories",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Shadow",
@@ -8237,7 +8257,7 @@
     {
       "Name": "LabyModCapes",
       "ParentName": "CustomCape",
-      "SelectedOption": "Pepe"
+      "SelectedOption": "Ejected"
     },
     {
       "Name": "MojangCapes",
@@ -9225,7 +9245,7 @@
     {
       "Name": "InFirstPerson",
       "ParentName": "ChinaHat",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Rotate with player",
@@ -9240,7 +9260,12 @@
     {
       "Name": "Rotate vertical",
       "ParentName": "ChinaHat",
-      "Boolean": false
+      "Boolean": true
+    },
+    {
+      "Name": "Only while module rotation",
+      "ParentName": "ChinaHat",
+      "Boolean": true
     },
     {
       "Name": "Enabled",
@@ -64948,6 +64973,16 @@
       "Boolean": false
     },
     {
+      "Name": "StrictYaw",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "RotateWithMovement",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
       "Name": "Improve",
       "ParentName": "Scaffold",
       "Boolean": true
@@ -64998,9 +65033,9 @@
       "Boolean": false
     },
     {
-      "Name": "ExpandMultiplier",
+      "Name": "ExpandLength",
       "ParentName": "Scaffold",
-      "Value": 4.0
+      "Value": 2.0
     },
     {
       "Name": "NoSwing",
@@ -65240,7 +65275,7 @@
       "Boolean": true
     },
     {
-      "Name": "SilentIntave",
+      "Name": "SilentExploit",
       "ParentName": "Scaffold",
       "Boolean": false
     },
@@ -65450,6 +65485,11 @@
     },
     {
       "Name": "MemoryFix",
+      "ParentName": "Fixes",
+      "Boolean": true
+    },
+    {
+      "Name": "PlaceWhileBreak",
       "ParentName": "Fixes",
       "Boolean": true
     },
@@ -65686,56 +65726,6 @@
       "Boolean": false
     },
     {
-      "Name": "DamageDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "DamageUnsafe",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "DebugAllChat",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "TargetDistance",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "HitCancelDetector",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "HitDebug",
-      "ParentName": "Debug",
-      "Boolean": true
-    },
-    {
-      "Name": "InputRecorder",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "IntaveVeloDebug",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "MoreKB",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
-      "Name": "PacketLog",
-      "ParentName": "Debug",
-      "SelectedOption": "None"
-    },
-    {
       "Name": "Modes",
       "ParentName": "StaffDetector",
       "SelectedOption": "Gomme"
@@ -65795,6 +65785,11 @@
       "Name": "ShowOverHotbar",
       "ParentName": "FlagDetector",
       "Boolean": false
+    },
+    {
+      "Name": "InventoryFlags",
+      "ParentName": "FlagDetector",
+      "Boolean": true
     },
     {
       "Name": "X-Coord",
@@ -68241,12 +68236,12 @@
     },
     {
       "Name": "AcousticWarning",
-      "ParentName": "MurderFinder",
+      "ParentName": "MurdererFinder",
       "Boolean": true
     },
     {
       "Name": "Volume",
-      "ParentName": "MurderFinder",
+      "ParentName": "MurdererFinder",
       "Value": 93.0
     },
     {
@@ -69279,7 +69274,7 @@
       "Boolean": false
     },
     {
-      "Name": "MurderFinder",
+      "Name": "MurdererFinder",
       "ParentName": "AutoDisable",
       "Boolean": false
     },

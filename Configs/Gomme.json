@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "23.08.2023",
-  "time": "01:27",
+  "date": "01.09.2023",
+  "time": "02:48",
   "modules": [
     {
       "Name": "Blur",
@@ -244,7 +244,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 44
+      "Key": 0
     },
     {
       "Name": "Range",
@@ -306,7 +306,7 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -738,7 +738,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -801,7 +801,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -946,7 +946,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "Strafe",
@@ -964,7 +964,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -1179,7 +1179,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1188,7 +1188,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1225,7 +1225,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Phase",
@@ -1261,7 +1261,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 0
+      "Key": 33
     },
     {
       "Name": "ChestAura",
@@ -1342,6 +1342,15 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "InvManager",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1476,7 +1485,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1485,7 +1494,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1734,9 +1743,14 @@
   ],
   "settings": [
     {
+      "Name": "Modes",
+      "ParentName": "Blur",
+      "SelectedOption": "Gaussian"
+    },
+    {
       "Name": "Sigma",
       "ParentName": "Blur",
-      "Value": 13.1
+      "Value": 14.7
     },
     {
       "Name": "InScreens",
@@ -3144,7 +3158,13 @@
     {
       "Name": "SmartClickingHurttimeEnd",
       "ParentName": "KillAura",
-      "Value": 2.0
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "SmartClickingHurttimeEndNotInARow",
+      "ParentName": "KillAura",
+      "Boolean": false
     },
     {
       "Name": "SmartMode",
@@ -3618,7 +3638,13 @@
     {
       "Name": "SmartForceHitsHurtTime",
       "ParentName": "KillAura",
-      "Value": 2.0
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeNotInARow",
+      "ParentName": "KillAura",
+      "Boolean": false
     },
     {
       "Name": "SmartIntaveFix",
@@ -4112,7 +4138,7 @@
     {
       "Name": "CalculateWithOwnPing",
       "ParentName": "BackTrack",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ForceDelay",
@@ -4425,7 +4451,13 @@
     {
       "Name": "SmartClickingHurttimeEnd",
       "ParentName": "AutoClicker",
-      "Value": 3.0
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "SmartClickingHurttimeEndNotInARow",
+      "ParentName": "AutoClicker",
+      "Boolean": false
     },
     {
       "Name": "ClickPattern",
@@ -4489,7 +4521,13 @@
     {
       "Name": "DragForceHitsHurtTime",
       "ParentName": "AutoClicker",
-      "Value": 3.0
+      "MinValue": 2.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "DragForceHitsHurtTimeNotInARow",
+      "ParentName": "AutoClicker",
+      "Boolean": false
     },
     {
       "Name": "SmartMode",
@@ -4963,7 +5001,13 @@
     {
       "Name": "SmartForceHitsHurtTime",
       "ParentName": "AutoClicker",
-      "Value": 2.0
+      "MinValue": 3.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeNotInARow",
+      "ParentName": "AutoClicker",
+      "Boolean": false
     },
     {
       "Name": "SmartIntaveFix",
@@ -5368,9 +5412,9 @@
       "Boolean": true
     },
     {
-      "Name": "MoonWalk",
+      "Name": "Mode",
       "ParentName": "AutoEagle",
-      "Boolean": false
+      "SelectedOption": "Eagle"
     },
     {
       "Name": "MinSneakTicks",
@@ -5389,6 +5433,21 @@
       "ParentName": "AutoEagle",
       "MinValue": 0.05,
       "MaxValue": 0.2
+    },
+    {
+      "Name": "SilentRotation",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "MidRotation",
+      "ParentName": "AutoEagle",
+      "Boolean": false
     },
     {
       "Name": "FastPlace",
@@ -7340,7 +7399,7 @@
     {
       "Name": "Rod",
       "ParentName": "Trajectories",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Shadow",
@@ -8282,7 +8341,7 @@
     {
       "Name": "CustomThirdPersonDistance",
       "ParentName": "CustomCamera",
-      "Value": 6.0
+      "Value": 9.5
     },
     {
       "Name": "Remove",
@@ -9048,7 +9107,7 @@
     {
       "Name": "TargetESP",
       "ParentName": "TargetESP",
-      "SelectedOption": "Sigma"
+      "SelectedOption": "Box"
     },
     {
       "Name": "TargetEspColor",
@@ -9095,8 +9154,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.996063,
-      "HSB Color Blue": 0.99607843,
+      "HSB Color Green": 0.9952153,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -64298,13 +64357,58 @@
     {
       "Name": "StartDelay",
       "ParentName": "ChestStealer",
-      "Value": 0.0
+      "MinValue": 120.0,
+      "MaxValue": 190.0
     },
     {
-      "Name": "Delay",
+      "Name": "Instant",
       "ParentName": "ChestStealer",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
+      "Boolean": false
+    },
+    {
+      "Name": "MaxMouseMoveSpeed",
+      "ParentName": "ChestStealer",
+      "Value": 19.0
+    },
+    {
+      "Name": "CPS",
+      "ParentName": "ChestStealer",
+      "MinValue": 16.0,
+      "MaxValue": 18.0
+    },
+    {
+      "Name": "CPSNotInARow",
+      "ParentName": "ChestStealer",
+      "Boolean": false
+    },
+    {
+      "Name": "CPSRecalculate",
+      "ParentName": "ChestStealer",
+      "MinValue": 6.0,
+      "MaxValue": 8.0
+    },
+    {
+      "Name": "DoubleClickRate",
+      "ParentName": "ChestStealer",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "FailRate",
+      "ParentName": "ChestStealer",
+      "MinValue": 2.0,
+      "MaxValue": 5.0
+    },
+    {
+      "Name": "MissClickRate",
+      "ParentName": "ChestStealer",
+      "MinValue": 5.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "OnlyInChest",
+      "ParentName": "ChestStealer",
+      "Boolean": true
     },
     {
       "Name": "Intelligent",
@@ -64317,14 +64421,10 @@
       "Boolean": true
     },
     {
-      "Name": "CompasCheck",
+      "Name": "CloseDelay",
       "ParentName": "ChestStealer",
-      "Boolean": true
-    },
-    {
-      "Name": "SmartDelay",
-      "ParentName": "ChestStealer",
-      "Boolean": true
+      "MinValue": 60.0,
+      "MaxValue": 120.0
     },
     {
       "Name": "Visualize",
@@ -64332,24 +64432,9 @@
       "Boolean": true
     },
     {
-      "Name": "DoubleClick",
-      "ParentName": "ChestStealer",
-      "Boolean": false
-    },
-    {
-      "Name": "DoubleClickChance",
-      "ParentName": "ChestStealer",
-      "Value": 20.0
-    },
-    {
       "Name": "Sequence",
       "ParentName": "ChestStealer",
       "SelectedOption": "Nearest"
-    },
-    {
-      "Name": "EventToClick",
-      "ParentName": "ChestStealer",
-      "SelectedOption": "EventTick"
     },
     {
       "Name": "ClickMode",
@@ -64735,6 +64820,249 @@
       "Value": 2.0
     },
     {
+      "Name": "Actions",
+      "ParentName": "InvManager",
+      "SettingList": [
+        {
+          "Sort": true,
+          "Armor": true,
+          "Clean": true,
+          "HotbarArmor": true
+        }
+      ]
+    },
+    {
+      "Name": "Mode",
+      "ParentName": "InvManager",
+      "SelectedOption": "OpenInv"
+    },
+    {
+      "Name": "StartDelay",
+      "ParentName": "InvManager",
+      "MinValue": 150.0,
+      "MaxValue": 200.0
+    },
+    {
+      "Name": "BlockInputWhileManaging",
+      "ParentName": "InvManager",
+      "Boolean": true
+    },
+    {
+      "Name": "Visualize",
+      "ParentName": "InvManager",
+      "Boolean": true
+    },
+    {
+      "Name": "StopMovement",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "SortInstant",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "SortMaxMouseMoveSpeed",
+      "ParentName": "InvManager",
+      "Value": 19.0
+    },
+    {
+      "Name": "SortCPS",
+      "ParentName": "InvManager",
+      "MinValue": 17.0,
+      "MaxValue": 20.0
+    },
+    {
+      "Name": "SortCPSNotInARow",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "SortCPSRecalculate",
+      "ParentName": "InvManager",
+      "MinValue": 6.0,
+      "MaxValue": 8.0
+    },
+    {
+      "Name": "SortFailRate",
+      "ParentName": "InvManager",
+      "MinValue": 2.0,
+      "MaxValue": 5.0
+    },
+    {
+      "Name": "SortSequence",
+      "ParentName": "InvManager",
+      "SelectedOption": "Nearest"
+    },
+    {
+      "Name": "Slot1",
+      "ParentName": "InvManager",
+      "SelectedOption": "Sword"
+    },
+    {
+      "Name": "Slot2",
+      "ParentName": "InvManager",
+      "SelectedOption": "Bow"
+    },
+    {
+      "Name": "Slot3",
+      "ParentName": "InvManager",
+      "SelectedOption": "Throwables"
+    },
+    {
+      "Name": "Slot4",
+      "ParentName": "InvManager",
+      "SelectedOption": "Blocks"
+    },
+    {
+      "Name": "Slot5",
+      "ParentName": "InvManager",
+      "SelectedOption": "Blocks"
+    },
+    {
+      "Name": "Slot6",
+      "ParentName": "InvManager",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "Slot7",
+      "ParentName": "InvManager",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "Slot8",
+      "ParentName": "InvManager",
+      "SelectedOption": "Food"
+    },
+    {
+      "Name": "Slot9",
+      "ParentName": "InvManager",
+      "SelectedOption": "Gapple"
+    },
+    {
+      "Name": "ArmorInstant",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "ArmorMaxMouseMoveSpeed",
+      "ParentName": "InvManager",
+      "Value": 19.0
+    },
+    {
+      "Name": "ArmorCPS",
+      "ParentName": "InvManager",
+      "MinValue": 17.0,
+      "MaxValue": 20.0
+    },
+    {
+      "Name": "ArmorCPSNotInARow",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "ArmorCPSRecalculate",
+      "ParentName": "InvManager",
+      "MinValue": 6.0,
+      "MaxValue": 8.0
+    },
+    {
+      "Name": "ArmorDoubleClickRate",
+      "ParentName": "InvManager",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "ArmorFailRate",
+      "ParentName": "InvManager",
+      "MinValue": 2.0,
+      "MaxValue": 5.0
+    },
+    {
+      "Name": "ArmorMissClickRate",
+      "ParentName": "InvManager",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "ArmorSequence",
+      "ParentName": "InvManager",
+      "SelectedOption": "Nearest"
+    },
+    {
+      "Name": "CleanInstant",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "CleanMaxMouseMoveSpeed",
+      "ParentName": "InvManager",
+      "Value": 19.0
+    },
+    {
+      "Name": "CleanCPS",
+      "ParentName": "InvManager",
+      "MinValue": 17.0,
+      "MaxValue": 20.0
+    },
+    {
+      "Name": "CleanCPSNotInARow",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "CleanCPSRecalculate",
+      "ParentName": "InvManager",
+      "MinValue": 6.0,
+      "MaxValue": 8.0
+    },
+    {
+      "Name": "CleanFailRate",
+      "ParentName": "InvManager",
+      "MinValue": 10.0,
+      "MaxValue": 15.0
+    },
+    {
+      "Name": "CleanMissClickRate",
+      "ParentName": "InvManager",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "CleanerSequence",
+      "ParentName": "InvManager",
+      "SelectedOption": "Nearest"
+    },
+    {
+      "Name": "QSG",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "TickDelayBeforeSwitch",
+      "ParentName": "InvManager",
+      "MinValue": 1.0,
+      "MaxValue": 2.0
+    },
+    {
+      "Name": "TickDelayBeforeClick",
+      "ParentName": "InvManager",
+      "MinValue": 1.0,
+      "MaxValue": 2.0
+    },
+    {
+      "Name": "TickDelayAfter",
+      "ParentName": "InvManager",
+      "MinValue": 1.0,
+      "MaxValue": 2.0
+    },
+    {
+      "Name": "ClickMode",
+      "ParentName": "InvManager",
+      "SelectedOption": "Basic"
+    },
+    {
       "Name": "NoBlockHitDelay",
       "ParentName": "FastBreak",
       "Boolean": false
@@ -64958,6 +65286,16 @@
       "Boolean": false
     },
     {
+      "Name": "StrictYaw",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "RotateWithMovement",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
       "Name": "Improve",
       "ParentName": "Scaffold",
       "Boolean": true
@@ -65097,14 +65435,14 @@
     {
       "Name": "SneakBlocksForward",
       "ParentName": "Scaffold",
-      "MinValue": 8.0,
-      "MaxValue": 12.0
+      "MinValue": 7.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SneakBlocksDiagonal",
       "ParentName": "Scaffold",
-      "MinValue": 8.0,
-      "MaxValue": 12.0
+      "MinValue": 7.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SneakSlowDown",
@@ -65728,7 +66066,7 @@
     {
       "Name": "HitDebug",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "InputRecorder",
@@ -65754,6 +66092,11 @@
       "Name": "Modes",
       "ParentName": "StaffDetector",
       "SelectedOption": "Gomme"
+    },
+    {
+      "Name": "Lists",
+      "ParentName": "StaffDetector",
+      "SelectedOption": "BlocksMC"
     },
     {
       "Name": "CheckDelay",
@@ -65810,6 +66153,11 @@
       "Name": "ShowOverHotbar",
       "ParentName": "FlagDetector",
       "Boolean": false
+    },
+    {
+      "Name": "InventoryFlags",
+      "ParentName": "FlagDetector",
+      "Boolean": true
     },
     {
       "Name": "X-Coord",
@@ -65901,6 +66249,28 @@
       "ParentName": "AntiAFK",
       "MinValue": 10000.0,
       "MaxValue": 15000.0
+    },
+    {
+      "Name": "Move",
+      "ParentName": "AntiAFK",
+      "Boolean": true
+    },
+    {
+      "Name": "MoveDelay",
+      "ParentName": "AntiAFK",
+      "MinValue": 4000.0,
+      "MaxValue": 6000.0
+    },
+    {
+      "Name": "MoveDuration",
+      "ParentName": "AntiAFK",
+      "MinValue": 200.0,
+      "MaxValue": 400.0
+    },
+    {
+      "Name": "InInv",
+      "ParentName": "AntiAFK",
+      "Boolean": false
     },
     {
       "Name": "ResourcePack",
@@ -66335,17 +66705,12 @@
     {
       "Name": "KarhuClicking",
       "ParentName": "Disabler",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnGroundTrue",
       "ParentName": "Disabler",
       "Boolean": false
-    },
-    {
-      "Name": "NotWhileAttack",
-      "ParentName": "Disabler",
-      "Boolean": true
     },
     {
       "Name": "Tp",
@@ -66373,7 +66738,7 @@
     {
       "Name": "Test",
       "ParentName": "Disabler",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ResourcePack",
@@ -68363,6 +68728,17 @@
       "SelectedOption": "L"
     },
     {
+      "Name": "Delay",
+      "ParentName": "KillMessage",
+      "MinValue": 500.0,
+      "MaxValue": 2000.0
+    },
+    {
+      "Name": "InInv",
+      "ParentName": "KillMessage",
+      "Boolean": false
+    },
+    {
       "Name": "KillMessageCustom",
       "ParentName": "KillMessage",
       "SelectedOption": "killed by Augustusb4.0.0-pre5!"
@@ -68795,6 +69171,11 @@
     },
     {
       "Name": "SelfDamage",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "InvManager",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
