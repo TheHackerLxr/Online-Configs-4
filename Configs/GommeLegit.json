@@ -1,7 +1,7 @@
 {
   "name": "GommeLegit",
-  "date": "23.10.2023",
-  "time": "18:36",
+  "date": "25.10.2023",
+  "time": "18:10",
   "modules": [
     {
       "Name": "Blur",
@@ -1503,7 +1503,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1530,7 +1530,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -4782,8 +4782,8 @@
     {
       "Name": "SmartDCPSFirstHit",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SmartDCPSFirstHitNotInARow",
@@ -4833,8 +4833,8 @@
     {
       "Name": "SmartCPSHurt0",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt0NotInARow",
@@ -4867,8 +4867,8 @@
     {
       "Name": "SmartCPSHurt1",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt1NotInARow",
@@ -4901,8 +4901,8 @@
     {
       "Name": "SmartCPSHurt2",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt2NotInARow",
@@ -4935,8 +4935,8 @@
     {
       "Name": "SmartCPSHurt3",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt3NotInARow",
@@ -7436,8 +7436,8 @@
       "Astolfo Speed": 9.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 0.99607843
@@ -65235,6 +65235,11 @@
       "Boolean": true
     },
     {
+      "Name": "AutoSort",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
       "Name": "AutoClose",
       "ParentName": "ChestStealer",
       "Boolean": true
@@ -66160,6 +66165,65 @@
     },
     {
       "Name": "RandomizePitch",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomizePitchOnlyWhileYawRotation",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "RandomizePitchVal",
+      "ParentName": "Scaffold",
+      "MinValue": -1.0,
+      "MaxValue": 1.0
+    },
+    {
+      "Name": "RandomizePitchValNotInARow",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomizePitchInterval",
+      "ParentName": "Scaffold",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "RandomizePitchIntervalNotInARow",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomizeYaw",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "RandomizeYawOnlyWhilePitchRotation",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
+      "Name": "RandomizeYawVal",
+      "ParentName": "Scaffold",
+      "MinValue": -1.0,
+      "MaxValue": 1.0
+    },
+    {
+      "Name": "RandomizeYawValNotInARow",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomizeYawInterval",
+      "ParentName": "Scaffold",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "RandomizeYawIntervalNotInARow",
       "ParentName": "Scaffold",
       "Boolean": false
     },
