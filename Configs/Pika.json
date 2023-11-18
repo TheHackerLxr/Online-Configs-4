@@ -1,7 +1,7 @@
 {
   "name": "Pika",
-  "date": "25.10.2023",
-  "time": "16:51",
+  "date": "18.11.2023",
+  "time": "15:18",
   "modules": [
     {
       "Name": "Blur",
@@ -171,7 +171,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -198,7 +198,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -333,7 +333,7 @@
       "IsInArraylist": false,
       "IsToggleSound": false,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 54
     },
     {
@@ -927,7 +927,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -2716,7 +2716,7 @@
     {
       "Name": "TargetHurtTimeTicks",
       "ParentName": "MoreKB",
-      "MinValue": 4.0,
+      "MinValue": 3.0,
       "MaxValue": 6.0
     },
     {
@@ -3330,8 +3330,8 @@
     {
       "Name": "SmartCPSInAirRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 10.0,
-      "MaxValue": 20.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartCPSFirstHit",
@@ -3347,8 +3347,8 @@
     {
       "Name": "SmartCPSFirstHitRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 6.0,
-      "MaxValue": 9.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSFirstHit",
@@ -3415,8 +3415,8 @@
     {
       "Name": "Hurt0SmartCPSRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 2.0,
-      "MaxValue": 2.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSHurt0",
@@ -3880,7 +3880,7 @@
     {
       "Name": "CritFix",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "CritFixPacketCheck",
@@ -4759,8 +4759,8 @@
     {
       "Name": "SmartCPSInAirRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 20.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartCPSFirstHit",
@@ -4776,8 +4776,8 @@
     {
       "Name": "SmartCPSFirstHitRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 30.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSFirstHit",
@@ -4845,7 +4845,7 @@
       "Name": "Hurt0SmartCPSRecalculateTickDelay",
       "ParentName": "AutoClicker",
       "MinValue": 3.0,
-      "MaxValue": 5.0
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSHurt0",
@@ -6464,13 +6464,13 @@
       "ParentName": "ESP",
       "SettingList": [
         {
-          "Box": true,
+          "Box": false,
           "HitBox": false,
           "CollisionBox": false,
           "3DCorner": false,
-          "Real2D": false,
+          "Real2D": true,
           "Corner": false,
-          "Vanilla": false
+          "Vanilla": true
         }
       ]
     },
@@ -7685,7 +7685,7 @@
       "Boolean": false
     },
     {
-      "Name": "FeetLine",
+      "Name": "ActivateMoveLine",
       "ParentName": "Line",
       "Boolean": true
     },
@@ -7723,7 +7723,12 @@
       "Value": 3000.0
     },
     {
-      "Name": "AuraLine",
+      "Name": "ResetOnTeleportMoveLine",
+      "ParentName": "Line",
+      "Boolean": false
+    },
+    {
+      "Name": "ActivateAuraLine",
       "ParentName": "Line",
       "Boolean": false
     },
@@ -7759,6 +7764,11 @@
       "Name": "AuraLineTime",
       "ParentName": "Line",
       "Value": 4010.0
+    },
+    {
+      "Name": "ResetOnTeleportAuraLine",
+      "ParentName": "Line",
+      "Boolean": false
     },
     {
       "Name": "Shadow",
@@ -8184,7 +8194,7 @@
       "SelectedOption": "Basic"
     },
     {
-      "Name": "Right",
+      "Name": "Side",
       "ParentName": "Notification",
       "SelectedOption": "Right"
     },
@@ -10242,7 +10252,7 @@
     {
       "Name": "Modes",
       "ParentName": "Emojify",
-      "SelectedOption": "pogchamp"
+      "SelectedOption": "trashmeme"
     },
     {
       "Name": "ComboHits",
@@ -65119,6 +65129,11 @@
       "Value": 110.0
     },
     {
+      "Name": "RandomizeYaw",
+      "ParentName": "NoFall",
+      "Boolean": true
+    },
+    {
       "Name": "BlinkMode",
       "ParentName": "NoFall",
       "SelectedOption": "None"
@@ -66798,6 +66813,11 @@
       "Boolean": true
     },
     {
+      "Name": "NoTerrainDownload",
+      "ParentName": "Fixes",
+      "Boolean": true
+    },
+    {
       "Name": "YawSpeedInRotationModule",
       "ParentName": "AutoWalk",
       "MinValue": 30.0,
@@ -67702,6 +67722,11 @@
       "Name": "KarhuClicking",
       "ParentName": "Disabler",
       "Boolean": true
+    },
+    {
+      "Name": "MMCReachSemi",
+      "ParentName": "Disabler",
+      "Boolean": false
     },
     {
       "Name": "OnGroundTrue",
@@ -69628,7 +69653,7 @@
     {
       "Name": "RotationMode",
       "ParentName": "RotationHandler",
-      "SelectedOption": "Tick"
+      "SelectedOption": "Vanilla"
     },
     {
       "Name": "MouseSensMode",
@@ -69680,7 +69705,7 @@
     {
       "Name": "ModuleToggleSound",
       "ParentName": "ClientSettings",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "HideMainMenuAccountInfos",
