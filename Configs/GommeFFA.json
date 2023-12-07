@@ -1,5 +1,5 @@
 {
-  "name": "Gomme",
+  "name": "GommeFFA",
   "date": "03.12.2023",
   "time": "21:44",
   "modules": [
@@ -3121,7 +3121,7 @@
     {
       "Name": "ClickMode",
       "ParentName": "KillAura",
-      "SelectedOption": "Advanced"
+      "SelectedOption": "Smart"
     },
     {
       "Name": "BasicDelay",
@@ -3174,7 +3174,7 @@
     {
       "Name": "CPSLimiter",
       "ParentName": "KillAura",
-      "Value": 22.0
+      "Value": 15.0
     },
     {
       "Name": "CPSLimiterIntave",
@@ -3325,8 +3325,8 @@
     {
       "Name": "SmartCPSInAir",
       "ParentName": "KillAura",
-      "MinValue": 5.0,
-      "MaxValue": 9.0
+      "MinValue": 3.0,
+      "MaxValue": 7.0
     },
     {
       "Name": "SmartCPSInAirNotInARow",
@@ -3336,14 +3336,14 @@
     {
       "Name": "SmartCPSInAirRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 5.0,
-      "MaxValue": 14.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSInAir",
       "ParentName": "KillAura",
-      "MinValue": 3.0,
-      "MaxValue": 4.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SmartDCPSInAirNotInARow",
@@ -3359,8 +3359,8 @@
     {
       "Name": "SmartCPSFirstHit",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSFirstHitNotInARow",
@@ -3370,8 +3370,8 @@
     {
       "Name": "SmartCPSFirstHitRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 6.0,
-      "MaxValue": 9.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSFirstHit",
@@ -3438,8 +3438,8 @@
     {
       "Name": "Hurt0SmartCPSRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 2.0,
-      "MaxValue": 2.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSHurt0",
@@ -3563,8 +3563,8 @@
     {
       "Name": "SmartCPSHurt4",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt4NotInARow",
@@ -3597,8 +3597,8 @@
     {
       "Name": "SmartCPSHurt5",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt5NotInARow",
@@ -3631,8 +3631,8 @@
     {
       "Name": "SmartCPSHurt6",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt6NotInARow",
@@ -3665,8 +3665,8 @@
     {
       "Name": "SmartCPSHurt7",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt7NotInARow",
@@ -3699,8 +3699,8 @@
     {
       "Name": "SmartCPSHurt8",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt8NotInARow",
@@ -3733,8 +3733,8 @@
     {
       "Name": "SmartCPSHurt9",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt9NotInARow",
@@ -3767,8 +3767,8 @@
     {
       "Name": "SmartCPSHurt10",
       "ParentName": "KillAura",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt10NotInARow",
@@ -3812,8 +3812,8 @@
     {
       "Name": "SmartForceHitsHurtTimeEnd",
       "ParentName": "KillAura",
-      "MinValue": 10.0,
-      "MaxValue": 10.0
+      "MinValue": 9.0,
+      "MaxValue": 9.0
     },
     {
       "Name": "SmartForceHitsHurtTimeEndNotInARow",
@@ -3919,7 +3919,7 @@
     {
       "Name": "Fix (Beta)",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "NoRotation",
@@ -4535,7 +4535,7 @@
     {
       "Name": "CPSLimiter",
       "ParentName": "AutoClicker",
-      "Value": 22.0
+      "Value": 15.0
     },
     {
       "Name": "CPSLimiterIntave",
@@ -4784,8 +4784,8 @@
     {
       "Name": "SmartCPSInAir",
       "ParentName": "AutoClicker",
-      "MinValue": 5.0,
-      "MaxValue": 9.0
+      "MinValue": 3.0,
+      "MaxValue": 7.0
     },
     {
       "Name": "SmartCPSInAirNotInARow",
@@ -4795,14 +4795,14 @@
     {
       "Name": "SmartCPSInAirRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 5.0,
-      "MaxValue": 15.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSInAir",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SmartDCPSInAirNotInARow",
@@ -4818,8 +4818,8 @@
     {
       "Name": "SmartCPSFirstHit",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSFirstHitNotInARow",
@@ -4829,8 +4829,8 @@
     {
       "Name": "SmartCPSFirstHitRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 30.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSFirstHit",
@@ -4898,7 +4898,7 @@
       "Name": "Hurt0SmartCPSRecalculateTickDelay",
       "ParentName": "AutoClicker",
       "MinValue": 3.0,
-      "MaxValue": 5.0
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSHurt0",
@@ -5022,8 +5022,8 @@
     {
       "Name": "SmartCPSHurt4",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt4NotInARow",
@@ -5056,8 +5056,8 @@
     {
       "Name": "SmartCPSHurt5",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt5NotInARow",
@@ -5090,8 +5090,8 @@
     {
       "Name": "SmartCPSHurt6",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt6NotInARow",
@@ -5124,8 +5124,8 @@
     {
       "Name": "SmartCPSHurt7",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt7NotInARow",
@@ -5158,8 +5158,8 @@
     {
       "Name": "SmartCPSHurt8",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt8NotInARow",
@@ -5192,8 +5192,8 @@
     {
       "Name": "SmartCPSHurt9",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt9NotInARow",
@@ -5226,8 +5226,8 @@
     {
       "Name": "SmartCPSHurt10",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 19.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt10NotInARow",
@@ -5260,7 +5260,7 @@
     {
       "Name": "SmartForceHitsHurtTime",
       "ParentName": "AutoClicker",
-      "MinValue": 3.0,
+      "MinValue": 2.0,
       "MaxValue": 3.0
     },
     {
@@ -5271,8 +5271,8 @@
     {
       "Name": "SmartForceHitsHurtTimeEnd",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 10.0
+      "MinValue": 9.0,
+      "MaxValue": 9.0
     },
     {
       "Name": "SmartForceHitsHurtTimeEndNotInARow",
