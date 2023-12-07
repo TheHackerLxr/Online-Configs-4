@@ -1,7 +1,7 @@
 {
   "name": "GommeFFA",
-  "date": "03.12.2023",
-  "time": "21:44",
+  "date": "07.12.2023",
+  "time": "22:08",
   "modules": [
     {
       "Name": "Blur",
@@ -621,7 +621,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -720,7 +720,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -937,6 +937,15 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "CustomFireHeight",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1390,6 +1399,15 @@
       "Key": 0
     },
     {
+      "Name": "AutoEat",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "FastBreak",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -1503,7 +1521,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1530,7 +1548,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1983,6 +2001,11 @@
       "MaxValue": 0.0
     },
     {
+      "Name": "JumpChanceLegit",
+      "ParentName": "Velocity",
+      "Value": 50.0
+    },
+    {
       "Name": "XZOnHit",
       "ParentName": "Velocity",
       "Value": 0.6
@@ -2053,6 +2076,11 @@
       "Name": "CheckFallDamage",
       "ParentName": "Velocity",
       "Boolean": true
+    },
+    {
+      "Name": "JumpChanceIntave",
+      "ParentName": "Velocity",
+      "Value": 50.0
     },
     {
       "Name": "FallDistance",
@@ -3359,8 +3387,8 @@
     {
       "Name": "SmartCPSFirstHit",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSFirstHitNotInARow",
@@ -3427,8 +3455,8 @@
     {
       "Name": "SmartCPSHurt0",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt0NotInARow",
@@ -3461,8 +3489,8 @@
     {
       "Name": "SmartCPSHurt1",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt1NotInARow",
@@ -3495,8 +3523,8 @@
     {
       "Name": "SmartCPSHurt2",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt2NotInARow",
@@ -3529,8 +3557,8 @@
     {
       "Name": "SmartCPSHurt3",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt3NotInARow",
@@ -3563,8 +3591,8 @@
     {
       "Name": "SmartCPSHurt4",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt4NotInARow",
@@ -3597,8 +3625,8 @@
     {
       "Name": "SmartCPSHurt5",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt5NotInARow",
@@ -3631,8 +3659,8 @@
     {
       "Name": "SmartCPSHurt6",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt6NotInARow",
@@ -3665,8 +3693,8 @@
     {
       "Name": "SmartCPSHurt7",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt7NotInARow",
@@ -3699,8 +3727,8 @@
     {
       "Name": "SmartCPSHurt8",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt8NotInARow",
@@ -3733,8 +3761,8 @@
     {
       "Name": "SmartCPSHurt9",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt9NotInARow",
@@ -3767,8 +3795,8 @@
     {
       "Name": "SmartCPSHurt10",
       "ParentName": "KillAura",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt10NotInARow",
@@ -4818,8 +4846,8 @@
     {
       "Name": "SmartCPSFirstHit",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSFirstHitNotInARow",
@@ -4886,8 +4914,8 @@
     {
       "Name": "SmartCPSHurt0",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt0NotInARow",
@@ -4920,8 +4948,8 @@
     {
       "Name": "SmartCPSHurt1",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt1NotInARow",
@@ -4954,8 +4982,8 @@
     {
       "Name": "SmartCPSHurt2",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt2NotInARow",
@@ -4988,8 +5016,8 @@
     {
       "Name": "SmartCPSHurt3",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt3NotInARow",
@@ -5022,8 +5050,8 @@
     {
       "Name": "SmartCPSHurt4",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt4NotInARow",
@@ -5056,8 +5084,8 @@
     {
       "Name": "SmartCPSHurt5",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt5NotInARow",
@@ -5090,8 +5118,8 @@
     {
       "Name": "SmartCPSHurt6",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt6NotInARow",
@@ -5124,8 +5152,8 @@
     {
       "Name": "SmartCPSHurt7",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt7NotInARow",
@@ -5158,8 +5186,8 @@
     {
       "Name": "SmartCPSHurt8",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt8NotInARow",
@@ -5192,8 +5220,8 @@
     {
       "Name": "SmartCPSHurt9",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt9NotInARow",
@@ -5226,8 +5254,8 @@
     {
       "Name": "SmartCPSHurt10",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
-      "MaxValue": 19.0
+      "MinValue": 18.0,
+      "MaxValue": 18.0
     },
     {
       "Name": "SmartCPSHurt10NotInARow",
@@ -10971,6 +10999,16 @@
       "Boolean": true
     },
     {
+      "Name": "RemoveFire",
+      "ParentName": "CustomFireHeight",
+      "Boolean": false
+    },
+    {
+      "Name": "FireHeight",
+      "ParentName": "CustomFireHeight",
+      "Value": -0.3
+    },
+    {
       "Name": "Mode",
       "ParentName": "Sprint",
       "SelectedOption": "Legit"
@@ -11519,6 +11557,11 @@
       "Name": "AutoDisable",
       "ParentName": "Blink",
       "Value": 0.0
+    },
+    {
+      "Name": "DisableOnAttack",
+      "ParentName": "Blink",
+      "Boolean": false
     },
     {
       "Name": "DisableKillAura",
@@ -65506,6 +65549,11 @@
       "Value": 5.0
     },
     {
+      "Name": "Mode",
+      "ParentName": "Regen",
+      "SelectedOption": "Default"
+    },
+    {
       "Name": "Health",
       "ParentName": "Regen",
       "Value": 20.0
@@ -65526,9 +65574,19 @@
       "Boolean": false
     },
     {
-      "Name": "Mode",
+      "Name": "StopSendPacketsIfHpReached",
       "ParentName": "Regen",
-      "SelectedOption": "Default"
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileKillAura",
+      "ParentName": "Regen",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileScaffold",
+      "ParentName": "Regen",
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -65619,9 +65677,24 @@
       "Value": 26.0
     },
     {
+      "Name": "GrimPackets",
+      "ParentName": "FastUse",
+      "Value": 20.0
+    },
+    {
+      "Name": "NewPackets",
+      "ParentName": "FastUse",
+      "Value": 3.0
+    },
+    {
       "Name": "TimePackets",
       "ParentName": "FastUse",
       "Value": 20.0
+    },
+    {
+      "Name": "OnlyAtFullLife",
+      "ParentName": "FastUse",
+      "Boolean": false
     },
     {
       "Name": "Items",
@@ -66029,6 +66102,27 @@
       ]
     },
     {
+      "Name": "Hunger",
+      "ParentName": "AutoEat",
+      "MinValue": 20.0,
+      "MaxValue": 20.0
+    },
+    {
+      "Name": "UseGapple",
+      "ParentName": "AutoEat",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileKillAura",
+      "ParentName": "AutoEat",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold",
+      "ParentName": "AutoEat",
+      "Boolean": true
+    },
+    {
       "Name": "NoBlockHitDelay",
       "ParentName": "FastBreak",
       "Boolean": false
@@ -66199,6 +66293,11 @@
       "Name": "OneClick",
       "ParentName": "FastPlace",
       "Boolean": false
+    },
+    {
+      "Name": "AutoSwap",
+      "ParentName": "FastPlace",
+      "Boolean": true
     },
     {
       "Name": "XP-BottlesCPS",
@@ -66849,12 +66948,12 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 65.0
+      "Value": 69.0
     },
     {
       "Name": "RadioChannels",
       "ParentName": "Radio",
-      "SelectedOption": "I love Radio"
+      "SelectedOption": "BigFM"
     },
     {
       "Name": "MidClickDistance",
@@ -67805,6 +67904,20 @@
       ]
     },
     {
+      "Name": "DiggingPacket",
+      "ParentName": "Disabler",
+      "SettingList": [
+        {
+          "StartDestroyBlock": false,
+          "AbortDestroyBlock": false,
+          "StopDestroyBlock": false,
+          "DropAllItems": false,
+          "DropItem": false,
+          "ReleaseUseItem": false
+        }
+      ]
+    },
+    {
       "Name": "PingSpoof",
       "ParentName": "Disabler",
       "Boolean": false
@@ -67829,6 +67942,51 @@
       "MaxValue": 1500.0
     },
     {
+      "Name": "Place1",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileAttack1",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold1",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "Place2",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileAttack2",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold2",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "Place3",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileAttack3",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold3",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
       "Name": "RoyalPixels",
       "ParentName": "Disabler",
       "Boolean": false
@@ -67842,36 +68000,6 @@
       "Name": "Ride",
       "ParentName": "Disabler",
       "Boolean": false
-    },
-    {
-      "Name": "Place",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "NotWhileAttack",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "NotWhileScaffold",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "PlaceOther",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "NotWhileAttackPlace",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "NotWhileScaffoldOther",
-      "ParentName": "Disabler",
-      "Boolean": true
     },
     {
       "Name": "KarhuClicking",
@@ -69666,6 +69794,102 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "StartDestroyBlockInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "StartDestroyBlockAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "StartDestroyBlockStartTickStartDestroyBlockEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "AbortDestroyBlockInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "AbortDestroyBlockAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "AbortDestroyBlockStartTickAbortDestroyBlockEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "StopDestroyBlockInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "StopDestroyBlockAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "StopDestroyBlockStartTickStopDestroyBlockEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "DropAllItemsInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "DropAllItemsAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "DropAllItemsStartTickDropAllItemsEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "DropItemInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "DropItemAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "DropItemStartTickDropItemEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "ReleaseUseItemInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "ReleaseUseItemAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "ReleaseUseItemStartTickReleaseUseItemEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
       "Name": "CalculateWithHit",
       "ParentName": "AutoLeave",
       "Boolean": true
@@ -69747,15 +69971,15 @@
       "Boolean": false
     },
     {
-      "Name": "RandomizeClientSettings",
+      "Name": "RandomViewDistance",
       "ParentName": "ClientSpoofer",
       "MinValue": 10.0,
       "MaxValue": 12.0
     },
     {
-      "Name": "RandomizeClientSettingsNotInARow",
+      "Name": "RandomViewDistanceNotInARow",
       "ParentName": "ClientSpoofer",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IncomingPing",
@@ -70407,6 +70631,11 @@
       "Boolean": false
     },
     {
+      "Name": "AutoEat",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
       "Name": "Blur",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -70768,6 +70997,11 @@
     },
     {
       "Name": "AspectRatio",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "CustomFireHeight",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
