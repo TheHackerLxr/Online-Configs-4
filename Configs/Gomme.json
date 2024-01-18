@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "03.12.2023",
-  "time": "21:44",
+  "date": "18.01.2024",
+  "time": "01:38",
   "modules": [
     {
       "Name": "Blur",
@@ -229,15 +229,6 @@
       "Key": 0
     },
     {
-      "Name": "AutoClicker",
-      "IsInConfig": true,
-      "IsInArraylist": true,
-      "IsToggleSound": false,
-      "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
-      "Key": 0
-    },
-    {
       "Name": "AimBot",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -302,6 +293,15 @@
     },
     {
       "Name": "PerfectHit",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "AutoClicker",
       "IsInConfig": true,
       "IsInArraylist": true,
       "IsToggleSound": true,
@@ -468,7 +468,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -621,7 +621,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -846,7 +846,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -940,6 +940,15 @@
       "Key": 0
     },
     {
+      "Name": "CustomFireHeight",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "Sprint",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -954,8 +963,8 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
-      "Key": 0
+      "Toggled": true,
+      "Key": 36
     },
     {
       "Name": "NoSlow",
@@ -1000,7 +1009,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Fly",
@@ -1252,7 +1261,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Phase",
@@ -1390,6 +1399,15 @@
       "Key": 0
     },
     {
+      "Name": "AutoEat",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "FastBreak",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -1503,7 +1521,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1620,7 +1638,7 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1983,6 +2001,11 @@
       "MaxValue": 0.0
     },
     {
+      "Name": "JumpChanceLegit",
+      "ParentName": "Velocity",
+      "Value": 50.0
+    },
+    {
       "Name": "XZOnHit",
       "ParentName": "Velocity",
       "Value": 0.6
@@ -2006,6 +2029,11 @@
       "Name": "IntaveBoostDelay",
       "ParentName": "Velocity",
       "Value": 1000.0
+    },
+    {
+      "Name": "IntaveBoostOnGroundTicks",
+      "ParentName": "Velocity",
+      "Value": 2.0
     },
     {
       "Name": "XZVelocityIntave",
@@ -2055,12 +2083,22 @@
       "Boolean": true
     },
     {
+      "Name": "JumpChanceIntave",
+      "ParentName": "Velocity",
+      "Value": 50.0
+    },
+    {
       "Name": "FallDistance",
       "ParentName": "Velocity",
       "Value": 3.5
     },
     {
       "Name": "Water",
+      "ParentName": "Velocity",
+      "Boolean": true
+    },
+    {
+      "Name": "Cobweb",
       "ParentName": "Velocity",
       "Boolean": true
     },
@@ -2150,6 +2188,7 @@
           "ZeroPing": false,
           "IsInTabList": true,
           "InvalidEntityID": false,
+          "InvalidName": false,
           "NeverOnGround": false,
           "Swinged": false,
           "ItemInHand": false,
@@ -2709,70 +2748,57 @@
       "SelectedOption": "LegitFast"
     },
     {
-      "Name": "Timing",
-      "ParentName": "MoreKB",
-      "SelectedOption": "HurtTime"
-    },
-    {
       "Name": "HideSneakAnimation",
       "ParentName": "MoreKB",
       "Boolean": true
     },
     {
-      "Name": "TargetHurtTimeTicks",
+      "Name": "FOV",
       "ParentName": "MoreKB",
-      "MinValue": 4.0,
+      "Value": 180.0
+    },
+    {
+      "Name": "SprintResetTime",
+      "ParentName": "MoreKB",
+      "MinValue": 3.0,
       "MaxValue": 6.0
     },
     {
-      "Name": "TargetHurtTimeTicksNotInARow",
+      "Name": "SprintResetTimeNotInARow",
       "ParentName": "MoreKB",
       "Boolean": false
     },
     {
-      "Name": "TargetHurtTimeTicksOutliers",
+      "Name": "SprintResetTimeOutliers",
       "ParentName": "MoreKB",
       "Boolean": false
     },
     {
-      "Name": "TargetHurtTimeTicksOutlierValue",
+      "Name": "SprintResetTimeOutlierValue",
       "ParentName": "MoreKB",
-      "MinValue": 2.0,
-      "MaxValue": 9.0
+      "MinValue": 1.0,
+      "MaxValue": 7.0
     },
     {
-      "Name": "TargetHurtTimeTicksOutlierDelay",
+      "Name": "SprintResetTimeOutlierDelay",
       "ParentName": "MoreKB",
       "MinValue": 15.0,
       "MaxValue": 30.0
     },
     {
-      "Name": "TicksAfterHit",
-      "ParentName": "MoreKB",
-      "MinValue": 0.0,
-      "MaxValue": 0.0
-    },
-    {
-      "Name": "TicksAfterHitNotInARow",
+      "Name": "SprintResetTimeNormalDistribution",
       "ParentName": "MoreKB",
       "Boolean": false
     },
     {
-      "Name": "TicksAfterHitOutliers",
+      "Name": "SprintResetTimeSigma",
       "ParentName": "MoreKB",
-      "Boolean": true
+      "Value": 1.0
     },
     {
-      "Name": "TicksAfterHitOutlierValue",
+      "Name": "SprintResetTimeCenter",
       "ParentName": "MoreKB",
-      "MinValue": 2.0,
-      "MaxValue": 8.0
-    },
-    {
-      "Name": "TicksAfterHitOutlierDelay",
-      "ParentName": "MoreKB",
-      "MinValue": 15.0,
-      "MaxValue": 30.0
+      "Value": 50.0
     },
     {
       "Name": "SprintResetTicks",
@@ -2803,26 +2829,56 @@
       "MaxValue": 7.0
     },
     {
-      "Name": "DoubleReset",
+      "Name": "SprintResetTicksNormalDistribution",
       "ParentName": "MoreKB",
       "Boolean": false
     },
     {
-      "Name": "DoubleResetHurtTime",
+      "Name": "SprintResetTicksSigma",
       "ParentName": "MoreKB",
-      "MinValue": 3.0,
-      "MaxValue": 3.0
+      "Value": 1.0
     },
     {
-      "Name": "DoubleResetHurtTimeNotInARow",
+      "Name": "SprintResetTicksCenter",
+      "ParentName": "MoreKB",
+      "Value": 50.0
+    },
+    {
+      "Name": "DoubleSprintReset",
+      "ParentName": "MoreKB",
+      "Boolean": true
+    },
+    {
+      "Name": "DoubleResetCount",
+      "ParentName": "MoreKB",
+      "MinValue": 10.0,
+      "MaxValue": 17.0
+    },
+    {
+      "Name": "DoubleResetCountNotInARow",
+      "ParentName": "MoreKB",
+      "Boolean": true
+    },
+    {
+      "Name": "DoubleResetCountNormalDistribution",
       "ParentName": "MoreKB",
       "Boolean": false
+    },
+    {
+      "Name": "DoubleResetCountSigma",
+      "ParentName": "MoreKB",
+      "Value": 1.0
+    },
+    {
+      "Name": "DoubleResetCountCenter",
+      "ParentName": "MoreKB",
+      "Value": 50.0
     },
     {
       "Name": "DoubleResetDelay",
       "ParentName": "MoreKB",
-      "MinValue": 30.0,
-      "MaxValue": 30.0
+      "MinValue": 18.0,
+      "MaxValue": 25.0
     },
     {
       "Name": "DoubleResetDelayOutliers",
@@ -2842,7 +2898,7 @@
       "MaxValue": 15.0
     },
     {
-      "Name": "Fail",
+      "Name": "FailSprintReset",
       "ParentName": "MoreKB",
       "Boolean": false
     },
@@ -2862,6 +2918,21 @@
       "Name": "FailDurationNotInARow",
       "ParentName": "MoreKB",
       "Boolean": false
+    },
+    {
+      "Name": "FailDurationNormalDistribution",
+      "ParentName": "MoreKB",
+      "Boolean": false
+    },
+    {
+      "Name": "FailDurationSigma",
+      "ParentName": "MoreKB",
+      "Value": 1.0
+    },
+    {
+      "Name": "FailDurationCenter",
+      "ParentName": "MoreKB",
+      "Value": 50.0
     },
     {
       "Name": "PreAimRange",
@@ -3119,9 +3190,14 @@
       "Boolean": false
     },
     {
+      "Name": "NoRotation",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
       "Name": "ClickMode",
       "ParentName": "KillAura",
-      "SelectedOption": "Advanced"
+      "SelectedOption": "Smart"
     },
     {
       "Name": "BasicDelay",
@@ -3174,7 +3250,7 @@
     {
       "Name": "CPSLimiter",
       "ParentName": "KillAura",
-      "Value": 22.0
+      "Value": 20.0
     },
     {
       "Name": "CPSLimiterIntave",
@@ -3315,10 +3391,15 @@
     {
       "Name": "SmartMode",
       "ParentName": "KillAura",
-      "SelectedOption": "Overengineered"
+      "SelectedOption": "Recommended"
     },
     {
-      "Name": "DoubleClickMode",
+      "Name": "SmartClickMode",
+      "ParentName": "KillAura",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "SmartDoubleClickModeS",
       "ParentName": "KillAura",
       "SelectedOption": "Default"
     },
@@ -3336,14 +3417,14 @@
     {
       "Name": "SmartCPSInAirRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 5.0,
-      "MaxValue": 14.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSInAir",
       "ParentName": "KillAura",
-      "MinValue": 3.0,
-      "MaxValue": 4.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SmartDCPSInAirNotInARow",
@@ -3370,8 +3451,8 @@
     {
       "Name": "SmartCPSFirstHitRecalculateTickDelay",
       "ParentName": "KillAura",
-      "MinValue": 6.0,
-      "MaxValue": 9.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSFirstHit",
@@ -3393,8 +3474,8 @@
     {
       "Name": "SmartCPS",
       "ParentName": "KillAura",
-      "MinValue": 18.0,
-      "MaxValue": 18.0
+      "MinValue": 20.0,
+      "MaxValue": 20.0
     },
     {
       "Name": "SmartCPSNotInARow",
@@ -3410,8 +3491,8 @@
     {
       "Name": "SmartDCPS",
       "ParentName": "KillAura",
-      "MinValue": 2.0,
-      "MaxValue": 2.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SmartDCPSNotInARow",
@@ -3423,6 +3504,281 @@
       "ParentName": "KillAura",
       "MinValue": 3.0,
       "MaxValue": 8.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTime",
+      "ParentName": "KillAura",
+      "MinValue": 2.0,
+      "MaxValue": 2.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeNotInARow",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeEnd",
+      "ParentName": "KillAura",
+      "MinValue": 10.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeEndNotInARow",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "SmartReduceClickPause",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "AttackMode",
+      "ParentName": "KillAura",
+      "SelectedOption": "Legit"
+    },
+    {
+      "Name": "MaxTargets",
+      "ParentName": "KillAura",
+      "Value": 10.0
+    },
+    {
+      "Name": "BlockMode",
+      "ParentName": "KillAura",
+      "SelectedOption": "AAC"
+    },
+    {
+      "Name": "SmartBlock",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "InteractAutoBlock",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyRightClickBlock",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyWhileSwingInProgress",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyWhileHurt",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "UnblockAAC",
+      "ParentName": "KillAura",
+      "Value": 1.0
+    },
+    {
+      "Name": "PreHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "PreHitRange",
+      "ParentName": "KillAura",
+      "MinValue": 6.0,
+      "MaxValue": 6.0
+    },
+    {
+      "Name": "MissClick",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "MissClickPercentage",
+      "ParentName": "KillAura",
+      "Value": 5.0
+    },
+    {
+      "Name": "PerfectHit",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "LongClick",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "CritFix",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "CritFixPacketCheck",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "NoLoopHit",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "Fix (Beta)",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "BreakBlocks",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "DoubleClickFirstHit",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "ReduceCPSIfYouCanNotHitATargett",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "NoSwing",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "SlowDown",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "CoolDown",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "MoveFix",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFix",
+      "ParentName": "KillAura",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "SilentMoveFixIntave",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "KillAura",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": true,
+          "Animal": false,
+          "Villager": false,
+          "ArmorStand": false,
+          "Invisible": true,
+          "Dead": false
+        }
+      ]
+    },
+    {
+      "Name": "TargetSort",
+      "ParentName": "KillAura",
+      "SelectedOption": "FOV"
+    },
+    {
+      "Name": "TargetDelay",
+      "ParentName": "KillAura",
+      "Value": 0.0
+    },
+    {
+      "Name": "TargetLoseDelay",
+      "ParentName": "KillAura",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "MaxDeathTime",
+      "ParentName": "KillAura",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "InInv",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "ActiveSlots",
+      "ParentName": "KillAura",
+      "SettingList": [
+        {
+          "Slot1": true,
+          "Slot2": true,
+          "Slot3": true,
+          "Slot4": true,
+          "Slot5": true,
+          "Slot6": true,
+          "Slot7": true,
+          "Slot8": true,
+          "Slot9": true
+        }
+      ]
+    },
+    {
+      "Name": "Intave13",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "Dot",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "DotSize",
+      "ParentName": "KillAura",
+      "Value": 0.3
+    },
+    {
+      "Name": "DotColor",
+      "ParentName": "KillAura",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": false,
+      "Fade": false,
+      "ClientColor": true,
+      "ClientColorAlpha": 255,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.5699816,
+      "HSB Color Green": 0.8153153,
+      "HSB Color Blue": 0.87058824,
+      "HSB FadeColor Red": 0.5699816,
+      "HSB FadeColor Green": 0.8153153,
+      "HSB FadeColor Blue": 0.87058824
+    },
+    {
+      "Name": "Shadow",
+      "ParentName": "KillAura",
+      "Boolean": false
+    },
+    {
+      "Name": "Blur",
+      "ParentName": "KillAura",
+      "Boolean": false
     },
     {
       "Name": "SmartCPSHurt0",
@@ -3799,286 +4155,6 @@
       "MaxValue": 8.0
     },
     {
-      "Name": "SmartForceHitsHurtTime",
-      "ParentName": "KillAura",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
-    },
-    {
-      "Name": "SmartForceHitsHurtTimeNotInARow",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartForceHitsHurtTimeEnd",
-      "ParentName": "KillAura",
-      "MinValue": 10.0,
-      "MaxValue": 10.0
-    },
-    {
-      "Name": "SmartForceHitsHurtTimeEndNotInARow",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartIntaveFix",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "AttackMode",
-      "ParentName": "KillAura",
-      "SelectedOption": "Legit"
-    },
-    {
-      "Name": "MaxTargets",
-      "ParentName": "KillAura",
-      "Value": 10.0
-    },
-    {
-      "Name": "BlockMode",
-      "ParentName": "KillAura",
-      "SelectedOption": "AAC"
-    },
-    {
-      "Name": "SmartBlock",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "InteractAutoBlock",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "OnlyRightClickBlock",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "OnlyWhileSwingInProgress",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "OnlyWhileHurt",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "UnblockAAC",
-      "ParentName": "KillAura",
-      "Value": 1.0
-    },
-    {
-      "Name": "PreHit",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "PreHitRange",
-      "ParentName": "KillAura",
-      "MinValue": 6.0,
-      "MaxValue": 6.0
-    },
-    {
-      "Name": "MissClick",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "MissClickPercentage",
-      "ParentName": "KillAura",
-      "Value": 5.0
-    },
-    {
-      "Name": "PerfectHit",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "LongClick",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "CritFix",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "CritFixPacketCheck",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "NoLoopHit",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "Fix (Beta)",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "NoRotation",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "DoubleClickFirstHit",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "ReduceCPSIfYouCanNotHitATargett",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "SetReduceCPSToInAirCPS",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "NoSwing",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "SlowDown",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "CoolDown",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "MoveFix",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFix",
-      "ParentName": "KillAura",
-      "SelectedOption": "Default"
-    },
-    {
-      "Name": "SilentMoveFixIntave",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
-      "Name": "Targets",
-      "ParentName": "KillAura",
-      "SettingList": [
-        {
-          "Player": true,
-          "Mob": true,
-          "Animal": false,
-          "Villager": false,
-          "ArmorStand": false,
-          "Invisible": true,
-          "Dead": false
-        }
-      ]
-    },
-    {
-      "Name": "TargetSort",
-      "ParentName": "KillAura",
-      "SelectedOption": "FOV"
-    },
-    {
-      "Name": "TargetDelay",
-      "ParentName": "KillAura",
-      "Value": 0.0
-    },
-    {
-      "Name": "TargetLoseDelay",
-      "ParentName": "KillAura",
-      "MinValue": 0.0,
-      "MaxValue": 0.0
-    },
-    {
-      "Name": "MaxDeathTime",
-      "ParentName": "KillAura",
-      "MinValue": 0.0,
-      "MaxValue": 0.0
-    },
-    {
-      "Name": "InInv",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "ActiveSlots",
-      "ParentName": "KillAura",
-      "SettingList": [
-        {
-          "Slot1": true,
-          "Slot2": true,
-          "Slot3": true,
-          "Slot4": true,
-          "Slot5": true,
-          "Slot6": true,
-          "Slot7": true,
-          "Slot8": true,
-          "Slot9": true
-        }
-      ]
-    },
-    {
-      "Name": "Intave13",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "Dot",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "DotSize",
-      "ParentName": "KillAura",
-      "Value": 0.3
-    },
-    {
-      "Name": "DotColor",
-      "ParentName": "KillAura",
-      "Alpha": 255,
-      "FadeAlpha": 255,
-      "Rainbow": false,
-      "Fade": false,
-      "ClientColor": true,
-      "ClientColorAlpha": 255,
-      "Astolfo": false,
-      "Rainbow Speed": 0.0,
-      "Rainbow Dist": 0.0,
-      "Fade Speed": 0.0,
-      "Fade Dist": 0.0,
-      "Astolfo Speed": 0.0,
-      "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5699816,
-      "HSB Color Green": 0.8153153,
-      "HSB Color Blue": 0.87058824,
-      "HSB FadeColor Red": 0.5699816,
-      "HSB FadeColor Green": 0.8153153,
-      "HSB FadeColor Blue": 0.87058824
-    },
-    {
-      "Name": "Shadow",
-      "ParentName": "KillAura",
-      "Boolean": false
-    },
-    {
-      "Name": "Blur",
-      "ParentName": "KillAura",
-      "Boolean": true
-    },
-    {
       "Name": "MaxDistance",
       "ParentName": "TPAura",
       "Value": 50.0
@@ -4256,9 +4332,14 @@
       "Value": 3.0
     },
     {
+      "Name": "Delay",
+      "ParentName": "TimerRangeV2",
+      "Value": 500.0
+    },
+    {
       "Name": "Correct",
       "ParentName": "TimerRangeV2",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Dynamic",
@@ -4528,6 +4609,518 @@
       ]
     },
     {
+      "Name": "YawSpeedInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "PitchSpeedInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "RotationModeInEntityRotationModule",
+      "ParentName": "AimBot",
+      "SelectedOption": "BestHitVec"
+    },
+    {
+      "Name": "HitBoxPercentageVerticalInEntityRotationModule",
+      "ParentName": "AimBot",
+      "Value": 100.0
+    },
+    {
+      "Name": "HitBoxPercentageHorizontalInEntityRotationModule",
+      "ParentName": "AimBot",
+      "Value": 100.0
+    },
+    {
+      "Name": "HitBoxPercentageVerticalInEntityRotationModule1",
+      "ParentName": "AimBot",
+      "Value": 100.0
+    },
+    {
+      "Name": "HitBoxPercentageHorizontalInEntityRotationModule1",
+      "ParentName": "AimBot",
+      "Value": 100.0
+    },
+    {
+      "Name": "AdvancedRotsInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "InterpolationInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomTypeInRotationModule",
+      "ParentName": "AimBot",
+      "SelectedOption": "SecureRandom"
+    },
+    {
+      "Name": "RandomizeInRotationModule",
+      "ParentName": "AimBot",
+      "SelectedOption": "OnlyRotation"
+    },
+    {
+      "Name": "ReducedRotateInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "ReduceRotationPercentageInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 100.0
+    },
+    {
+      "Name": "SmartRotateInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "PitchOutliersRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "PitchOutliersAddRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 4.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "PitchOutliersAddRotationModuleNotInARow",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "PitchOutliersDelayRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 15.0,
+      "MaxValue": 15.0
+    },
+    {
+      "Name": "InnerRadiusInRotationModuleRadiusInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 9.0,
+      "MaxValue": 12.0
+    },
+    {
+      "Name": "BestHitXMinDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 5.0
+    },
+    {
+      "Name": "BestHitYMInDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 5.0
+    },
+    {
+      "Name": "MinAbsDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 0.1
+    },
+    {
+      "Name": "MaxXAbsDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 5.0
+    },
+    {
+      "Name": "MaxYAbsDistInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 20.0
+    },
+    {
+      "Name": "XRelDistInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 0.1,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "YRelDistInRotationModule",
+      "ParentName": "AimBot",
+      "MinValue": 0.1,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "MaxRotationAngleInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 60.0
+    },
+    {
+      "Name": "RandomStrengthInRotationModule",
+      "ParentName": "AimBot",
+      "Value": 1.25
+    },
+    {
+      "Name": "MoveFixInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "SilentMoveFix",
+      "ParentName": "AimBot",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "SilentMoveFixIntaveInRotationModule",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "PreAimRange",
+      "ParentName": "AimBot",
+      "Value": 4.4
+    },
+    {
+      "Name": "OwnYawMul",
+      "ParentName": "AimBot",
+      "Value": 1.0
+    },
+    {
+      "Name": "OwnPitchMul",
+      "ParentName": "AimBot",
+      "Value": 1.0
+    },
+    {
+      "Name": "AssistYawMul",
+      "ParentName": "AimBot",
+      "Value": 0.41
+    },
+    {
+      "Name": "AssistPitchMul",
+      "ParentName": "AimBot",
+      "Value": 1.0
+    },
+    {
+      "Name": "YawFov",
+      "ParentName": "AimBot",
+      "Value": 108.0
+    },
+    {
+      "Name": "PitchFov",
+      "ParentName": "AimBot",
+      "Value": 87.0
+    },
+    {
+      "Name": "Click",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "DiggingCheck",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "Improve",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "SingleTarget",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "Player",
+      "ParentName": "AimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "Mob",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "Animal",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "Villager",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "ArmorStand",
+      "ParentName": "AimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "Range",
+      "ParentName": "Range",
+      "Value": 3.0
+    },
+    {
+      "Name": "OnlyWhileSprinting",
+      "ParentName": "Range",
+      "Boolean": true
+    },
+    {
+      "Name": "ThroughWalls",
+      "ParentName": "Range",
+      "Boolean": false
+    },
+    {
+      "Name": "BuildRange",
+      "ParentName": "Range",
+      "Value": 5.4
+    },
+    {
+      "Name": "YawSpeed",
+      "ParentName": "AutoRod",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "PitchSpeed",
+      "ParentName": "AutoRod",
+      "MinValue": 30.0,
+      "MaxValue": 50.0
+    },
+    {
+      "Name": "Fov",
+      "ParentName": "AutoRod",
+      "Value": 180.0
+    },
+    {
+      "Name": "MaxRodRange",
+      "ParentName": "AutoRod",
+      "Value": 10.0
+    },
+    {
+      "Name": "MoveFix",
+      "ParentName": "AutoRod",
+      "Boolean": true
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "AutoRod",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": false,
+          "Animal": false,
+          "Villager": false,
+          "Invisible": true,
+          "Dead": true
+        }
+      ]
+    },
+    {
+      "Name": "IgnoreEatingTargets",
+      "ParentName": "AutoRod",
+      "Boolean": true
+    },
+    {
+      "Name": "Combat",
+      "ParentName": "AutoRod",
+      "Boolean": true
+    },
+    {
+      "Name": "Click",
+      "ParentName": "AutoRod",
+      "Boolean": false
+    },
+    {
+      "Name": "DisableWhileScaffold",
+      "ParentName": "AutoRod",
+      "Boolean": true
+    },
+    {
+      "Name": "ESP",
+      "ParentName": "AutoRod",
+      "Boolean": true
+    },
+    {
+      "Name": "Shadow",
+      "ParentName": "AutoRod",
+      "Boolean": true
+    },
+    {
+      "Name": "Blur",
+      "ParentName": "AutoRod",
+      "Boolean": true
+    },
+    {
+      "Name": "AutoSlot",
+      "ParentName": "AutoWater",
+      "Boolean": true
+    },
+    {
+      "Name": "Mode",
+      "ParentName": "AutoEagle",
+      "SelectedOption": "Eagle"
+    },
+    {
+      "Name": "MinSneakTicks",
+      "ParentName": "AutoEagle",
+      "MinValue": 1.0,
+      "MaxValue": 2.0
+    },
+    {
+      "Name": "MoonWalkWideness",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.2,
+      "MaxValue": 0.2
+    },
+    {
+      "Name": "StartDistToBlock",
+      "ParentName": "AutoEagle",
+      "MinValue": 0.05,
+      "MaxValue": 0.2
+    },
+    {
+      "Name": "SilentRotation",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "Intave",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "MidRotation",
+      "ParentName": "AutoEagle",
+      "Boolean": false
+    },
+    {
+      "Name": "FastPlace",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "CPS",
+      "ParentName": "AutoEagle",
+      "MinValue": 18.0,
+      "MaxValue": 25.0
+    },
+    {
+      "Name": "DCPS",
+      "ParentName": "AutoEagle",
+      "MinValue": 2.0,
+      "MaxValue": 4.0
+    },
+    {
+      "Name": "AlwaysPlaceWhenPossible",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "OneClick",
+      "ParentName": "AutoEagle",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyWhileSneak",
+      "ParentName": "AutoEagle",
+      "Boolean": true
+    },
+    {
+      "Name": "MinDistance",
+      "ParentName": "MLGHelper",
+      "MinValue": 3.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "Color",
+      "ParentName": "MLGHelper",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": false,
+      "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 0,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 1.0,
+      "HSB FadeColor Red": 0.0,
+      "HSB FadeColor Green": 0.0,
+      "HSB FadeColor Blue": 1.0
+    },
+    {
+      "Name": "PosX",
+      "ParentName": "MLGHelper",
+      "Value": 50.0
+    },
+    {
+      "Name": "PosY",
+      "ParentName": "MLGHelper",
+      "Value": 0.0
+    },
+    {
+      "Name": "Scale",
+      "ParentName": "MLGHelper",
+      "Value": 1.0
+    },
+    {
+      "Name": "AutoOpen",
+      "ParentName": "Refill",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoClose",
+      "ParentName": "Refill",
+      "Boolean": true
+    },
+    {
+      "Name": "Craft",
+      "ParentName": "Refill",
+      "Boolean": true
+    },
+    {
+      "Name": "StartDelay",
+      "ParentName": "Refill",
+      "MinValue": 200.0,
+      "MaxValue": 260.0
+    },
+    {
+      "Name": "InvDelay",
+      "ParentName": "Refill",
+      "MinValue": 50.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "MissClickRate",
+      "ParentName": "Refill",
+      "MinValue": 5.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "FailRate",
+      "ParentName": "Refill",
+      "MinValue": 5.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "DoubleClickRate",
+      "ParentName": "Refill",
+      "MinValue": 5.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "EventToClick",
+      "ParentName": "Refill",
+      "SelectedOption": "EventTick"
+    },
+    {
+      "Name": "MaxDelaySinceLastHit",
+      "ParentName": "PerfectHit",
+      "Value": 0.0
+    },
+    {
       "Name": "Mode",
       "ParentName": "AutoClicker",
       "SelectedOption": "Smart"
@@ -4539,165 +5132,6 @@
     },
     {
       "Name": "CPSLimiterIntave",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "Delay",
-      "ParentName": "AutoClicker",
-      "MinValue": 50.0,
-      "MaxValue": 110.0
-    },
-    {
-      "Name": "DeviationCPS",
-      "ParentName": "AutoClicker",
-      "MinValue": 17.0,
-      "MaxValue": 24.0
-    },
-    {
-      "Name": "DeviationDoubleClick",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "DeviationAirMultiplier",
-      "ParentName": "AutoClicker",
-      "Value": 0.5
-    },
-    {
-      "Name": "CPS",
-      "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
-    },
-    {
-      "Name": "SpeedChangeDelay",
-      "ParentName": "AutoClicker",
-      "MinValue": 0.0,
-      "MaxValue": 0.0
-    },
-    {
-      "Name": "Spikes",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "SpikeDelay",
-      "ParentName": "AutoClicker",
-      "Value": 15000.0
-    },
-    {
-      "Name": "SpikeDuration",
-      "ParentName": "AutoClicker",
-      "MinValue": 500.0,
-      "MaxValue": 1000.0
-    },
-    {
-      "Name": "SpikeMulti",
-      "ParentName": "AutoClicker",
-      "Value": 1.5
-    },
-    {
-      "Name": "Drops",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "DropDelay",
-      "ParentName": "AutoClicker",
-      "Value": 7333.0
-    },
-    {
-      "Name": "DropDuration",
-      "ParentName": "AutoClicker",
-      "MinValue": 500.0,
-      "MaxValue": 1000.0
-    },
-    {
-      "Name": "DropMulti",
-      "ParentName": "AutoClicker",
-      "Value": 0.5
-    },
-    {
-      "Name": "ReduceInAir",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "ReduceMulti",
-      "ParentName": "AutoClicker",
-      "MinValue": 0.4,
-      "MaxValue": 0.4
-    },
-    {
-      "Name": "ReduceRecalculateDelay",
-      "ParentName": "AutoClicker",
-      "MinValue": 100.0,
-      "MaxValue": 150.0
-    },
-    {
-      "Name": "0",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "1",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "2",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "3",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "4",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "5",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "6",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "7",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "8",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "9",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "SmartClicking",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "SmartClickingHurttimeEnd",
-      "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
-    },
-    {
-      "Name": "SmartClickingHurttimeEndNotInARow",
       "ParentName": "AutoClicker",
       "Boolean": false
     },
@@ -4722,62 +5156,17 @@
       "Value": 0.4
     },
     {
-      "Name": "DragCPSInAir",
-      "ParentName": "AutoClicker",
-      "MinValue": 4.0,
-      "MaxValue": 8.0
-    },
-    {
-      "Name": "DragCPSInAirNotInARow",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "DragCPSInAirRecalculateTickDelay",
-      "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 30.0
-    },
-    {
-      "Name": "MaxCPS",
-      "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
-    },
-    {
-      "Name": "MaxCPSNotInARow",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "MaxCPSRecalculateTickDelay",
-      "ParentName": "AutoClicker",
-      "MinValue": 5.0,
-      "MaxValue": 10.0
-    },
-    {
-      "Name": "MinStandardDeviation",
-      "ParentName": "AutoClicker",
-      "Value": 0.5
-    },
-    {
-      "Name": "DragForceHitsHurtTime",
-      "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
-    },
-    {
-      "Name": "DragForceHitsHurtTimeNotInARow",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
       "Name": "SmartMode",
       "ParentName": "AutoClicker",
       "SelectedOption": "Overengineered"
     },
     {
-      "Name": "DoubleClickMode",
+      "Name": "SmartClickMode",
+      "ParentName": "AutoClicker",
+      "SelectedOption": "Default"
+    },
+    {
+      "Name": "SmartDoubleClickModeS",
       "ParentName": "AutoClicker",
       "SelectedOption": "Default"
     },
@@ -4882,6 +5271,83 @@
       "ParentName": "AutoClicker",
       "MinValue": 3.0,
       "MaxValue": 8.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTime",
+      "ParentName": "AutoClicker",
+      "MinValue": 3.0,
+      "MaxValue": 3.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeNotInARow",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeEnd",
+      "ParentName": "AutoClicker",
+      "MinValue": 10.0,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "SmartForceHitsHurtTimeEndNotInARow",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "SmartReduceClickPause",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "ReduceCPSIfYouCanNotHitATargett",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "CritFix",
+      "ParentName": "AutoClicker",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyOnTarget",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "AttackFriends",
+      "ParentName": "AutoClicker",
+      "Boolean": false
+    },
+    {
+      "Name": "LongClick",
+      "ParentName": "AutoClicker",
+      "Boolean": true
+    },
+    {
+      "Name": "AutoBlock",
+      "ParentName": "AutoClicker",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyOnRightClick",
+      "ParentName": "AutoClicker",
+      "Boolean": true
+    },
+    {
+      "Name": "BreakBlocks",
+      "ParentName": "AutoClicker",
+      "Boolean": true
+    },
+    {
+      "Name": "BreakTickDelay",
+      "ParentName": "AutoClicker",
+      "Value": 5.0
+    },
+    {
+      "Name": "OnlyOnClick",
+      "ParentName": "AutoClicker",
+      "Boolean": true
     },
     {
       "Name": "SmartCPSHurt0",
@@ -5258,605 +5724,6 @@
       "MaxValue": 8.0
     },
     {
-      "Name": "SmartForceHitsHurtTime",
-      "ParentName": "AutoClicker",
-      "MinValue": 3.0,
-      "MaxValue": 3.0
-    },
-    {
-      "Name": "SmartForceHitsHurtTimeNotInARow",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartForceHitsHurtTimeEnd",
-      "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 10.0
-    },
-    {
-      "Name": "SmartForceHitsHurtTimeEndNotInARow",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "SmartIntaveFix",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "OnlyOnTarget",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "PerfectHit",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "DoubleClickFirstHit",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "ReduceCPSIfYouCanNotHitATargett",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "SetReduceCPSToInAirCPS",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "CritFix",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "LongClick",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "AttackFriends",
-      "ParentName": "AutoClicker",
-      "Boolean": false
-    },
-    {
-      "Name": "BreakBlocks",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "BreakTickDelay",
-      "ParentName": "AutoClicker",
-      "Value": 5.0
-    },
-    {
-      "Name": "AutoBlock",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "OnlyOnRightClick",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "OnlyOnClick",
-      "ParentName": "AutoClicker",
-      "Boolean": true
-    },
-    {
-      "Name": "YawSpeedInRotationModule",
-      "ParentName": "AimBot",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
-    },
-    {
-      "Name": "PitchSpeedInRotationModule",
-      "ParentName": "AimBot",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
-    },
-    {
-      "Name": "RotationModeInEntityRotationModule",
-      "ParentName": "AimBot",
-      "SelectedOption": "BestHitVec"
-    },
-    {
-      "Name": "HitBoxPercentageVerticalInEntityRotationModule",
-      "ParentName": "AimBot",
-      "Value": 100.0
-    },
-    {
-      "Name": "HitBoxPercentageHorizontalInEntityRotationModule",
-      "ParentName": "AimBot",
-      "Value": 100.0
-    },
-    {
-      "Name": "HitBoxPercentageVerticalInEntityRotationModule1",
-      "ParentName": "AimBot",
-      "Value": 100.0
-    },
-    {
-      "Name": "HitBoxPercentageHorizontalInEntityRotationModule1",
-      "ParentName": "AimBot",
-      "Value": 100.0
-    },
-    {
-      "Name": "AdvancedRotsInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "InterpolationInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "RandomTypeInRotationModule",
-      "ParentName": "AimBot",
-      "SelectedOption": "SecureRandom"
-    },
-    {
-      "Name": "RandomizeInRotationModule",
-      "ParentName": "AimBot",
-      "SelectedOption": "OnlyRotation"
-    },
-    {
-      "Name": "ReducedRotateInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "ReduceRotationPercentageInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 100.0
-    },
-    {
-      "Name": "SmartRotateInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "PitchOutliersRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "PitchOutliersAddRotationModule",
-      "ParentName": "AimBot",
-      "MinValue": 4.0,
-      "MaxValue": 10.0
-    },
-    {
-      "Name": "PitchOutliersAddRotationModuleNotInARow",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "PitchOutliersDelayRotationModule",
-      "ParentName": "AimBot",
-      "MinValue": 15.0,
-      "MaxValue": 15.0
-    },
-    {
-      "Name": "InnerRadiusInRotationModuleRadiusInRotationModule",
-      "ParentName": "AimBot",
-      "MinValue": 9.0,
-      "MaxValue": 12.0
-    },
-    {
-      "Name": "BestHitXMinDistInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 5.0
-    },
-    {
-      "Name": "BestHitYMInDistInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 5.0
-    },
-    {
-      "Name": "MinAbsDistInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 0.1
-    },
-    {
-      "Name": "MaxXAbsDistInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 5.0
-    },
-    {
-      "Name": "MaxYAbsDistInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 20.0
-    },
-    {
-      "Name": "XRelDistInRotationModule",
-      "ParentName": "AimBot",
-      "MinValue": 0.1,
-      "MaxValue": 3.0
-    },
-    {
-      "Name": "YRelDistInRotationModule",
-      "ParentName": "AimBot",
-      "MinValue": 0.1,
-      "MaxValue": 3.0
-    },
-    {
-      "Name": "MaxRotationAngleInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 60.0
-    },
-    {
-      "Name": "RandomStrengthInRotationModule",
-      "ParentName": "AimBot",
-      "Value": 1.25
-    },
-    {
-      "Name": "MoveFixInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "SilentMoveFix",
-      "ParentName": "AimBot",
-      "SelectedOption": "Default"
-    },
-    {
-      "Name": "SilentMoveFixIntaveInRotationModule",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "PreAimRange",
-      "ParentName": "AimBot",
-      "Value": 4.4
-    },
-    {
-      "Name": "OwnYawMul",
-      "ParentName": "AimBot",
-      "Value": 1.0
-    },
-    {
-      "Name": "OwnPitchMul",
-      "ParentName": "AimBot",
-      "Value": 1.0
-    },
-    {
-      "Name": "AssistYawMul",
-      "ParentName": "AimBot",
-      "Value": 0.41
-    },
-    {
-      "Name": "AssistPitchMul",
-      "ParentName": "AimBot",
-      "Value": 1.0
-    },
-    {
-      "Name": "YawFov",
-      "ParentName": "AimBot",
-      "Value": 108.0
-    },
-    {
-      "Name": "PitchFov",
-      "ParentName": "AimBot",
-      "Value": 87.0
-    },
-    {
-      "Name": "Click",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "DiggingCheck",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "Improve",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "Player",
-      "ParentName": "AimBot",
-      "Boolean": true
-    },
-    {
-      "Name": "Mob",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "Animal",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "Villager",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "ArmorStand",
-      "ParentName": "AimBot",
-      "Boolean": false
-    },
-    {
-      "Name": "Range",
-      "ParentName": "Range",
-      "Value": 3.0
-    },
-    {
-      "Name": "OnlyWhileSprinting",
-      "ParentName": "Range",
-      "Boolean": true
-    },
-    {
-      "Name": "ThroughWalls",
-      "ParentName": "Range",
-      "Boolean": false
-    },
-    {
-      "Name": "BuildRange",
-      "ParentName": "Range",
-      "Value": 5.4
-    },
-    {
-      "Name": "YawSpeed",
-      "ParentName": "AutoRod",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
-    },
-    {
-      "Name": "PitchSpeed",
-      "ParentName": "AutoRod",
-      "MinValue": 30.0,
-      "MaxValue": 50.0
-    },
-    {
-      "Name": "Fov",
-      "ParentName": "AutoRod",
-      "Value": 180.0
-    },
-    {
-      "Name": "MaxRodRange",
-      "ParentName": "AutoRod",
-      "Value": 10.0
-    },
-    {
-      "Name": "MoveFix",
-      "ParentName": "AutoRod",
-      "Boolean": true
-    },
-    {
-      "Name": "Targets",
-      "ParentName": "AutoRod",
-      "SettingList": [
-        {
-          "Player": true,
-          "Mob": false,
-          "Animal": false,
-          "Villager": false,
-          "Invisible": true,
-          "Dead": true
-        }
-      ]
-    },
-    {
-      "Name": "IgnoreEatingTargets",
-      "ParentName": "AutoRod",
-      "Boolean": true
-    },
-    {
-      "Name": "Combat",
-      "ParentName": "AutoRod",
-      "Boolean": true
-    },
-    {
-      "Name": "Click",
-      "ParentName": "AutoRod",
-      "Boolean": false
-    },
-    {
-      "Name": "DisableWhileScaffold",
-      "ParentName": "AutoRod",
-      "Boolean": true
-    },
-    {
-      "Name": "ESP",
-      "ParentName": "AutoRod",
-      "Boolean": true
-    },
-    {
-      "Name": "Shadow",
-      "ParentName": "AutoRod",
-      "Boolean": true
-    },
-    {
-      "Name": "Blur",
-      "ParentName": "AutoRod",
-      "Boolean": true
-    },
-    {
-      "Name": "AutoSlot",
-      "ParentName": "AutoWater",
-      "Boolean": true
-    },
-    {
-      "Name": "Mode",
-      "ParentName": "AutoEagle",
-      "SelectedOption": "Eagle"
-    },
-    {
-      "Name": "MinSneakTicks",
-      "ParentName": "AutoEagle",
-      "MinValue": 1.0,
-      "MaxValue": 2.0
-    },
-    {
-      "Name": "MoonWalkWideness",
-      "ParentName": "AutoEagle",
-      "MinValue": 0.2,
-      "MaxValue": 0.2
-    },
-    {
-      "Name": "StartDistToBlock",
-      "ParentName": "AutoEagle",
-      "MinValue": 0.05,
-      "MaxValue": 0.2
-    },
-    {
-      "Name": "SilentRotation",
-      "ParentName": "AutoEagle",
-      "Boolean": true
-    },
-    {
-      "Name": "Intave",
-      "ParentName": "AutoEagle",
-      "Boolean": true
-    },
-    {
-      "Name": "MidRotation",
-      "ParentName": "AutoEagle",
-      "Boolean": false
-    },
-    {
-      "Name": "FastPlace",
-      "ParentName": "AutoEagle",
-      "Boolean": true
-    },
-    {
-      "Name": "CPS",
-      "ParentName": "AutoEagle",
-      "MinValue": 18.0,
-      "MaxValue": 25.0
-    },
-    {
-      "Name": "DCPS",
-      "ParentName": "AutoEagle",
-      "MinValue": 2.0,
-      "MaxValue": 4.0
-    },
-    {
-      "Name": "AlwaysPlaceWhenPossible",
-      "ParentName": "AutoEagle",
-      "Boolean": true
-    },
-    {
-      "Name": "OneClick",
-      "ParentName": "AutoEagle",
-      "Boolean": false
-    },
-    {
-      "Name": "OnlyWhileSneak",
-      "ParentName": "AutoEagle",
-      "Boolean": true
-    },
-    {
-      "Name": "MinDistance",
-      "ParentName": "MLGHelper",
-      "MinValue": 3.0,
-      "MaxValue": 100.0
-    },
-    {
-      "Name": "Color",
-      "ParentName": "MLGHelper",
-      "Alpha": 255,
-      "FadeAlpha": 255,
-      "Rainbow": false,
-      "Fade": false,
-      "ClientColor": false,
-      "ClientColorAlpha": 0,
-      "Astolfo": false,
-      "Rainbow Speed": 0.0,
-      "Rainbow Dist": 0.0,
-      "Fade Speed": 0.0,
-      "Fade Dist": 0.0,
-      "Astolfo Speed": 0.0,
-      "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.0,
-      "HSB Color Green": 0.0,
-      "HSB Color Blue": 1.0,
-      "HSB FadeColor Red": 0.0,
-      "HSB FadeColor Green": 0.0,
-      "HSB FadeColor Blue": 1.0
-    },
-    {
-      "Name": "PosX",
-      "ParentName": "MLGHelper",
-      "Value": 50.0
-    },
-    {
-      "Name": "PosY",
-      "ParentName": "MLGHelper",
-      "Value": 0.0
-    },
-    {
-      "Name": "Scale",
-      "ParentName": "MLGHelper",
-      "Value": 1.0
-    },
-    {
-      "Name": "AutoOpen",
-      "ParentName": "Refill",
-      "Boolean": false
-    },
-    {
-      "Name": "AutoClose",
-      "ParentName": "Refill",
-      "Boolean": true
-    },
-    {
-      "Name": "Craft",
-      "ParentName": "Refill",
-      "Boolean": true
-    },
-    {
-      "Name": "StartDelay",
-      "ParentName": "Refill",
-      "MinValue": 200.0,
-      "MaxValue": 260.0
-    },
-    {
-      "Name": "InvDelay",
-      "ParentName": "Refill",
-      "MinValue": 50.0,
-      "MaxValue": 100.0
-    },
-    {
-      "Name": "MissClickRate",
-      "ParentName": "Refill",
-      "MinValue": 5.0,
-      "MaxValue": 10.0
-    },
-    {
-      "Name": "FailRate",
-      "ParentName": "Refill",
-      "MinValue": 5.0,
-      "MaxValue": 10.0
-    },
-    {
-      "Name": "DoubleClickRate",
-      "ParentName": "Refill",
-      "MinValue": 5.0,
-      "MaxValue": 10.0
-    },
-    {
-      "Name": "EventToClick",
-      "ParentName": "Refill",
-      "SelectedOption": "EventTick"
-    },
-    {
-      "Name": "MaxDelaySinceLastHit",
-      "ParentName": "PerfectHit",
-      "Value": 0.0
-    },
-    {
       "Name": "ColorSetting",
       "ParentName": "CustomClientColor",
       "Alpha": 255,
@@ -5963,8 +5830,8 @@
       "Fade Dist": 47.0,
       "Astolfo Speed": 90.0,
       "Astolfo Dist": 76.0,
-      "HSB Color Red": 0.44927537,
-      "HSB Color Green": 0.996063,
+      "HSB Color Red": 0.42942178,
+      "HSB Color Green": 0.77165353,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.7220027,
       "HSB FadeColor Green": 0.996063,
@@ -7341,7 +7208,7 @@
     {
       "Name": "FakeBlock",
       "ParentName": "BlockAnimation",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyWhileKillAura",
@@ -7847,7 +7714,7 @@
     {
       "Name": "Rain",
       "ParentName": "Ambiance",
-      "Value": 0.53
+      "Value": 0.0
     },
     {
       "Name": "Snow",
@@ -7862,7 +7729,7 @@
     {
       "Name": "CustomWorldColor",
       "ParentName": "Ambiance",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "WorldColor",
@@ -7890,7 +7757,7 @@
     {
       "Name": "CustomFogColor",
       "ParentName": "Ambiance",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "FogColor",
@@ -8303,7 +8170,7 @@
     {
       "Name": "HitColor",
       "ParentName": "EntityColor",
-      "Alpha": 197,
+      "Alpha": 255,
       "FadeAlpha": 36,
       "Rainbow": false,
       "Fade": false,
@@ -8887,7 +8754,7 @@
     {
       "Name": "Y",
       "ParentName": "KeyStrokes",
-      "Value": 75.0
+      "Value": 33.0
     },
     {
       "Name": "Shadow",
@@ -10329,7 +10196,7 @@
     {
       "Name": "OtherPingCalculation",
       "ParentName": "Hotbar",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "InventoryItems",
@@ -10971,6 +10838,16 @@
       "Boolean": true
     },
     {
+      "Name": "RemoveFire",
+      "ParentName": "CustomFireHeight",
+      "Boolean": false
+    },
+    {
+      "Name": "FireHeight",
+      "ParentName": "CustomFireHeight",
+      "Value": -0.3
+    },
+    {
       "Name": "Mode",
       "ParentName": "Sprint",
       "SelectedOption": "Legit"
@@ -10993,7 +10870,7 @@
     {
       "Name": "Mode",
       "ParentName": "Jesus",
-      "SelectedOption": "Solid"
+      "SelectedOption": "Intave"
     },
     {
       "Name": "Speed",
@@ -11521,6 +11398,11 @@
       "Value": 0.0
     },
     {
+      "Name": "DisableOnAttack",
+      "ParentName": "Blink",
+      "Boolean": false
+    },
+    {
       "Name": "DisableKillAura",
       "ParentName": "Blink",
       "Boolean": false
@@ -11548,12 +11430,12 @@
     {
       "Name": "PlayerShadow",
       "ParentName": "Blink",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "PlayerBlur",
       "ParentName": "Blink",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Mode",
@@ -11815,12 +11697,27 @@
     {
       "Name": "Mode",
       "ParentName": "NoWeb",
-      "SelectedOption": "Intave"
+      "SelectedOption": "IntaveNew"
     },
     {
       "Name": "NoDown",
       "ParentName": "NoWeb",
       "Boolean": false
+    },
+    {
+      "Name": "UpDown",
+      "ParentName": "NoWeb",
+      "Boolean": true
+    },
+    {
+      "Name": "UpSpeed",
+      "ParentName": "NoWeb",
+      "Value": 2.4
+    },
+    {
+      "Name": "DownSpeed",
+      "ParentName": "NoWeb",
+      "Value": 2.4
     },
     {
       "Name": "BoostTicks",
@@ -65506,6 +65403,11 @@
       "Value": 5.0
     },
     {
+      "Name": "Mode",
+      "ParentName": "Regen",
+      "SelectedOption": "Default"
+    },
+    {
       "Name": "Health",
       "ParentName": "Regen",
       "Value": 20.0
@@ -65526,9 +65428,19 @@
       "Boolean": false
     },
     {
-      "Name": "Mode",
+      "Name": "StopSendPacketsIfHpReached",
       "ParentName": "Regen",
-      "SelectedOption": "Default"
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileKillAura",
+      "ParentName": "Regen",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileScaffold",
+      "ParentName": "Regen",
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -65619,9 +65531,24 @@
       "Value": 26.0
     },
     {
+      "Name": "GrimPackets",
+      "ParentName": "FastUse",
+      "Value": 20.0
+    },
+    {
+      "Name": "NewPackets",
+      "ParentName": "FastUse",
+      "Value": 3.0
+    },
+    {
       "Name": "TimePackets",
       "ParentName": "FastUse",
       "Value": 20.0
+    },
+    {
+      "Name": "OnlyAtFullLife",
+      "ParentName": "FastUse",
+      "Boolean": false
     },
     {
       "Name": "Items",
@@ -66029,6 +65956,27 @@
       ]
     },
     {
+      "Name": "Hunger",
+      "ParentName": "AutoEat",
+      "MinValue": 20.0,
+      "MaxValue": 20.0
+    },
+    {
+      "Name": "UseGapple",
+      "ParentName": "AutoEat",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileKillAura",
+      "ParentName": "AutoEat",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold",
+      "ParentName": "AutoEat",
+      "Boolean": true
+    },
+    {
       "Name": "NoBlockHitDelay",
       "ParentName": "FastBreak",
       "Boolean": false
@@ -66199,6 +66147,11 @@
       "Name": "OneClick",
       "ParentName": "FastPlace",
       "Boolean": false
+    },
+    {
+      "Name": "AutoSwap",
+      "ParentName": "FastPlace",
+      "Boolean": true
     },
     {
       "Name": "XP-BottlesCPS",
@@ -66608,6 +66561,23 @@
       "Boolean": false
     },
     {
+      "Name": "Jump",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
+      "Name": "JumpAfterXBlocksForward",
+      "ParentName": "Scaffold",
+      "MinValue": 6.0,
+      "MaxValue": 6.0
+    },
+    {
+      "Name": "JumpAfterXBlocksDiagonal",
+      "ParentName": "Scaffold",
+      "MinValue": 6.0,
+      "MaxValue": 6.0
+    },
+    {
       "Name": "MoonWalk",
       "ParentName": "Scaffold",
       "Boolean": false
@@ -66633,6 +66603,11 @@
       "Name": "AutoJump",
       "ParentName": "Scaffold",
       "Boolean": false
+    },
+    {
+      "Name": "IntaveFast2",
+      "ParentName": "Scaffold",
+      "Boolean": true
     },
     {
       "Name": "TellyBridge",
@@ -66849,7 +66824,7 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 65.0
+      "Value": 69.0
     },
     {
       "Name": "RadioChannels",
@@ -66920,6 +66895,11 @@
       "Name": "Chestslot",
       "ParentName": "AutoPlay",
       "Value": 0.0
+    },
+    {
+      "Name": "PasswordMode",
+      "ParentName": "AutoRegister",
+      "SelectedOption": "Generated"
     },
     {
       "Name": "Delay",
@@ -67256,6 +67236,16 @@
     },
     {
       "Name": "ReduceDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "KrokoCheck",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "MoreKBDebug",
       "ParentName": "Debug",
       "Boolean": false
     },
@@ -67805,6 +67795,20 @@
       ]
     },
     {
+      "Name": "DiggingPacket",
+      "ParentName": "Disabler",
+      "SettingList": [
+        {
+          "StartDestroyBlock": false,
+          "AbortDestroyBlock": false,
+          "StopDestroyBlock": false,
+          "DropAllItems": false,
+          "DropItem": false,
+          "ReleaseUseItem": false
+        }
+      ]
+    },
+    {
       "Name": "PingSpoof",
       "ParentName": "Disabler",
       "Boolean": false
@@ -67829,6 +67833,51 @@
       "MaxValue": 1500.0
     },
     {
+      "Name": "Place1",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileAttack1",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold1",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "Place2",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileAttack2",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold2",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "Place3",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
+      "Name": "NotWhileAttack3",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileScaffold3",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
       "Name": "RoyalPixels",
       "ParentName": "Disabler",
       "Boolean": false
@@ -67842,36 +67891,6 @@
       "Name": "Ride",
       "ParentName": "Disabler",
       "Boolean": false
-    },
-    {
-      "Name": "Place",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "NotWhileAttack",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "NotWhileScaffold",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "PlaceOther",
-      "ParentName": "Disabler",
-      "Boolean": false
-    },
-    {
-      "Name": "NotWhileAttackPlace",
-      "ParentName": "Disabler",
-      "Boolean": true
-    },
-    {
-      "Name": "NotWhileScaffoldOther",
-      "ParentName": "Disabler",
-      "Boolean": true
     },
     {
       "Name": "KarhuClicking",
@@ -69666,6 +69685,102 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "StartDestroyBlockInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "StartDestroyBlockAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "StartDestroyBlockStartTickStartDestroyBlockEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "AbortDestroyBlockInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "AbortDestroyBlockAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "AbortDestroyBlockStartTickAbortDestroyBlockEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "StopDestroyBlockInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "StopDestroyBlockAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "StopDestroyBlockStartTickStopDestroyBlockEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "DropAllItemsInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "DropAllItemsAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "DropAllItemsStartTickDropAllItemsEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "DropItemInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "DropItemAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "DropItemStartTickDropItemEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
+      "Name": "ReleaseUseItemInterval",
+      "ParentName": "Disabler",
+      "Value": 0.0
+    },
+    {
+      "Name": "ReleaseUseItemAlways",
+      "ParentName": "Disabler",
+      "Boolean": true
+    },
+    {
+      "Name": "ReleaseUseItemStartTickReleaseUseItemEndTick",
+      "ParentName": "Disabler",
+      "MinValue": 0.0,
+      "MaxValue": 100.0
+    },
+    {
       "Name": "CalculateWithHit",
       "ParentName": "AutoLeave",
       "Boolean": true
@@ -69711,6 +69826,11 @@
       "Boolean": true
     },
     {
+      "Name": "LeveOnDeath",
+      "ParentName": "AutoLeave",
+      "Boolean": false
+    },
+    {
       "Name": "Key",
       "ParentName": "AutoLeave",
       "Key": 48
@@ -69747,15 +69867,15 @@
       "Boolean": false
     },
     {
-      "Name": "RandomizeClientSettings",
+      "Name": "RandomViewDistance",
       "ParentName": "ClientSpoofer",
       "MinValue": 10.0,
       "MaxValue": 12.0
     },
     {
-      "Name": "RandomizeClientSettingsNotInARow",
+      "Name": "RandomViewDistanceNotInARow",
       "ParentName": "ClientSpoofer",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IncomingPing",
@@ -69834,7 +69954,7 @@
     {
       "Name": "SmoothBackRotate",
       "ParentName": "RotationHandler",
-      "Boolean": true
+      "SelectedOption": "New"
     },
     {
       "Name": "YawSpeed",
@@ -70107,11 +70227,6 @@
       "Boolean": false
     },
     {
-      "Name": "AutoClicker",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
       "Name": "AimBot",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -70148,6 +70263,11 @@
     },
     {
       "Name": "PerfectHit",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoClicker",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
@@ -70403,6 +70523,11 @@
     },
     {
       "Name": "NoScreenClosing",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoEat",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
@@ -70768,6 +70893,11 @@
     },
     {
       "Name": "AspectRatio",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "CustomFireHeight",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
