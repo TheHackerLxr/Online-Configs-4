@@ -1,15 +1,10 @@
 Gomme
-GommeSafe
 GommeLegit
 GommeBot
 GommeBotPath
 Minemen
 PvPDojo
-Gamster
-BlockDrop
-AntiAC
 Mineblaze
 Grim
-PolarTest
 Pika
 GommeFFA
