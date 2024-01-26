@@ -7,4 +7,3 @@ PvPDojo
 Mineblaze
 Grim
 Pika
-GommeFFA
