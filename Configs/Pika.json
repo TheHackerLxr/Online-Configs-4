@@ -1,7 +1,7 @@
 {
   "name": "Pika",
-  "date": "17.02.2024",
-  "time": "23:32",
+  "date": "26.02.2024",
+  "time": "23:01",
   "modules": [
     {
       "Name": "Blur",
@@ -357,7 +357,7 @@
     {
       "Name": "ClickGui",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": false,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -414,7 +414,7 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -756,7 +756,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -780,10 +780,10 @@
     {
       "Name": "CustomZoom",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -924,7 +924,7 @@
     {
       "Name": "CameraNoClip",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -942,7 +942,7 @@
     {
       "Name": "BrightPlayers",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -951,7 +951,7 @@
     {
       "Name": "MoreSwing",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -986,11 +986,20 @@
     },
     {
       "Name": "BreakIndicator",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "SwingAnimation",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1054,7 +1063,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 48
+      "Key": 0
     },
     {
       "Name": "Fly",
@@ -1383,7 +1392,7 @@
     {
       "Name": "AutoRespawn",
       "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -1437,7 +1446,7 @@
     {
       "Name": "NoScreenClosing",
       "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -1566,7 +1575,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1607,8 +1616,8 @@
     },
     {
       "Name": "AntiAchievement",
-      "IsInConfig": true,
-      "IsInArraylist": true,
+      "IsInConfig": false,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -1751,6 +1760,24 @@
     },
     {
       "Name": "IRC",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "RotationRecorder",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "RawMouseInput",
       "IsInConfig": true,
       "IsInArraylist": true,
       "IsToggleSound": true,
@@ -2198,6 +2225,12 @@
       "Name": "ReverseStrafe",
       "ParentName": "Velocity",
       "Boolean": true
+    },
+    {
+      "Name": "ReverseStrafeEndReverseStrafeStart",
+      "ParentName": "Velocity",
+      "MinValue": 1.0,
+      "MaxValue": 10.0
     },
     {
       "Name": "EndBoundingBoxHurtTimeStartBoundingBoxHurtTime",
@@ -2828,6 +2861,11 @@
       "Boolean": false
     },
     {
+      "Name": "Floating",
+      "ParentName": "Criticals",
+      "Value": 0.0
+    },
+    {
       "Name": "Modes",
       "ParentName": "MoreKB",
       "SelectedOption": "LegitFast"
@@ -3277,6 +3315,11 @@
     },
     {
       "Name": "SmartAim",
+      "ParentName": "KillAura",
+      "Boolean": true
+    },
+    {
+      "Name": "SmartAimEntityCheck",
       "ParentName": "KillAura",
       "Boolean": true
     },
@@ -4584,7 +4627,8 @@
     {
       "Name": "DelayBetweenBacktrack",
       "ParentName": "BackTrack",
-      "Value": 25.0
+      "MinValue": 50.0,
+      "MaxValue": 150.0
     },
     {
       "Name": "MaxLagPackets",
@@ -5368,7 +5412,7 @@
     {
       "Name": "CPSLimiter",
       "ParentName": "AutoClicker",
-      "Value": 22.0
+      "Value": 23.0
     },
     {
       "Name": "CPSLimiterIntave",
@@ -5445,13 +5489,13 @@
       "Name": "AdvancedCPS",
       "ParentName": "AutoClicker",
       "MinValue": 13.0,
-      "MaxValue": 18.0
+      "MaxValue": 13.0
     },
     {
       "Name": "AdvancedCPSRecalculateDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 200.0,
-      "MaxValue": 600.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "Spikes",
@@ -5503,8 +5547,8 @@
     {
       "Name": "ReduceRecalculateDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 100.0,
-      "MaxValue": 200.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "ReduceMultiplier",
@@ -5557,7 +5601,7 @@
       "Name": "SmartClickingHurttimeEnd",
       "ParentName": "AutoClicker",
       "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MaxValue": 2.0
     },
     {
       "Name": "SmartClickingHurttimeEndNotInARow",
@@ -5567,17 +5611,17 @@
     {
       "Name": "ClickPattern",
       "ParentName": "AutoClicker",
-      "SelectedOption": "Jitter"
+      "SelectedOption": ""
     },
     {
       "Name": "RecordedMode",
       "ParentName": "AutoClicker",
-      "SelectedOption": "Ticks"
+      "SelectedOption": "TimeMillis"
     },
     {
       "Name": "Multiplier",
       "ParentName": "AutoClicker",
-      "Value": 3.0
+      "Value": 1.0
     },
     {
       "Name": "RecordedAirMultiplier",
@@ -5587,7 +5631,7 @@
     {
       "Name": "SmartMode",
       "ParentName": "AutoClicker",
-      "SelectedOption": "Overengineered"
+      "SelectedOption": "Recommended"
     },
     {
       "Name": "SmartClickMode",
@@ -5602,8 +5646,8 @@
     {
       "Name": "SmartCPSInAir",
       "ParentName": "AutoClicker",
-      "MinValue": 5.0,
-      "MaxValue": 9.0
+      "MinValue": 4.0,
+      "MaxValue": 12.0
     },
     {
       "Name": "SmartCPSInAirNotInARow",
@@ -5613,14 +5657,14 @@
     {
       "Name": "SmartCPSInAirRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 5.0,
-      "MaxValue": 15.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSInAir",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 0.0,
+      "MaxValue": 1.0
     },
     {
       "Name": "SmartDCPSInAirNotInARow",
@@ -5670,8 +5714,8 @@
     {
       "Name": "SmartCPSFirstHit",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 17.0
     },
     {
       "Name": "SmartCPSFirstHitNotInARow",
@@ -5681,14 +5725,14 @@
     {
       "Name": "SmartCPSFirstHitRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 30.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSFirstHit",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSFirstHitNotInARow",
@@ -5704,8 +5748,8 @@
     {
       "Name": "SmartCPS",
       "ParentName": "AutoClicker",
-      "MinValue": 18.0,
-      "MaxValue": 18.0
+      "MinValue": 17.0,
+      "MaxValue": 17.0
     },
     {
       "Name": "SmartCPSNotInARow",
@@ -5715,19 +5759,19 @@
     {
       "Name": "CPSRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 8.0,
-      "MaxValue": 15.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPS",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 2.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSNotInARow",
       "ParentName": "AutoClicker",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "DCPSRecalculateTickDelay",
@@ -5738,7 +5782,7 @@
     {
       "Name": "SmartForceHitsHurtTime",
       "ParentName": "AutoClicker",
-      "MinValue": 3.0,
+      "MinValue": 2.0,
       "MaxValue": 3.0
     },
     {
@@ -5749,8 +5793,8 @@
     {
       "Name": "SmartForceHitsHurtTimeEnd",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 10.0
+      "MinValue": 9.0,
+      "MaxValue": 9.0
     },
     {
       "Name": "SmartForceHitsHurtTimeEndNotInARow",
@@ -5770,7 +5814,7 @@
     {
       "Name": "CritFix",
       "ParentName": "AutoClicker",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyOnTarget",
@@ -5810,7 +5854,7 @@
     {
       "Name": "BreakTickDelay",
       "ParentName": "AutoClicker",
-      "Value": 5.0
+      "Value": 0.0
     },
     {
       "Name": "OnlyOnClick",
@@ -5820,7 +5864,7 @@
     {
       "Name": "SmartCPSHurt0",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
+      "MinValue": 17.0,
       "MaxValue": 19.0
     },
     {
@@ -5832,13 +5876,13 @@
       "Name": "Hurt0SmartCPSRecalculateTickDelay",
       "ParentName": "AutoClicker",
       "MinValue": 3.0,
-      "MaxValue": 5.0
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSHurt0",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt0NotInARow",
@@ -5854,7 +5898,7 @@
     {
       "Name": "SmartCPSHurt1",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
+      "MinValue": 17.0,
       "MaxValue": 19.0
     },
     {
@@ -5871,8 +5915,8 @@
     {
       "Name": "SmartDCPSHurt1",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt1NotInARow",
@@ -5888,7 +5932,7 @@
     {
       "Name": "SmartCPSHurt2",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
+      "MinValue": 17.0,
       "MaxValue": 19.0
     },
     {
@@ -5905,8 +5949,8 @@
     {
       "Name": "SmartDCPSHurt2",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt2NotInARow",
@@ -5922,7 +5966,7 @@
     {
       "Name": "SmartCPSHurt3",
       "ParentName": "AutoClicker",
-      "MinValue": 19.0,
+      "MinValue": 17.0,
       "MaxValue": 19.0
     },
     {
@@ -5939,8 +5983,8 @@
     {
       "Name": "SmartDCPSHurt3",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt3NotInARow",
@@ -5956,8 +6000,8 @@
     {
       "Name": "SmartCPSHurt4",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt4NotInARow",
@@ -5973,8 +6017,8 @@
     {
       "Name": "SmartDCPSHurt4",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt4NotInARow",
@@ -5990,8 +6034,8 @@
     {
       "Name": "SmartCPSHurt5",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt5NotInARow",
@@ -6007,8 +6051,8 @@
     {
       "Name": "SmartDCPSHurt5",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt5NotInARow",
@@ -6024,8 +6068,8 @@
     {
       "Name": "SmartCPSHurt6",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt6NotInARow",
@@ -6041,8 +6085,8 @@
     {
       "Name": "SmartDCPSHurt6",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt6NotInARow",
@@ -6058,8 +6102,8 @@
     {
       "Name": "SmartCPSHurt7",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt7NotInARow",
@@ -6075,8 +6119,8 @@
     {
       "Name": "SmartDCPSHurt7",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt7NotInARow",
@@ -6092,8 +6136,8 @@
     {
       "Name": "SmartCPSHurt8",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt8NotInARow",
@@ -6109,8 +6153,8 @@
     {
       "Name": "SmartDCPSHurt8",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt8NotInARow",
@@ -6126,8 +6170,8 @@
     {
       "Name": "SmartCPSHurt9",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt9NotInARow",
@@ -6143,8 +6187,8 @@
     {
       "Name": "SmartDCPSHurt9",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt9NotInARow",
@@ -6160,8 +6204,8 @@
     {
       "Name": "SmartCPSHurt10",
       "ParentName": "AutoClicker",
-      "MinValue": 20.0,
-      "MaxValue": 20.0
+      "MinValue": 17.0,
+      "MaxValue": 19.0
     },
     {
       "Name": "SmartCPSHurt10NotInARow",
@@ -6177,8 +6221,8 @@
     {
       "Name": "SmartDCPSHurt10",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 4.0,
+      "MaxValue": 5.0
     },
     {
       "Name": "SmartDCPSHurt10NotInARow",
@@ -6415,15 +6459,15 @@
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
-      "Fade Speed": 43.0,
-      "Fade Dist": 50.0,
-      "Astolfo Speed": 0.0,
-      "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5699816,
+      "Fade Speed": 53.0,
+      "Fade Dist": 87.0,
+      "Astolfo Speed": 99.0,
+      "Astolfo Dist": 69.0,
+      "HSB Color Red": 0.7016575,
       "HSB Color Green": 0.8153153,
       "HSB Color Blue": 0.87058824,
-      "HSB FadeColor Red": 0.44927537,
-      "HSB FadeColor Green": 0.996063,
+      "HSB FadeColor Red": 0.6912568,
+      "HSB FadeColor Green": 0.48031497,
       "HSB FadeColor Blue": 0.99607843
     },
     {
@@ -6467,7 +6511,7 @@
     {
       "Name": "Font",
       "ParentName": "ArrayList",
-      "SelectedOption": "Minecraft"
+      "SelectedOption": "RubikBold"
     },
     {
       "Name": "Bold",
@@ -6482,7 +6526,7 @@
     {
       "Name": "FontSize",
       "ParentName": "ArrayList",
-      "Value": 16.0
+      "Value": 33.0
     },
     {
       "Name": "FontShadow",
@@ -6984,11 +7028,11 @@
       "ParentName": "ESP",
       "SettingList": [
         {
-          "Box": true,
+          "Box": false,
           "HitBox": false,
           "CollisionBox": false,
-          "3DCorner": true,
-          "Real2D": false,
+          "3DCorner": false,
+          "Real2D": true,
           "Corner": false,
           "Vanilla": false
         }
@@ -7306,24 +7350,24 @@
     {
       "Name": "Real2DColor1",
       "ParentName": "ESP",
-      "Alpha": 60,
+      "Alpha": 92,
       "FadeAlpha": 60,
       "Rainbow": false,
-      "Fade": false,
+      "Fade": true,
       "ClientColor": false,
       "ClientColorAlpha": 100,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
-      "Fade Speed": 0.0,
+      "Fade Speed": 64.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 0.0,
+      "Astolfo Speed": 26.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
+      "HSB Color Red": 0.7073365,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
-      "HSB FadeColor Red": 0.5869219,
-      "HSB FadeColor Green": 0.90869564,
+      "HSB FadeColor Red": 0.6566866,
+      "HSB FadeColor Green": 0.726087,
       "HSB FadeColor Blue": 0.9019608
     },
     {
@@ -7573,7 +7617,7 @@
     {
       "Name": "Mode",
       "ParentName": "StorageESP",
-      "SelectedOption": "Box"
+      "SelectedOption": "OtherBox"
     },
     {
       "Name": "ColorChest",
@@ -7591,8 +7635,8 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.14673047,
-      "HSB Color Green": 0.90869564,
+      "HSB Color Red": 0.14684685,
+      "HSB Color Green": 0.8043478,
       "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
       "HSB FadeColor Green": 0.90869564,
@@ -7812,7 +7856,7 @@
     {
       "Name": "OnlyWhileKillAura",
       "ParentName": "BlockAnimation",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Speed",
@@ -7907,7 +7951,7 @@
     {
       "Name": "Mode",
       "ParentName": "HUD",
-      "SelectedOption": "Basic"
+      "SelectedOption": "Ausustus"
     },
     {
       "Name": "Side",
@@ -7962,7 +8006,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -8098,9 +8142,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.59420294,
-      "HSB Color Green": 0.72156864,
-      "HSB Color Blue": 1.0,
+      "HSB Color Red": 0.7021858,
+      "HSB Color Green": 0.72047246,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.59420294,
       "HSB FadeColor Green": 0.72156864,
       "HSB FadeColor Blue": 1.0
@@ -8123,7 +8167,7 @@
     {
       "Name": "Rounded",
       "ParentName": "Scoreboard",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "RoundFactor",
@@ -8138,7 +8182,7 @@
     {
       "Name": "PositionY",
       "ParentName": "Scoreboard",
-      "Value": 43.0
+      "Value": 50.0
     },
     {
       "Name": "Scale",
@@ -8161,7 +8205,7 @@
       "Alpha": 65,
       "FadeAlpha": 65,
       "Rainbow": false,
-      "Fade": false,
+      "Fade": true,
       "ClientColor": false,
       "ClientColorAlpha": 100,
       "Astolfo": false,
@@ -8171,11 +8215,11 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
+      "HSB Color Red": 0.7121212,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
-      "HSB FadeColor Red": 0.5869219,
-      "HSB FadeColor Green": 0.90869564,
+      "HSB FadeColor Red": 0.69240195,
+      "HSB FadeColor Green": 0.59130436,
       "HSB FadeColor Blue": 0.9019608
     },
     {
@@ -8191,7 +8235,7 @@
     {
       "Name": "ID",
       "ParentName": "BlockESP",
-      "Value": 26.0
+      "Value": 360.0
     },
     {
       "Name": "Shadow",
@@ -8345,8 +8389,8 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.7016575,
-      "HSB Color Green": 0.8153153,
+      "HSB Color Red": 0.78314394,
+      "HSB Color Green": 0.7927928,
       "HSB Color Blue": 0.87058824,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
@@ -8371,10 +8415,10 @@
       "Rainbow Dist": 0.0,
       "Fade Speed": 0.0,
       "Fade Dist": 0.0,
-      "Astolfo Speed": 0.0,
+      "Astolfo Speed": 33.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.53038675,
-      "HSB Color Green": 0.8153153,
+      "HSB Color Red": 0.72267765,
+      "HSB Color Green": 0.5495495,
       "HSB Color Blue": 0.87058824,
       "HSB FadeColor Red": 0.5699816,
       "HSB FadeColor Green": 0.8153153,
@@ -8421,9 +8465,9 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.7281046,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Red": 0.7279315,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.7281046,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -8479,7 +8523,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
+      "HSB Color Red": 0.7017544,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
@@ -8532,7 +8576,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
+      "HSB Color Red": 0.7121212,
       "HSB Color Green": 0.90869564,
       "HSB Color Blue": 0.9019608,
       "HSB FadeColor Red": 0.5869219,
@@ -8587,7 +8631,7 @@
     {
       "Name": "CustomColor",
       "ParentName": "CustomGlint",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Color",
@@ -8605,8 +8649,8 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.74285716,
-      "HSB Color Green": 0.6862745,
+      "HSB Color Red": 0.7225738,
+      "HSB Color Green": 0.7745098,
       "HSB Color Blue": 0.8,
       "HSB FadeColor Red": 0.74285716,
       "HSB FadeColor Green": 0.6862745,
@@ -8738,7 +8782,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.33333334,
+      "HSB Color Red": 0.0,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.33333334,
@@ -8800,7 +8844,7 @@
     {
       "Name": "OnlyThroughWallsEntities",
       "ParentName": "Chams",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "RenderTextureEntity",
@@ -8823,7 +8867,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.51449275,
+      "HSB Color Red": 0.52042156,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.5143791,
@@ -8904,7 +8948,7 @@
     {
       "Name": "HeartAnimation",
       "ParentName": "LegacyAnimations",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ItemHeld",
@@ -8917,21 +8961,21 @@
       "Alpha": 65,
       "FadeAlpha": 65,
       "Rainbow": false,
-      "Fade": false,
+      "Fade": true,
       "ClientColor": false,
       "ClientColorAlpha": 100,
       "Astolfo": false,
       "Rainbow Speed": 0.0,
       "Rainbow Dist": 0.0,
-      "Fade Speed": 0.0,
+      "Fade Speed": 63.0,
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5869219,
-      "HSB Color Green": 0.90869564,
+      "HSB Color Red": 0.73216885,
+      "HSB Color Green": 0.9956522,
       "HSB Color Blue": 0.9019608,
-      "HSB FadeColor Red": 0.5869219,
-      "HSB FadeColor Green": 0.90869564,
+      "HSB FadeColor Red": 0.72177416,
+      "HSB FadeColor Green": 0.53913045,
       "HSB FadeColor Blue": 0.9019608
     },
     {
@@ -9025,7 +9069,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -9123,8 +9167,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -9297,7 +9341,7 @@
     {
       "Name": "Y",
       "ParentName": "KeyStrokes",
-      "Value": 17.0
+      "Value": 5.14
     },
     {
       "Name": "Shadow",
@@ -9382,8 +9426,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -9406,7 +9450,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -9691,12 +9735,12 @@
     {
       "Name": "X-Coord",
       "ParentName": "Model",
-      "Value": 1.0
+      "Value": 6.18
     },
     {
       "Name": "Y-Coord",
       "ParentName": "Model",
-      "Value": 8.0
+      "Value": 5.5
     },
     {
       "Name": "Scale",
@@ -9716,7 +9760,7 @@
     {
       "Name": "Y-Coord",
       "ParentName": "RenderPotion",
-      "Value": 2.5
+      "Value": 16.5
     },
     {
       "Name": "Scale",
@@ -10287,7 +10331,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -10314,8 +10358,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -10414,7 +10458,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.5699816,
+      "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
       "HSB Color Blue": 0.87058824,
       "HSB FadeColor Red": 0.5699816,
@@ -10443,8 +10487,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -10525,7 +10569,7 @@
     {
       "Name": "ColorMode",
       "ParentName": "ChinaHat",
-      "SelectedOption": "Rainbow"
+      "SelectedOption": "Fade"
     },
     {
       "Name": "Color1",
@@ -10543,7 +10587,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.0,
+      "HSB Color Red": 0.7121212,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
@@ -10566,8 +10610,8 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.6666667,
-      "HSB Color Green": 0.996063,
+      "HSB Color Red": 0.7021505,
+      "HSB Color Green": 0.6102362,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.6666667,
       "HSB FadeColor Green": 1.0,
@@ -10601,12 +10645,12 @@
     {
       "Name": "RotationSpeed",
       "ParentName": "ChinaHat",
-      "Value": 1.0
+      "Value": 106.0
     },
     {
       "Name": "RotationOffset",
       "ParentName": "ChinaHat",
-      "Value": 1.0
+      "Value": 113.0
     },
     {
       "Name": "InFirstPerson",
@@ -11374,7 +11418,7 @@
     {
       "Name": "Aspect",
       "ParentName": "AspectRatio",
-      "Value": 1.0
+      "Value": 0.33
     },
     {
       "Name": "Hand",
@@ -11392,6 +11436,25 @@
       "Value": -0.3
     },
     {
+      "Name": "Debug information",
+      "ParentName": "DebugInformation",
+      "SettingList": [
+        {
+          "FPS": true,
+          "Ping": true,
+          "Cps": true,
+          "PosX": true,
+          "PosY": true,
+          "PosZ": true,
+          "PBS": true,
+          "RX": true,
+          "TX": true,
+          "Download": true,
+          "Upload": true
+        }
+      ]
+    },
+    {
       "Name": "Scale",
       "ParentName": "DebugInformation",
       "Value": 2.0
@@ -11399,7 +11462,7 @@
     {
       "Name": "PosX",
       "ParentName": "DebugInformation",
-      "Value": 0.0
+      "Value": 11.5
     },
     {
       "Name": "PosY",
@@ -11442,8 +11505,8 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.3182796,
-      "HSB Color Green": 0.6102362,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
@@ -11612,7 +11675,8 @@
           "Input": false,
           "Bug": false,
           "Timer": false,
-          "Sneak": false
+          "Sneak": false,
+          "Blink": true
         }
       ]
     },
@@ -11726,6 +11790,7 @@
           "OnGround": false,
           "Toggle": false,
           "Spam": false,
+          "Spam2": false,
           "Input": false,
           "UnToggle": false,
           "Bug": false,
@@ -12322,6 +12387,11 @@
       "Value": 0.3
     },
     {
+      "Name": "SlowDown",
+      "ParentName": "Step",
+      "Boolean": false
+    },
+    {
       "Name": "AutoDisable",
       "ParentName": "LongJump",
       "Boolean": false
@@ -12330,6 +12400,31 @@
       "Name": "Modes",
       "ParentName": "LongJump",
       "SelectedOption": "Minemen"
+    },
+    {
+      "Name": "IntaveLonger",
+      "ParentName": "LongJump",
+      "Boolean": true
+    },
+    {
+      "Name": "DisplayDirection",
+      "ParentName": "LongJump",
+      "Boolean": true
+    },
+    {
+      "Name": "Rotate",
+      "ParentName": "LongJump",
+      "Boolean": false
+    },
+    {
+      "Name": "Click",
+      "ParentName": "LongJump",
+      "Boolean": true
+    },
+    {
+      "Name": "ClickRange",
+      "ParentName": "LongJump",
+      "Value": 6.0
     },
     {
       "Name": "IntaveStrength",
@@ -65827,6 +65922,11 @@
       "Boolean": true
     },
     {
+      "Name": "AutoCloseIfInvFull",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
       "Name": "CloseDelay",
       "ParentName": "ChestStealer",
       "MinValue": 0.0,
@@ -65874,11 +65974,6 @@
       "List": []
     },
     {
-      "Name": "Mode",
-      "ParentName": "GuiMove",
-      "SelectedOption": "Basic"
-    },
-    {
       "Name": "Guis",
       "ParentName": "GuiMove",
       "SettingList": [
@@ -65890,12 +65985,17 @@
       ]
     },
     {
-      "Name": "Sneak",
+      "Name": "InventoryMode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Basic"
+    },
+    {
+      "Name": "InventorySneak",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "Jump",
+      "Name": "InventoryJump",
       "ParentName": "GuiMove",
       "Boolean": false
     },
@@ -65905,37 +66005,152 @@
       "Boolean": false
     },
     {
-      "Name": "Rotate",
+      "Name": "InventoryRotate",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "OnlyOnGround",
+      "Name": "InventoryRotateOnlyAtClick",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "OnlyOnGround",
+      "Name": "InventoryMoveOnlyOnGround",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "SprintMode",
+      "Name": "InventorySneakMotionWhileMovement",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "InventorySprint mode",
       "ParentName": "GuiMove",
       "SelectedOption": "Legit"
     },
     {
-      "Name": "JumpSprint",
+      "Name": "InventoryJump sprint",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "MotionMultiplier",
+      "Name": "InventoryMotionMultiplierForward",
       "ParentName": "GuiMove",
       "Value": 1.0
     },
     {
-      "Name": "MotionMultiplierDiagonal",
+      "Name": "InventoryMotionMultiplierDiagonal",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "ContainerMode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Basic"
+    },
+    {
+      "Name": "ContainerSneak",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerJump",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerRotate",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerRotateOnlyAtClick",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerMoveOnlyOnGround",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerSneakMotionWhileMovement",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerSprint mode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "ContainerJump sprint",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerMotionMultiplierForward",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "ContainerMotionMultiplierDiagonal",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "OtherScreensMode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Basic"
+    },
+    {
+      "Name": "OtherScreensSneak",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensJump",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensRotate",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensRotateOnlyAtClick",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensMoveOnlyOnGround",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OtherScreensSneakMotionWhileMovement",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OtherScreensSprint mode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Legit"
+    },
+    {
+      "Name": "OtherScreensJump sprint",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OtherScreensMotionMultiplierForward",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "OtherScreensMotionMultiplierDiagonal",
       "ParentName": "GuiMove",
       "Value": 1.0
     },
@@ -66095,6 +66310,11 @@
     },
     {
       "Name": "TargetNearbyCheck",
+      "ParentName": "ChestAura",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileInventoryIsFull",
       "ParentName": "ChestAura",
       "Boolean": true
     },
@@ -66417,6 +66637,16 @@
       "Name": "Slot9",
       "ParentName": "InvManager",
       "SelectedOption": "Gapple"
+    },
+    {
+      "Name": "OnlyInHotbar",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
+      "Name": "IgnoreDurability",
+      "ParentName": "InvManager",
+      "Boolean": false
     },
     {
       "Name": "ArmorInstant",
@@ -66960,6 +67190,11 @@
       "Boolean": true
     },
     {
+      "Name": "OtherRotation",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
       "Name": "Intave",
       "ParentName": "Scaffold",
       "Boolean": true
@@ -67241,6 +67476,11 @@
       "Name": "StopNoBlocks",
       "ParentName": "Scaffold",
       "Boolean": true
+    },
+    {
+      "Name": "ReduceVelocity",
+      "ParentName": "Scaffold",
+      "Boolean": false
     },
     {
       "Name": "IgnoreSpeedMotion",
@@ -67747,11 +67987,6 @@
       "Boolean": false
     },
     {
-      "Name": "PacketHandler",
-      "ParentName": "Debug",
-      "Boolean": false
-    },
-    {
       "Name": "ServersideChat",
       "ParentName": "Debug",
       "Boolean": false
@@ -67784,12 +68019,12 @@
     {
       "Name": "AutoClickerDebug",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "DamageDebug",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "DamageUnsafe",
@@ -67809,7 +68044,7 @@
     {
       "Name": "HitCancelDetector",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "HitDebug",
@@ -67834,7 +68069,7 @@
     {
       "Name": "ReduceDebug",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "KrokoCheck",
@@ -70770,7 +71005,7 @@
     {
       "Name": "HideMainMenuAccountInfos",
       "ParentName": "ClientSettings",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Scale",
@@ -70781,6 +71016,11 @@
       "Name": "CommandPrefixes",
       "ParentName": "ClientSettings",
       "SelectedOption": "."
+    },
+    {
+      "Name": "FastServerPining1",
+      "ParentName": "ClientSettings",
+      "Boolean": false
     },
     {
       "Name": "Your visibility",
@@ -70796,6 +71036,56 @@
       "Name": "YourFriendsOnly",
       "ParentName": "IRC",
       "Boolean": true
+    },
+    {
+      "Name": "AutoUnfriend",
+      "ParentName": "IRC",
+      "Boolean": true
+    },
+    {
+      "Name": "Create new dataset if target is null",
+      "ParentName": "RotationRecorder",
+      "Boolean": true
+    },
+    {
+      "Name": "KillAuraTarget",
+      "ParentName": "RotationRecorder",
+      "Boolean": true
+    },
+    {
+      "Name": "SearchReach",
+      "ParentName": "RotationRecorder",
+      "Value": 7.5
+    },
+    {
+      "Name": "OnlyOnClick",
+      "ParentName": "RotationRecorder",
+      "Boolean": true
+    },
+    {
+      "Name": "YawFov",
+      "ParentName": "RotationRecorder",
+      "Value": 90.0
+    },
+    {
+      "Name": "PitchFov",
+      "ParentName": "RotationRecorder",
+      "Value": 90.0
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "RotationRecorder",
+      "SettingList": [
+        {
+          "Player": false,
+          "Mob": false,
+          "Animal": false,
+          "Villager": false,
+          "ArmorStand": false,
+          "Invisible": false,
+          "Dead": false
+        }
+      ]
     },
     {
       "Name": "Mode",
@@ -71708,6 +71998,11 @@
       "Boolean": false
     },
     {
+      "Name": "SwingAnimation",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
       "Name": "FastBreak",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -71869,6 +72164,16 @@
     },
     {
       "Name": "IRC",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "RotationRecorder",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "RawMouseInput",
       "ParentName": "AutoDisable",
       "Boolean": false
     },

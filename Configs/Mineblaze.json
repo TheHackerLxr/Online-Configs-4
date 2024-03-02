@@ -1,7 +1,7 @@
 {
   "name": "Mineblaze",
-  "date": "24.02.2024",
-  "time": "13:09",
+  "date": "25.02.2024",
+  "time": "18:27",
   "modules": [
     {
       "Name": "Blur",
@@ -986,11 +986,20 @@
     },
     {
       "Name": "BreakIndicator",
-      "IsInConfig": false,
+      "IsInConfig": true,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "SwingAnimation",
+      "IsInConfig": false,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1566,7 +1575,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1756,6 +1765,15 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "RotationRecorder",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -3283,6 +3301,11 @@
     },
     {
       "Name": "Probability of aiming even when not needed",
+      "ParentName": "KillAura",
+      "Value": 100.0
+    },
+    {
+      "Name": "Additional Inaccuracy",
       "ParentName": "KillAura",
       "Value": 100.0
     },
@@ -8208,7 +8231,7 @@
     {
       "Name": "ID",
       "ParentName": "BlockESP",
-      "Value": 26.0
+      "Value": 360.0
     },
     {
       "Name": "Shadow",
@@ -65917,11 +65940,6 @@
       "List": []
     },
     {
-      "Name": "Mode",
-      "ParentName": "GuiMove",
-      "SelectedOption": "Basic"
-    },
-    {
       "Name": "Guis",
       "ParentName": "GuiMove",
       "SettingList": [
@@ -65933,14 +65951,19 @@
       ]
     },
     {
-      "Name": "Sneak",
+      "Name": "InventoryMode",
       "ParentName": "GuiMove",
-      "Boolean": true
+      "SelectedOption": "Basic"
     },
     {
-      "Name": "Jump",
+      "Name": "InventorySneak",
       "ParentName": "GuiMove",
-      "Boolean": true
+      "Boolean": false
+    },
+    {
+      "Name": "InventoryJump",
+      "ParentName": "GuiMove",
+      "Boolean": false
     },
     {
       "Name": "NoInvPacket",
@@ -65948,37 +65971,152 @@
       "Boolean": false
     },
     {
-      "Name": "Rotate",
+      "Name": "InventoryRotate",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "OnlyOnGround",
+      "Name": "InventoryRotateOnlyAtClick",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "OnlyOnGround",
+      "Name": "InventoryMoveOnlyOnGround",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "SprintMode",
+      "Name": "InventorySneakMotionWhileMovement",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "InventorySprint mode",
       "ParentName": "GuiMove",
       "SelectedOption": "Legit"
     },
     {
-      "Name": "JumpSprint",
+      "Name": "InventoryJump sprint",
       "ParentName": "GuiMove",
       "Boolean": false
     },
     {
-      "Name": "MotionMultiplier",
+      "Name": "InventoryMotionMultiplierForward",
       "ParentName": "GuiMove",
       "Value": 1.0
     },
     {
-      "Name": "MotionMultiplierDiagonal",
+      "Name": "InventoryMotionMultiplierDiagonal",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "ContainerMode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Basic"
+    },
+    {
+      "Name": "ContainerSneak",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerJump",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerRotate",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerRotateOnlyAtClick",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerMoveOnlyOnGround",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerSneakMotionWhileMovement",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerSprint mode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "ContainerJump sprint",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "ContainerMotionMultiplierForward",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "ContainerMotionMultiplierDiagonal",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "OtherScreensMode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Basic"
+    },
+    {
+      "Name": "OtherScreensSneak",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensJump",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensRotate",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensRotateOnlyAtClick",
+      "ParentName": "GuiMove",
+      "Boolean": true
+    },
+    {
+      "Name": "OtherScreensMoveOnlyOnGround",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OtherScreensSneakMotionWhileMovement",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OtherScreensSprint mode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Legit"
+    },
+    {
+      "Name": "OtherScreensJump sprint",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "OtherScreensMotionMultiplierForward",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "OtherScreensMotionMultiplierDiagonal",
       "ParentName": "GuiMove",
       "Value": 1.0
     },
@@ -67020,7 +67158,7 @@
     {
       "Name": "OtherRotation",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Intave",
@@ -67852,7 +67990,7 @@
     {
       "Name": "DamageDebug",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "DamageUnsafe",
@@ -67872,7 +68010,7 @@
     {
       "Name": "HitCancelDetector",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "HitDebug",
@@ -67897,7 +68035,7 @@
     {
       "Name": "ReduceDebug",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "KrokoCheck",
@@ -70871,6 +71009,51 @@
       "Boolean": true
     },
     {
+      "Name": "Create new dataset if target is null",
+      "ParentName": "RotationRecorder",
+      "Boolean": true
+    },
+    {
+      "Name": "KillAuraTarget",
+      "ParentName": "RotationRecorder",
+      "Boolean": false
+    },
+    {
+      "Name": "SearchReach",
+      "ParentName": "RotationRecorder",
+      "Value": 10.0
+    },
+    {
+      "Name": "OnlyOnClick",
+      "ParentName": "RotationRecorder",
+      "Boolean": true
+    },
+    {
+      "Name": "YawFov",
+      "ParentName": "RotationRecorder",
+      "Value": 180.0
+    },
+    {
+      "Name": "PitchFov",
+      "ParentName": "RotationRecorder",
+      "Value": 180.0
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "RotationRecorder",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": false,
+          "Animal": false,
+          "Villager": false,
+          "ArmorStand": false,
+          "Invisible": false,
+          "Dead": false
+        }
+      ]
+    },
+    {
       "Name": "Mode",
       "ParentName": "AutoJumpAndRun",
       "SelectedOption": "Gomme"
@@ -71781,6 +71964,11 @@
       "Boolean": false
     },
     {
+      "Name": "SwingAnimation",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
       "Name": "FastBreak",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -71942,6 +72130,11 @@
     },
     {
       "Name": "IRC",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "RotationRecorder",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
