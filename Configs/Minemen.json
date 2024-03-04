@@ -1,7 +1,7 @@
 {
   "name": "Minemen",
-  "date": "02.03.2024",
-  "time": "13:17",
+  "date": "04.03.2024",
+  "time": "18:24",
   "modules": [
     {
       "Name": "Blur",
@@ -316,7 +316,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "InventoryClicker",
@@ -1315,7 +1315,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Phase",
@@ -1575,7 +1575,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1760,11 +1760,29 @@
     },
     {
       "Name": "IRC",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "RotationRecorder",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "RotationRenderer",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1859,7 +1877,7 @@
     },
     {
       "Name": "MLG",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
@@ -1922,7 +1940,7 @@
     {
       "Name": "Color",
       "ParentName": "Shadow",
-      "Alpha": 1,
+      "Alpha": 255,
       "FadeAlpha": 1,
       "Rainbow": false,
       "Fade": false,
@@ -4511,7 +4529,7 @@
     {
       "Name": "TimerTicks",
       "ParentName": "TimerRangeV2",
-      "Value": 4.0
+      "Value": 3.0
     },
     {
       "Name": "MaxTargetHurttime",
@@ -4521,7 +4539,7 @@
     {
       "Name": "Delay",
       "ParentName": "TimerRangeV2",
-      "Value": 500.0
+      "Value": 0.0
     },
     {
       "Name": "Correct",
@@ -7902,12 +7920,12 @@
     {
       "Name": "Armor",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ArmorDurability",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Health",
@@ -7940,19 +7958,19 @@
       "Boolean": true
     },
     {
-      "Name": "Shadow",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "2DShadow",
+      "Name": "Transparent",
       "ParentName": "NameTags",
       "Boolean": true
     },
     {
-      "Name": "2DBlur",
+      "Name": "Shadow",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
+    },
+    {
+      "Name": "ShadowFont",
+      "ParentName": "NameTags",
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -8241,7 +8259,7 @@
     {
       "Name": "ID",
       "ParentName": "BlockESP",
-      "Value": 360.0
+      "Value": 26.0
     },
     {
       "Name": "Shadow",
@@ -10828,17 +10846,17 @@
     {
       "Name": "Modes",
       "ParentName": "Emojify",
-      "SelectedOption": "default2"
+      "SelectedOption": "default1"
     },
     {
       "Name": "ComboHits",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 0.0
     },
     {
       "Name": "ComboTime",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 0.0
     },
     {
       "Name": "Block",
@@ -11710,7 +11728,7 @@
           "Bug": false,
           "Timer": false,
           "Sneak": false,
-          "Blink": true
+          "Blink": false
         }
       ]
     },
@@ -65973,6 +65991,11 @@
       "MaxValue": 270.0
     },
     {
+      "Name": "Silent",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
       "Name": "Visualize",
       "ParentName": "ChestStealer",
       "Boolean": true
@@ -67734,7 +67757,7 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 50.0
+      "Value": 83.0
     },
     {
       "Name": "RadioChannels",
@@ -68066,7 +68089,7 @@
     {
       "Name": "Transaction",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnlyDebugChat",
@@ -68082,6 +68105,71 @@
       "Name": "AutoClickerDebug",
       "ParentName": "Debug",
       "Boolean": false
+    },
+    {
+      "Name": "DamageDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DamageUnsafe",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "DebugAllChat",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "TargetDistance",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "HitCancelDetector",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "HitDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "InputRecorder",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "IntaveVeloDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "MoreKB",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "ReduceDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "KrokoCheck",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "MoreKBDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "PacketLog",
+      "ParentName": "Debug",
+      "SelectedOption": "None"
     },
     {
       "Name": "Modes",
@@ -71037,12 +71125,12 @@
     {
       "Name": "FastServerPining1",
       "ParentName": "ClientSettings",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Your visibility",
       "ParentName": "IRC",
-      "SelectedOption": "Ghost"
+      "SelectedOption": "All"
     },
     {
       "Name": "ClientFriends",
@@ -71052,7 +71140,7 @@
     {
       "Name": "YourFriendsOnly",
       "ParentName": "IRC",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AutoUnfriend",
@@ -72181,6 +72269,16 @@
     },
     {
       "Name": "IRC",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "RotationRecorder",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "RotationRenderer",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
