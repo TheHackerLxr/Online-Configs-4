@@ -1,7 +1,7 @@
 {
   "name": "Minemen",
   "date": "05.03.2024",
-  "time": "12:06",
+  "time": "12:57",
   "modules": [
     {
       "Name": "Blur",
@@ -414,7 +414,7 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -11723,8 +11723,8 @@
       "ParentName": "NoSlow",
       "SettingList": [
         {
-          "Slowdown": false,
-          "Sprint": false,
+          "Slowdown": true,
+          "Sprint": true,
           "Switch": false,
           "Slot": false,
           "OnGround": false,
@@ -11783,8 +11783,8 @@
       "ParentName": "NoSlow",
       "SettingList": [
         {
-          "Slowdown": false,
-          "Sprint": false,
+          "Slowdown": true,
+          "Sprint": true,
           "Switch": false,
           "Slot": false,
           "OnGround": false,
@@ -11850,7 +11850,7 @@
           "Spam": false,
           "Spam2": false,
           "Input": false,
-          "UnToggle": true,
+          "UnToggle": false,
           "Bug": false,
           "Timer": false,
           "Sneak": false
