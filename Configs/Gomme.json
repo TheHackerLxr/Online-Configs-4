@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "01.03.2024",
-  "time": "23:49",
+  "date": "05.03.2024",
+  "time": "12:07",
   "modules": [
     {
       "Name": "Blur",
@@ -316,7 +316,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "InventoryClicker",
@@ -1315,7 +1315,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Phase",
@@ -1575,7 +1575,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1760,7 +1760,7 @@
     },
     {
       "Name": "IRC",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
@@ -1877,7 +1877,7 @@
     },
     {
       "Name": "MLG",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
@@ -1940,7 +1940,7 @@
     {
       "Name": "Color",
       "ParentName": "Shadow",
-      "Alpha": 1,
+      "Alpha": 255,
       "FadeAlpha": 1,
       "Rainbow": false,
       "Fade": false,
@@ -5426,12 +5426,12 @@
     {
       "Name": "Mode",
       "ParentName": "AutoClicker",
-      "SelectedOption": "Recorded"
+      "SelectedOption": "Smart"
     },
     {
       "Name": "CPSLimiter",
       "ParentName": "AutoClicker",
-      "Value": 40.0
+      "Value": 20.0
     },
     {
       "Name": "CPSLimiterIntave",
@@ -5650,7 +5650,7 @@
     {
       "Name": "SmartMode",
       "ParentName": "AutoClicker",
-      "SelectedOption": "Overengineered"
+      "SelectedOption": "Recommended"
     },
     {
       "Name": "SmartClickMode",
@@ -5665,8 +5665,8 @@
     {
       "Name": "SmartCPSInAir",
       "ParentName": "AutoClicker",
-      "MinValue": 5.0,
-      "MaxValue": 9.0
+      "MinValue": 9.0,
+      "MaxValue": 11.0
     },
     {
       "Name": "SmartCPSInAirNotInARow",
@@ -5676,14 +5676,14 @@
     {
       "Name": "SmartCPSInAirRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 5.0,
-      "MaxValue": 15.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSInAir",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 3.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SmartDCPSInAirNotInARow",
@@ -5699,8 +5699,8 @@
     {
       "Name": "SmartCPSOnWall",
       "ParentName": "AutoClicker",
-      "MinValue": 8.0,
-      "MaxValue": 12.0
+      "MinValue": 9.0,
+      "MaxValue": 11.0
     },
     {
       "Name": "SmartCPSOnWallNotInARow",
@@ -5716,8 +5716,8 @@
     {
       "Name": "SmartDCPSOnWall",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 4.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SmartDCPSOnWallNotInARow",
@@ -5744,8 +5744,8 @@
     {
       "Name": "SmartCPSFirstHitRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
-      "MaxValue": 30.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPSFirstHit",
@@ -5767,8 +5767,8 @@
     {
       "Name": "SmartCPS",
       "ParentName": "AutoClicker",
-      "MinValue": 18.0,
-      "MaxValue": 18.0
+      "MinValue": 12.0,
+      "MaxValue": 15.0
     },
     {
       "Name": "SmartCPSNotInARow",
@@ -5778,14 +5778,14 @@
     {
       "Name": "CPSRecalculateTickDelay",
       "ParentName": "AutoClicker",
-      "MinValue": 8.0,
-      "MaxValue": 15.0
+      "MinValue": 3.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "SmartDCPS",
       "ParentName": "AutoClicker",
-      "MinValue": 2.0,
-      "MaxValue": 2.0
+      "MinValue": 1.0,
+      "MaxValue": 4.0
     },
     {
       "Name": "SmartDCPSNotInARow",
@@ -5801,7 +5801,7 @@
     {
       "Name": "SmartForceHitsHurtTime",
       "ParentName": "AutoClicker",
-      "MinValue": 3.0,
+      "MinValue": 2.0,
       "MaxValue": 3.0
     },
     {
@@ -5812,7 +5812,7 @@
     {
       "Name": "SmartForceHitsHurtTimeEnd",
       "ParentName": "AutoClicker",
-      "MinValue": 10.0,
+      "MinValue": 9.0,
       "MaxValue": 10.0
     },
     {
@@ -5828,7 +5828,7 @@
     {
       "Name": "ReduceCPSIfYouCanNotHitATargett",
       "ParentName": "AutoClicker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "CritFix",
@@ -5843,7 +5843,7 @@
     {
       "Name": "PerfectHit",
       "ParentName": "AutoClicker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AttackFriends",
@@ -7920,12 +7920,12 @@
     {
       "Name": "Armor",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ArmorDurability",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Health",
@@ -7958,19 +7958,19 @@
       "Boolean": true
     },
     {
-      "Name": "Shadow",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "2DShadow",
+      "Name": "Transparent",
       "ParentName": "NameTags",
       "Boolean": true
     },
     {
-      "Name": "2DBlur",
+      "Name": "Shadow",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
+    },
+    {
+      "Name": "ShadowFont",
+      "ParentName": "NameTags",
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -8259,7 +8259,7 @@
     {
       "Name": "ID",
       "ParentName": "BlockESP",
-      "Value": 360.0
+      "Value": 26.0
     },
     {
       "Name": "Shadow",
@@ -9142,6 +9142,11 @@
       "SelectedOption": "Custom"
     },
     {
+      "Name": "Name-Formatting",
+      "ParentName": "CustomName",
+      "SelectedOption": "Simple"
+    },
+    {
       "Name": "Cusom",
       "ParentName": "CustomName",
       "SelectedOption": "Esound"
@@ -9758,6 +9763,7 @@
           "Signs": true,
           "Title": true,
           "Books": true,
+          "ChestNames": true,
           "Maps": true
         }
       ]
@@ -9765,7 +9771,7 @@
     {
       "Name": "Replace server name",
       "ParentName": "AntiStrike",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Remove color codes",
@@ -10846,17 +10852,17 @@
     {
       "Name": "Modes",
       "ParentName": "Emojify",
-      "SelectedOption": "default2"
+      "SelectedOption": "default1"
     },
     {
       "Name": "ComboHits",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 0.0
     },
     {
       "Name": "ComboTime",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 0.0
     },
     {
       "Name": "Block",
@@ -65991,6 +65997,11 @@
       "MaxValue": 160.0
     },
     {
+      "Name": "Silent",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
       "Name": "Visualize",
       "ParentName": "ChestStealer",
       "Boolean": true
@@ -66692,6 +66703,11 @@
       "SelectedOption": "Gapple"
     },
     {
+      "Name": "NoArmorDrop",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
       "Name": "OnlyInHotbar",
       "ParentName": "InvManager",
       "Boolean": false
@@ -66794,6 +66810,11 @@
       "Name": "CleanerSequence",
       "ParentName": "InvManager",
       "SelectedOption": "Nearest"
+    },
+    {
+      "Name": "ReCraftIfSoupsLowerThan",
+      "ParentName": "InvManager",
+      "Value": 4.0
     },
     {
       "Name": "CraftInstant",
@@ -67752,7 +67773,7 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 50.0
+      "Value": 83.0
     },
     {
       "Name": "RadioChannels",
@@ -68084,7 +68105,7 @@
     {
       "Name": "Transaction",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnlyDebugChat",
@@ -71125,12 +71146,17 @@
     {
       "Name": "Your visibility",
       "ParentName": "IRC",
-      "SelectedOption": "Ghost"
+      "SelectedOption": "All"
+    },
+    {
+      "Name": "IRC-Formatting",
+      "ParentName": "IRC",
+      "SelectedOption": "Simple"
     },
     {
       "Name": "ClientFriends",
       "ParentName": "IRC",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "YourFriendsOnly",

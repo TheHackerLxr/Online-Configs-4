@@ -1,7 +1,7 @@
 {
   "name": "Universocraft",
-  "date": "01.03.2024",
-  "time": "23:54",
+  "date": "05.03.2024",
+  "time": "12:07",
   "modules": [
     {
       "Name": "Blur",
@@ -316,7 +316,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "InventoryClicker",
@@ -1315,7 +1315,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 0
+      "Key": 48
     },
     {
       "Name": "Phase",
@@ -1575,7 +1575,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1760,7 +1760,7 @@
     },
     {
       "Name": "IRC",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
@@ -1877,7 +1877,7 @@
     },
     {
       "Name": "MLG",
-      "IsInConfig": true,
+      "IsInConfig": false,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
@@ -1940,7 +1940,7 @@
     {
       "Name": "Color",
       "ParentName": "Shadow",
-      "Alpha": 1,
+      "Alpha": 255,
       "FadeAlpha": 1,
       "Rainbow": false,
       "Fade": false,
@@ -3889,7 +3889,7 @@
           "Player": true,
           "Mob": false,
           "Animal": false,
-          "Villager": true,
+          "Villager": false,
           "ArmorStand": false,
           "Invisible": true,
           "Dead": false
@@ -7920,12 +7920,12 @@
     {
       "Name": "Armor",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ArmorDurability",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Health",
@@ -7958,19 +7958,19 @@
       "Boolean": true
     },
     {
-      "Name": "Shadow",
-      "ParentName": "NameTags",
-      "Boolean": false
-    },
-    {
-      "Name": "2DShadow",
+      "Name": "Transparent",
       "ParentName": "NameTags",
       "Boolean": true
     },
     {
-      "Name": "2DBlur",
+      "Name": "Shadow",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
+    },
+    {
+      "Name": "ShadowFont",
+      "ParentName": "NameTags",
+      "Boolean": true
     },
     {
       "Name": "Mode",
@@ -8259,7 +8259,7 @@
     {
       "Name": "ID",
       "ParentName": "BlockESP",
-      "Value": 360.0
+      "Value": 26.0
     },
     {
       "Name": "Shadow",
@@ -9142,6 +9142,11 @@
       "SelectedOption": "Custom"
     },
     {
+      "Name": "Name-Formatting",
+      "ParentName": "CustomName",
+      "SelectedOption": "Simple"
+    },
+    {
       "Name": "Cusom",
       "ParentName": "CustomName",
       "SelectedOption": "Esound"
@@ -9758,6 +9763,7 @@
           "Signs": true,
           "Title": true,
           "Books": true,
+          "ChestNames": true,
           "Maps": true
         }
       ]
@@ -9765,7 +9771,7 @@
     {
       "Name": "Replace server name",
       "ParentName": "AntiStrike",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Remove color codes",
@@ -10846,17 +10852,17 @@
     {
       "Name": "Modes",
       "ParentName": "Emojify",
-      "SelectedOption": "default2"
+      "SelectedOption": "default1"
     },
     {
       "Name": "ComboHits",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 0.0
     },
     {
       "Name": "ComboTime",
       "ParentName": "Emojify",
-      "Value": 2.0
+      "Value": 0.0
     },
     {
       "Name": "Block",
@@ -65991,6 +65997,11 @@
       "MaxValue": 110.0
     },
     {
+      "Name": "Silent",
+      "ParentName": "ChestStealer",
+      "Boolean": false
+    },
+    {
       "Name": "Visualize",
       "ParentName": "ChestStealer",
       "Boolean": true
@@ -66692,6 +66703,11 @@
       "SelectedOption": "Gapple"
     },
     {
+      "Name": "NoArmorDrop",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
       "Name": "OnlyInHotbar",
       "ParentName": "InvManager",
       "Boolean": false
@@ -66794,6 +66810,11 @@
       "Name": "CleanerSequence",
       "ParentName": "InvManager",
       "SelectedOption": "Nearest"
+    },
+    {
+      "Name": "ReCraftIfSoupsLowerThan",
+      "ParentName": "InvManager",
+      "Value": 4.0
     },
     {
       "Name": "CraftInstant",
@@ -66959,7 +66980,7 @@
     {
       "Name": "SilentMoveFixIntaveInRotationModule",
       "ParentName": "Fucker",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Block",
@@ -66984,7 +67005,7 @@
     {
       "Name": "ThroughWall",
       "ParentName": "Fucker",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Surrounding",
@@ -67009,7 +67030,7 @@
     {
       "Name": "BedBlink",
       "ParentName": "Fucker",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "BedBlinkTime",
@@ -67560,7 +67581,7 @@
     {
       "Name": "ReduceVelocity",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IgnoreSpeedMotion",
@@ -67752,7 +67773,7 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 50.0
+      "Value": 83.0
     },
     {
       "Name": "RadioChannels",
@@ -68084,7 +68105,7 @@
     {
       "Name": "Transaction",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "OnlyDebugChat",
@@ -71125,7 +71146,12 @@
     {
       "Name": "Your visibility",
       "ParentName": "IRC",
-      "SelectedOption": "Ghost"
+      "SelectedOption": "All"
+    },
+    {
+      "Name": "IRC-Formatting",
+      "ParentName": "IRC",
+      "SelectedOption": "Simple"
     },
     {
       "Name": "ClientFriends",
@@ -71135,7 +71161,7 @@
     {
       "Name": "YourFriendsOnly",
       "ParentName": "IRC",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "AutoUnfriend",

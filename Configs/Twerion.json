@@ -1,7 +1,7 @@
 {
   "name": "Twerion",
-  "date": "04.03.2024",
-  "time": "18:26",
+  "date": "05.03.2024",
+  "time": "12:07",
   "modules": [
     {
       "Name": "Blur",
@@ -9142,6 +9142,11 @@
       "SelectedOption": "Custom"
     },
     {
+      "Name": "Name-Formatting",
+      "ParentName": "CustomName",
+      "SelectedOption": "Simple"
+    },
+    {
       "Name": "Cusom",
       "ParentName": "CustomName",
       "SelectedOption": "Esound"
@@ -9758,6 +9763,7 @@
           "Signs": true,
           "Title": true,
           "Books": true,
+          "ChestNames": true,
           "Maps": true
         }
       ]
@@ -66697,6 +66703,11 @@
       "SelectedOption": "Gapple"
     },
     {
+      "Name": "NoArmorDrop",
+      "ParentName": "InvManager",
+      "Boolean": false
+    },
+    {
       "Name": "OnlyInHotbar",
       "ParentName": "InvManager",
       "Boolean": false
@@ -66799,6 +66810,11 @@
       "Name": "CleanerSequence",
       "ParentName": "InvManager",
       "SelectedOption": "Nearest"
+    },
+    {
+      "Name": "ReCraftIfSoupsLowerThan",
+      "ParentName": "InvManager",
+      "Value": 4.0
     },
     {
       "Name": "CraftInstant",
@@ -71125,12 +71141,17 @@
     {
       "Name": "FastServerPining1",
       "ParentName": "ClientSettings",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Your visibility",
       "ParentName": "IRC",
       "SelectedOption": "All"
+    },
+    {
+      "Name": "IRC-Formatting",
+      "ParentName": "IRC",
+      "SelectedOption": "Simple"
     },
     {
       "Name": "ClientFriends",
