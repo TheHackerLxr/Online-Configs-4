@@ -1,7 +1,7 @@
 {
   "name": "Gomme",
-  "date": "21.03.2024",
-  "time": "12:31",
+  "date": "23.03.2024",
+  "time": "17:07",
   "modules": [
     {
       "Name": "Blur",
@@ -414,7 +414,7 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1575,7 +1575,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -2409,6 +2409,11 @@
       "Name": "InventoryDrop",
       "ParentName": "AutoSoup",
       "Boolean": false
+    },
+    {
+      "Name": "DropBowlsIfYouHaveMoreThanInInventory",
+      "ParentName": "AutoSoup",
+      "Value": 64.0
     },
     {
       "Name": "TickDelayDrop",
@@ -68247,7 +68252,7 @@
     {
       "Name": "DamageDebug",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "DamageUnsafe",
@@ -68267,7 +68272,7 @@
     {
       "Name": "HitCancelDetector",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "HitDebug",
@@ -68292,7 +68297,7 @@
     {
       "Name": "ReduceDebug",
       "ParentName": "Debug",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "KrokoCheck",
@@ -68648,7 +68653,7 @@
     {
       "Name": "MacroDelayModes",
       "ParentName": "PacketHandler",
-      "SelectedOption": "OtherMacroDelay"
+      "SelectedOption": "None"
     },
     {
       "Name": "EventToHandlePacket",
