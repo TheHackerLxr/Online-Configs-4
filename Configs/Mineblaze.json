@@ -1,7 +1,7 @@
 {
   "name": "Mineblaze",
   "date": "29.03.2024",
-  "time": "15:20",
+  "time": "15:52",
   "modules": [
     {
       "Name": "Blur",
@@ -1278,7 +1278,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -6669,7 +6669,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Blue": 0.7020202,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -6702,7 +6702,7 @@
       "Astolfo Dist": 69.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.87058824,
+      "HSB Color Blue": 0.9952153,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 0.99607843
@@ -7316,10 +7316,10 @@
           "Box": false,
           "HitBox": false,
           "CollisionBox": false,
-          "3DCorner": false,
-          "Real2D": true,
+          "3DCorner": true,
+          "Real2D": false,
           "Corner": false,
-          "Vanilla": false
+          "Vanilla": true
         }
       ]
     },
