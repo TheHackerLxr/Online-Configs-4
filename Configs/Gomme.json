@@ -1,12 +1,12 @@
 {
   "name": "Gomme",
-  "date": "29.03.2024",
-  "time": "15:52",
+  "date": "09.05.2024",
+  "time": "13:16",
   "modules": [
     {
       "Name": "Blur",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -15,7 +15,7 @@
     {
       "Name": "Shadow",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -24,7 +24,7 @@
     {
       "Name": "MotionBlur",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -229,6 +229,24 @@
       "Key": 0
     },
     {
+      "Name": "ProjectileAimBot",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "GommeMode",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "AimBot",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -262,7 +280,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
-      "Key": 19
+      "Key": 0
     },
     {
       "Name": "AutoWater",
@@ -279,7 +297,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -348,7 +366,7 @@
     {
       "Name": "ArrayList",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -366,7 +384,7 @@
     {
       "Name": "AttackEffects",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -375,7 +393,7 @@
     {
       "Name": "ESP",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -384,16 +402,16 @@
     {
       "Name": "StorageESP",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "BlockAnimation",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -402,7 +420,7 @@
     {
       "Name": "FullBright",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -420,7 +438,7 @@
     {
       "Name": "NameTags",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -438,7 +456,7 @@
     {
       "Name": "Tracers",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -447,7 +465,7 @@
     {
       "Name": "ItemESP",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -456,7 +474,7 @@
     {
       "Name": "Scoreboard",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -465,7 +483,7 @@
     {
       "Name": "BlockESP",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -474,7 +492,7 @@
     {
       "Name": "Barriers",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -483,7 +501,7 @@
     {
       "Name": "Line",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -492,16 +510,16 @@
     {
       "Name": "Ambiance",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "Crosshair",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -510,7 +528,7 @@
     {
       "Name": "ArrowHitboxes",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -519,7 +537,7 @@
     {
       "Name": "Trajectories",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -528,7 +546,7 @@
     {
       "Name": "Projectiles",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -537,7 +555,7 @@
     {
       "Name": "CustomGlint",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -546,7 +564,7 @@
     {
       "Name": "CustomItemPos",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -555,7 +573,7 @@
     {
       "Name": "Notification",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -564,19 +582,19 @@
     {
       "Name": "EntityColor",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "Chams",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -591,7 +609,7 @@
     {
       "Name": "BlockOverlay",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -600,7 +618,7 @@
     {
       "Name": "Coordinates",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -609,7 +627,7 @@
     {
       "Name": "AntiHurtCam",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -618,7 +636,7 @@
     {
       "Name": "CustomName",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -627,7 +645,7 @@
     {
       "Name": "AntiInvisibles",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -636,7 +654,7 @@
     {
       "Name": "FovArrows",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -645,7 +663,7 @@
     {
       "Name": "KeyStrokes",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -654,7 +672,7 @@
     {
       "Name": "ItemPhysics",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -663,7 +681,7 @@
     {
       "Name": "AntiBlind",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -672,7 +690,7 @@
     {
       "Name": "InvisMode",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -681,16 +699,16 @@
     {
       "Name": "TargetHud",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "CustomSkin",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -699,7 +717,7 @@
     {
       "Name": "CustomCape",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -708,16 +726,16 @@
     {
       "Name": "CustomCamera",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
       "Name": "TabList",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -735,7 +753,7 @@
     {
       "Name": "AntiStrike",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -744,7 +762,7 @@
     {
       "Name": "NoArmorOverlay",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -753,7 +771,7 @@
     {
       "Name": "Model",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -762,7 +780,7 @@
     {
       "Name": "RenderPotion",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -789,7 +807,7 @@
     {
       "Name": "MoveCircles",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -801,13 +819,13 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "TntESP",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -816,7 +834,7 @@
     {
       "Name": "Child",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -825,7 +843,7 @@
     {
       "Name": "FovModifier",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -834,7 +852,7 @@
     {
       "Name": "TargetESP",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -852,7 +870,7 @@
     {
       "Name": "2DItems",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -861,7 +879,7 @@
     {
       "Name": "Hotbar",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -870,7 +888,7 @@
     {
       "Name": "Emojify",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -879,7 +897,7 @@
     {
       "Name": "BlockTraceESP",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -888,7 +906,7 @@
     {
       "Name": "GoldSpawnTimer",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -906,7 +924,7 @@
     {
       "Name": "NoBlockParticles",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -915,7 +933,7 @@
     {
       "Name": "KillEffects",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -927,13 +945,13 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
       "Name": "Freelook",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -960,7 +978,7 @@
     {
       "Name": "AspectRatio",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -969,7 +987,7 @@
     {
       "Name": "CustomFireHeight",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -978,7 +996,7 @@
     {
       "Name": "DebugInformation",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -987,7 +1005,7 @@
     {
       "Name": "BreakIndicator",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
@@ -996,7 +1014,7 @@
     {
       "Name": "SwingAnimation",
       "IsInConfig": false,
-      "IsInArraylist": true,
+      "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": false,
@@ -1026,7 +1044,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1116,7 +1134,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1287,7 +1305,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 49
     },
     {
@@ -1296,7 +1314,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 45
     },
     {
@@ -1471,6 +1489,24 @@
       "Key": 0
     },
     {
+      "Name": "AutoExtinguish",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": true,
+      "Key": 0
+    },
+    {
+      "Name": "Xcarry",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "FastBreak",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -1495,7 +1531,7 @@
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
       "Toggled": true,
-      "Key": 33
+      "Key": 0
     },
     {
       "Name": "Scaffold",
@@ -1584,7 +1620,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1602,7 +1638,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1611,7 +1647,7 @@
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": false,
+      "Toggled": true,
       "Key": 0
     },
     {
@@ -1629,7 +1665,7 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1701,7 +1737,7 @@
       "IsInArraylist": false,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
-      "Toggled": true,
+      "Toggled": false,
       "Key": 0
     },
     {
@@ -1831,6 +1867,15 @@
       "Key": 0
     },
     {
+      "Name": "EnderPearlNotify",
+      "IsInConfig": true,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
       "Name": "AutoJumpAndRun",
       "IsInConfig": true,
       "IsInArraylist": true,
@@ -1914,6 +1959,15 @@
     {
       "Name": "MLG",
       "IsInConfig": false,
+      "IsInArraylist": true,
+      "IsToggleSound": true,
+      "OnlyActiveWhileKeyPressed": false,
+      "Toggled": false,
+      "Key": 0
+    },
+    {
+      "Name": "DeathCommand",
+      "IsInConfig": true,
       "IsInArraylist": true,
       "IsToggleSound": true,
       "OnlyActiveWhileKeyPressed": false,
@@ -2235,6 +2289,11 @@
       "Name": "Water",
       "ParentName": "Velocity",
       "Boolean": false
+    },
+    {
+      "Name": "WaterInterval",
+      "ParentName": "Velocity",
+      "Value": 1.0
     },
     {
       "Name": "Cobweb",
@@ -3393,7 +3452,7 @@
     {
       "Name": "Test",
       "ParentName": "KillAura",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SmartAim",
@@ -4054,7 +4113,7 @@
     {
       "Name": "Blur",
       "ParentName": "KillAura",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "SmartCPSHurt0",
@@ -4543,6 +4602,18 @@
       "MaxValue": 50.0
     },
     {
+      "Name": "YawAcceleration",
+      "ParentName": "BowAimbot",
+      "MinValue": 6.4,
+      "MaxValue": 10.0
+    },
+    {
+      "Name": "PitchAcceleration",
+      "ParentName": "BowAimbot",
+      "MinValue": 5.5,
+      "MaxValue": 10.8
+    },
+    {
       "Name": "Fov",
       "ParentName": "BowAimbot",
       "Value": 180.0
@@ -4577,12 +4648,12 @@
     {
       "Name": "DynamicLagTicks",
       "ParentName": "TimerRangeV2",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "LagTickDiff",
       "ParentName": "TimerRangeV2",
-      "Value": 3.0
+      "Value": 2.0
     },
     {
       "Name": "LagTicks",
@@ -4592,7 +4663,7 @@
     {
       "Name": "TimerTicks",
       "ParentName": "TimerRangeV2",
-      "Value": 2.0
+      "Value": 5.0
     },
     {
       "Name": "MaxTargetHurttime",
@@ -4602,7 +4673,7 @@
     {
       "Name": "Delay",
       "ParentName": "TimerRangeV2",
-      "Value": 500.0
+      "Value": 0.0
     },
     {
       "Name": "Correct",
@@ -4617,10 +4688,15 @@
     {
       "Name": "Accurate",
       "ParentName": "TimerRangeV2",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Debug",
+      "ParentName": "TimerRangeV2",
+      "Boolean": false
+    },
+    {
+      "Name": "OnlyOnGround",
       "ParentName": "TimerRangeV2",
       "Boolean": false
     },
@@ -4675,17 +4751,22 @@
     {
       "Name": "PredictTicks",
       "ParentName": "LagRange",
-      "Value": 5.0
+      "Value": 4.0
     },
     {
       "Name": "Ticks",
       "ParentName": "LagRange",
-      "Value": 5.0
+      "Value": 4.0
     },
     {
       "Name": "Correct",
       "ParentName": "LagRange",
       "Boolean": true
+    },
+    {
+      "Name": "OnlyOnGround",
+      "ParentName": "LagRange",
+      "Boolean": false
     },
     {
       "Name": "Stop",
@@ -4695,7 +4776,7 @@
     {
       "Name": "STap",
       "ParentName": "LagRange",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyWhileKillAura",
@@ -4732,10 +4813,26 @@
       "MaxValue": 6.0
     },
     {
-      "Name": "BackTrackTime",
+      "Name": "ClassicBackTrackDelay",
       "ParentName": "BackTrack",
       "MinValue": 200.0,
-      "MaxValue": 200.0
+      "MaxValue": 250.0
+    },
+    {
+      "Name": "OnlyWhenNeed",
+      "ParentName": "BackTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "DynamicClassic",
+      "ParentName": "BackTrack",
+      "Boolean": false
+    },
+    {
+      "Name": "BackTrackTime",
+      "ParentName": "BackTrack",
+      "MinValue": 150.0,
+      "MaxValue": 150.0
     },
     {
       "Name": "CalculateWithOwnPing",
@@ -4748,6 +4845,11 @@
       "Boolean": true
     },
     {
+      "Name": "Dynamic",
+      "ParentName": "BackTrack",
+      "Boolean": true
+    },
+    {
       "Name": "ForceDelay",
       "ParentName": "BackTrack",
       "Boolean": true
@@ -4755,7 +4857,7 @@
     {
       "Name": "DelayBetweenBacktrack",
       "ParentName": "BackTrack",
-      "MinValue": 50.0,
+      "MinValue": 150.0,
       "MaxValue": 150.0
     },
     {
@@ -4818,7 +4920,7 @@
     {
       "Name": "AbortCriterion",
       "ParentName": "BackTrack",
-      "SelectedOption": "OnAttack"
+      "SelectedOption": "None"
     },
     {
       "Name": "StopOnAttackRange",
@@ -4838,7 +4940,7 @@
     {
       "Name": "StopBackTrackAtHurtTime",
       "ParentName": "BackTrack",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "ContinueWithBackTrackAtHurtTime",
@@ -4986,6 +5088,56 @@
         {
           "ComboBreaker": true,
           "HitSelection": true
+        }
+      ]
+    },
+    {
+      "Name": "Combos",
+      "ParentName": "MoveHelper",
+      "Value": 1.0
+    },
+    {
+      "Name": "Combat",
+      "ParentName": "ProjectileAimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "Predict",
+      "ParentName": "ProjectileAimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyAtKillAura",
+      "ParentName": "ProjectileAimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "OnlyKillAuraTarget",
+      "ParentName": "ProjectileAimBot",
+      "Boolean": true
+    },
+    {
+      "Name": "AimRange",
+      "ParentName": "ProjectileAimBot",
+      "Value": 6.0
+    },
+    {
+      "Name": "AssistAtRightClick",
+      "ParentName": "ProjectileAimBot",
+      "Boolean": false
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "ProjectileAimBot",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": false,
+          "Animal": false,
+          "Villager": false,
+          "ArmorStand": false,
+          "Invisible": false,
+          "Dead": false
         }
       ]
     },
@@ -5217,7 +5369,8 @@
     {
       "Name": "Pre aim range",
       "ParentName": "AimAssist",
-      "Value": 5.0
+      "MinValue": 6.5,
+      "MaxValue": 6.5
     },
     {
       "Name": "Own horizontal rotation multiplier",
@@ -5262,6 +5415,16 @@
       "Value": 5.0
     },
     {
+      "Name": "Smooth early",
+      "ParentName": "AimAssist",
+      "Boolean": true
+    },
+    {
+      "Name": "NoRotationFovMode",
+      "ParentName": "AimAssist",
+      "SelectedOption": "3D"
+    },
+    {
       "Name": "No rotation horizontal fov",
       "ParentName": "AimAssist",
       "Value": 5.0
@@ -5270,6 +5433,31 @@
       "Name": "No rotation vertical fov",
       "ParentName": "AimAssist",
       "Value": 5.0
+    },
+    {
+      "Name": "No rotation horizontal",
+      "ParentName": "AimAssist",
+      "Value": 0.66
+    },
+    {
+      "Name": "No rotation vertical",
+      "ParentName": "AimAssist",
+      "Value": 0.93
+    },
+    {
+      "Name": "Horizontal box size",
+      "ParentName": "AimAssist",
+      "Value": 20.0
+    },
+    {
+      "Name": "Randomization strength",
+      "ParentName": "AimAssist",
+      "Value": 2.0
+    },
+    {
+      "Name": "Randomize in no rotation fovs",
+      "ParentName": "AimAssist",
+      "Boolean": false
     },
     {
       "Name": "Horizontal fov",
@@ -5432,7 +5620,7 @@
     {
       "Name": "Mode",
       "ParentName": "AutoEagle",
-      "SelectedOption": "Eagle"
+      "SelectedOption": "MoonWalk"
     },
     {
       "Name": "MinSneakTicks",
@@ -5460,14 +5648,14 @@
     {
       "Name": "MoonWalkWideness",
       "ParentName": "AutoEagle",
-      "MinValue": 0.2,
-      "MaxValue": 0.2
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "StartDistToBlock",
       "ParentName": "AutoEagle",
-      "MinValue": 0.09,
-      "MaxValue": 0.09
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SilentRotation",
@@ -6517,6 +6705,11 @@
       "Boolean": true
     },
     {
+      "Name": "OnlyOnLeftClick",
+      "ParentName": "InventoryClicker",
+      "Boolean": true
+    },
+    {
       "Name": "DelayBetweenSwitchAndClick",
       "ParentName": "ThrowPots",
       "MinValue": 1.0,
@@ -6619,7 +6812,7 @@
     {
       "Name": "X-Pos",
       "ParentName": "ArrayList",
-      "Value": 99.9
+      "Value": 99.88
     },
     {
       "Name": "Y-Pos",
@@ -6669,7 +6862,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.7020202,
+      "HSB Color Blue": 0.7019608,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -6702,7 +6895,7 @@
       "Astolfo Dist": 69.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 0.99607843
@@ -6710,7 +6903,7 @@
     {
       "Name": "Backgound",
       "ParentName": "ArrayList",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "BackGroundColor",
@@ -6772,8 +6965,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.6666667,
-      "HSB Color Green": 0.9952153,
-      "HSB Color Blue": 0.9952153,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.6666667,
       "HSB FadeColor Green": 0.996063,
       "HSB FadeColor Blue": 0.99607843
@@ -6791,7 +6984,7 @@
     {
       "Name": "Font",
       "ParentName": "ArrayList",
-      "SelectedOption": "RubikBold"
+      "SelectedOption": "Minecraft"
     },
     {
       "Name": "Bold",
@@ -6801,7 +6994,7 @@
     {
       "Name": "VerticalSpacing",
       "ParentName": "ArrayList",
-      "Value": -2.0
+      "Value": 1.0
     },
     {
       "Name": "Scale",
@@ -7319,7 +7512,7 @@
           "3DCorner": true,
           "Real2D": false,
           "Corner": false,
-          "Vanilla": true
+          "Vanilla": false
         }
       ]
     },
@@ -8126,12 +8319,12 @@
     {
       "Name": "BlockAnimations",
       "ParentName": "BlockAnimation",
-      "SelectedOption": "Sigma"
+      "SelectedOption": "1.7"
     },
     {
       "Name": "Height",
       "ParentName": "BlockAnimation",
-      "Value": 0.1
+      "Value": 0.0
     },
     {
       "Name": "FakeBlock",
@@ -8181,7 +8374,7 @@
     {
       "Name": "Armor",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ArmorDurability",
@@ -8190,6 +8383,11 @@
     },
     {
       "Name": "ArmorEnchantments",
+      "ParentName": "NameTags",
+      "Boolean": true
+    },
+    {
+      "Name": "PotionEffects",
       "ParentName": "NameTags",
       "Boolean": true
     },
@@ -8231,7 +8429,7 @@
     {
       "Name": "Shadow",
       "ParentName": "NameTags",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "ShadowFont",
@@ -8755,7 +8953,7 @@
       "Fade Dist": 0.0,
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
-      "HSB Color Red": 0.7279315,
+      "HSB Color Red": 0.29314888,
       "HSB Color Green": 0.996063,
       "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.7281046,
@@ -8765,22 +8963,22 @@
     {
       "Name": "Length",
       "ParentName": "Crosshair",
-      "Value": 4.0
+      "Value": 6.0
     },
     {
       "Name": "Width",
       "ParentName": "Crosshair",
-      "Value": 1.3
+      "Value": 1.0
     },
     {
       "Name": "Margin",
       "ParentName": "Crosshair",
-      "Value": 1.3
+      "Value": 3.0
     },
     {
       "Name": "Dot",
       "ParentName": "Crosshair",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "T-Style",
@@ -8997,6 +9195,11 @@
       "Name": "Scale",
       "ParentName": "CustomItemPos",
       "Value": 0.2
+    },
+    {
+      "Name": "LeftHand",
+      "ParentName": "CustomItemPos",
+      "Boolean": false
     },
     {
       "Name": "Modes",
@@ -9231,17 +9434,32 @@
       "HSB FadeColor Blue": 1.0
     },
     {
+      "Name": "HeartAnimationMode",
+      "ParentName": "LegacyAnimations",
+      "SelectedOption": "Default"
+    },
+    {
       "Name": "DamageAnimation",
       "ParentName": "LegacyAnimations",
       "Boolean": true
     },
     {
-      "Name": "HeartAnimation",
+      "Name": "ItemHeld",
       "ParentName": "LegacyAnimations",
       "Boolean": false
     },
     {
-      "Name": "ItemHeld",
+      "Name": "Swing",
+      "ParentName": "LegacyAnimations",
+      "Boolean": false
+    },
+    {
+      "Name": "DebugHitBox",
+      "ParentName": "LegacyAnimations",
+      "Boolean": false
+    },
+    {
+      "Name": "Rod",
       "ParentName": "LegacyAnimations",
       "Boolean": false
     },
@@ -9656,7 +9874,7 @@
     {
       "Name": "Modes",
       "ParentName": "TargetHud",
-      "SelectedOption": "Old"
+      "SelectedOption": "New"
     },
     {
       "Name": "BackGroundColor",
@@ -9818,8 +10036,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -9841,8 +10059,8 @@
       "Astolfo Speed": 0.0,
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
-      "HSB Color Green": 1.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Green": 0.996063,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 1.0,
       "HSB FadeColor Blue": 1.0
@@ -9865,7 +10083,7 @@
       "Astolfo Dist": 0.0,
       "HSB Color Red": 0.0,
       "HSB Color Green": 0.0,
-      "HSB Color Blue": 1.0,
+      "HSB Color Blue": 0.99607843,
       "HSB FadeColor Red": 0.0,
       "HSB FadeColor Green": 0.0,
       "HSB FadeColor Blue": 1.0
@@ -9874,6 +10092,11 @@
       "Name": "TrackEntity",
       "ParentName": "TargetHud",
       "Boolean": true
+    },
+    {
+      "Name": "TrackY",
+      "ParentName": "TargetHud",
+      "Value": -0.8
     },
     {
       "Name": "XCoord",
@@ -9898,7 +10121,7 @@
     {
       "Name": "Shadow",
       "ParentName": "TargetHud",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "Blur",
@@ -9906,9 +10129,14 @@
       "Boolean": true
     },
     {
+      "Name": "SkinMode",
+      "ParentName": "CustomSkin",
+      "SelectedOption": "default"
+    },
+    {
       "Name": "CustomName",
       "ParentName": "CustomSkin",
-      "SelectedOption": "Zlimuzin"
+      "SelectedOption": "G0mme"
     },
     {
       "Name": "Type",
@@ -9958,7 +10186,7 @@
     {
       "Name": "CustomThirdPersonDistance",
       "ParentName": "CustomCamera",
-      "Value": 4.0
+      "Value": 3.9
     },
     {
       "Name": "Remove",
@@ -10792,7 +11020,7 @@
     {
       "Name": "TargetESP",
       "ParentName": "TargetESP",
-      "SelectedOption": "Box"
+      "SelectedOption": "Sigma"
     },
     {
       "Name": "TargetEspColor",
@@ -10864,6 +11092,16 @@
       "Name": "AdjustYPos",
       "ParentName": "TargetESP",
       "Value": 0.14
+    },
+    {
+      "Name": "Speed",
+      "ParentName": "TargetESP",
+      "Value": 1.0
+    },
+    {
+      "Name": "Length",
+      "ParentName": "TargetESP",
+      "Value": 1.0
     },
     {
       "Name": "Shadow",
@@ -11928,6 +12166,11 @@
       "Boolean": false
     },
     {
+      "Name": "HungerSprintOnlyOnGround",
+      "ParentName": "Sprint",
+      "Boolean": true
+    },
+    {
       "Name": "JumpSprint",
       "ParentName": "Sprint",
       "Boolean": false
@@ -11971,6 +12214,11 @@
       "Name": "IgnoreFlowingWaterForce",
       "ParentName": "Jesus",
       "SelectedOption": "Never"
+    },
+    {
+      "Name": "OnlyWhileMove",
+      "ParentName": "NoSlow",
+      "Boolean": true
     },
     {
       "Name": "StartSlow",
@@ -12956,7 +13204,7 @@
     {
       "Name": "Mode",
       "ParentName": "NoWeb",
-      "SelectedOption": "Intave 14.7.3-b2"
+      "SelectedOption": "Intave 14.7.7"
     },
     {
       "Name": "HideSneakAnimation",
@@ -66337,19 +66585,22 @@
       "SelectedOption": "Default"
     },
     {
-      "Name": "OnlyWhileMoving",
+      "Name": "FlushConditions",
       "ParentName": "PulseBlink",
-      "Boolean": true
-    },
-    {
-      "Name": "DisableWhileScaffold",
-      "ParentName": "PulseBlink",
-      "Boolean": false
-    },
-    {
-      "Name": "AbortBlinkAtBlockPlacement",
-      "ParentName": "PulseBlink",
-      "Boolean": false
+      "SettingList": [
+        {
+          "StandingStill": true,
+          "ScaffoldToggled": true,
+          "PlaceBlocks": true,
+          "BreakBlocks": true,
+          "InventoryActions": true,
+          "Velocity": false,
+          "Explosion": false,
+          "Teleport": true,
+          "SprintReset": true,
+          "SplashPotion": true
+        }
+      ]
     },
     {
       "Name": "TargetESP",
@@ -66487,12 +66738,22 @@
       "Boolean": true
     },
     {
-      "Name": "ArrowHitBoxExpand",
+      "Name": "Arrow hitbox expand",
       "ParentName": "ArrowDodger",
-      "Value": 2.0
+      "Value": 0.2
     },
     {
-      "Name": "ReleaseItemAtCollisionIncoming",
+      "Name": "Release item at collision incoming",
+      "ParentName": "ArrowDodger",
+      "Boolean": true
+    },
+    {
+      "Name": "NotWhileEating",
+      "ParentName": "ArrowDodger",
+      "Boolean": false
+    },
+    {
+      "Name": "InInv",
       "ParentName": "ArrowDodger",
       "Boolean": false
     },
@@ -66671,11 +66932,6 @@
       "MaxValue": 160.0
     },
     {
-      "Name": "Silent",
-      "ParentName": "ChestStealer",
-      "Boolean": false
-    },
-    {
       "Name": "Visualize",
       "ParentName": "ChestStealer",
       "Boolean": true
@@ -66711,12 +66967,84 @@
       "List": []
     },
     {
+      "Name": "Silent",
+      "ParentName": "ChestStealer",
+      "Boolean": false
+    },
+    {
+      "Name": "StealIndicator",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
+      "Name": "Color",
+      "ParentName": "ChestStealer",
+      "Alpha": 255,
+      "FadeAlpha": 255,
+      "Rainbow": false,
+      "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 100,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.99607843,
+      "HSB FadeColor Red": 0.0,
+      "HSB FadeColor Green": 0.0,
+      "HSB FadeColor Blue": 1.0
+    },
+    {
+      "Name": "BackGround",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
+      "Name": "BackGroundColor",
+      "ParentName": "ChestStealer",
+      "Alpha": 100,
+      "FadeAlpha": 100,
+      "Rainbow": false,
+      "Fade": false,
+      "ClientColor": false,
+      "ClientColorAlpha": 100,
+      "Astolfo": false,
+      "Rainbow Speed": 0.0,
+      "Rainbow Dist": 0.0,
+      "Fade Speed": 0.0,
+      "Fade Dist": 0.0,
+      "Astolfo Speed": 0.0,
+      "Astolfo Dist": 0.0,
+      "HSB Color Red": 0.0,
+      "HSB Color Green": 0.0,
+      "HSB Color Blue": 0.0,
+      "HSB FadeColor Red": 0.0,
+      "HSB FadeColor Green": 0.0,
+      "HSB FadeColor Blue": 0.0
+    },
+    {
+      "Name": "Shadow",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
+      "Name": "Blur",
+      "ParentName": "ChestStealer",
+      "Boolean": true
+    },
+    {
       "Name": "Guis",
       "ParentName": "GuiMove",
       "SettingList": [
         {
           "Inventory": false,
           "Container": false,
+          "DeathScreen": false,
           "OtherScreens": true
         }
       ]
@@ -66833,6 +67161,61 @@
     },
     {
       "Name": "ContainerMotionMultiplierDiagonal",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "DeathScreenMode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "Basic"
+    },
+    {
+      "Name": "DeathScreenSneak",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "DeathScreenJump",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "DeathScreenRotate",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "DeathScreenRotateOnlyAtClick",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "DeathScreenMoveOnlyOnGround",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "DeathScreenSneakMotionWhileMovement",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "DeathScreenSprint mode",
+      "ParentName": "GuiMove",
+      "SelectedOption": "None"
+    },
+    {
+      "Name": "DeathScreenJump sprint",
+      "ParentName": "GuiMove",
+      "Boolean": false
+    },
+    {
+      "Name": "DeathScreenMotionMultiplierForward",
+      "ParentName": "GuiMove",
+      "Value": 1.0
+    },
+    {
+      "Name": "DeathScreenMotionMultiplierDiagonal",
       "ParentName": "GuiMove",
       "Value": 1.0
     },
@@ -67150,12 +67533,12 @@
     {
       "Name": "Only if player is falling into the void",
       "ParentName": "AutoEnderPearl",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "Auto disable",
       "ParentName": "AutoEnderPearl",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "StartDelay",
@@ -67364,17 +67747,17 @@
     {
       "Name": "Slot4",
       "ParentName": "InvManager",
-      "SelectedOption": "Soups"
+      "SelectedOption": "Throwables"
     },
     {
       "Name": "Slot5",
       "ParentName": "InvManager",
-      "SelectedOption": "Soups"
+      "SelectedOption": "None"
     },
     {
       "Name": "Slot6",
       "ParentName": "InvManager",
-      "SelectedOption": "Soups"
+      "SelectedOption": "None"
     },
     {
       "Name": "Slot7",
@@ -67455,6 +67838,11 @@
       "Name": "ArmorSequence",
       "ParentName": "InvManager",
       "SelectedOption": "Nearest"
+    },
+    {
+      "Name": "KeepAllArmor",
+      "ParentName": "InvManager",
+      "Boolean": false
     },
     {
       "Name": "CleanInstant",
@@ -67595,6 +67983,22 @@
       "Boolean": true
     },
     {
+      "Name": "Vertical Speed",
+      "ParentName": "AutoExtinguish",
+      "MinValue": 15.0,
+      "MaxValue": 30.0
+    },
+    {
+      "Name": "Vertical SpeedNotInARow",
+      "ParentName": "AutoExtinguish",
+      "Boolean": false
+    },
+    {
+      "Name": "RandomizeYaw",
+      "ParentName": "AutoExtinguish",
+      "Boolean": true
+    },
+    {
       "Name": "NoBlockHitDelay",
       "ParentName": "FastBreak",
       "Boolean": false
@@ -67687,9 +68091,19 @@
       "Value": 500.0
     },
     {
+      "Name": "AimRange",
+      "ParentName": "Fucker",
+      "Value": 5.5
+    },
+    {
       "Name": "Range",
       "ParentName": "Fucker",
       "Value": 4.5
+    },
+    {
+      "Name": "Break only free beds",
+      "ParentName": "Fucker",
+      "Boolean": false
     },
     {
       "Name": "ThroughWall",
@@ -67839,14 +68253,14 @@
     {
       "Name": "YawAcceleration",
       "ParentName": "Scaffold",
-      "MinValue": 180.0,
-      "MaxValue": 180.0
+      "MinValue": 4.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "PitchAcceleration",
       "ParentName": "Scaffold",
-      "MinValue": 180.0,
-      "MaxValue": 180.0
+      "MinValue": 4.0,
+      "MaxValue": 8.0
     },
     {
       "Name": "StaticPitchBool",
@@ -67876,7 +68290,22 @@
       "Boolean": true
     },
     {
-      "Name": "RandomizePitchOnlyWhileYawRotation",
+      "Name": "RandomizePitchChanceWhileYawRotation",
+      "ParentName": "Scaffold",
+      "Value": 100.0
+    },
+    {
+      "Name": "RandomizePitchChanceOnBlock",
+      "ParentName": "Scaffold",
+      "Value": 0.0
+    },
+    {
+      "Name": "RandomizePitchChanceInAir",
+      "ParentName": "Scaffold",
+      "Value": 0.0
+    },
+    {
+      "Name": "OtherPitchRandomization",
       "ParentName": "Scaffold",
       "Boolean": true
     },
@@ -67885,11 +68314,6 @@
       "ParentName": "Scaffold",
       "MinValue": -1.0,
       "MaxValue": 1.0
-    },
-    {
-      "Name": "RandomizePitchValNotInARow",
-      "ParentName": "Scaffold",
-      "Boolean": false
     },
     {
       "Name": "RandomizePitchInterval",
@@ -67905,10 +68329,25 @@
     {
       "Name": "RandomizeYaw",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
-      "Name": "RandomizeYawOnlyWhilePitchRotation",
+      "Name": "RandomizeYawChanceWhilePitchRotation",
+      "ParentName": "Scaffold",
+      "Value": 100.0
+    },
+    {
+      "Name": "RandomizeYawChanceOnBlock",
+      "ParentName": "Scaffold",
+      "Value": 0.0
+    },
+    {
+      "Name": "RandomizeYawChanceOnAir",
+      "ParentName": "Scaffold",
+      "Value": 0.0
+    },
+    {
+      "Name": "OtherYawRandomization",
       "ParentName": "Scaffold",
       "Boolean": true
     },
@@ -67917,11 +68356,6 @@
       "ParentName": "Scaffold",
       "MinValue": -1.0,
       "MaxValue": 1.0
-    },
-    {
-      "Name": "RandomizeYawValNotInARow",
-      "ParentName": "Scaffold",
-      "Boolean": false
     },
     {
       "Name": "RandomizeYawInterval",
@@ -67955,6 +68389,11 @@
       "Boolean": true
     },
     {
+      "Name": "ExtraBlockSearch",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
       "Name": "MidRotation",
       "ParentName": "Scaffold",
       "Boolean": false
@@ -67975,6 +68414,12 @@
       "Boolean": true
     },
     {
+      "Name": "StrafeDegree",
+      "ParentName": "Scaffold",
+      "MinValue": 43.0,
+      "MaxValue": 44.0
+    },
+    {
       "Name": "Flick",
       "ParentName": "Scaffold",
       "Boolean": false
@@ -67990,6 +68435,11 @@
       "Boolean": false
     },
     {
+      "Name": "RecycleRotation",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
       "Name": "Intave",
       "ParentName": "Scaffold",
       "Boolean": true
@@ -67997,7 +68447,7 @@
     {
       "Name": "IntaveSafe",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IntaveFast",
@@ -68062,6 +68512,11 @@
       "Boolean": true
     },
     {
+      "Name": "SneakAtRotation",
+      "ParentName": "Scaffold",
+      "Boolean": true
+    },
+    {
       "Name": "OneStackForward",
       "ParentName": "Scaffold",
       "Boolean": true
@@ -68099,12 +68554,12 @@
       "Name": "SneakTicks",
       "ParentName": "Scaffold",
       "MinValue": 2.0,
-      "MaxValue": 4.0
+      "MaxValue": 2.0
     },
     {
       "Name": "SneakTicksNotInARow",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SneakTicksOutliers",
@@ -68132,14 +68587,14 @@
     {
       "Name": "SneakBlocksForward",
       "ParentName": "Scaffold",
-      "MinValue": 7.0,
-      "MaxValue": 8.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SneakBlocksDiagonal",
       "ParentName": "Scaffold",
-      "MinValue": 7.0,
-      "MaxValue": 8.0
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SneakSlowDown",
@@ -68240,19 +68695,19 @@
     {
       "Name": "MoonWalk",
       "ParentName": "Scaffold",
-      "Boolean": false
+      "Boolean": true
     },
     {
       "Name": "MoonWalkWideness",
       "ParentName": "Scaffold",
-      "MinValue": 0.2,
-      "MaxValue": 0.2
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "MoonWalkStartDistToBlock",
       "ParentName": "Scaffold",
-      "MinValue": 0.38,
-      "MaxValue": 0.38
+      "MinValue": 0.0,
+      "MaxValue": 0.0
     },
     {
       "Name": "SameY",
@@ -68376,6 +68831,11 @@
       "Boolean": true
     },
     {
+      "Name": "UseBiggestStackSilent",
+      "ParentName": "Scaffold",
+      "Boolean": false
+    },
+    {
       "Name": "SilentExploit",
       "ParentName": "Scaffold",
       "Boolean": false
@@ -68484,7 +68944,7 @@
     {
       "Name": "ESPBlur",
       "ParentName": "Scaffold",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "OnlyAtDigging",
@@ -68499,12 +68959,12 @@
     {
       "Name": "Volume",
       "ParentName": "Radio",
-      "Value": 83.0
+      "Value": 75.0
     },
     {
       "Name": "RadioChannels",
       "ParentName": "Radio",
-      "SelectedOption": "I love Radio"
+      "SelectedOption": "Kronehit"
     },
     {
       "Name": "MidClickDistance",
@@ -68542,14 +69002,19 @@
       "SelectedOption": "MinemenUnranked"
     },
     {
-      "Name": "Gamemode",
+      "Name": "GamemodeMMC",
       "ParentName": "AutoPlay",
-      "SelectedOption": "QSG"
+      "SelectedOption": "Sumo"
     },
     {
       "Name": "GamemodeKit1v1",
       "ParentName": "AutoPlay",
       "SelectedOption": "OnlySword"
+    },
+    {
+      "Name": "GamemodeGamster",
+      "ParentName": "AutoPlay",
+      "SelectedOption": "SkyWarsSolo"
     },
     {
       "Name": "RemoveEscape",
@@ -68776,7 +69241,7 @@
     {
       "Name": "RangeDebug",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "IgnoreBackTrack",
@@ -68851,7 +69316,7 @@
     {
       "Name": "PlaceDebug",
       "ParentName": "Debug",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "SneakDebug",
@@ -68915,6 +69380,11 @@
     },
     {
       "Name": "MoreKBDebug",
+      "ParentName": "Debug",
+      "Boolean": false
+    },
+    {
+      "Name": "Movementkeydebug",
       "ParentName": "Debug",
       "Boolean": false
     },
@@ -69260,9 +69730,19 @@
       "Boolean": false
     },
     {
+      "Name": "PingFix",
+      "ParentName": "PacketHandler",
+      "Boolean": false
+    },
+    {
       "Name": "MacroDelayModes",
       "ParentName": "PacketHandler",
-      "SelectedOption": "None"
+      "SelectedOption": "OtherMacroDelay"
+    },
+    {
+      "Name": "RealTimeDamage",
+      "ParentName": "PacketHandler",
+      "Boolean": true
     },
     {
       "Name": "EventToHandlePacket",
@@ -69800,6 +70280,11 @@
       "Boolean": false
     },
     {
+      "Name": "Hover",
+      "ParentName": "Disabler",
+      "Boolean": false
+    },
+    {
       "Name": "S00PacketKeepAliveInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -69814,6 +70299,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S00PacketKeepAliveCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S01PacketJoinGameInterval",
@@ -69832,6 +70322,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S01PacketJoinGameCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S02PacketChatInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -69846,6 +70341,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S02PacketChatCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S03PacketTimeUpdateInterval",
@@ -69864,6 +70364,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S03PacketTimeUpdateCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S04PacketEntityEquipmentInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -69878,6 +70383,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S04PacketEntityEquipmentCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S05PacketSpawnPositionInterval",
@@ -69896,6 +70406,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S05PacketSpawnPositionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S06PacketUpdateHealthInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -69910,6 +70425,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S06PacketUpdateHealthCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S07PacketRespawnInterval",
@@ -69928,6 +70448,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S07PacketRespawnCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S08PacketPlayerPosLookInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -69942,6 +70467,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 50.0
+    },
+    {
+      "Name": "S08PacketPlayerPosLookCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S09PacketHeldItemChangeInterval",
@@ -69960,6 +70490,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S09PacketHeldItemChangeCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S0APacketUseBedInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -69974,6 +70509,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S0APacketUseBedCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S0BPacketAnimationInterval",
@@ -69992,6 +70532,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S0BPacketAnimationCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S0CPacketSpawnPlayerInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70006,6 +70551,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S0CPacketSpawnPlayerCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S0DPacketCollectItemInterval",
@@ -70024,6 +70574,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S0DPacketCollectItemCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S0EPacketSpawnObjectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70038,6 +70593,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S0EPacketSpawnObjectCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S0FPacketSpawnMobInterval",
@@ -70056,6 +70616,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S0FPacketSpawnMobCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S10PacketSpawnPaintingInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70070,6 +70635,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S10PacketSpawnPaintingCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S11PacketSpawnExperienceOrbInterval",
@@ -70088,6 +70658,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S11PacketSpawnExperienceOrbCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S12PacketEntityVelocityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70102,6 +70677,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S12PacketEntityVelocityCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S13PacketDestroyEntitiesInterval",
@@ -70120,6 +70700,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S13PacketDestroyEntitiesCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S14PacketEntityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70134,6 +70719,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S14PacketEntityCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S15PacketEntityRelMoveInterval",
@@ -70152,6 +70742,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S15PacketEntityRelMoveCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S16PacketEntityLookInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70166,6 +70761,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S16PacketEntityLookCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S17PacketEntityLookMoveInterval",
@@ -70184,6 +70784,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S17PacketEntityLookMoveCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S18PacketEntityTeleportInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70198,6 +70803,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S18PacketEntityTeleportCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S19PacketEntityHeadLookInterval",
@@ -70216,6 +70826,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S19PacketEntityHeadLookCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S19PacketEntityStatusInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70230,6 +70845,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S19PacketEntityStatusCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S1BPacketEntityAttachInterval",
@@ -70248,6 +70868,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S1BPacketEntityAttachCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S1CPacketEntityMetadataInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70262,6 +70887,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S1CPacketEntityMetadataCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S1DPacketEntityEffectInterval",
@@ -70280,6 +70910,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S1DPacketEntityEffectCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S1EPacketRemoveEntityEffectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70294,6 +70929,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S1EPacketRemoveEntityEffectCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S1FPacketSetExperienceInterval",
@@ -70312,6 +70952,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S1FPacketSetExperienceCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S20PacketEntityPropertiesInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70326,6 +70971,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S20PacketEntityPropertiesCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S21PacketChunkDataInterval",
@@ -70344,6 +70994,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S21PacketChunkDataCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S22PacketMultiBlockChangeInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70358,6 +71013,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S22PacketMultiBlockChangeCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S23PacketBlockChangeInterval",
@@ -70376,6 +71036,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S23PacketBlockChangeCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S24PacketBlockActionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70390,6 +71055,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S24PacketBlockActionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S25PacketBlockBreakAnimInterval",
@@ -70408,6 +71078,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S25PacketBlockBreakAnimCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S26PacketMapChunkBulkInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70422,6 +71097,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S26PacketMapChunkBulkCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S27PacketExplosionInterval",
@@ -70440,6 +71120,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S27PacketExplosionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S28PacketEffectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70454,6 +71139,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S28PacketEffectCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S29PacketSoundEffectInterval",
@@ -70472,6 +71162,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S29PacketSoundEffectCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S2APacketParticlesInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70486,6 +71181,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S2APacketParticlesCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S2BPacketChangeGameStateInterval",
@@ -70504,6 +71204,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S2BPacketChangeGameStateCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S2CPacketSpawnGlobalEntityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70518,6 +71223,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S2CPacketSpawnGlobalEntityCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S2DPacketOpenWindowInterval",
@@ -70536,6 +71246,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S2DPacketOpenWindowCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S2EPacketCloseWindowInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70550,6 +71265,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S2EPacketCloseWindowCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S2FPacketSetSlotInterval",
@@ -70568,6 +71288,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S2FPacketSetSlotCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S30PacketWindowItemsInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70582,6 +71307,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S30PacketWindowItemsCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S31PacketWindowPropertyInterval",
@@ -70600,6 +71330,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S31PacketWindowPropertyCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S32PacketConfirmTransactionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70614,6 +71349,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S32PacketConfirmTransactionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S33PacketUpdateSignInterval",
@@ -70632,6 +71372,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S33PacketUpdateSignCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S34PacketMapsInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70646,6 +71391,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S34PacketMapsCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S35PacketUpdateTileEntityInterval",
@@ -70664,6 +71414,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S35PacketUpdateTileEntityCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S36PacketSignEditorOpenInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70678,6 +71433,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S36PacketSignEditorOpenCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S37PacketStatisticsInterval",
@@ -70696,6 +71456,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S37PacketStatisticsCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S38PacketPlayerListItemInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70710,6 +71475,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S38PacketPlayerListItemCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S39PacketPlayerAbilitiesInterval",
@@ -70728,6 +71498,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S39PacketPlayerAbilitiesCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S3APacketTabCompleteInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70742,6 +71517,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S3APacketTabCompleteCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S3BPacketScoreboardObjectiveInterval",
@@ -70760,6 +71540,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S3BPacketScoreboardObjectiveCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S3CPacketUpdateScoreInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70774,6 +71559,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S3CPacketUpdateScoreCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S3DPacketDisplayScoreboardInterval",
@@ -70792,6 +71582,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S3DPacketDisplayScoreboardCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S3EPacketTeamsInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70806,6 +71601,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S3EPacketTeamsCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S3FPacketCustomPayloadInterval",
@@ -70824,6 +71624,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S3FPacketCustomPayloadCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S40PacketDisconnectInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70838,6 +71643,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S40PacketDisconnectCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S41PacketServerDifficultyInterval",
@@ -70856,6 +71666,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S41PacketServerDifficultyCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S42PacketCombatEventInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70870,6 +71685,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S42PacketCombatEventCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S43PacketCameraInterval",
@@ -70888,6 +71708,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S43PacketCameraCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S44PacketWorldBorderInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70902,6 +71727,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S44PacketWorldBorderCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S45PacketTitleInterval",
@@ -70920,6 +71750,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S45PacketTitleCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S46PacketSetCompressionLevelInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70934,6 +71769,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S46PacketSetCompressionLevelCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S47PacketPlayerListHeaderFooterInterval",
@@ -70952,6 +71792,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S47PacketPlayerListHeaderFooterCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "S48PacketResourcePackSendInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70966,6 +71811,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "S48PacketResourcePackSendCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "S49PacketUpdateEntityNBTInterval",
@@ -70984,6 +71834,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "S49PacketUpdateEntityNBTCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C00PacketKeepAliveInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -70998,6 +71853,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C00PacketKeepAliveCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C01PacketChatMessageInterval",
@@ -71016,6 +71876,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C01PacketChatMessageCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C02PacketUseEntityInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71030,6 +71895,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C02PacketUseEntityCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C03PacketPlayerInterval",
@@ -71048,6 +71918,11 @@
       "MaxValue": 50.0
     },
     {
+      "Name": "C03PacketPlayerCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C04PacketPlayerPositionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71062,6 +71937,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 50.0
+    },
+    {
+      "Name": "C04PacketPlayerPositionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C05PacketPlayerLookInterval",
@@ -71080,6 +71960,11 @@
       "MaxValue": 50.0
     },
     {
+      "Name": "C05PacketPlayerLookCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C06PacketPlayerPosLookInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71094,6 +71979,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 50.0
+    },
+    {
+      "Name": "C06PacketPlayerPosLookCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C07PacketPlayerDiggingInterval",
@@ -71112,6 +72002,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C07PacketPlayerDiggingCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C08PacketPlayerBlockPlacementInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71126,6 +72021,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C08PacketPlayerBlockPlacementCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C09PacketHeldItemChangeInterval",
@@ -71144,6 +72044,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C09PacketHeldItemChangeCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C0APacketAnimationInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71158,6 +72063,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C0APacketAnimationCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C0BPacketEntityActionInterval",
@@ -71176,6 +72086,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C0BPacketEntityActionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C0CPacketInputInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71190,6 +72105,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C0CPacketInputCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C0DPacketCloseWindowInterval",
@@ -71208,6 +72128,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C0DPacketCloseWindowCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C0EPacketClickWindowInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71222,6 +72147,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C0EPacketClickWindowCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C0FPacketConfirmTransactionInterval",
@@ -71240,6 +72170,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C0FPacketConfirmTransactionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C10PacketCreativeInventoryActionInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71254,6 +72189,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C10PacketCreativeInventoryActionCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C11PacketEnchantItemInterval",
@@ -71272,6 +72212,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C11PacketEnchantItemCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C12PacketUpdateSignInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71286,6 +72231,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C12PacketUpdateSignCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C13PacketPlayerAbilitiesInterval",
@@ -71304,6 +72254,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C13PacketPlayerAbilitiesCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C14PacketTabCompleteInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71318,6 +72273,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C14PacketTabCompleteCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C15PacketClientSettingsInterval",
@@ -71336,6 +72296,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C15PacketClientSettingsCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C16PacketClientStatusInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71350,6 +72315,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C16PacketClientStatusCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C17PacketCustomPayloadInterval",
@@ -71368,6 +72338,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C17PacketCustomPayloadCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "C18PacketSpectateInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71382,6 +72357,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "C18PacketSpectateCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "C19PacketResourcePackStatusInterval",
@@ -71400,6 +72380,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "C19PacketResourcePackStatusCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "CAnimateHandPacketInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71414,6 +72399,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "CAnimateHandPacketCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "CPacketPlayerTryUseItemOnBlockInterval",
@@ -71432,6 +72422,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "CPacketPlayerTryUseItemOnBlockCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "StartSprintInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71446,6 +72441,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "StartSprintCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "StopSprintInterval",
@@ -71464,6 +72464,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "StopSprintCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "StartSneakingInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71478,6 +72483,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "StartSneakingCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "StopSneakingInterval",
@@ -71496,6 +72506,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "StopSneakingCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "StopSleepingInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71510,6 +72525,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "StopSleepingCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "RidingJumpInterval",
@@ -71528,6 +72548,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "RidingJumpCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "OpenInventoryInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71542,6 +72567,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "OpenInventoryCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "StartDestroyBlockInterval",
@@ -71560,6 +72590,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "StartDestroyBlockCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "AbortDestroyBlockInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71574,6 +72609,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "AbortDestroyBlockCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "StopDestroyBlockInterval",
@@ -71592,6 +72632,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "StopDestroyBlockCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "DropAllItemsInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71606,6 +72651,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "DropAllItemsCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "DropItemInterval",
@@ -71624,6 +72674,11 @@
       "MaxValue": 100.0
     },
     {
+      "Name": "DropItemCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
+    },
+    {
       "Name": "ReleaseUseItemInterval",
       "ParentName": "Disabler",
       "Value": 0.0
@@ -71638,6 +72693,11 @@
       "ParentName": "Disabler",
       "MinValue": 0.0,
       "MaxValue": 100.0
+    },
+    {
+      "Name": "ReleaseUseItemCancelCondition",
+      "ParentName": "Disabler",
+      "SelectedOption": "Always"
     },
     {
       "Name": "CalculateWithHit",
@@ -71701,6 +72761,7 @@
         {
           "Combat": true,
           "Legit": false,
+          "Latency": false,
           "Movement": false,
           "Player": false,
           "Render": false,
@@ -71747,6 +72808,56 @@
       "ParentName": "Ping",
       "MinValue": 100.0,
       "MaxValue": 110.0
+    },
+    {
+      "Name": "CombatMode",
+      "ParentName": "Ping",
+      "Boolean": true
+    },
+    {
+      "Name": "PingStartDelay",
+      "ParentName": "Ping",
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    },
+    {
+      "Name": "ResetPingAtDistanceToTarget",
+      "ParentName": "Ping",
+      "Value": 3.05
+    },
+    {
+      "Name": "Targets",
+      "ParentName": "Ping",
+      "SettingList": [
+        {
+          "Player": true,
+          "Mob": true,
+          "Animal": true,
+          "Villager": true,
+          "ArmorStand": false,
+          "Invisible": true,
+          "Dead": true,
+          "Teammates": false
+        }
+      ]
+    },
+    {
+      "Name": "FlushConditions",
+      "ParentName": "Ping",
+      "SettingList": [
+        {
+          "StandingStill": true,
+          "ScaffoldToggled": true,
+          "PlaceBlocks": true,
+          "BreakBlocks": true,
+          "InventoryActions": true,
+          "Velocity": false,
+          "Explosion": false,
+          "Teleport": true,
+          "SprintReset": false,
+          "SplashPotion": false
+        }
+      ]
     },
     {
       "Name": "TargetESP",
@@ -71933,7 +73044,7 @@
     {
       "Name": "FastServerPining1",
       "ParentName": "ClientSettings",
-      "Boolean": true
+      "Boolean": false
     },
     {
       "Name": "BanStatistics",
@@ -72019,6 +73130,21 @@
       "Name": "DeadPlayers",
       "ParentName": "BeverageNotify",
       "Boolean": true
+    },
+    {
+      "Name": "NotifyDelay",
+      "ParentName": "BeverageNotify",
+      "Value": 4000.0
+    },
+    {
+      "Name": "DeadPlayers",
+      "ParentName": "EnderPearlNotify",
+      "Boolean": true
+    },
+    {
+      "Name": "NotifyDelay",
+      "ParentName": "EnderPearlNotify",
+      "Value": 4000.0
     },
     {
       "Name": "Mode",
@@ -72121,6 +73247,17 @@
       "SelectedOption": "Augustus on top!"
     },
     {
+      "Name": "Delay",
+      "ParentName": "DeathCommand",
+      "MinValue": 880.0,
+      "MaxValue": 880.0
+    },
+    {
+      "Name": "Message",
+      "ParentName": "DeathCommand",
+      "SelectedOption": "/hub"
+    },
+    {
       "Name": "Velocity",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -72156,11 +73293,6 @@
       "Boolean": false
     },
     {
-      "Name": "TimerRange",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
       "Name": "Criticals",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -72191,22 +73323,7 @@
       "Boolean": false
     },
     {
-      "Name": "TimerRangeV2",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
       "Name": "KeepSprint",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
-      "Name": "LagRange",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
-      "Name": "BackTrack",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
@@ -72222,6 +73339,16 @@
     },
     {
       "Name": "MoveHelper",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "ProjectileAimBot",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "GommeMode",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
@@ -72291,6 +73418,46 @@
       "Boolean": false
     },
     {
+      "Name": "TimerRange",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "TimerRangeV2",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "LagRange",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "BackTrack",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "Blink",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "PulseBlink",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "PacketHandler",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "Ping",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
       "Name": "Sprint",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -72319,11 +73486,6 @@
       "Name": "Strafe",
       "ParentName": "AutoDisable",
       "Boolean": true
-    },
-    {
-      "Name": "Blink",
-      "ParentName": "AutoDisable",
-      "Boolean": false
     },
     {
       "Name": "Fly",
@@ -72427,11 +73589,6 @@
     },
     {
       "Name": "ExplosionModifier",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
-      "Name": "PulseBlink",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
@@ -72552,6 +73709,16 @@
     },
     {
       "Name": "AutoEat",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "AutoExtinguish",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "Xcarry",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
@@ -73041,11 +74208,6 @@
       "Boolean": false
     },
     {
-      "Name": "PacketHandler",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
       "Name": "Disabler",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -73067,11 +74229,6 @@
     },
     {
       "Name": "ClientSpoofer",
-      "ParentName": "AutoDisable",
-      "Boolean": false
-    },
-    {
-      "Name": "Ping",
       "ParentName": "AutoDisable",
       "Boolean": false
     },
@@ -73136,6 +74293,11 @@
       "Boolean": false
     },
     {
+      "Name": "EnderPearlNotify",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
       "Name": "AutoJumpAndRun",
       "ParentName": "AutoDisable",
       "Boolean": false
@@ -73184,6 +74346,25 @@
       "Name": "MLG",
       "ParentName": "AutoDisable",
       "Boolean": false
+    },
+    {
+      "Name": "DeathCommand",
+      "ParentName": "AutoDisable",
+      "Boolean": false
+    },
+    {
+      "Name": "Names",
+      "ParentName": "ClientSettings",
+      "StringList": [
+        "N0XIRIUS"
+      ]
+    },
+    {
+      "Name": "Numbers",
+      "ParentName": "ClientSettings",
+      "DoubleList": [
+        10.0
+      ]
     }
   ]
 }
