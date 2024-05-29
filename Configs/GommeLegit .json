@@ -1,9 +1,9 @@
 {
   "Config_Header": {
     "Config_Version": 2,
-    "Config_Name": "Gomme",
+    "Config_Name": "GommeLegit ",
     "Config_Date": "23.05.2024",
-    "Config_Time": "18:04",
+    "Config_Time": "18:05",
     "Config_Author": "No_Author"
   },
   "Configuration": {
@@ -194,10 +194,10 @@
         "V": 2.0
       },
       "XZVelocityIntave": {
-        "V": -50.0
+        "V": -100.0
       },
       "YVelocityIntave": {
-        "V": 120.0
+        "V": 20.0
       },
       "SneakInAir": {
         "B": false
@@ -235,7 +235,7 @@
         "V": 1.0
       },
       "Cobweb": {
-        "B": true
+        "B": false
       },
       "Ladder": {
         "B": true
@@ -307,7 +307,7 @@
         "TicksExisted": false,
         "NegativeHealth": false,
         "ZeroPing": false,
-        "IsInTabList": true,
+        "IsInTabList": false,
         "InvalidEntityID": false,
         "InvalidName": false,
         "NeverOnGround": false,
@@ -378,12 +378,12 @@
         "S": 14.0
       },
       "TickDelayBeforeSwitch": {
-        "F": 0.0,
-        "S": 1.0
+        "F": 1.0,
+        "S": 2.0
       },
       "TickDelayBeforeClick": {
-        "F": 0.0,
-        "S": 1.0
+        "F": 1.0,
+        "S": 2.0
       },
       "Drop": {
         "B": true
@@ -399,8 +399,8 @@
         "S": 2.0
       },
       "TickDelayAfter": {
-        "F": 0.0,
-        "S": 1.0
+        "F": 1.0,
+        "S": 2.0
       },
       "Silent": {
         "B": true
@@ -412,7 +412,7 @@
         "B": true
       },
       "OpenInv": {
-        "B": false
+        "B": true
       },
       "AutoOpen": {
         "B": false
@@ -642,10 +642,10 @@
       "M_KM": false,
       "M_K": 0,
       "Delay": {
-        "V": 300.0
+        "V": 0.0
       },
       "TimerTicksForward": {
-        "V": 3.0
+        "V": 2.0
       },
       "Tolerance": {
         "V": 0.0
@@ -664,10 +664,10 @@
         "B": true
       },
       "OnlyKillAura": {
-        "B": true
+        "B": false
       },
       "ClickCheck": {
-        "B": false
+        "B": true
       },
       "ForbiddenSneak": {
         "B": true
@@ -766,7 +766,7 @@
       "M_KM": false,
       "M_K": 0,
       "Modes": {
-        "S": "Legit"
+        "S": "LegitFast"
       },
       "HideSneakAnimation": {
         "B": true
@@ -962,10 +962,10 @@
         "B": true
       },
       "YawFov": {
-        "V": 180.0
+        "V": 90.0
       },
       "PitchFov": {
-        "V": 180.0
+        "V": 90.0
       },
       "YawSpeed": {
         "F": 18.0,
@@ -1097,7 +1097,7 @@
         "V": 100.0
       },
       "Test": {
-        "B": false
+        "B": true
       },
       "SmartAim": {
         "B": true
@@ -1993,13 +1993,13 @@
       "M_KM": false,
       "M_K": 0,
       "ExpandXZ": {
-        "V": 0.0
+        "V": 0.1
       },
       "ExpandY": {
-        "V": 0.0
+        "V": 0.1
       },
       "ServerHitBox": {
-        "B": false
+        "B": true
       },
       "1.8Hitbox": {
         "B": true
@@ -2027,7 +2027,7 @@
       }
     },
     "BowAimbot": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -2074,7 +2074,7 @@
         "B": true
       },
       "AutoShoot": {
-        "B": false
+        "B": true
       },
       "Entities": {
         "Players": true,
@@ -2091,22 +2091,22 @@
       "M_KM": false,
       "M_K": 0,
       "DynamicLagTicks": {
-        "B": true
+        "B": false
       },
       "LagTickDiff": {
-        "V": 2.0
+        "V": 3.0
       },
       "LagTicks": {
         "V": 0.0
       },
       "TimerTicks": {
-        "V": 5.0
+        "V": 3.0
       },
       "MaxTargetHurttime": {
         "V": 3.0
       },
       "Delay": {
-        "V": 0.0
+        "V": 500.0
       },
       "Correct": {
         "B": false
@@ -2115,7 +2115,7 @@
         "B": true
       },
       "Accurate": {
-        "B": true
+        "B": false
       },
       "Debug": {
         "B": false
@@ -2171,13 +2171,13 @@
       "M_KM": false,
       "M_K": 0,
       "PredictTicks": {
-        "V": 4.0
+        "V": 5.0
       },
       "Ticks": {
-        "V": 4.0
+        "V": 5.0
       },
       "Correct": {
-        "B": true
+        "B": false
       },
       "OnlyOnGround": {
         "B": false
@@ -2186,7 +2186,7 @@
         "B": false
       },
       "STap": {
-        "B": false
+        "B": true
       },
       "TargetsGroupygroupy": {
         "B": true
@@ -2236,8 +2236,8 @@
         "B": false
       },
       "BackTrackTime": {
-        "F": 150.0,
-        "S": 150.0
+        "F": 125.0,
+        "S": 125.0
       },
       "CalculateWithOwnPing": {
         "B": false
@@ -2249,10 +2249,10 @@
         "B": true
       },
       "ForceDelay": {
-        "B": true
+        "B": false
       },
       "DelayBetweenBacktrack": {
-        "F": 150.0,
+        "F": 50.0,
         "S": 150.0
       },
       "DelayBetweenBacktrackNotInARow": {
@@ -2294,7 +2294,7 @@
         "V": 3.0
       },
       "AbortCriterion": {
-        "S": "None"
+        "S": "OnAttack"
       },
       "StopOnAttackRange": {
         "V": 3.0
@@ -2303,10 +2303,10 @@
         "B": true
       },
       "StopOnAttackMaxHurtTime": {
-        "V": 2.0
+        "V": 1.0
       },
       "StopBackTrackAtHurtTime": {
-        "B": false
+        "B": true
       },
       "ContinueWithBackTrackAtHurtTime": {
         "V": 0.0
@@ -2318,26 +2318,26 @@
         "B": true
       },
       "OnlyKillAura": {
-        "B": true
+        "B": false
       },
       "Targets": {
         "Player": true,
-        "Mob": true,
-        "Animal": true,
-        "Villager": true,
+        "Mob": false,
+        "Animal": false,
+        "Villager": false,
         "ArmorStand": true
       },
       "PreAimRange": {
-        "V": 4.0
+        "V": 6.0
       },
       "ClickCheck": {
-        "B": false
+        "B": true
       },
       "TargetESPsGroupygroupy": {
         "B": true
       },
       "TargetESP": {
-        "S": "Classic"
+        "S": "PlayerModel"
       },
       "ClassicColorTarget": {
         "A": 115,
@@ -2401,7 +2401,7 @@
       }
     },
     "TntBlock": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -2478,25 +2478,25 @@
       "M_K": 0
     },
     "AimBot": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
       "M_KM": false,
       "M_K": 0,
       "YawSpeedInRotationModule": {
-        "F": 30.0,
-        "S": 50.0
+        "F": 0.0,
+        "S": 0.0
       },
       "PitchSpeedInRotationModule": {
-        "F": 30.0,
-        "S": 50.0
+        "F": 0.0,
+        "S": 0.0
       },
       "RotationModeInEntityRotationModule": {
         "S": "BestHitVec"
       },
       "HitBoxPercentageVerticalInEntityRotationModule": {
-        "V": 100.0
+        "V": 48.0
       },
       "HitBoxPercentageHorizontalInEntityRotationModule": {
         "V": 100.0
@@ -2508,7 +2508,7 @@
         "V": 100.0
       },
       "AdvancedRotsInRotationModule": {
-        "B": true
+        "B": false
       },
       "InterpolationInRotationModule": {
         "B": false
@@ -2517,7 +2517,7 @@
         "S": "SecureRandom"
       },
       "RandomizeInRotationModule": {
-        "S": "OnlyRotation"
+        "S": "None"
       },
       "ReducedRotateInRotationModule": {
         "B": false
@@ -2582,13 +2582,13 @@
         "B": true
       },
       "SilentMoveFix": {
-        "S": "Default"
+        "S": "None"
       },
       "SilentMoveFixIntaveInRotationModule": {
         "B": true
       },
       "PreAimRange": {
-        "V": 4.4
+        "V": 4.5
       },
       "OwnYawMul": {
         "V": 1.0
@@ -2597,16 +2597,16 @@
         "V": 1.0
       },
       "AssistYawMul": {
-        "V": 0.41
+        "V": 0.4
       },
       "AssistPitchMul": {
-        "V": 1.0
+        "V": 0.3
       },
       "YawFov": {
-        "V": 108.0
+        "V": 113.0
       },
       "PitchFov": {
-        "V": 87.0
+        "V": 180.0
       },
       "Click": {
         "B": true
@@ -2776,10 +2776,10 @@
         "S": 50.0
       },
       "Fov": {
-        "V": 180.0
+        "V": 91.0
       },
       "MaxRodRange": {
-        "V": 10.0
+        "V": 20.0
       },
       "MoveFix": {
         "B": true
@@ -2799,7 +2799,7 @@
         "B": true
       },
       "Click": {
-        "B": false
+        "B": true
       },
       "DisableWhileScaffold": {
         "B": true
@@ -2816,7 +2816,7 @@
       }
     },
     "AutoWater": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -2834,7 +2834,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "MoonWalk"
+        "S": "Eagle"
       },
       "MinSneakTicks": {
         "F": 2.0,
@@ -2847,20 +2847,20 @@
         "B": false
       },
       "MinSneakTicksOutlierValue": {
-        "F": 3.0,
-        "S": 3.0
+        "F": 1.0,
+        "S": 1.0
       },
       "MinSneakTicksOutlierDelay": {
         "F": 7.0,
         "S": 9.0
       },
       "MoonWalkWideness": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 0.2,
+        "S": 0.2
       },
       "StartDistToBlock": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 0.09,
+        "S": 0.09
       },
       "SilentRotation": {
         "B": true
@@ -2927,7 +2927,7 @@
         "FD": 0.0,
         "AS": 0.0,
         "AD": 0.0,
-        "C": -1
+        "C": -65794
       },
       "PosX": {
         "V": 50.0
@@ -2940,7 +2940,7 @@
       }
     },
     "Refill": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -2950,7 +2950,7 @@
         "B": false
       },
       "AutoClose": {
-        "B": true
+        "B": false
       },
       "StartDelay": {
         "F": 200.0,
@@ -3019,7 +3019,7 @@
       }
     },
     "AutoClicker": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -3192,16 +3192,16 @@
         "B": false
       },
       "ClickPattern": {
-        "S": "Jitter"
+        "S": "DefaultButterfly"
       },
       "RecordedMode": {
         "S": "Ticks"
       },
       "Multiplier": {
-        "V": 1.02
+        "V": 3.0
       },
       "RecordedAirMultiplier": {
-        "V": 1.0
+        "V": 0.4
       },
       "SmartMode": {
         "S": "Recommended"
@@ -3281,8 +3281,8 @@
         "B": true
       },
       "SmartCPSFirstHit": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 17.0,
+        "S": 18.0
       },
       "SmartCPSFirstHitNotInARow": {
         "B": false
@@ -3295,8 +3295,8 @@
         "B": false
       },
       "SmartDCPSFirstHit": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSFirstHitNotInARow": {
         "B": false
@@ -3330,7 +3330,7 @@
         "S": 4.0
       },
       "SmartDCPSNotInARow": {
-        "B": true
+        "B": false
       },
       "DCPSRecalculateTickDelay": {
         "F": 3.0,
@@ -3366,7 +3366,7 @@
         "B": false
       },
       "PerfectHit": {
-        "B": true
+        "B": false
       },
       "AttackFriends": {
         "B": false
@@ -3384,7 +3384,7 @@
         "B": true
       },
       "BreakTickDelay": {
-        "V": 5.0
+        "V": 3.0
       },
       "OnlyOnClick": {
         "B": true
@@ -3401,14 +3401,14 @@
       },
       "Hurt0SmartCPSRecalculateTickDelay": {
         "F": 3.0,
-        "S": 5.0
+        "S": 8.0
       },
       "Hurt0SmartCPSRecalculateTickDelayNotInARow": {
         "B": false
       },
       "SmartDCPSHurt0": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt0NotInARow": {
         "B": false
@@ -3438,8 +3438,8 @@
         "B": false
       },
       "SmartDCPSHurt1": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt1NotInARow": {
         "B": false
@@ -3469,8 +3469,8 @@
         "B": false
       },
       "SmartDCPSHurt2": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt2NotInARow": {
         "B": false
@@ -3500,8 +3500,8 @@
         "B": false
       },
       "SmartDCPSHurt3": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt3NotInARow": {
         "B": false
@@ -3517,8 +3517,8 @@
         "B": false
       },
       "SmartCPSHurt4": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt4NotInARow": {
         "B": false
@@ -3531,8 +3531,8 @@
         "B": false
       },
       "SmartDCPSHurt4": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt4NotInARow": {
         "B": false
@@ -3548,8 +3548,8 @@
         "B": false
       },
       "SmartCPSHurt5": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt5NotInARow": {
         "B": false
@@ -3562,8 +3562,8 @@
         "B": false
       },
       "SmartDCPSHurt5": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt5NotInARow": {
         "B": false
@@ -3579,8 +3579,8 @@
         "B": false
       },
       "SmartCPSHurt6": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt6NotInARow": {
         "B": false
@@ -3593,8 +3593,8 @@
         "B": false
       },
       "SmartDCPSHurt6": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt6NotInARow": {
         "B": false
@@ -3610,8 +3610,8 @@
         "B": false
       },
       "SmartCPSHurt7": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt7NotInARow": {
         "B": false
@@ -3624,8 +3624,8 @@
         "B": false
       },
       "SmartDCPSHurt7": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt7NotInARow": {
         "B": false
@@ -3641,8 +3641,8 @@
         "B": false
       },
       "SmartCPSHurt8": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt8NotInARow": {
         "B": false
@@ -3655,8 +3655,8 @@
         "B": false
       },
       "SmartDCPSHurt8": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt8NotInARow": {
         "B": false
@@ -3672,8 +3672,8 @@
         "B": false
       },
       "SmartCPSHurt9": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt9NotInARow": {
         "B": false
@@ -3686,8 +3686,8 @@
         "B": false
       },
       "SmartDCPSHurt9": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt9NotInARow": {
         "B": false
@@ -3703,8 +3703,8 @@
         "B": false
       },
       "SmartCPSHurt10": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt10NotInARow": {
         "B": false
@@ -3717,8 +3717,8 @@
         "B": false
       },
       "SmartDCPSHurt10": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt10NotInARow": {
         "B": false
@@ -4760,7 +4760,7 @@
       }
     },
     "StorageESP": {
-      "M_T": true,
+      "M_T": false,
       "M_C": false,
       "M_A": false,
       "M_S": true,
@@ -7982,7 +7982,7 @@
         "S": "Legit"
       },
       "IgnoreCollisions": {
-        "B": true
+        "B": false
       },
       "HungerSprint": {
         "B": false
@@ -8002,7 +8002,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "IntaveNew"
+        "S": "Solid"
       },
       "HideSneakAnimation": {
         "B": true
@@ -8027,7 +8027,7 @@
       }
     },
     "NoSlow": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -8043,13 +8043,13 @@
         "B": false
       },
       "SwitchOnlyEmptySlot": {
-        "B": true
-      },
-      "SwitchGomme": {
         "B": false
       },
+      "SwitchGomme": {
+        "B": true
+      },
       "SwitchMode": {
-        "S": "PreAttack"
+        "S": "PrePostPosition"
       },
       "SlotMode": {
         "S": "PreAttack"
@@ -8080,10 +8080,10 @@
         "InvalidDelay": false
       },
       "SwordForward": {
-        "V": 1.0
+        "V": 0.2
       },
       "SwordStrafe": {
-        "V": 1.0
+        "V": 0.2
       },
       "SwordSlowdownInterval": {
         "S": "None"
@@ -8432,7 +8432,7 @@
       "M_KM": false,
       "M_K": 0,
       "Time": {
-        "V": 0.1
+        "V": 2.08
       },
       "TimerAfterVelocity": {
         "B": false
@@ -8461,7 +8461,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Intave"
+        "S": "Normal"
       },
       "Event": {
         "S": "Pre"
@@ -8501,7 +8501,7 @@
       "M_KM": false,
       "M_K": 0,
       "PacketDirection": {
-        "S": "OnlyIncoming"
+        "S": "Both"
       },
       "AutoDisable": {
         "V": 0.0
@@ -8595,7 +8595,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "IntaveBoat"
+        "S": "AirJump"
       },
       "WaitForDamage": {
         "B": false
@@ -8755,7 +8755,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Motion"
+        "S": "Jump"
       },
       "CustomMotion": {
         "V": 0.3
@@ -8793,7 +8793,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Intave 14.7.7"
+        "S": "Intave"
       },
       "HideSneakAnimation": {
         "B": true
@@ -8814,7 +8814,7 @@
         "B": true
       },
       "UpSpeed": {
-        "V": 0.8
+        "V": 2.4
       },
       "DownSpeed": {
         "V": 2.4
@@ -8828,10 +8828,10 @@
       "M_KM": false,
       "M_K": 0,
       "BoostTicks": {
-        "V": 5.0
+        "V": 1.0
       },
       "Delay": {
-        "V": 1900.0
+        "V": 1.0
       }
     },
     "Step": {
@@ -8842,7 +8842,7 @@
       "M_KM": false,
       "M_K": 0,
       "Modes": {
-        "S": "Legit"
+        "S": "IntaveTest"
       },
       "Height": {
         "V": 1.0
@@ -8868,7 +8868,7 @@
         "B": false
       },
       "Modes": {
-        "S": "IntaveBoat"
+        "S": "CubeCraft"
       },
       "IntaveLonger": {
         "B": true
@@ -8909,7 +8909,7 @@
         "B": true
       },
       "MaxSmartDistance": {
-        "V": -10.0
+        "V": -9.9
       },
       "DistanceToHeadBlock": {
         "V": 0.0
@@ -8982,7 +8982,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Legit"
+        "S": "Basic"
       },
       "SneakForward": {
         "V": 1.0
@@ -8991,7 +8991,7 @@
         "V": 1.0
       },
       "RemoveSneakStop": {
-        "B": false
+        "B": true
       },
       "SneakInInv": {
         "B": false
@@ -9033,7 +9033,7 @@
         "B": true
       },
       "Time": {
-        "V": 20.0
+        "V": 80.0
       }
     },
     "SaveMoveKeys": {
@@ -9208,7 +9208,7 @@
         "B": false
       },
       "MotionYHigherZeroPreUpdateEditTick": {
-        "B": true
+        "B": false
       },
       "MotionYHigherZeroPreUpdateJump": {
         "B": false
@@ -9224,11 +9224,11 @@
         "S": 0.42
       },
       "MotionYHigherZeroPreUpdateEditStaticXZ": {
-        "B": true
+        "B": false
       },
       "MotionYHigherZeroPreUpdateStaticXZ": {
-        "F": 0.28,
-        "S": 0.28
+        "F": 0.2,
+        "S": 0.2
       },
       "MotionYHigherZeroPreUpdateEditAddY": {
         "B": false
@@ -9335,8 +9335,8 @@
         "B": false
       },
       "Tick0TicksOnGroundPreUpdateStaticXZ": {
-        "F": 0.28,
-        "S": 0.28
+        "F": 0.0,
+        "S": 0.675
       },
       "Tick0TicksOnGroundPreUpdateEditAddY": {
         "B": false
@@ -9374,7 +9374,7 @@
         "S": 1.0
       },
       "Tick0TicksOnGroundPreUpdateStrafePercentage": {
-        "V": 0.0
+        "V": 100.0
       },
       "Tick0TicksOnGroundPreUpdateSelfDamageMode": {
         "S": "None"
@@ -27804,7 +27804,7 @@
         "V": 0.0
       },
       "Tick21TicksInAirPostUpdateEditTick": {
-        "B": false
+        "B": true
       },
       "Tick21TicksInAirPostUpdateJump": {
         "B": false
@@ -31239,7 +31239,7 @@
         "B": true
       },
       "MotionYLessZeroMoveEntityEditTick": {
-        "B": false
+        "B": true
       },
       "MotionYLessZeroMoveEntityJump": {
         "B": false
@@ -36797,7 +36797,7 @@
         "V": 0.0
       },
       "Tick1TicksInAirMoveEntityEditTick": {
-        "B": false
+        "B": true
       },
       "Tick1TicksInAirMoveEntityJump": {
         "B": false
@@ -41992,7 +41992,7 @@
         "B": true
       },
       "OnEnableEditTick": {
-        "B": true
+        "B": false
       },
       "OnEnableJump": {
         "B": false
@@ -42057,7 +42057,7 @@
         "S": 1.0
       },
       "OnEnableStrafePercentage": {
-        "V": 100.0
+        "V": 0.0
       },
       "OnEnableSelfDamageMode": {
         "S": "None"
@@ -42209,7 +42209,7 @@
       "M_KM": false,
       "M_K": 0,
       "PacketDirection": {
-        "S": "Both"
+        "S": "OnlyOutgoing"
       },
       "LagBreakTicks": {
         "F": 0.0,
@@ -42219,14 +42219,14 @@
         "B": false
       },
       "LagTicks": {
-        "F": 8.0,
-        "S": 8.0
+        "F": 1.0,
+        "S": 1.0
       },
       "LagTicksNotInARow": {
         "B": false
       },
       "Modes": {
-        "S": "Default"
+        "S": "CombatOnly"
       },
       "FlushConditions": {
         "StandingStill": true,
@@ -42246,7 +42246,7 @@
         "B": true
       },
       "TargetESP": {
-        "S": "PlayerModel"
+        "S": "PlayerModelArmor"
       },
       "ClassicColorTarget": {
         "A": 162,
@@ -42341,7 +42341,7 @@
       }
     },
     "ArrowDodger": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -42364,7 +42364,7 @@
       }
     },
     "NoFall": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -42400,7 +42400,7 @@
       }
     },
     "ChestStealer": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -42508,7 +42508,7 @@
         "B": true
       },
       "AutoCloseIfInvFull": {
-        "B": false
+        "B": true
       },
       "CloseDelay": {
         "F": 60.0,
@@ -42546,7 +42546,7 @@
         "L": []
       },
       "Silent": {
-        "B": false
+        "B": true
       },
       "StealIndicator": {
         "B": true
@@ -42869,10 +42869,10 @@
         "S": "NoRotate"
       },
       "Sneak": {
-        "B": false
+        "B": true
       },
       "OnlyInAir": {
-        "B": true
+        "B": false
       }
     },
     "ChestAura": {
@@ -42883,7 +42883,7 @@
       "M_KM": false,
       "M_K": 0,
       "PreRange": {
-        "V": 6.0
+        "V": 4.5
       },
       "Range": {
         "V": 4.5
@@ -42942,7 +42942,7 @@
         "V": 20.0
       },
       "NewPackets": {
-        "V": 20.0
+        "V": 3.0
       },
       "TimePackets": {
         "V": 20.0
@@ -43007,10 +43007,10 @@
         "B": true
       },
       "Only if player is falling into the void": {
-        "B": true
+        "B": false
       },
       "Auto disable": {
-        "B": false
+        "B": true
       }
     },
     "ReverseAutoArmor": {
@@ -43113,7 +43113,7 @@
         "Sort": true,
         "Armor": true,
         "Clean": true,
-        "Craft": true,
+        "Craft": false,
         "HotbarArmor": true
       },
       "Mode": {
@@ -43178,16 +43178,16 @@
         "S": "Sword"
       },
       "Slot2": {
-        "S": "EnderPearls"
+        "S": "Bow"
       },
       "Slot3": {
-        "S": "Blocks"
-      },
-      "Slot4": {
         "S": "Throwables"
       },
+      "Slot4": {
+        "S": "Blocks"
+      },
       "Slot5": {
-        "S": "None"
+        "S": "EnderPearls"
       },
       "Slot6": {
         "S": "None"
@@ -43390,7 +43390,7 @@
         "B": false
       },
       "NotWhileKillAura": {
-        "B": false
+        "B": true
       },
       "NotWhileScaffold": {
         "B": true
@@ -43521,7 +43521,7 @@
         "B": true
       },
       "BedBlinkTime": {
-        "V": 3000.0
+        "V": 4000.0
       }
     },
     "FastPlace": {
@@ -43568,14 +43568,14 @@
         "B": true
       },
       "AutoSwap": {
-        "B": false
+        "B": true
       },
       "XP-BottlesGroupygroupy": {
         "B": true
       },
       "XP-BottlesCPS": {
-        "F": 13.0,
-        "S": 17.0
+        "F": 16.0,
+        "S": 24.0
       },
       "XP-BottlesCPSNotInARow": {
         "B": false
@@ -43658,15 +43658,15 @@
         "S": 24.0
       },
       "YawAcceleration": {
-        "F": 4.0,
-        "S": 8.0
+        "F": 180.0,
+        "S": 180.0
       },
       "YawAccelerationNotInARow": {
         "B": false
       },
       "PitchAcceleration": {
-        "F": 4.0,
-        "S": 8.0
+        "F": 180.0,
+        "S": 180.0
       },
       "PitchAccelerationNotInARow": {
         "B": false
@@ -43721,7 +43721,7 @@
         "B": false
       },
       "RandomizeYaw": {
-        "B": false
+        "B": true
       },
       "RandomizeYawChanceWhilePitchRotation": {
         "V": 100.0
@@ -43790,7 +43790,7 @@
         "B": true
       },
       "OtherRotation": {
-        "B": false
+        "B": true
       },
       "RecycleRotation": {
         "B": true
@@ -43799,7 +43799,7 @@
         "B": true
       },
       "IntaveSafe": {
-        "B": false
+        "B": true
       },
       "IntaveFast": {
         "B": false
@@ -43881,10 +43881,10 @@
       },
       "SneakTicks": {
         "F": 2.0,
-        "S": 2.0
+        "S": 4.0
       },
       "SneakTicksNotInARow": {
-        "B": false
+        "B": true
       },
       "SneakTicksOutliers": {
         "B": false
@@ -43898,16 +43898,16 @@
         "S": 15.0
       },
       "StartSneakDistToBlock": {
-        "F": 0.09,
-        "S": 0.09
+        "F": 0.2,
+        "S": 0.2
       },
       "SneakBlocksForward": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 7.0,
+        "S": 8.0
       },
       "SneakBlocksDiagonal": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 7.0,
+        "S": 8.0
       },
       "SneakSlowDown": {
         "V": 0.3
@@ -43985,15 +43985,15 @@
         "B": false
       },
       "MoonWalk": {
-        "B": true
+        "B": false
       },
       "MoonWalkWideness": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 0.2,
+        "S": 0.2
       },
       "MoonWalkStartDistToBlock": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 0.38,
+        "S": 0.38
       },
       "SameY": {
         "B": false
@@ -44183,10 +44183,10 @@
       "M_KM": false,
       "M_K": 0,
       "Volume": {
-        "V": 75.0
+        "V": 83.0
       },
       "RadioChannels": {
-        "S": "Kronehit"
+        "S": "I love Radio"
       }
     },
     "MidClick": {
@@ -44197,7 +44197,7 @@
       "M_KM": false,
       "M_K": 0,
       "MidClickDistance": {
-        "V": 50.0
+        "V": 4.5
       },
       "AutoUnfriend": {
         "B": true
@@ -44241,7 +44241,7 @@
         "B": true
       },
       "CancelSound": {
-        "B": true
+        "B": false
       },
       "HotbarItemID": {
         "V": 54.0
@@ -44251,7 +44251,7 @@
       }
     },
     "AutoRegister": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -44294,7 +44294,7 @@
         "B": true
       },
       "MemoryFix": {
-        "B": true
+        "B": false
       },
       "PlaceWhileBreak": {
         "B": true
@@ -44346,7 +44346,7 @@
         "B": true
       },
       "PathFinding": {
-        "B": false
+        "B": true
       },
       "DebugLine": {
         "B": true
@@ -44400,14 +44400,14 @@
       }
     },
     "Debug": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
       "M_KM": false,
       "M_K": 0,
       "RangeDebug": {
-        "B": false
+        "B": true
       },
       "IgnoreBackTrack": {
         "B": false
@@ -44452,7 +44452,7 @@
         "B": false
       },
       "PlaceDebug": {
-        "B": false
+        "B": true
       },
       "SneakDebug": {
         "B": false
@@ -44504,14 +44504,14 @@
       }
     },
     "StaffDetector": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
       "M_KM": false,
       "M_K": 0,
       "Modes": {
-        "Normal": true,
+        "Normal": false,
         "OldGomme": false,
         "Other": false,
         "ListBased": true
@@ -44535,8 +44535,8 @@
         "B": true
       },
       "CheckDelay": {
-        "F": 522.0,
-        "S": 657.0
+        "F": 2000.0,
+        "S": 3000.0
       },
       "CheckDelayNotInARow": {
         "B": false
@@ -44566,7 +44566,7 @@
         "B": true
       },
       "Lists": {
-        "S": "GommeHD"
+        "S": "GommeHDDefault"
       },
       "Show in spectator list list based": {
         "B": true
@@ -44592,7 +44592,7 @@
       }
     },
     "FlagDetector": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -44624,7 +44624,7 @@
       }
     },
     "ClientAntiCheat": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -45492,7 +45492,7 @@
       }
     },
     "AntiAchievement": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -45507,7 +45507,7 @@
       "M_KM": false,
       "M_K": 0,
       "MinTicksAvailable": {
-        "V": 0.0
+        "V": 10.0
       },
       "MaxChargingTicks": {
         "V": 5.0
@@ -45540,7 +45540,7 @@
         "V": 0.0
       },
       "OnlyOnGround": {
-        "B": false
+        "B": true
       },
       "Dynamic": {
         "B": true
@@ -45678,7 +45678,7 @@
         "S03PacketTimeUpdate": true,
         "S04PacketEntityEquipment": true,
         "S05PacketSpawnPosition": true,
-        "S06PacketUpdateHealth": false,
+        "S06PacketUpdateHealth": true,
         "S07PacketRespawn": true,
         "S08PacketPlayerPosLook": true,
         "S09PacketHeldItemChange": true,
@@ -45691,14 +45691,14 @@
         "S10PacketSpawnPainting": true,
         "S11PacketSpawnExperienceOrb": true,
         "S12PacketEntityVelocity": true,
-        "S13PacketDestroyEntities": false,
+        "S13PacketDestroyEntities": true,
         "S14PacketEntity": true,
         "S15PacketEntityRelMove": true,
         "S16PacketEntityLook": true,
         "S17PacketEntityLookMove": true,
         "S18PacketEntityTeleport": true,
         "S19PacketEntityHeadLook": true,
-        "S19PacketEntityStatus": false,
+        "S19PacketEntityStatus": true,
         "S1BPacketEntityAttach": true,
         "S1CPacketEntityMetadata": true,
         "S1DPacketEntityEffect": true,
@@ -45713,7 +45713,7 @@
         "S26PacketMapChunkBulk": true,
         "S27PacketExplosion": true,
         "S28PacketEffect": true,
-        "S29PacketSoundEffect": false,
+        "S29PacketSoundEffect": true,
         "S2APacketParticles": true,
         "S2BPacketChangeGameState": true,
         "S2CPacketSpawnGlobalEntity": true,
@@ -46098,7 +46098,7 @@
         "B": false
       },
       "KarhuClicking": {
-        "B": false
+        "B": true
       },
       "MMCReachSemi": {
         "B": false
@@ -46131,7 +46131,7 @@
         "B": false
       },
       "Test": {
-        "B": false
+        "B": true
       },
       "ResourcePack": {
         "B": false
@@ -48041,7 +48041,7 @@
       }
     },
     "NoDiscordRPC": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -48231,7 +48231,7 @@
       "M_KM": false,
       "M_K": 0,
       "RotationMode": {
-        "S": "Tick"
+        "S": "Vanilla"
       },
       "MouseSensMode": {
         "S": "Advanced"
@@ -48306,7 +48306,7 @@
         "S": "."
       },
       "FastServerPining1": {
-        "B": false
+        "B": true
       },
       "BanStatistics": {
         "S": "Left"
