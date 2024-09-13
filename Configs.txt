@@ -1,10 +1,7 @@
 Gomme
 GommeLegit
-GommeBot
-GommeBotPath
-Minemen
 PvPDojo
-Mineblaze
+MineblazeKitPVP
 Grim
 Pika
 BlocksMC
