@@ -1,7 +1,7 @@
 {
   "Config_Header": {
     "Config_Version": 2,
-    "Config_Name": "Gomme",
+    "Config_Name": "GommeLegit ",
     "Config_Date": "13.09.2024",
     "Config_Time": "15:15",
     "Config_Author": "Esound"
@@ -78,9 +78,9 @@
         "Myself": true,
         "Players": true,
         "Mobs": true,
-        "Animals": true,
-        "ArmorStands": true,
-        "Villager": true,
+        "Animals": false,
+        "ArmorStands": false,
+        "Villager": false,
         "Invisible": true
       },
       "ItemsToShadow": {
@@ -242,7 +242,7 @@
         "B": false
       },
       "XZOnHit": {
-        "V": 1.0
+        "V": 0.6
       },
       "XZOnHitSprint": {
         "V": 0.6
@@ -260,10 +260,10 @@
         "V": 2.0
       },
       "XZVelocityIntave": {
-        "V": -50.0
+        "V": -100.0
       },
       "YVelocityIntave": {
-        "V": 120.0
+        "V": 20.0
       },
       "SneakInAir": {
         "B": false
@@ -278,13 +278,13 @@
         "B": false
       },
       "Ladder": {
-        "B": false
+        "B": true
       },
       "LadderXZOnly": {
         "B": true
       },
       "Jump": {
-        "B": true
+        "B": false
       },
       "JumpInInvIntave": {
         "B": false
@@ -294,7 +294,7 @@
       },
       "JumpTicksIntave": {
         "F": 1.0,
-        "S": 1.0
+        "S": 3.0
       },
       "JumpTicksIntaveNotInARow": {
         "B": false
@@ -403,7 +403,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "Advanced": true,
+        "Advanced": false,
         "Hypixel": false,
         "Intave": false,
         "NullTeam": false,
@@ -411,7 +411,7 @@
         "TicksExisted": false,
         "NegativeHealth": false,
         "ZeroPing": false,
-        "IsInTabList": true,
+        "IsInTabList": false,
         "InvalidEntityID": false,
         "InvalidName": false,
         "NeverOnGround": false,
@@ -763,10 +763,10 @@
       "M_KM": false,
       "M_K": 0,
       "Delay": {
-        "V": 300.0
+        "V": 0.0
       },
       "TimerTicksForward": {
-        "V": 3.0
+        "V": 2.0
       },
       "Tolerance": {
         "V": 0.0
@@ -785,10 +785,10 @@
         "B": true
       },
       "OnlyKillAura": {
-        "B": true
+        "B": false
       },
       "ClickCheck": {
-        "B": false
+        "B": true
       },
       "ForbiddenSneak": {
         "B": true
@@ -805,7 +805,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Lag"
+        "S": "NoGround"
       },
       "ModeModeValuesGroupGroupygroupy": {
         "B": true
@@ -1101,10 +1101,10 @@
         "B": true
       },
       "YawFov": {
-        "V": 180.0
+        "V": 90.0
       },
       "PitchFov": {
-        "V": 180.0
+        "V": 90.0
       },
       "YawSpeed": {
         "F": 18.0,
@@ -2280,8 +2280,8 @@
         "B": false
       },
       "Targets": {
-        "Player": true,
-        "Mob": false,
+        "Player": false,
+        "Mob": true,
         "Animal": false,
         "Villager": false,
         "Invisible": false,
@@ -2308,13 +2308,13 @@
       "M_KM": false,
       "M_K": 0,
       "ExpandXZ": {
-        "V": 0.0
+        "V": 0.1
       },
       "ExpandY": {
-        "V": 0.0
+        "V": 0.1
       },
       "ServerHitBox": {
-        "B": false
+        "B": true
       },
       "1.8Hitbox": {
         "B": true
@@ -2348,7 +2348,7 @@
       }
     },
     "BowAimbot": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -2395,7 +2395,7 @@
         "B": true
       },
       "AutoShoot": {
-        "B": false
+        "B": true
       },
       "Entities": {
         "Players": true,
@@ -2412,22 +2412,22 @@
       "M_KM": false,
       "M_K": 0,
       "DynamicLagTicks": {
-        "B": true
+        "B": false
       },
       "LagTickDiff": {
-        "V": 2.0
+        "V": 3.0
       },
       "LagTicks": {
         "V": 0.0
       },
       "TimerTicks": {
-        "V": 5.0
+        "V": 3.0
       },
       "MaxTargetHurttime": {
         "V": 3.0
       },
       "Delay": {
-        "V": 0.0
+        "V": 500.0
       },
       "Correct": {
         "B": false
@@ -2436,7 +2436,7 @@
         "B": true
       },
       "Accurate": {
-        "B": true
+        "B": false
       },
       "Debug": {
         "B": false
@@ -2495,13 +2495,13 @@
       "M_KM": false,
       "M_K": 0,
       "PredictTicks": {
-        "V": 4.0
+        "V": 5.0
       },
       "Ticks": {
-        "V": 4.0
+        "V": 5.0
       },
       "Correct": {
-        "B": true
+        "B": false
       },
       "OnlyOnGround": {
         "B": false
@@ -2510,7 +2510,7 @@
         "B": false
       },
       "STap": {
-        "B": false
+        "B": true
       },
       "TargetsGroupygroupy": {
         "B": true
@@ -2537,7 +2537,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Ping"
+        "S": "BackTrack"
       },
       "MaxHitRange": {
         "F": 6.0,
@@ -2566,11 +2566,11 @@
         "B": false
       },
       "BackTrackTime": {
-        "F": 150.0,
-        "S": 150.0
+        "F": 125.0,
+        "S": 125.0
       },
       "DelayBetweenBacktrack": {
-        "F": 150.0,
+        "F": 50.0,
         "S": 150.0
       },
       "DelayBetweenBacktrackNotInARow": {
@@ -2580,7 +2580,7 @@
         "B": false
       },
       "ForceDelay": {
-        "B": true
+        "B": false
       },
       "Predict": {
         "B": true
@@ -2608,11 +2608,11 @@
         "V": 4.0
       },
       "PingDelay": {
-        "F": 90.0,
-        "S": 90.0
+        "F": 150.0,
+        "S": 150.0
       },
       "DelayBetweenBacktrackPing": {
-        "V": 0.0
+        "V": 50.0
       },
       "CalculateWithOwnPingPing": {
         "B": false
@@ -2621,13 +2621,13 @@
         "B": false
       },
       "CheckStartDistance": {
-        "B": true
+        "B": false
       },
       "StartDistance": {
         "V": 3.0
       },
       "AbortCriterion": {
-        "S": "None"
+        "S": "OnAttack"
       },
       "StopOnAttackRange": {
         "V": 3.0
@@ -2636,10 +2636,10 @@
         "B": true
       },
       "StopOnAttackMaxHurtTime": {
-        "V": 2.0
+        "V": 1.0
       },
       "StopBackTrackAtHurtTime": {
-        "B": false
+        "B": true
       },
       "ContinueWithBackTrackAtHurtTime": {
         "V": 0.0
@@ -2651,26 +2651,26 @@
         "B": true
       },
       "OnlyKillAura": {
-        "B": true
+        "B": false
       },
       "Targets": {
         "Player": true,
         "Mob": false,
         "Animal": false,
         "Villager": false,
-        "ArmorStand": false
+        "ArmorStand": true
       },
       "PreAimRange": {
-        "V": 4.0
+        "V": 6.0
       },
       "ClickCheck": {
-        "B": false
+        "B": true
       },
       "TargetESPsGroupygroupy": {
         "B": true
       },
       "TargetESP": {
-        "S": "Classic"
+        "S": "PlayerModel"
       },
       "ClassicColorTarget": {
         "A": 115,
@@ -2740,7 +2740,7 @@
       }
     },
     "TntBlock": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -2774,7 +2774,7 @@
       }
     },
     "ProjectileAimBot": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -2859,18 +2859,18 @@
       "M_KM": false,
       "M_K": 0,
       "YawSpeedInRotationModule": {
-        "F": 30.0,
-        "S": 50.0
+        "F": 0.0,
+        "S": 0.0
       },
       "PitchSpeedInRotationModule": {
-        "F": 30.0,
-        "S": 50.0
+        "F": 0.0,
+        "S": 0.0
       },
       "RotationModeInEntityRotationModule": {
         "S": "BestHitVec"
       },
       "HitBoxPercentageVerticalInEntityRotationModule": {
-        "V": 100.0
+        "V": 48.0
       },
       "HitBoxPercentageHorizontalInEntityRotationModule": {
         "V": 100.0
@@ -2882,7 +2882,7 @@
         "V": 100.0
       },
       "AdvancedRotsInRotationModule": {
-        "B": true
+        "B": false
       },
       "InterpolationInRotationModule": {
         "B": false
@@ -2891,7 +2891,7 @@
         "S": "SecureRandom"
       },
       "RandomizeInRotationModule": {
-        "S": "OnlyRotation"
+        "S": "None"
       },
       "ReducedRotateInRotationModule": {
         "B": false
@@ -2956,13 +2956,13 @@
         "B": true
       },
       "SilentMoveFix": {
-        "S": "Default"
+        "S": "None"
       },
       "SilentMoveFixIntaveInRotationModule": {
         "B": true
       },
       "PreAimRange": {
-        "V": 4.4
+        "V": 4.5
       },
       "OwnYawMul": {
         "V": 1.0
@@ -2971,16 +2971,16 @@
         "V": 1.0
       },
       "AssistYawMul": {
-        "V": 0.41
+        "V": 0.4
       },
       "AssistPitchMul": {
-        "V": 1.0
+        "V": 0.3
       },
       "YawFov": {
-        "V": 108.0
+        "V": 113.0
       },
       "PitchFov": {
-        "V": 87.0
+        "V": 180.0
       },
       "Click": {
         "B": true
@@ -3153,10 +3153,10 @@
         "S": 50.0
       },
       "Fov": {
-        "V": 180.0
+        "V": 91.0
       },
       "MaxRodRange": {
-        "V": 10.0
+        "V": 20.0
       },
       "MoveFix": {
         "B": true
@@ -3176,7 +3176,7 @@
         "B": true
       },
       "Click": {
-        "B": false
+        "B": true
       },
       "DisableWhileScaffold": {
         "B": true
@@ -3196,7 +3196,7 @@
       }
     },
     "AutoWater": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -3227,16 +3227,16 @@
         "B": false
       },
       "MinSneakTicksOutlierValue": {
-        "F": 3.0,
-        "S": 3.0
+        "F": 1.0,
+        "S": 1.0
       },
       "MinSneakTicksOutlierDelay": {
         "F": 7.0,
         "S": 9.0
       },
       "MoonWalkWideness": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 0.2,
+        "S": 0.2
       },
       "StartDistToBlock": {
         "F": 0.09,
@@ -3310,7 +3310,7 @@
         "FD": 0.0,
         "AS": 0.0,
         "AD": 0.0,
-        "C": -1
+        "C": -65794
       },
       "PosX": {
         "V": 50.0
@@ -3323,7 +3323,7 @@
       }
     },
     "Refill": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -3469,7 +3469,7 @@
       }
     },
     "AutoClicker": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -3649,7 +3649,7 @@
         "10": true
       },
       "ClickPattern": {
-        "S": "updatenew2"
+        "S": "DefaultButterfly"
       },
       "RecordedMode": {
         "S": "TimeMillis"
@@ -3755,8 +3755,8 @@
         "B": false
       },
       "SmartDCPSFirstHit": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSFirstHitNotInARow": {
         "B": false
@@ -3790,7 +3790,7 @@
         "S": 4.0
       },
       "SmartDCPSNotInARow": {
-        "B": true
+        "B": false
       },
       "DCPSRecalculateTickDelay": {
         "F": 3.0,
@@ -3827,7 +3827,7 @@
         "B": false
       },
       "BreakTickDelay": {
-        "V": 5.0
+        "V": 3.0
       },
       "OnlyOnClick": {
         "B": true
@@ -3844,14 +3844,14 @@
       },
       "Hurt0SmartCPSRecalculateTickDelay": {
         "F": 3.0,
-        "S": 5.0
+        "S": 8.0
       },
       "Hurt0SmartCPSRecalculateTickDelayNotInARow": {
         "B": false
       },
       "SmartDCPSHurt0": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt0NotInARow": {
         "B": false
@@ -3881,8 +3881,8 @@
         "B": false
       },
       "SmartDCPSHurt1": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt1NotInARow": {
         "B": false
@@ -3912,8 +3912,8 @@
         "B": false
       },
       "SmartDCPSHurt2": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt2NotInARow": {
         "B": false
@@ -3943,8 +3943,8 @@
         "B": false
       },
       "SmartDCPSHurt3": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt3NotInARow": {
         "B": false
@@ -3960,8 +3960,8 @@
         "B": false
       },
       "SmartCPSHurt4": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt4NotInARow": {
         "B": false
@@ -3974,8 +3974,8 @@
         "B": false
       },
       "SmartDCPSHurt4": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt4NotInARow": {
         "B": false
@@ -3991,8 +3991,8 @@
         "B": false
       },
       "SmartCPSHurt5": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt5NotInARow": {
         "B": false
@@ -4005,8 +4005,8 @@
         "B": false
       },
       "SmartDCPSHurt5": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt5NotInARow": {
         "B": false
@@ -4022,8 +4022,8 @@
         "B": false
       },
       "SmartCPSHurt6": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt6NotInARow": {
         "B": false
@@ -4036,8 +4036,8 @@
         "B": false
       },
       "SmartDCPSHurt6": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt6NotInARow": {
         "B": false
@@ -4053,8 +4053,8 @@
         "B": false
       },
       "SmartCPSHurt7": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt7NotInARow": {
         "B": false
@@ -4067,8 +4067,8 @@
         "B": false
       },
       "SmartDCPSHurt7": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt7NotInARow": {
         "B": false
@@ -4084,8 +4084,8 @@
         "B": false
       },
       "SmartCPSHurt8": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt8NotInARow": {
         "B": false
@@ -4098,8 +4098,8 @@
         "B": false
       },
       "SmartDCPSHurt8": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt8NotInARow": {
         "B": false
@@ -4115,8 +4115,8 @@
         "B": false
       },
       "SmartCPSHurt9": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt9NotInARow": {
         "B": false
@@ -4129,8 +4129,8 @@
         "B": false
       },
       "SmartDCPSHurt9": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt9NotInARow": {
         "B": false
@@ -4146,8 +4146,8 @@
         "B": false
       },
       "SmartCPSHurt10": {
-        "F": 20.0,
-        "S": 20.0
+        "F": 19.0,
+        "S": 19.0
       },
       "SmartCPSHurt10NotInARow": {
         "B": false
@@ -4160,8 +4160,8 @@
         "B": false
       },
       "SmartDCPSHurt10": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SmartDCPSHurt10NotInARow": {
         "B": false
@@ -4316,7 +4316,7 @@
       "M_KM": false,
       "M_K": 0,
       "X-Pos": {
-        "V": 99.79
+        "V": 99.9
       },
       "Y-Pos": {
         "V": 0.0
@@ -4377,7 +4377,7 @@
         "C": -65794
       },
       "Backgound": {
-        "B": false
+        "B": true
       },
       "BackGroundColor": {
         "A": 119,
@@ -4433,13 +4433,13 @@
         "B": true
       },
       "Font": {
-        "S": "Minecraft"
+        "S": "RubikBold"
       },
       "Bold": {
         "B": false
       },
       "VerticalSpacing": {
-        "V": 1.0
+        "V": -2.0
       },
       "Scale": {
         "V": 2.0
@@ -4458,7 +4458,7 @@
       }
     },
     "ClickGui": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": false,
       "M_S": false,
@@ -4600,7 +4600,7 @@
         "V": 1.0
       },
       "Use Spell Mob": {
-        "B": true
+        "B": false
       },
       "Spell Mob Count ": {
         "V": 1.0
@@ -4788,7 +4788,7 @@
         "B": false
       },
       "BoxColor": {
-        "A": 74,
+        "A": 65,
         "FA": 65,
         "R": false,
         "F": false,
@@ -5009,7 +5009,7 @@
         "B": false
       },
       "Real2DColor1": {
-        "A": 92,
+        "A": 60,
         "FA": 60,
         "R": false,
         "F": true,
@@ -5491,16 +5491,16 @@
       "M_KM": false,
       "M_K": 0,
       "BlockAnimations": {
-        "S": "1.7"
+        "S": "Sigma"
       },
       "Height": {
-        "V": 0.0
+        "V": 0.1
       },
       "FakeBlock": {
-        "B": true
+        "B": false
       },
       "OnlyWhileKillAura": {
-        "B": true
+        "B": false
       },
       "Speed": {
         "V": 1.0
@@ -5514,7 +5514,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Gamma"
+        "S": "NightVision"
       },
       "Other": {
         "B": true
@@ -5551,16 +5551,16 @@
         "V": 0.0
       },
       "Armor": {
-        "B": true
+        "B": false
       },
       "ArmorDurability": {
         "B": false
       },
       "ArmorEnchantments": {
-        "B": true
+        "B": false
       },
       "PotionEffects": {
-        "B": true
+        "B": false
       },
       "HealthMode": {
         "S": "None"
@@ -5581,13 +5581,13 @@
         "B": true
       },
       "Transparent": {
-        "B": true
+        "B": false
       },
       "Shadow": {
         "B": true
       },
       "ShadowFont": {
-        "B": true
+        "B": false
       }
     },
     "HUD": {
@@ -5598,7 +5598,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Simple"
+        "S": "Ausustus"
       },
       "Side": {
         "S": "Left"
@@ -5619,7 +5619,7 @@
         "V": 0.6
       },
       "NewFontSize": {
-        "V": 43.0
+        "V": 33.0
       },
       "Color": {
         "A": 255,
@@ -5642,10 +5642,10 @@
         "B": true
       },
       "RoudedBackGround": {
-        "B": true
+        "B": false
       },
       "RoundFactor": {
-        "V": 10.0
+        "V": 2.0
       },
       "BackGroundColor": {
         "A": 100,
@@ -5823,7 +5823,7 @@
       },
       "ShaderValue20": {},
       "Shadow": {
-        "B": false
+        "B": true
       },
       "Blur": {
         "B": false
@@ -5916,14 +5916,14 @@
       },
       "ShaderValue21": {},
       "Shadow": {
-        "B": true
+        "B": false
       },
       "Blur": {
         "B": false
       }
     },
     "Ambiance": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": false,
       "M_S": true,
@@ -5965,7 +5965,7 @@
         "C": -5689634
       },
       "CustomFogColor": {
-        "B": true
+        "B": false
       },
       "FogColor": {
         "A": 255,
@@ -6022,19 +6022,19 @@
         "FD": 0.0,
         "AS": 0.0,
         "AD": 0.0,
-        "C": -12648959
+        "C": -10616322
       },
       "Length": {
-        "V": 6.0
+        "V": 4.0
       },
       "Width": {
-        "V": 1.0
+        "V": 1.3
       },
       "Margin": {
-        "V": 3.0
+        "V": 1.3
       },
       "Dot": {
-        "B": false
+        "B": true
       },
       "T-Style": {
         "B": false
@@ -6159,7 +6159,7 @@
         "B": false
       },
       "CustomColor": {
-        "B": true
+        "B": false
       },
       "Color": {
         "A": 255,
@@ -6268,7 +6268,7 @@
       }
     },
     "EntityColor": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": false,
       "M_S": true,
@@ -6316,7 +6316,7 @@
       }
     },
     "Chams": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": false,
       "M_S": true,
@@ -6334,13 +6334,13 @@
         "B": true
       },
       "OnlyThroughWallsEntities": {
-        "B": true
+        "B": false
       },
       "RenderTextureEntity": {
         "B": false
       },
       "ColorEntity": {
-        "A": 83,
+        "A": 100,
         "FA": 100,
         "R": false,
         "F": false,
@@ -6420,13 +6420,13 @@
         "B": false
       },
       "Swing": {
-        "B": false
+        "B": true
       },
       "DebugHitBox": {
-        "B": false
+        "B": true
       },
       "Rod": {
-        "B": false
+        "B": true
       }
     },
     "BlockOverlay": {
@@ -6573,7 +6573,7 @@
         "S": "AugustusName"
       },
       "Name-Formatting": {
-        "S": "Xanax"
+        "S": "Simple"
       },
       "Cusom": {
         "S": "Esound"
@@ -6790,7 +6790,7 @@
       "M_K": 0
     },
     "TargetHud": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": false,
       "M_S": true,
@@ -6922,7 +6922,7 @@
         "FD": 0.0,
         "AS": 0.0,
         "AD": 0.0,
-        "C": -130815
+        "C": -65536
       },
       "HeadDamageColorNew": {
         "A": 255,
@@ -6939,7 +6939,7 @@
         "FD": 0.0,
         "AS": 0.0,
         "AD": 0.0,
-        "C": -130815
+        "C": -65536
       },
       "TextColorNew": {
         "A": 255,
@@ -6956,13 +6956,13 @@
         "FD": 0.0,
         "AS": 0.0,
         "AD": 0.0,
-        "C": -65794
+        "C": -1
       },
       "TrackEntity": {
         "B": true
       },
       "TrackY": {
-        "V": -0.8
+        "V": 0.0
       },
       "XCoord": {
         "V": 60.0
@@ -6978,7 +6978,7 @@
       },
       "ShaderValue29": {},
       "Shadow": {
-        "B": false
+        "B": true
       },
       "Blur": {
         "B": true
@@ -6995,7 +6995,7 @@
         "S": "default"
       },
       "CustomName": {
-        "S": "G0mme"
+        "S": "Zlimuzin"
       }
     },
     "CustomCape": {
@@ -7016,7 +7016,7 @@
       }
     },
     "CustomCamera": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": false,
       "M_S": true,
@@ -7041,7 +7041,7 @@
         "V": 0.0
       },
       "CustomThirdPersonDistance": {
-        "V": 3.9
+        "V": 4.0
       }
     },
     "TabList": {
@@ -7136,7 +7136,7 @@
         "Maps": true
       },
       "Replace server name": {
-        "B": false
+        "B": true
       },
       "Remove color codes": {
         "B": false
@@ -7553,7 +7553,7 @@
       }
     },
     "CentredInventory": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": false,
       "M_S": true,
@@ -7665,17 +7665,17 @@
       "M_KM": false,
       "M_K": 0,
       "Modules": {
-        "KillAura": true,
+        "KillAura": false,
         "AimBot": false,
         "AimAssist": false,
         "AutoRod": false,
         "Legit": false
       },
       "TargetESP": {
-        "S": "Sigma"
+        "S": "Box"
       },
       "TargetEspColor": {
-        "A": 104,
+        "A": 255,
         "FA": 255,
         "R": false,
         "F": false,
@@ -7695,7 +7695,7 @@
         "B": true
       },
       "TargetEspHitColor": {
-        "A": 94,
+        "A": 255,
         "FA": 255,
         "R": false,
         "F": false,
@@ -7774,7 +7774,7 @@
       "M_KM": false,
       "M_K": 0,
       "ColorMode": {
-        "S": "Astolfo"
+        "S": "Fade"
       },
       "Color1": {
         "A": 255,
@@ -7835,7 +7835,7 @@
         "V": 113.0
       },
       "InFirstPerson": {
-        "B": false
+        "B": true
       },
       "Rotate with player": {
         "B": true
@@ -7844,7 +7844,7 @@
         "B": true
       },
       "Rotate vertical": {
-        "B": true
+        "B": false
       },
       "Only while module rotation": {
         "B": true
@@ -7890,7 +7890,7 @@
         "B": true
       },
       "ShowStackSize": {
-        "B": true
+        "B": false
       },
       "OnlyAtOptifineZoom": {
         "B": false
@@ -7929,7 +7929,7 @@
         "B": true
       },
       "SilentSlot": {
-        "B": true
+        "B": false
       },
       "OtherPingCalculation": {
         "B": true
@@ -8362,7 +8362,7 @@
       }
     },
     "CameraNoClip": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": false,
       "M_S": true,
@@ -8587,7 +8587,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "IntaveNew"
+        "S": "Solid"
       },
       "ModeModeValuesGroupGroupygroupy": {
         "B": true
@@ -8631,13 +8631,13 @@
         "B": false
       },
       "SwitchOnlyEmptySlot": {
-        "B": true
-      },
-      "SwitchGomme": {
         "B": false
       },
+      "SwitchGomme": {
+        "B": true
+      },
       "SwitchMode": {
-        "S": "PreAttack"
+        "S": "PrePostPosition"
       },
       "SlotMode": {
         "S": "PreAttack"
@@ -8669,10 +8669,10 @@
         "InvalidDelay": false
       },
       "SwordForward": {
-        "V": 1.0
+        "V": 0.2
       },
       "SwordStrafe": {
-        "V": 1.0
+        "V": 0.2
       },
       "SwordSlowdownInterval": {
         "S": "None"
@@ -8753,9 +8753,9 @@
         "B": false
       },
       "Bow": {
-        "Slowdown": false,
-        "Sprint": false,
-        "Switch": false,
+        "Slowdown": true,
+        "Sprint": true,
+        "Switch": true,
         "SwitchCustom": false,
         "Slot": false,
         "OnGround": false,
@@ -8982,7 +8982,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "45Degree"
+        "S": "LegitHop"
       },
       "Speed": {
         "V": 2.7
@@ -9035,7 +9035,7 @@
       "M_KM": false,
       "M_K": 0,
       "Time": {
-        "V": 0.1
+        "V": 2.08
       },
       "TimerAfterVelocity": {
         "B": false
@@ -9064,7 +9064,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Intave"
+        "S": "Normal"
       },
       "Event": {
         "S": "Pre"
@@ -9104,7 +9104,7 @@
       "M_KM": false,
       "M_K": 48,
       "PacketDirection": {
-        "S": "OnlyIncoming"
+        "S": "Both"
       },
       "AutoDisable": {
         "V": 0.0
@@ -9370,7 +9370,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Motion"
+        "S": "Jump"
       },
       "ModeValuesGroupygroupy": {
         "B": true
@@ -9441,7 +9441,7 @@
         "B": true
       },
       "UpSpeed": {
-        "V": 0.8
+        "V": 2.4
       },
       "DownSpeed": {
         "V": 2.4
@@ -9455,10 +9455,10 @@
       "M_KM": false,
       "M_K": 0,
       "BoostTicks": {
-        "V": 5.0
+        "V": 1.0
       },
       "Delay": {
-        "V": 1900.0
+        "V": 1.0
       },
       "Key to toggle boost": {
         "K": 0
@@ -9472,7 +9472,7 @@
       "M_KM": false,
       "M_K": 0,
       "Modes": {
-        "S": "Legit"
+        "S": "IntaveTest"
       },
       "Height": {
         "V": 1.0
@@ -9495,7 +9495,7 @@
       "M_KM": false,
       "M_K": 0,
       "Modes": {
-        "S": "IntaveBoat"
+        "S": "CubeCraft"
       },
       "ModesModeValuesGroupGroupygroupy": {
         "B": true
@@ -9542,7 +9542,7 @@
         "B": true
       },
       "MaxSmartDistance": {
-        "V": -10.0
+        "V": -9.9
       },
       "DistanceToHeadBlock": {
         "V": 0.0
@@ -9664,7 +9664,7 @@
       "M_KM": false,
       "M_K": 0,
       "Mode": {
-        "S": "Legit"
+        "S": "Basic"
       },
       "SneakForward": {
         "V": 1.0
@@ -9673,7 +9673,7 @@
         "V": 1.0
       },
       "RemoveSneakStop": {
-        "B": false
+        "B": true
       },
       "SneakInInv": {
         "B": false
@@ -9750,7 +9750,7 @@
         "B": true
       },
       "Time": {
-        "V": 20.0
+        "V": 80.0
       }
     },
     "SaveMoveKeys": {
@@ -9761,8 +9761,8 @@
       "M_KM": false,
       "M_K": 0,
       "LoadKeyDelay": {
-        "F": 2.0,
-        "S": 4.0
+        "F": 1.0,
+        "S": 2.0
       },
       "LoadKeyDelayNotInARow": {
         "B": false
@@ -9949,7 +9949,7 @@
         "B": false
       },
       "MotionYHigherZeroPreUpdateEditTick": {
-        "B": true
+        "B": false
       },
       "MotionYHigherZeroPreUpdateNotWhileKB": {
         "B": false
@@ -9977,11 +9977,11 @@
         "S": 0.42
       },
       "MotionYHigherZeroPreUpdateEditStaticXZ": {
-        "B": true
+        "B": false
       },
       "MotionYHigherZeroPreUpdateStaticXZ": {
-        "F": 0.28,
-        "S": 0.28
+        "F": 0.2,
+        "S": 0.2
       },
       "MotionYHigherZeroPreUpdateEditAddY": {
         "B": false
@@ -10100,8 +10100,8 @@
         "B": false
       },
       "Tick0TicksOnGroundPreUpdateStaticXZ": {
-        "F": 0.28,
-        "S": 0.28
+        "F": 0.0,
+        "S": 0.675
       },
       "Tick0TicksOnGroundPreUpdateEditAddY": {
         "B": false
@@ -10139,7 +10139,7 @@
         "S": 1.0
       },
       "Tick0TicksOnGroundPreUpdateStrafePercentage": {
-        "V": 0.0
+        "V": 100.0
       },
       "Tick0TicksOnGroundPreUpdateSelfDamageMode": {
         "S": "None"
@@ -30993,7 +30993,7 @@
         "V": 0.0
       },
       "Tick21TicksInAirPostUpdateEditTick": {
-        "B": false
+        "B": true
       },
       "Tick21TicksInAirPostUpdateNotWhileKB": {
         "B": false
@@ -34896,7 +34896,7 @@
         "B": false
       },
       "MotionYLessZeroMoveEntityEditTick": {
-        "B": false
+        "B": true
       },
       "MotionYLessZeroMoveEntityNotWhileKB": {
         "B": false
@@ -41210,7 +41210,7 @@
         "V": 0.0
       },
       "Tick1TicksInAirMoveEntityEditTick": {
-        "B": false
+        "B": true
       },
       "Tick1TicksInAirMoveEntityNotWhileKB": {
         "B": false
@@ -47113,7 +47113,7 @@
         "B": false
       },
       "OnEnableEditTick": {
-        "B": true
+        "B": false
       },
       "OnEnableNotWhileKB": {
         "B": false
@@ -47190,7 +47190,7 @@
         "S": 1.0
       },
       "OnEnableStrafePercentage": {
-        "V": 100.0
+        "V": 0.0
       },
       "OnEnableSelfDamageMode": {
         "S": "None"
@@ -47354,7 +47354,7 @@
       "M_KM": false,
       "M_K": 0,
       "PacketDirection": {
-        "S": "Both"
+        "S": "OnlyOutgoing"
       },
       "LagBreakTicks": {
         "F": 0.0,
@@ -47364,14 +47364,14 @@
         "B": false
       },
       "LagTicks": {
-        "F": 8.0,
-        "S": 8.0
+        "F": 1.0,
+        "S": 1.0
       },
       "LagTicksNotInARow": {
         "B": false
       },
       "Modes": {
-        "S": "Default"
+        "S": "CombatOnly"
       },
       "FlushConditions": {
         "StandingStill": true,
@@ -47391,7 +47391,7 @@
         "B": false
       },
       "TargetESP": {
-        "S": "PlayerModel"
+        "S": "PlayerModelArmor"
       },
       "ClassicColorTarget": {
         "A": 162,
@@ -47492,7 +47492,7 @@
       }
     },
     "ArrowDodger": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -47709,7 +47709,7 @@
         "B": true
       },
       "AutoCloseIfInvFull": {
-        "B": false
+        "B": true
       },
       "CloseDelay": {
         "F": 60.0,
@@ -47747,7 +47747,7 @@
         "L": []
       },
       "Silent": {
-        "B": false
+        "B": true
       },
       "StealIndicator": {
         "B": true
@@ -48070,10 +48070,10 @@
         "S": "NoRotate"
       },
       "Sneak": {
-        "B": false
+        "B": true
       },
       "OnlyInAir": {
-        "B": true
+        "B": false
       }
     },
     "ChestAura": {
@@ -48084,7 +48084,7 @@
       "M_KM": false,
       "M_K": 0,
       "PreRange": {
-        "V": 6.0
+        "V": 4.5
       },
       "Range": {
         "V": 4.5
@@ -48143,7 +48143,7 @@
         "V": 20.0
       },
       "NewPackets": {
-        "V": 20.0
+        "V": 3.0
       },
       "TimePackets": {
         "V": 20.0
@@ -48208,10 +48208,10 @@
         "B": true
       },
       "Only if player is falling into the void": {
-        "B": true
+        "B": false
       },
       "Auto disable": {
-        "B": false
+        "B": true
       }
     },
     "ReverseAutoArmor": {
@@ -48609,7 +48609,7 @@
         "B": false
       },
       "NotWhileKillAura": {
-        "B": false
+        "B": true
       },
       "NotWhileScaffold": {
         "B": true
@@ -48689,7 +48689,7 @@
         "V": 0.2
       },
       "Multiplier": {
-        "V": 1.0
+        "V": 1.1
       },
       "ArtificialMiningSpeedEffect": {
         "V": 0.0
@@ -48812,7 +48812,7 @@
         "B": true
       },
       "BedBlinkTime": {
-        "V": 3000.0
+        "V": 4000.0
       }
     },
     "FastPlace": {
@@ -48859,14 +48859,14 @@
         "B": true
       },
       "AutoSwap": {
-        "B": false
+        "B": true
       },
       "XP-BottlesGroupygroupy": {
         "B": false
       },
       "XP-BottlesCPS": {
-        "F": 13.0,
-        "S": 17.0
+        "F": 16.0,
+        "S": 24.0
       },
       "XP-BottlesCPSNotInARow": {
         "B": false
@@ -48952,15 +48952,15 @@
         "S": 24.0
       },
       "YawAcceleration": {
-        "F": 2.0,
-        "S": 4.0
+        "F": 180.0,
+        "S": 180.0
       },
       "YawAccelerationNotInARow": {
         "B": false
       },
       "PitchAcceleration": {
-        "F": 2.0,
-        "S": 4.0
+        "F": 180.0,
+        "S": 180.0
       },
       "PitchAccelerationNotInARow": {
         "B": false
@@ -49063,7 +49063,7 @@
         "B": true
       },
       "Improve": {
-        "B": false
+        "B": true
       },
       "ExtraBlockSearch": {
         "B": false
@@ -49075,8 +49075,8 @@
         "B": true
       },
       "StrafeDegree": {
-        "F": 12.66,
-        "S": 15.3
+        "F": 43.0,
+        "S": 44.0
       },
       "StrafeDegreeNotInARow": {
         "B": false
@@ -49115,7 +49115,7 @@
         "B": false
       },
       "OtherFlick": {
-        "B": false
+        "B": true
       },
       "OtherRotation": {
         "B": true
@@ -49124,10 +49124,10 @@
         "B": true
       },
       "Intave": {
-        "B": false
+        "B": true
       },
       "IntaveSafe": {
-        "B": false
+        "B": true
       },
       "IntaveFast": {
         "B": false
@@ -49151,15 +49151,15 @@
         "B": false
       },
       "CPS": {
-        "F": 15.0,
-        "S": 19.0
+        "F": 11.0,
+        "S": 15.0
       },
       "CPSNotInARow": {
         "B": false
       },
       "DCPS": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 2.0,
+        "S": 4.0
       },
       "DCPSNotInARow": {
         "B": false
@@ -49168,7 +49168,7 @@
         "B": true
       },
       "AlwaysPlaceWhenPossible": {
-        "B": false
+        "B": true
       },
       "ClickPause": {
         "B": false
@@ -49192,7 +49192,7 @@
         "B": true
       },
       "SneakAtRotation": {
-        "B": false
+        "B": true
       },
       "OneStackForward": {
         "B": true
@@ -49221,7 +49221,7 @@
         "S": 4.0
       },
       "SneakTicksNotInARow": {
-        "B": false
+        "B": true
       },
       "SneakTicksOutliers": {
         "B": false
@@ -49235,16 +49235,16 @@
         "S": 15.0
       },
       "StartSneakDistToBlock": {
-        "F": 0.07,
-        "S": 0.17
+        "F": 0.2,
+        "S": 0.2
       },
       "SneakBlocksForward": {
-        "F": 5.0,
-        "S": 9.0
+        "F": 7.0,
+        "S": 8.0
       },
       "SneakBlocksDiagonal": {
-        "F": 5.0,
-        "S": 9.0
+        "F": 7.0,
+        "S": 8.0
       },
       "SneakSlowDown": {
         "V": 0.3
@@ -49268,7 +49268,7 @@
         "B": false
       },
       "StopAtStart": {
-        "B": true
+        "B": false
       },
       "SafeWalkNoBlocks": {
         "B": false
@@ -49326,12 +49326,12 @@
         "B": false
       },
       "MoonWalkWideness": {
-        "F": 0.05,
-        "S": 0.1
+        "F": 0.2,
+        "S": 0.2
       },
       "MoonWalkStartDistToBlock": {
-        "F": 0.15,
-        "S": 0.25
+        "F": 0.38,
+        "S": 0.38
       },
       "SameYGroupGroupygroupy": {
         "B": false
@@ -49367,15 +49367,15 @@
         "B": false
       },
       "JumpAfterXBlocksForward": {
-        "F": 9.0,
-        "S": 10.0
+        "F": 6.0,
+        "S": 6.0
       },
       "JumpAfterXBlocksForwardNotInARow": {
         "B": false
       },
       "JumpAfterXBlocksDiagonal": {
-        "F": 9.0,
-        "S": 10.0
+        "F": 6.0,
+        "S": 6.0
       },
       "JumpAfterXBlocksDiagonalNotInARow": {
         "B": false
@@ -49539,7 +49539,7 @@
         "B": true
       },
       "ESPBlur": {
-        "B": false
+        "B": true
       }
     },
     "NoMiningTrace": {
@@ -49572,10 +49572,10 @@
       "M_KM": false,
       "M_K": 0,
       "Volume": {
-        "V": 75.0
+        "V": 83.0
       },
       "RadioChannels": {
-        "S": "Kronehit"
+        "S": "I love Radio"
       }
     },
     "MidClick": {
@@ -49586,7 +49586,7 @@
       "M_KM": false,
       "M_K": 0,
       "MidClickDistance": {
-        "V": 50.0
+        "V": 4.5
       },
       "AutoUnfriend": {
         "B": true
@@ -49630,7 +49630,7 @@
         "B": true
       },
       "CancelSound": {
-        "B": true
+        "B": false
       },
       "HotbarItemID": {
         "V": 54.0
@@ -49640,7 +49640,7 @@
       }
     },
     "AutoRegister": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -49680,7 +49680,7 @@
         "S": "OnlyAtTarget"
       },
       "MemoryFix": {
-        "B": true
+        "B": false
       },
       "PlaceWhileBreak": {
         "B": true
@@ -49732,7 +49732,7 @@
         "B": true
       },
       "PathFinding": {
-        "B": false
+        "B": true
       },
       "DebugLine": {
         "B": true
@@ -49796,7 +49796,7 @@
       "M_KM": false,
       "M_K": 0,
       "RangeDebug": {
-        "B": false
+        "B": true
       },
       "IgnoreBackTrack": {
         "B": false
@@ -49841,7 +49841,7 @@
         "B": false
       },
       "PlaceDebug": {
-        "B": false
+        "B": true
       },
       "SneakDebug": {
         "B": false
@@ -49862,7 +49862,7 @@
         "B": false
       },
       "DamageDebug": {
-        "B": true
+        "B": false
       },
       "DamageUnsafe": {
         "B": false
@@ -49911,15 +49911,15 @@
       }
     },
     "StaffDetector": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
       "M_KM": false,
       "M_K": 0,
       "Modes": {
-        "Normal": true,
-        "OldGomme": true,
+        "Normal": false,
+        "OldGomme": false,
         "Other": false,
         "ListBased": true
       },
@@ -49942,8 +49942,8 @@
         "B": false
       },
       "CheckDelay": {
-        "F": 522.0,
-        "S": 657.0
+        "F": 2000.0,
+        "S": 3000.0
       },
       "CheckDelayNotInARow": {
         "B": false
@@ -49973,7 +49973,7 @@
         "B": false
       },
       "Lists": {
-        "S": "GommeHD"
+        "S": "GommeHDDefault"
       },
       "Show in spectator list list based": {
         "B": true
@@ -49999,7 +49999,7 @@
       }
     },
     "FlagDetector": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -50031,7 +50031,7 @@
       }
     },
     "ClientAntiCheat": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -50041,172 +50041,172 @@
         "B": true
       },
       "Intave13P_19": {
-        "B": false
+        "B": true
       },
       "Intave13P_56": {
-        "B": false
+        "B": true
       },
       "Intave14P_41": {
-        "B": false
+        "B": true
       },
       "Intave14P_51": {
-        "B": false
+        "B": true
       },
       "Intave14P_71": {
-        "B": false
+        "B": true
       },
       "Intave14P_81": {
-        "B": false
+        "B": true
       },
       "Intave14P_82": {
-        "B": false
+        "B": true
       },
       "Intave14P_83": {
-        "B": false
+        "B": true
       },
       "Intave14P_84": {
-        "B": false
+        "B": true
       },
       "Intave14P_85": {
-        "B": false
+        "B": true
       },
       "Intave14P_86": {
-        "B": false
+        "B": true
       },
       "Intave14P_91": {
-        "B": false
+        "B": true
       },
       "Intave14P_92": {
-        "B": false
+        "B": true
       },
       "Intave14PostBlockPlaceCheck": {
-        "B": false
+        "B": true
       },
       "Intave14TimeBlockPlaceCheck": {
-        "B": false
+        "B": true
       },
       "Intave14InvalidBlockPlace": {
-        "B": false
+        "B": true
       },
       "Intave14RotationBlockCheck": {
-        "B": false
+        "B": true
       },
       "Intave14ACInvariant": {
-        "B": false
+        "B": true
       },
       "Intave14ACRelative": {
-        "B": false
+        "B": true
       },
       "Intave14ACSpike": {
-        "B": false
+        "B": true
       },
       "Intave14ACVariance": {
-        "B": false
+        "B": true
       },
       "Intave14ACLowDeviation": {
-        "B": false
+        "B": true
       },
       "Intave14ACDoubleClick": {
-        "B": false
+        "B": true
       },
       "Intave14P_131": {
-        "B": false
+        "B": true
       },
       "Intave14InventoryAnalysis": {
-        "B": false
+        "B": true
       },
       "Intave14InventoryWalking": {
-        "B": false
+        "B": true
       },
       "Intave14InventorySlot": {
-        "B": false
+        "B": true
       },
       "Intave14P_200": {
-        "B": false
+        "B": true
       },
       "Intave14P141_144": {
-        "B": false
+        "B": true
       },
       "Intave14P_231": {
-        "B": false
+        "B": true
       },
       "Intave14InvalidPitch": {
-        "B": false
+        "B": true
       },
       "Intave14InventorySlotDupe": {
-        "B": false
+        "B": true
       },
       "Intave14Timer": {
-        "B": false
+        "B": true
       },
       "AutoClickerP1": {
-        "B": false
+        "B": true
       },
       "AutoClickerP2": {
-        "B": false
+        "B": true
       },
       "AutoClickerP3": {
-        "B": false
+        "B": true
       },
       "AutoClickerP4": {
-        "B": false
+        "B": true
       },
       "AutoClickerP5": {
-        "B": false
+        "B": true
       },
       "AutoClickerP6": {
-        "B": false
+        "B": true
       },
       "AutoClickerP7": {
-        "B": false
+        "B": true
       },
       "HurtTimeHit": {
-        "B": false
+        "B": true
       },
       "AimP1": {
-        "B": false
+        "B": true
       },
       "AimP2": {
-        "B": false
+        "B": true
       },
       "AimP3": {
-        "B": false
+        "B": true
       },
       "AimP4": {
-        "B": false
+        "B": true
       },
       "AI v1": {
         "B": false
       },
       "Trigger": {
-        "B": false
+        "B": true
       },
       "PerfectHit1": {
-        "B": false
+        "B": true
       },
       "FirstHitCPS": {
-        "B": false
+        "B": true
       },
       "FirstHit": {
-        "B": false
+        "B": true
       },
       "Combined": {
-        "B": false
+        "B": true
       },
       "AutoClickerE": {
-        "B": false
+        "B": true
       },
       "EagleA": {
-        "B": false
+        "B": true
       },
       "EagleB": {
-        "B": false
+        "B": true
       },
       "EagleC": {
-        "B": false
+        "B": true
       },
       "TrackAim": {
-        "B": false
+        "B": true
       },
       "HitDelayFixA": {
         "B": false
@@ -50941,7 +50941,7 @@
       }
     },
     "AntiAchievement": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -50956,7 +50956,7 @@
       "M_KM": false,
       "M_K": 0,
       "MinTicksAvailable": {
-        "V": 0.0
+        "V": 10.0
       },
       "MaxChargingTicks": {
         "V": 5.0
@@ -50992,7 +50992,7 @@
         "V": 0.0
       },
       "OnlyOnGround": {
-        "B": false
+        "B": true
       },
       "Dynamic": {
         "B": true
@@ -51139,7 +51139,7 @@
         "S03PacketTimeUpdate": true,
         "S04PacketEntityEquipment": true,
         "S05PacketSpawnPosition": true,
-        "S06PacketUpdateHealth": false,
+        "S06PacketUpdateHealth": true,
         "S07PacketRespawn": true,
         "S08PacketPlayerPosLook": true,
         "S09PacketHeldItemChange": true,
@@ -51152,14 +51152,14 @@
         "S10PacketSpawnPainting": true,
         "S11PacketSpawnExperienceOrb": true,
         "S12PacketEntityVelocity": true,
-        "S13PacketDestroyEntities": false,
+        "S13PacketDestroyEntities": true,
         "S14PacketEntity": true,
         "S15PacketEntityRelMove": true,
         "S16PacketEntityLook": true,
         "S17PacketEntityLookMove": true,
         "S18PacketEntityTeleport": true,
         "S19PacketEntityHeadLook": true,
-        "S19PacketEntityStatus": false,
+        "S19PacketEntityStatus": true,
         "S1BPacketEntityAttach": true,
         "S1CPacketEntityMetadata": true,
         "S1DPacketEntityEffect": true,
@@ -51174,7 +51174,7 @@
         "S26PacketMapChunkBulk": true,
         "S27PacketExplosion": true,
         "S28PacketEffect": true,
-        "S29PacketSoundEffect": false,
+        "S29PacketSoundEffect": true,
         "S2APacketParticles": true,
         "S2BPacketChangeGameState": true,
         "S2CPacketSpawnGlobalEntity": true,
@@ -51558,7 +51558,7 @@
         "B": false
       },
       "KarhuClicking": {
-        "B": false
+        "B": true
       },
       "MMCReachSemi": {
         "B": false
@@ -51591,7 +51591,7 @@
         "B": false
       },
       "Test": {
-        "B": false
+        "B": true
       },
       "ResourcePack": {
         "B": false
@@ -53485,7 +53485,7 @@
       }
     },
     "NoDiscordRPC": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -53527,8 +53527,8 @@
         "B": false
       },
       "IncomingPing": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 100.0,
+        "S": 110.0
       },
       "IncomingPingNotInARow": {
         "B": false
@@ -53537,8 +53537,8 @@
         "B": false
       },
       "OutgoingPing": {
-        "F": 200.0,
-        "S": 200.0
+        "F": 100.0,
+        "S": 110.0
       },
       "OutgoingPingNotInARow": {
         "B": false
@@ -53547,8 +53547,8 @@
         "B": true
       },
       "PingStartDelay": {
-        "F": 1000.0,
-        "S": 1000.0
+        "F": 0.0,
+        "S": 0.0
       },
       "PingStartDelayNotInARow": {
         "B": false
@@ -53870,7 +53870,7 @@
         "B": false
       },
       "FastServerPining1": {
-        "B": false
+        "B": true
       },
       "BanStatistics": {
         "S": "Left"
@@ -53890,7 +53890,7 @@
       "M_KM": false,
       "M_K": 0,
       "Your visibility": {
-        "S": "Ghost"
+        "S": "All"
       },
       "IRC-Formatting": {
         "S": "Simple"
@@ -53931,7 +53931,7 @@
         "V": 10.0
       },
       "OnlyOnClick": {
-        "B": false
+        "B": true
       },
       "YawFov": {
         "V": 180.0

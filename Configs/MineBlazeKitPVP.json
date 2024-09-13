@@ -1,7 +1,7 @@
 {
   "Config_Header": {
     "Config_Version": 2,
-    "Config_Name": "Gomme",
+    "Config_Name": "MineBlazeKitPVP",
     "Config_Date": "13.09.2024",
     "Config_Time": "15:15",
     "Config_Author": "Esound"
@@ -3323,7 +3323,7 @@
       }
     },
     "Refill": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
