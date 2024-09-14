@@ -1,7 +1,7 @@
 Gomme
 GommeLegit
 PvPDojo
-MineblazeKitPVP
+MineBlazeKitPVP
 Grim
 Pika
 BlocksMC
