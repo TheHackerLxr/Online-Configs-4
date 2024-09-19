@@ -2,8 +2,8 @@
   "Config_Header": {
     "Config_Version": 2,
     "Config_Name": "GommeLegit ",
-    "Config_Date": "13.09.2024",
-    "Config_Time": "15:15",
+    "Config_Date": "19.09.2024",
+    "Config_Time": "20:00",
     "Config_Author": "Esound"
   },
   "Configuration": {
@@ -96,8 +96,17 @@
       "M_S": true,
       "M_KM": false,
       "M_K": 0,
-      "MotionBlurStrength": {
-        "V": 7.0
+      "Frame Multiplier": {
+        "V": 50.0
+      },
+      "Additional frame precision": {
+        "V": 0.0
+      },
+      "Brightness": {
+        "V": 50.0
+      },
+      "Only when focused": {
+        "B": true
       }
     },
     "Velocity": {
@@ -218,6 +227,9 @@
       },
       "FallDistanceLegit": {
         "V": 3.5
+      },
+      "FallDistanceBufferSize": {
+        "V": 2.0
       },
       "NotWhileSpeedLegit": {
         "B": true
@@ -1297,7 +1309,7 @@
         "V": 100.0
       },
       "SuperCorrectionGroupygroupy": {
-        "B": false
+        "B": true
       },
       "SuperCorrection Probability": {
         "V": 0.0
@@ -1312,11 +1324,32 @@
       "Additional Accuracy": {
         "B": false
       },
+      "Rotation OffsetGroupygroupy": {
+        "B": true
+      },
+      "Rotation Yaw Offset": {
+        "F": 0.0,
+        "S": 0.0
+      },
+      "Rotation Pitch Offset": {
+        "F": 0.0,
+        "S": 0.0
+      },
+      "Rotation Yaw Offset Speed": {
+        "V": 0.0
+      },
+      "Rotation Pitch Offset Speed": {
+        "V": 0.0
+      },
       "Additional inaccuracy": {
         "V": 0.0
       },
       "Orthogonal Scale": {
-        "V": 30.0
+        "F": 0.0,
+        "S": 30.0
+      },
+      "Max Orthogonal Movement": {
+        "V": 10.0
       },
       "Max Aimpoint Anglediff": {
         "V": 60.0
@@ -1343,6 +1376,9 @@
       },
       "Ultimate Trashcode Bypass": {
         "B": true
+      },
+      "Adapt Curve if needed": {
+        "B": false
       },
       "Noise3AimSpeed": {
         "F": 20.0,
@@ -2357,33 +2393,8 @@
       "Mode": {
         "S": "New"
       },
-      "YawSpeed": {
-        "F": 30.0,
-        "S": 50.0
-      },
-      "YawSpeedNotInARow": {
-        "B": false
-      },
-      "PitchSpeed": {
-        "F": 30.0,
-        "S": 50.0
-      },
-      "PitchSpeedNotInARow": {
-        "B": false
-      },
-      "YawAcceleration": {
-        "F": 6.4,
-        "S": 10.0
-      },
-      "YawAccelerationNotInARow": {
-        "B": false
-      },
-      "PitchAcceleration": {
-        "F": 5.5,
-        "S": 10.8
-      },
-      "PitchAccelerationNotInARow": {
-        "B": false
+      "RotationsGroupygroupy": {
+        "B": true
       },
       "Fov": {
         "V": 180.0
@@ -2402,6 +2413,59 @@
         "Mobs": false,
         "Animals": false,
         "Invisible": false
+      },
+      "RotationEngineMode": {
+        "S": "Independent"
+      },
+      "RotationEngineYawSpeed": {
+        "F": 60.3,
+        "S": 60.3
+      },
+      "RotationEngineYawSpeedNotInARow": {
+        "B": false
+      },
+      "RotationEnginePitchSpeed": {
+        "F": 10.0,
+        "S": 15.0
+      },
+      "RotationEnginePitchSpeedNotInARow": {
+        "B": false
+      },
+      "RotationEngineYawAcceleration": {
+        "F": 0.9,
+        "S": 0.9
+      },
+      "RotationEngineYawAccelerationNotInARow": {
+        "B": false
+      },
+      "RotationEnginePitchAcceleration": {
+        "F": 1.8,
+        "S": 1.8
+      },
+      "RotationEnginePitchAccelerationNotInARow": {
+        "B": false
+      },
+      "RotationEngineRandomStrength": {
+        "F": 0.0,
+        "S": 0.0
+      },
+      "RotationEngineRandomStrengthNotInARow": {
+        "B": false
+      },
+      "RotationEngineRandomizeOnlyWhileRotating": {
+        "B": false
+      },
+      "RotationEngineInterval": {
+        "V": 7.0
+      },
+      "RotationEngineAmplitude": {
+        "V": 1.0
+      },
+      "RotationEngineFrequency": {
+        "V": 1.0
+      },
+      "RotationEngineBetterAcceleration": {
+        "B": false
       }
     },
     "TimerRangeV2": {
@@ -2780,6 +2844,9 @@
       "M_S": true,
       "M_KM": false,
       "M_K": 0,
+      "RotationsGroupygroupy": {
+        "B": true
+      },
       "MaxTargetLookFovDiff": {
         "V": 180.0
       },
@@ -2809,6 +2876,59 @@
         "ArmorStand": false,
         "Invisible": false,
         "Dead": false
+      },
+      "RotationEngineMode": {
+        "S": "Independent"
+      },
+      "RotationEngineYawSpeed": {
+        "F": 15.0,
+        "S": 20.0
+      },
+      "RotationEngineYawSpeedNotInARow": {
+        "B": false
+      },
+      "RotationEnginePitchSpeed": {
+        "F": 15.0,
+        "S": 20.0
+      },
+      "RotationEnginePitchSpeedNotInARow": {
+        "B": false
+      },
+      "RotationEngineYawAcceleration": {
+        "F": 5.0,
+        "S": 10.0
+      },
+      "RotationEngineYawAccelerationNotInARow": {
+        "B": false
+      },
+      "RotationEnginePitchAcceleration": {
+        "F": 5.0,
+        "S": 10.0
+      },
+      "RotationEnginePitchAccelerationNotInARow": {
+        "B": false
+      },
+      "RotationEngineRandomStrength": {
+        "F": 0.0,
+        "S": 0.5
+      },
+      "RotationEngineRandomStrengthNotInARow": {
+        "B": false
+      },
+      "RotationEngineRandomizeOnlyWhileRotating": {
+        "B": true
+      },
+      "RotationEngineInterval": {
+        "V": 7.0
+      },
+      "RotationEngineAmplitude": {
+        "V": 1.0
+      },
+      "RotationEngineFrequency": {
+        "V": 1.0
+      },
+      "RotationEngineBetterAcceleration": {
+        "B": false
       }
     },
     "GommeMode": {
@@ -2993,7 +3113,10 @@
         "Mob": false,
         "Animal": false,
         "Villager": false,
-        "ArmorStand": false
+        "ArmorStand": false,
+        "Invisible": false,
+        "Dead": false,
+        "Teammates": false
       },
       "TargetSort": {
         "S": "UltimateSwitch"
@@ -3141,16 +3264,11 @@
       "M_S": true,
       "M_KM": false,
       "M_K": 0,
+      "RotationsGroupygroupy": {
+        "B": true
+      },
       "MaxTargetLookFovDiff": {
         "V": 180.0
-      },
-      "YawSpeed": {
-        "F": 30.0,
-        "S": 50.0
-      },
-      "PitchSpeed": {
-        "F": 30.0,
-        "S": 50.0
       },
       "Fov": {
         "V": 91.0
@@ -3192,6 +3310,59 @@
         "B": true
       },
       "Blur": {
+        "B": false
+      },
+      "RotationEngineMode": {
+        "S": "Independent"
+      },
+      "RotationEngineYawSpeed": {
+        "F": 15.0,
+        "S": 20.0
+      },
+      "RotationEngineYawSpeedNotInARow": {
+        "B": false
+      },
+      "RotationEnginePitchSpeed": {
+        "F": 15.0,
+        "S": 20.0
+      },
+      "RotationEnginePitchSpeedNotInARow": {
+        "B": false
+      },
+      "RotationEngineYawAcceleration": {
+        "F": 5.0,
+        "S": 10.0
+      },
+      "RotationEngineYawAccelerationNotInARow": {
+        "B": false
+      },
+      "RotationEnginePitchAcceleration": {
+        "F": 5.0,
+        "S": 10.0
+      },
+      "RotationEnginePitchAccelerationNotInARow": {
+        "B": false
+      },
+      "RotationEngineRandomStrength": {
+        "F": 0.0,
+        "S": 0.5
+      },
+      "RotationEngineRandomStrengthNotInARow": {
+        "B": false
+      },
+      "RotationEngineRandomizeOnlyWhileRotating": {
+        "B": true
+      },
+      "RotationEngineInterval": {
+        "V": 7.0
+      },
+      "RotationEngineAmplitude": {
+        "V": 1.0
+      },
+      "RotationEngineFrequency": {
+        "V": 1.0
+      },
+      "RotationEngineBetterAcceleration": {
         "B": false
       }
     },
@@ -3260,6 +3431,9 @@
       },
       "CPSNotInARow": {
         "B": false
+      },
+      "DCPSMode": {
+        "S": "Internal"
       },
       "DCPS": {
         "F": 4.0,
@@ -48459,7 +48633,7 @@
         "S": "Nearest"
       },
       "CleanGroupygroupy": {
-        "B": false
+        "B": true
       },
       "KeepAllArmor": {
         "B": false
@@ -48502,7 +48676,7 @@
         "S": "Nearest"
       },
       "ItemStackLimitsGroupygroupy": {
-        "B": false
+        "B": true
       },
       "BlockStackLimit": {
         "V": 10.0
@@ -48833,7 +49007,7 @@
         "B": true
       },
       "BlocksGroupygroupy": {
-        "B": false
+        "B": true
       },
       "BlocksCPS": {
         "F": 16.0,
@@ -48943,13 +49117,25 @@
       "RotationSpeedGroupygroupy": {
         "B": true
       },
+      "ModeNew": {
+        "B": true
+      },
+      "AimSpeed": {
+        "V": 50.0
+      },
       "YawSpeed": {
-        "F": 18.0,
-        "S": 24.0
+        "F": 180.0,
+        "S": 180.0
+      },
+      "YawSpeedNotInARow": {
+        "B": false
       },
       "PitchSpeed": {
-        "F": 18.0,
-        "S": 24.0
+        "F": 180.0,
+        "S": 180.0
+      },
+      "PitchSpeedNotInARow": {
+        "B": false
       },
       "YawAcceleration": {
         "F": 180.0,
@@ -48965,17 +49151,64 @@
       "PitchAccelerationNotInARow": {
         "B": false
       },
-      "RotationRandomizationGroupygroupy": {
+      "CustomBlockClutchRotationSpeeds": {
         "B": false
+      },
+      "BlockClutchRotationSpeedGroupygroupy": {
+        "B": true
+      },
+      "BlockClutchModeNew": {
+        "B": false
+      },
+      "BlockClutchAimSpeed": {
+        "V": 50.0
+      },
+      "BlockClutchYawSpeed": {
+        "F": 67.5,
+        "S": 81.9
+      },
+      "BlockClutchYawSpeedNotInARow": {
+        "B": false
+      },
+      "BlockClutchPitchSpeed": {
+        "F": 66.6,
+        "S": 95.4
+      },
+      "BlockClutchPitchSpeedNotInARow": {
+        "B": false
+      },
+      "BlockClutchYawAcceleration": {
+        "F": 180.0,
+        "S": 180.0
+      },
+      "BlockClutchYawAccelerationNotInARow": {
+        "B": false
+      },
+      "BlockClutchPitchAcceleration": {
+        "F": 180.0,
+        "S": 180.0
+      },
+      "BlockClutchPitchAccelerationNotInARow": {
+        "B": false
+      },
+      "KeepRotationsAfterModuleDisable": {
+        "F": 6.0,
+        "S": 7.0
+      },
+      "KeepRotationsAfterModuleDisableNotInARow": {
+        "B": false
+      },
+      "RotationRandomizationGroupygroupy": {
+        "B": true
       },
       "RandomizePitch": {
         "B": true
       },
       "RandomizePitchChanceWhileYawRotation": {
-        "V": 100.0
+        "V": 50.0
       },
       "RandomizePitchChanceOnBlock": {
-        "V": 0.0
+        "V": 15.0
       },
       "RandomizePitchChanceInAir": {
         "V": 0.0
@@ -48984,15 +49217,15 @@
         "B": true
       },
       "RandomizePitchVal": {
-        "F": -1.0,
-        "S": 1.0
+        "F": -0.5,
+        "S": 0.56
       },
       "RandomizePitchValNotInARow": {
         "B": false
       },
       "RandomizePitchInterval": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 2.0,
+        "S": 3.0
       },
       "RandomizePitchIntervalNotInARow": {
         "B": false
@@ -49001,10 +49234,10 @@
         "B": true
       },
       "RandomizeYawChanceWhilePitchRotation": {
-        "V": 100.0
+        "V": 46.0
       },
       "RandomizeYawChanceOnBlock": {
-        "V": 0.0
+        "V": 15.0
       },
       "RandomizeYawChanceOnAir": {
         "V": 0.0
@@ -49026,21 +49259,30 @@
       "RandomizeYawIntervalNotInARow": {
         "B": false
       },
-      "StaticPitchBool": {
+      "StaticPitchSettingsGroupygroupy": {
         "B": false
+      },
+      "StaticPitchBool": {
+        "B": true
       },
       "StaticPitchAtJump": {
         "B": true
       },
+      "StaticPitchRandomizeOnlyAtStart": {
+        "B": true
+      },
+      "IgnoreStaticPitchForBlockClutches": {
+        "B": true
+      },
       "StaticPitch": {
-        "F": 80.03,
-        "S": 80.03
+        "F": 79.5,
+        "S": 80.0
       },
       "StaticPitchNotInARow": {
         "B": false
       },
       "StaticPitchDiagonal": {
-        "F": 80.0,
+        "F": 79.5,
         "S": 80.0
       },
       "StaticPitchDiagonalNotInARow": {
@@ -49053,20 +49295,39 @@
         "B": true
       },
       "StrictYawIncorrectFactor": {
-        "F": 1.95,
-        "S": 3.27
+        "F": 1.5,
+        "S": 2.0
       },
       "StrictYawIncorrectFactorNotInARow": {
         "B": false
       },
+      "StartDelayAfterDirectionChange": {
+        "F": 10.0,
+        "S": 15.0
+      },
+      "StartDelayAfterDirectionChangeNotInARow": {
+        "B": false
+      },
+      "IgnoreStartDelayAfterDirectionChangeAtBlockClutch": {
+        "B": true
+      },
       "RotateWithMovement": {
+        "B": true
+      },
+      "RotateWithMovementOnlyOrthogonal": {
         "B": true
       },
       "Improve": {
         "B": true
       },
+      "ImproveOnlyAtClutch": {
+        "B": true
+      },
       "ExtraBlockSearch": {
-        "B": false
+        "B": true
+      },
+      "ExtraBlockSearchOnlyAtClutch": {
+        "B": true
       },
       "StrafeSettingsGroupygroupy": {
         "B": true
@@ -49075,34 +49336,68 @@
         "B": true
       },
       "StrafeDegree": {
-        "F": 43.0,
-        "S": 44.0
+        "F": 44.5,
+        "S": 45.5
       },
       "StrafeDegreeNotInARow": {
         "B": false
       },
       "StrafeWidth": {
-        "F": 0.34,
-        "S": 0.38
+        "F": 0.33,
+        "S": 0.33
       },
       "StrafeWidthNotInARow": {
+        "B": false
+      },
+      "CorrectRotationWhileBuilding": {
         "B": false
       },
       "CorrectStrafeWithKeyBinds": {
         "B": true
       },
+      "CorrectStrafeWithKeyBindsCage": {
+        "B": true
+      },
       "CorrectStrafeWithKeyBindsWidth": {
-        "F": -0.15,
-        "S": -0.01
+        "F": 0.15,
+        "S": 0.15
       },
       "CorrectStrafeWithKeyBindsWidthNotInARow": {
         "B": false
       },
       "CorrectStrafeWithKeyBindsDuration": {
         "F": 1.0,
-        "S": 3.0
+        "S": 1.0
       },
       "CorrectStrafeWithKeyBindsDurationNotInARow": {
+        "B": false
+      },
+      "CorrectStrafeWithKeyBindsMiddle": {
+        "F": 0.5,
+        "S": 0.5
+      },
+      "CorrectStrafeWithKeyBindsMiddleNotInARow": {
+        "B": false
+      },
+      "CorrectStrafeWithKeyBindsMiddleExclusion": {
+        "F": 0.5,
+        "S": 0.5
+      },
+      "CorrectStrafeWithKeyBindsDelayToRecalculateMiddle": {
+        "F": 18.0,
+        "S": 24.0
+      },
+      "CorrectStrafeWithKeyBindsDelayToRecalculateMiddleNotInARow": {
+        "B": false
+      },
+      "StartAtEdge": {
+        "B": true
+      },
+      "StartAtEdgeDelay": {
+        "F": 4.0,
+        "S": 6.0
+      },
+      "StartAtEdgeDelayNotInARow": {
         "B": false
       },
       "EdgeRotateCheck": {
@@ -49115,7 +49410,7 @@
         "B": false
       },
       "OtherFlick": {
-        "B": true
+        "B": false
       },
       "OtherRotation": {
         "B": true
@@ -49124,10 +49419,10 @@
         "B": true
       },
       "Intave": {
-        "B": true
+        "B": false
       },
       "IntaveSafe": {
-        "B": true
+        "B": false
       },
       "IntaveFast": {
         "B": false
@@ -49151,21 +49446,24 @@
         "B": false
       },
       "CPS": {
-        "F": 11.0,
-        "S": 15.0
+        "F": 7.0,
+        "S": 11.0
       },
       "CPSNotInARow": {
         "B": false
       },
+      "DCPSMode": {
+        "S": "Internal"
+      },
       "DCPS": {
-        "F": 2.0,
-        "S": 4.0
+        "F": 0.0,
+        "S": 0.0
       },
       "DCPSNotInARow": {
         "B": false
       },
       "ForcePlaceIfYouWouldFallDown": {
-        "B": true
+        "B": false
       },
       "AlwaysPlaceWhenPossible": {
         "B": true
@@ -49179,6 +49477,15 @@
       "OneClick": {
         "B": false
       },
+      "MaxYawRotationDeltaToPlaceBlocks": {
+        "V": 2.0
+      },
+      "MaxPitchRotationDeltaToPlaceBlocks": {
+        "V": 2.0
+      },
+      "RemoveRotationDeltaLimitAtBlockClutch": {
+        "B": true
+      },
       "MovementGroupygroupy": {
         "B": true
       },
@@ -49191,63 +49498,66 @@
       "Sneak": {
         "B": true
       },
-      "SneakAtRotation": {
+      "TimeJumpForOneStackForward": {
         "B": true
       },
       "OneStackForward": {
         "B": true
       },
       "MinOffGroundSneakTickForward": {
-        "F": 1.0,
-        "S": 2.0
+        "F": 0.0,
+        "S": 0.0
       },
       "MaxOffGroundSneakTickForward": {
-        "F": 10.0,
-        "S": 11.0
+        "F": 5.0,
+        "S": 5.0
       },
       "OneStackDiagonal": {
         "B": true
       },
       "MinOffGroundSneakTickDiagonal": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "MaxOffGroundSneakTickDiagonal": {
-        "F": 10.0,
-        "S": 11.0
+        "F": 6.0,
+        "S": 6.0
       },
       "SneakTicks": {
-        "F": 2.0,
-        "S": 4.0
+        "F": 1.0,
+        "S": 1.0
       },
       "SneakTicksNotInARow": {
-        "B": true
-      },
-      "SneakTicksOutliers": {
         "B": false
       },
+      "SneakTicksOutliers": {
+        "B": true
+      },
       "SneakTicksOutlierValue": {
-        "F": 3.0,
-        "S": 3.0
+        "F": 2.0,
+        "S": 2.0
       },
       "SneakTicksOutlierDelay": {
-        "F": 8.0,
-        "S": 15.0
+        "F": 3.0,
+        "S": 4.0
       },
       "StartSneakDistToBlock": {
-        "F": 0.2,
-        "S": 0.2
+        "F": -0.08,
+        "S": -0.08
       },
       "SneakBlocksForward": {
-        "F": 7.0,
-        "S": 8.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SneakBlocksDiagonal": {
-        "F": 7.0,
-        "S": 8.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SneakSlowDown": {
         "V": 0.3
+      },
+      "EarlySneakCalculation": {
+        "B": false
       },
       "ADHSMode": {
         "S": "None"
@@ -49256,10 +49566,10 @@
         "S": "Default"
       },
       "MoveFixIntave": {
-        "B": true
+        "B": false
       },
       "Mode": {
-        "S": "None"
+        "S": "Legit"
       },
       "JumpSprint": {
         "B": false
@@ -49283,6 +49593,12 @@
         "B": false
       },
       "IgnoreSpeedMotion": {
+        "B": false
+      },
+      "SneakAtRotation": {
+        "B": false
+      },
+      "StopAtRotation": {
         "B": false
       },
       "GodBridgingGroupygroupy": {
@@ -49320,18 +49636,35 @@
         "B": false
       },
       "MoonWalkingGroupygroupy": {
-        "B": true
+        "B": false
       },
       "MoonWalk": {
         "B": false
       },
       "MoonWalkWideness": {
-        "F": 0.2,
-        "S": 0.2
+        "F": 0.14,
+        "S": 0.21
+      },
+      "MoonWalkWidenessNotInARow": {
+        "B": false
       },
       "MoonWalkStartDistToBlock": {
-        "F": 0.38,
-        "S": 0.38
+        "F": 0.5,
+        "S": 0.5
+      },
+      "MoonWalkMiddle": {
+        "F": 0.35,
+        "S": 0.65
+      },
+      "MoonWalkMiddleNotInARow": {
+        "B": false
+      },
+      "DelayToRecalculateMiddle": {
+        "F": 9.0,
+        "S": 15.0
+      },
+      "DelayToRecalculateMiddleNotInARow": {
+        "B": false
       },
       "SameYGroupGroupygroupy": {
         "B": false
@@ -49361,21 +49694,24 @@
         "B": true
       },
       "JumpGroupGroupygroupy": {
-        "B": false
+        "B": true
       },
       "Jump": {
         "B": false
       },
+      "JumpOnlyWhileSpacePressed": {
+        "B": true
+      },
       "JumpAfterXBlocksForward": {
-        "F": 6.0,
-        "S": 6.0
+        "F": 3.0,
+        "S": 3.0
       },
       "JumpAfterXBlocksForwardNotInARow": {
         "B": false
       },
       "JumpAfterXBlocksDiagonal": {
-        "F": 6.0,
-        "S": 6.0
+        "F": 3.0,
+        "S": 3.0
       },
       "JumpAfterXBlocksDiagonalNotInARow": {
         "B": false
@@ -49440,34 +49776,47 @@
         "V": 0.39
       },
       "SilentMode": {
-        "S": "Default"
+        "S": "Legit"
       },
       "UseBiggestStackSilent": {
         "B": false
       },
       "SilentStartDelay": {
-        "F": 10.0,
-        "S": 10.0
+        "F": 3.0,
+        "S": 4.0
       },
       "SilentStartDelayNotInARow": {
         "B": false
       },
       "SilentSwitchDelay": {
-        "F": 1.0,
-        "S": 4.0
+        "F": 2.0,
+        "S": 3.0
       },
       "SilentSwitchDelayNotInARow": {
         "B": false
       },
       "StackCountToStartSwitchProcess": {
-        "F": 1.0,
-        "S": 2.0
+        "F": 2.0,
+        "S": 3.0
       },
       "StackCountToStartSwitchProcessNotInARow": {
         "B": false
       },
+      "BackSwitchTickDelay": {
+        "F": 10.0,
+        "S": 15.0
+      },
+      "BackSwitchTickDelayNotInARow": {
+        "B": false
+      },
+      "DynamicBackSwitchTickDelay": {
+        "B": true
+      },
       "VisualsGroupygroupy": {
         "B": false
+      },
+      "ThirdPersonMode": {
+        "B": true
       },
       "HideSneakAnimation": {
         "B": true
@@ -49539,7 +49888,7 @@
         "B": true
       },
       "ESPBlur": {
-        "B": true
+        "B": false
       }
     },
     "NoMiningTrace": {
@@ -50176,6 +50525,9 @@
         "B": true
       },
       "AI v1": {
+        "B": false
+      },
+      "SelectionCheck": {
         "B": false
       },
       "Trigger": {
@@ -53805,8 +54157,20 @@
       "RotationSpeed": {
         "V": 50.0
       },
+      "MovementGroupygroupy": {
+        "B": true
+      },
       "MoveFix": {
         "B": true
+      },
+      "SilentMoveFix": {
+        "S": "None"
+      },
+      "SilentMoveFixIntave": {
+        "B": false
+      },
+      "RandomizeDirections": {
+        "B": false
       }
     },
     "OpenAuthMod": {
