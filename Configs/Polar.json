@@ -3,7 +3,7 @@
     "Config_Version": 2,
     "Config_Name": "Polar",
     "Config_Date": "20.09.2024",
-    "Config_Time": "03:21",
+    "Config_Time": "05:00",
     "Config_Author": "Esound"
   },
   "Configuration": {
@@ -1840,7 +1840,7 @@
       },
       "Targets": {
         "Player": true,
-        "Mob": true,
+        "Mob": false,
         "Animal": false,
         "Villager": false,
         "ArmorStand": false,
@@ -4950,8 +4950,8 @@
         "Box": false,
         "HitBox": false,
         "CollisionBox": false,
-        "3DCorner": true,
-        "Real2D": false,
+        "3DCorner": false,
+        "Real2D": true,
         "Corner": false,
         "Vanilla": false
       },
@@ -9157,7 +9157,7 @@
       "M_A": true,
       "M_S": true,
       "M_KM": false,
-      "M_K": 0,
+      "M_K": 44,
       "Mode": {
         "S": "45Degree"
       },
@@ -9376,7 +9376,7 @@
       "M_A": true,
       "M_S": true,
       "M_KM": false,
-      "M_K": 0,
+      "M_K": 35,
       "Mode": {
         "S": "AirJump"
       },
@@ -47788,8 +47788,8 @@
         "S": "Default"
       },
       "StartDelay": {
-        "F": 120.0,
-        "S": 190.0
+        "F": 165.0,
+        "S": 225.0
       },
       "StartDelayNotInARow": {
         "B": false
@@ -47801,36 +47801,36 @@
         "V": 19.0
       },
       "CPS": {
-        "F": 16.0,
-        "S": 18.0
+        "F": 6.0,
+        "S": 10.0
       },
       "CPSNotInARow": {
-        "B": false
+        "B": true
       },
       "CPSRecalculate": {
-        "F": 6.0,
-        "S": 8.0
+        "F": 3.0,
+        "S": 4.0
       },
       "CPSRecalculateNotInARow": {
         "B": false
       },
       "DoubleClickRate": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 8.0,
+        "S": 15.0
       },
       "DoubleClickRateNotInARow": {
         "B": false
       },
       "FailRate": {
-        "F": 2.0,
-        "S": 5.0
+        "F": 5.0,
+        "S": 10.0
       },
       "FailRateNotInARow": {
         "B": false
       },
       "MissClickRate": {
-        "F": 5.0,
-        "S": 10.0
+        "F": 20.0,
+        "S": 30.0
       },
       "MissClickRateNotInARow": {
         "B": false
@@ -47886,18 +47886,18 @@
         "B": true
       },
       "AutoCloseIfInvFull": {
-        "B": false
+        "B": true
       },
       "CloseDelay": {
-        "F": 60.0,
-        "S": 120.0
+        "F": 0.0,
+        "S": 0.0
       },
       "CloseDelayNotInARow": {
         "B": false
       },
       "ChestOpenTime": {
-        "F": 140.0,
-        "S": 160.0
+        "F": 160.0,
+        "S": 270.0
       },
       "ChestOpenTimeNotInARow": {
         "B": false
@@ -48481,7 +48481,7 @@
       }
     },
     "InvManager": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -48498,8 +48498,8 @@
         "S": "OpenInv"
       },
       "StartDelay": {
-        "F": 150.0,
-        "S": 200.0
+        "F": 165.0,
+        "S": 225.0
       },
       "StartDelayNotInARow": {
         "B": false
@@ -48526,22 +48526,22 @@
         "V": 19.0
       },
       "SortCPS": {
-        "F": 17.0,
-        "S": 20.0
+        "F": 5.0,
+        "S": 10.0
       },
       "SortCPSNotInARow": {
         "B": false
       },
       "SortCPSRecalculate": {
-        "F": 6.0,
-        "S": 8.0
+        "F": 3.0,
+        "S": 4.0
       },
       "SortCPSRecalculateNotInARow": {
         "B": false
       },
       "SortFailRate": {
-        "F": 2.0,
-        "S": 5.0
+        "F": 20.0,
+        "S": 30.0
       },
       "SortFailRateNotInARow": {
         "B": false
@@ -48556,16 +48556,16 @@
         "S": "Sword"
       },
       "Slot2": {
-        "S": "EnderPearls"
+        "S": "Bow"
       },
       "Slot3": {
-        "S": "Blocks"
+        "S": "EnderPearls"
       },
       "Slot4": {
-        "S": "Throwables"
+        "S": "Blocks"
       },
       "Slot5": {
-        "S": "None"
+        "S": "Throwables"
       },
       "Slot6": {
         "S": "None"
@@ -48598,15 +48598,15 @@
         "V": 19.0
       },
       "ArmorCPS": {
-        "F": 17.0,
-        "S": 20.0
+        "F": 6.0,
+        "S": 10.0
       },
       "ArmorCPSNotInARow": {
         "B": false
       },
       "ArmorCPSRecalculate": {
-        "F": 6.0,
-        "S": 8.0
+        "F": 3.0,
+        "S": 4.0
       },
       "ArmorCPSRecalculateNotInARow": {
         "B": false
@@ -48619,15 +48619,15 @@
         "B": false
       },
       "ArmorFailRate": {
-        "F": 2.0,
-        "S": 5.0
+        "F": 5.0,
+        "S": 10.0
       },
       "ArmorFailRateNotInARow": {
         "B": false
       },
       "ArmorMissClickRate": {
-        "F": 0.0,
-        "S": 0.0
+        "F": 4.0,
+        "S": 10.0
       },
       "ArmorMissClickRateNotInARow": {
         "B": false
@@ -48636,7 +48636,7 @@
         "S": "Nearest"
       },
       "CleanGroupygroupy": {
-        "B": false
+        "B": true
       },
       "KeepAllArmor": {
         "B": false
@@ -48648,22 +48648,22 @@
         "V": 19.0
       },
       "CleanCPS": {
-        "F": 17.0,
-        "S": 20.0
+        "F": 5.0,
+        "S": 10.0
       },
       "CleanCPSNotInARow": {
         "B": false
       },
       "CleanCPSRecalculate": {
-        "F": 6.0,
-        "S": 8.0
+        "F": 3.0,
+        "S": 4.0
       },
       "CleanCPSRecalculateNotInARow": {
         "B": false
       },
       "CleanFailRate": {
         "F": 10.0,
-        "S": 15.0
+        "S": 16.0
       },
       "CleanFailRateNotInARow": {
         "B": false
@@ -48679,10 +48679,10 @@
         "S": "Nearest"
       },
       "ItemStackLimitsGroupygroupy": {
-        "B": true
+        "B": false
       },
       "BlockStackLimit": {
-        "V": 10.0
+        "V": 20.0
       },
       "FoodStackLimit": {
         "V": 4.0
@@ -48822,7 +48822,7 @@
       "M_K": 0
     },
     "CombatPearl": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -49013,15 +49013,15 @@
         "B": true
       },
       "BlocksCPS": {
-        "F": 16.0,
-        "S": 24.0
+        "F": 10.0,
+        "S": 16.0
       },
       "BlocksCPSNotInARow": {
         "B": false
       },
       "BlocksDCPS": {
-        "F": 2.0,
-        "S": 4.0
+        "F": 4.0,
+        "S": 8.0
       },
       "BlocksDCPSNotInARow": {
         "B": false
@@ -49036,21 +49036,21 @@
         "B": true
       },
       "AutoSwap": {
-        "B": false
+        "B": true
       },
       "XP-BottlesGroupygroupy": {
-        "B": false
+        "B": true
       },
       "XP-BottlesCPS": {
-        "F": 13.0,
-        "S": 17.0
+        "F": 10.0,
+        "S": 16.0
       },
       "XP-BottlesCPSNotInARow": {
         "B": false
       },
       "XP-BottlesDCPS": {
-        "F": 2.0,
-        "S": 4.0
+        "F": 4.0,
+        "S": 8.0
       },
       "XP-BottlesDCPSNotInARow": {
         "B": false
@@ -49155,10 +49155,10 @@
         "B": false
       },
       "CustomBlockClutchRotationSpeeds": {
-        "B": false
+        "B": true
       },
       "BlockClutchRotationSpeedGroupygroupy": {
-        "B": true
+        "B": false
       },
       "BlockClutchModeNew": {
         "B": false
@@ -49167,15 +49167,15 @@
         "V": 50.0
       },
       "BlockClutchYawSpeed": {
-        "F": 67.5,
-        "S": 81.9
+        "F": 42.3,
+        "S": 60.3
       },
       "BlockClutchYawSpeedNotInARow": {
         "B": false
       },
       "BlockClutchPitchSpeed": {
-        "F": 66.6,
-        "S": 95.4
+        "F": 43.2,
+        "S": 61.2
       },
       "BlockClutchPitchSpeedNotInARow": {
         "B": false
@@ -49305,8 +49305,8 @@
         "B": false
       },
       "StartDelayAfterDirectionChange": {
-        "F": 10.0,
-        "S": 15.0
+        "F": 2.0,
+        "S": 4.0
       },
       "StartDelayAfterDirectionChangeNotInARow": {
         "B": false
@@ -49394,7 +49394,7 @@
         "B": false
       },
       "StartAtEdge": {
-        "B": true
+        "B": false
       },
       "StartAtEdgeDelay": {
         "F": 4.0,
@@ -49700,7 +49700,7 @@
         "B": true
       },
       "JumpGroupGroupygroupy": {
-        "B": true
+        "B": false
       },
       "Jump": {
         "B": true
@@ -49782,7 +49782,7 @@
         "V": 0.39
       },
       "SilentMode": {
-        "S": "Legit"
+        "S": "Default"
       },
       "UseBiggestStackSilent": {
         "B": false
@@ -49795,15 +49795,15 @@
         "B": false
       },
       "SilentSwitchDelay": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SilentSwitchDelayNotInARow": {
         "B": false
       },
       "StackCountToStartSwitchProcess": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "StackCountToStartSwitchProcessNotInARow": {
         "B": false
@@ -50005,8 +50005,8 @@
         "S": "Generated"
       },
       "Delay": {
-        "F": 400.0,
-        "S": 800.0
+        "F": 1280.0,
+        "S": 2000.0
       },
       "DelayNotInARow": {
         "B": false
@@ -50144,7 +50144,7 @@
       }
     },
     "Debug": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -50386,7 +50386,7 @@
       }
     },
     "ClientAntiCheat": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -51299,8 +51299,8 @@
       }
     },
     "AntiAchievement": {
-      "M_T": false,
-      "M_C": true,
+      "M_T": true,
+      "M_C": false,
       "M_A": true,
       "M_S": true,
       "M_KM": false,
@@ -54170,7 +54170,7 @@
         "B": true
       },
       "SilentMoveFix": {
-        "S": "None"
+        "S": "Default"
       },
       "SilentMoveFixIntave": {
         "B": false
@@ -54310,7 +54310,7 @@
         "V": 180.0
       },
       "Targets": {
-        "Player": true,
+        "Player": false,
         "Mob": false,
         "Animal": false,
         "Villager": false,

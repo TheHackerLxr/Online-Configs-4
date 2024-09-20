@@ -2,8 +2,8 @@
   "Config_Header": {
     "Config_Version": 2,
     "Config_Name": "MineBlazeKitPVP",
-    "Config_Date": "19.09.2024",
-    "Config_Time": "20:00",
+    "Config_Date": "20.09.2024",
+    "Config_Time": "05:01",
     "Config_Author": "Esound"
   },
   "Configuration": {
@@ -228,7 +228,7 @@
       "FallDistanceLegit": {
         "V": 3.5
       },
-      "FallDistanceBufferSize": {
+      "FallDistanceBufferSizeLegit": {
         "V": 2.0
       },
       "NotWhileSpeedLegit": {
@@ -326,6 +326,9 @@
       },
       "FallDistanceIntave": {
         "V": 3.5
+      },
+      "FallDistanceBufferSizeIntave": {
+        "V": 2.0
       },
       "NotWhileSpeedIntave": {
         "B": true
@@ -9154,7 +9157,7 @@
       "M_A": true,
       "M_S": true,
       "M_KM": false,
-      "M_K": 0,
+      "M_K": 44,
       "Mode": {
         "S": "45Degree"
       },
@@ -9373,7 +9376,7 @@
       "M_A": true,
       "M_S": true,
       "M_KM": false,
-      "M_K": 0,
+      "M_K": 35,
       "Mode": {
         "S": "AirJump"
       },
@@ -48676,7 +48679,7 @@
         "S": "Nearest"
       },
       "ItemStackLimitsGroupygroupy": {
-        "B": true
+        "B": false
       },
       "BlockStackLimit": {
         "V": 10.0
@@ -49036,7 +49039,7 @@
         "B": false
       },
       "XP-BottlesGroupygroupy": {
-        "B": false
+        "B": true
       },
       "XP-BottlesCPS": {
         "F": 13.0,
@@ -49152,10 +49155,10 @@
         "B": false
       },
       "CustomBlockClutchRotationSpeeds": {
-        "B": false
+        "B": true
       },
       "BlockClutchRotationSpeedGroupygroupy": {
-        "B": true
+        "B": false
       },
       "BlockClutchModeNew": {
         "B": false
@@ -49302,8 +49305,8 @@
         "B": false
       },
       "StartDelayAfterDirectionChange": {
-        "F": 10.0,
-        "S": 15.0
+        "F": 5.0,
+        "S": 10.0
       },
       "StartDelayAfterDirectionChangeNotInARow": {
         "B": false
@@ -49330,7 +49333,7 @@
         "B": true
       },
       "StrafeSettingsGroupygroupy": {
-        "B": true
+        "B": false
       },
       "Strafe": {
         "B": true
@@ -49394,11 +49397,14 @@
         "B": true
       },
       "StartAtEdgeDelay": {
-        "F": 4.0,
-        "S": 6.0
+        "F": 2.0,
+        "S": 4.0
       },
       "StartAtEdgeDelayNotInARow": {
         "B": false
+      },
+      "IgnoreStartAtEdgeAtBlockClutch": {
+        "B": true
       },
       "EdgeRotateCheck": {
         "B": false
@@ -49694,7 +49700,7 @@
         "B": true
       },
       "JumpGroupGroupygroupy": {
-        "B": true
+        "B": false
       },
       "Jump": {
         "B": false
@@ -49761,7 +49767,7 @@
         "B": false
       },
       "MiscellaneousGroupygroupy": {
-        "B": true
+        "B": false
       },
       "TowerMode": {
         "S": "Legit"
@@ -49776,7 +49782,7 @@
         "V": 0.39
       },
       "SilentMode": {
-        "S": "Legit"
+        "S": "Default"
       },
       "UseBiggestStackSilent": {
         "B": false
@@ -49789,15 +49795,15 @@
         "B": false
       },
       "SilentSwitchDelay": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "SilentSwitchDelayNotInARow": {
         "B": false
       },
       "StackCountToStartSwitchProcess": {
-        "F": 2.0,
-        "S": 3.0
+        "F": 0.0,
+        "S": 0.0
       },
       "StackCountToStartSwitchProcessNotInARow": {
         "B": false
@@ -49816,7 +49822,7 @@
         "B": false
       },
       "ThirdPersonMode": {
-        "B": true
+        "B": false
       },
       "HideSneakAnimation": {
         "B": true
@@ -49999,8 +50005,8 @@
         "S": "Generated"
       },
       "Delay": {
-        "F": 400.0,
-        "S": 800.0
+        "F": 1200.0,
+        "S": 2000.0
       },
       "DelayNotInARow": {
         "B": false
@@ -50138,7 +50144,7 @@
       }
     },
     "Debug": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -50199,7 +50205,7 @@
         "B": true
       },
       "BetaFeaturesGroupygroupy": {
-        "B": true
+        "B": false
       },
       "Velocity Analayzer": {
         "B": true
@@ -50380,7 +50386,7 @@
       }
     },
     "ClientAntiCheat": {
-      "M_T": true,
+      "M_T": false,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -51293,8 +51299,8 @@
       }
     },
     "AntiAchievement": {
-      "M_T": false,
-      "M_C": true,
+      "M_T": true,
+      "M_C": false,
       "M_A": true,
       "M_S": true,
       "M_KM": false,
@@ -54164,7 +54170,7 @@
         "B": true
       },
       "SilentMoveFix": {
-        "S": "None"
+        "S": "Default"
       },
       "SilentMoveFixIntave": {
         "B": false
@@ -54254,7 +54260,7 @@
       "M_KM": false,
       "M_K": 0,
       "Your visibility": {
-        "S": "Ghost"
+        "S": "All"
       },
       "IRC-Formatting": {
         "S": "Simple"
@@ -54352,7 +54358,7 @@
       "M_K": 0
     },
     "BeverageNotify": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -54366,7 +54372,7 @@
       }
     },
     "EnderPearlNotify": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
