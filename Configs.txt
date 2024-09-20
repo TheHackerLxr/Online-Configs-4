@@ -3,7 +3,7 @@ GommeLegit
 PvPDojo
 MineBlazeKitPVP
 Grim
-Pika
+Polar
 BlocksMC
 Twerion
 Universocraft
