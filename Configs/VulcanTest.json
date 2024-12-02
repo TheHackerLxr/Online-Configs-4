@@ -3,7 +3,7 @@
     "Config_Version": 2,
     "Config_Name": "VulcanTest",
     "Config_Date": "02.12.2024",
-    "Config_Time": "17:37",
+    "Config_Time": "18:52",
     "Config_Author": "DasNeueUpdate"
   },
   "Configuration": {
@@ -4699,7 +4699,7 @@
       }
     },
     "ClickGui": {
-      "M_T": false,
+      "M_T": true,
       "M_C": false,
       "M_A": true,
       "M_S": false,
@@ -49522,14 +49522,14 @@
         "S": "Default"
       },
       "StartDelay": {
-        "F": 45.0,
-        "S": 115.0
+        "F": 75.0,
+        "S": 95.0
       },
       "StartDelayNotInARow": {
         "B": false
       },
       "Instant": {
-        "B": false
+        "B": true
       },
       "MaxMouseMoveSpeed": {
         "V": 24.0
@@ -49550,21 +49550,21 @@
       },
       "DoubleClickRate": {
         "F": 0.0,
-        "S": 2.0
+        "S": 0.0
       },
       "DoubleClickRateNotInARow": {
         "B": false
       },
       "FailRate": {
-        "F": 2.0,
-        "S": 5.0
+        "F": 0.0,
+        "S": 0.0
       },
       "FailRateNotInARow": {
         "B": false
       },
       "MissClickRate": {
-        "F": 3.0,
-        "S": 6.0
+        "F": 0.0,
+        "S": 0.0
       },
       "MissClickRateNotInARow": {
         "B": false
@@ -49623,15 +49623,15 @@
         "B": true
       },
       "CloseDelay": {
-        "F": 60.0,
-        "S": 120.0
+        "F": 0.0,
+        "S": 0.0
       },
       "CloseDelayNotInARow": {
         "B": false
       },
       "ChestOpenTime": {
-        "F": 60.0,
-        "S": 100.0
+        "F": 0.0,
+        "S": 0.0
       },
       "ChestOpenTimeNotInARow": {
         "B": false
@@ -49643,7 +49643,7 @@
         "S": "ChestsOnly"
       },
       "Sequence": {
-        "S": "Nearest"
+        "S": "Basic"
       },
       "ClickMode": {
         "S": "Basic"
@@ -50235,7 +50235,7 @@
       }
     },
     "InvManager": {
-      "M_T": false,
+      "M_T": true,
       "M_C": true,
       "M_A": true,
       "M_S": true,
@@ -50252,8 +50252,8 @@
         "S": "OpenInv"
       },
       "StartDelay": {
-        "F": 25.0,
-        "S": 105.0
+        "F": 75.0,
+        "S": 75.0
       },
       "StartDelayNotInARow": {
         "B": false
@@ -50271,10 +50271,10 @@
         "B": false
       },
       "SortGroupygroupy": {
-        "B": false
+        "B": true
       },
       "SortInstant": {
-        "B": false
+        "B": true
       },
       "SortMaxMouseMoveSpeed": {
         "V": 25.0
@@ -50304,7 +50304,7 @@
         "S": "Nearest"
       },
       "SlotsGroupygroupy": {
-        "B": true
+        "B": false
       },
       "Slot1": {
         "S": "Sword"
@@ -50346,7 +50346,7 @@
         "B": true
       },
       "ArmorInstant": {
-        "B": false
+        "B": true
       },
       "ArmorMaxMouseMoveSpeed": {
         "V": 25.0
@@ -50390,13 +50390,13 @@
         "S": "Nearest"
       },
       "CleanGroupygroupy": {
-        "B": false
+        "B": true
       },
       "KeepAllArmor": {
         "B": false
       },
       "CleanInstant": {
-        "B": false
+        "B": true
       },
       "CleanMaxMouseMoveSpeed": {
         "V": 19.0
@@ -50457,7 +50457,7 @@
         "V": 4.0
       },
       "CraftInstant": {
-        "B": false
+        "B": true
       },
       "CraftMaxMouseMoveSpeed": {
         "V": 19.0
@@ -50837,24 +50837,6 @@
         "wool": true,
         "yellow_flower": true
       },
-      "red_sandstoneGroupygroupy": {
-        "B": false
-      },
-      "red_sandstoneCustomInAirMultiplier": {
-        "B": false
-      },
-      "red_sandstoneInAirMultiplier": {
-        "V": 0.2
-      },
-      "red_sandstoneMultiplier": {
-        "V": 1.0
-      },
-      "red_sandstoneArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "red_sandstoneInstant": {
-        "B": false
-      },
       "redstone_torchGroupygroupy": {
         "B": false
       },
@@ -50873,22 +50855,22 @@
       "redstone_torchInstant": {
         "B": false
       },
-      "redstone_blockGroupygroupy": {
+      "powered_comparatorGroupygroupy": {
         "B": false
       },
-      "redstone_blockCustomInAirMultiplier": {
+      "powered_comparatorCustomInAirMultiplier": {
         "B": false
       },
-      "redstone_blockInAirMultiplier": {
+      "powered_comparatorInAirMultiplier": {
         "V": 0.2
       },
-      "redstone_blockMultiplier": {
+      "powered_comparatorMultiplier": {
         "V": 1.0
       },
-      "redstone_blockArtificialMiningSpeedEffect": {
+      "powered_comparatorArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "redstone_blockInstant": {
+      "powered_comparatorInstant": {
         "B": false
       },
       "iron_oreGroupygroupy": {
@@ -50907,24 +50889,6 @@
         "V": 0.0
       },
       "iron_oreInstant": {
-        "B": false
-      },
-      "quartz_stairsGroupygroupy": {
-        "B": false
-      },
-      "quartz_stairsCustomInAirMultiplier": {
-        "B": false
-      },
-      "quartz_stairsInAirMultiplier": {
-        "V": 0.2
-      },
-      "quartz_stairsMultiplier": {
-        "V": 1.0
-      },
-      "quartz_stairsArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "quartz_stairsInstant": {
         "B": false
       },
       "potatoesGroupygroupy": {
@@ -50961,6 +50925,24 @@
         "V": 0.0
       },
       "pistonInstant": {
+        "B": false
+      },
+      "quartz_oreGroupygroupy": {
+        "B": false
+      },
+      "quartz_oreCustomInAirMultiplier": {
+        "B": false
+      },
+      "quartz_oreInAirMultiplier": {
+        "V": 0.2
+      },
+      "quartz_oreMultiplier": {
+        "V": 1.0
+      },
+      "quartz_oreArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "quartz_oreInstant": {
         "B": false
       },
       "iceGroupygroupy": {
@@ -51089,6 +51071,24 @@
       "stonebrickInstant": {
         "B": false
       },
+      "acacia_fenceGroupygroupy": {
+        "B": false
+      },
+      "acacia_fenceCustomInAirMultiplier": {
+        "B": false
+      },
+      "acacia_fenceInAirMultiplier": {
+        "V": 0.2
+      },
+      "acacia_fenceMultiplier": {
+        "V": 1.0
+      },
+      "acacia_fenceArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "acacia_fenceInstant": {
+        "B": false
+      },
       "farmlandGroupygroupy": {
         "B": false
       },
@@ -51125,22 +51125,40 @@
       "stoneInstant": {
         "B": false
       },
-      "spruce_fence_gateGroupygroupy": {
+      "daylight_detector_invertedGroupygroupy": {
         "B": false
       },
-      "spruce_fence_gateCustomInAirMultiplier": {
+      "daylight_detector_invertedCustomInAirMultiplier": {
         "B": false
       },
-      "spruce_fence_gateInAirMultiplier": {
+      "daylight_detector_invertedInAirMultiplier": {
         "V": 0.2
       },
-      "spruce_fence_gateMultiplier": {
+      "daylight_detector_invertedMultiplier": {
         "V": 1.0
       },
-      "spruce_fence_gateArtificialMiningSpeedEffect": {
+      "daylight_detector_invertedArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "spruce_fence_gateInstant": {
+      "daylight_detector_invertedInstant": {
+        "B": false
+      },
+      "double_stone_slab2Groupygroupy": {
+        "B": false
+      },
+      "double_stone_slab2CustomInAirMultiplier": {
+        "B": false
+      },
+      "double_stone_slab2InAirMultiplier": {
+        "V": 0.2
+      },
+      "double_stone_slab2Multiplier": {
+        "V": 1.0
+      },
+      "double_stone_slab2ArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "double_stone_slab2Instant": {
         "B": false
       },
       "cakeGroupygroupy": {
@@ -51215,24 +51233,6 @@
       "nether_brick_stairsInstant": {
         "B": false
       },
-      "anvilGroupygroupy": {
-        "B": false
-      },
-      "anvilCustomInAirMultiplier": {
-        "B": false
-      },
-      "anvilInAirMultiplier": {
-        "V": 0.2
-      },
-      "anvilMultiplier": {
-        "V": 1.0
-      },
-      "anvilArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "anvilInstant": {
-        "B": false
-      },
       "sandstoneGroupygroupy": {
         "B": false
       },
@@ -51251,22 +51251,22 @@
       "sandstoneInstant": {
         "B": false
       },
-      "acacia_stairsGroupygroupy": {
+      "leaves2Groupygroupy": {
         "B": false
       },
-      "acacia_stairsCustomInAirMultiplier": {
+      "leaves2CustomInAirMultiplier": {
         "B": false
       },
-      "acacia_stairsInAirMultiplier": {
+      "leaves2InAirMultiplier": {
         "V": 0.2
       },
-      "acacia_stairsMultiplier": {
+      "leaves2Multiplier": {
         "V": 1.0
       },
-      "acacia_stairsArtificialMiningSpeedEffect": {
+      "leaves2ArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "acacia_stairsInstant": {
+      "leaves2Instant": {
         "B": false
       },
       "leverGroupygroupy": {
@@ -51395,6 +51395,24 @@
       "tripwireInstant": {
         "B": false
       },
+      "heavy_weighted_pressure_plateGroupygroupy": {
+        "B": false
+      },
+      "heavy_weighted_pressure_plateCustomInAirMultiplier": {
+        "B": false
+      },
+      "heavy_weighted_pressure_plateInAirMultiplier": {
+        "V": 0.2
+      },
+      "heavy_weighted_pressure_plateMultiplier": {
+        "V": 1.0
+      },
+      "heavy_weighted_pressure_plateArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "heavy_weighted_pressure_plateInstant": {
+        "B": false
+      },
       "ladderGroupygroupy": {
         "B": false
       },
@@ -51467,22 +51485,22 @@
       "deadbushInstant": {
         "B": false
       },
-      "hopperGroupygroupy": {
+      "redstone_blockGroupygroupy": {
         "B": false
       },
-      "hopperCustomInAirMultiplier": {
+      "redstone_blockCustomInAirMultiplier": {
         "B": false
       },
-      "hopperInAirMultiplier": {
+      "redstone_blockInAirMultiplier": {
         "V": 0.2
       },
-      "hopperMultiplier": {
+      "redstone_blockMultiplier": {
         "V": 1.0
       },
-      "hopperArtificialMiningSpeedEffect": {
+      "redstone_blockArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "hopperInstant": {
+      "redstone_blockInstant": {
         "B": false
       },
       "gold_blockGroupygroupy": {
@@ -51521,22 +51539,22 @@
       "torchInstant": {
         "B": false
       },
-      "acacia_fenceGroupygroupy": {
+      "jungle_fenceGroupygroupy": {
         "B": false
       },
-      "acacia_fenceCustomInAirMultiplier": {
+      "jungle_fenceCustomInAirMultiplier": {
         "B": false
       },
-      "acacia_fenceInAirMultiplier": {
+      "jungle_fenceInAirMultiplier": {
         "V": 0.2
       },
-      "acacia_fenceMultiplier": {
+      "jungle_fenceMultiplier": {
         "V": 1.0
       },
-      "acacia_fenceArtificialMiningSpeedEffect": {
+      "jungle_fenceArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "acacia_fenceInstant": {
+      "jungle_fenceInstant": {
         "B": false
       },
       "wooden_doorGroupygroupy": {
@@ -51557,22 +51575,22 @@
       "wooden_doorInstant": {
         "B": false
       },
-      "light_weighted_pressure_plateGroupygroupy": {
+      "anvilGroupygroupy": {
         "B": false
       },
-      "light_weighted_pressure_plateCustomInAirMultiplier": {
+      "anvilCustomInAirMultiplier": {
         "B": false
       },
-      "light_weighted_pressure_plateInAirMultiplier": {
+      "anvilInAirMultiplier": {
         "V": 0.2
       },
-      "light_weighted_pressure_plateMultiplier": {
+      "anvilMultiplier": {
         "V": 1.0
       },
-      "light_weighted_pressure_plateArtificialMiningSpeedEffect": {
+      "anvilArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "light_weighted_pressure_plateInstant": {
+      "anvilInstant": {
         "B": false
       },
       "fenceGroupygroupy": {
@@ -51611,6 +51629,24 @@
       "carrotsInstant": {
         "B": false
       },
+      "packed_iceGroupygroupy": {
+        "B": false
+      },
+      "packed_iceCustomInAirMultiplier": {
+        "B": false
+      },
+      "packed_iceInAirMultiplier": {
+        "V": 0.2
+      },
+      "packed_iceMultiplier": {
+        "V": 1.0
+      },
+      "packed_iceArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "packed_iceInstant": {
+        "B": false
+      },
       "brown_mushroomGroupygroupy": {
         "B": false
       },
@@ -51647,22 +51683,22 @@
       "red_mushroom_blockInstant": {
         "B": false
       },
-      "leaves2Groupygroupy": {
+      "stained_hardened_clayGroupygroupy": {
         "B": false
       },
-      "leaves2CustomInAirMultiplier": {
+      "stained_hardened_clayCustomInAirMultiplier": {
         "B": false
       },
-      "leaves2InAirMultiplier": {
+      "stained_hardened_clayInAirMultiplier": {
         "V": 0.2
       },
-      "leaves2Multiplier": {
+      "stained_hardened_clayMultiplier": {
         "V": 1.0
       },
-      "leaves2ArtificialMiningSpeedEffect": {
+      "stained_hardened_clayArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "leaves2Instant": {
+      "stained_hardened_clayInstant": {
         "B": false
       },
       "webGroupygroupy": {
@@ -51701,22 +51737,22 @@
       "obsidianInstant": {
         "B": false
       },
-      "unpowered_comparatorGroupygroupy": {
+      "hopperGroupygroupy": {
         "B": false
       },
-      "unpowered_comparatorCustomInAirMultiplier": {
+      "hopperCustomInAirMultiplier": {
         "B": false
       },
-      "unpowered_comparatorInAirMultiplier": {
+      "hopperInAirMultiplier": {
         "V": 0.2
       },
-      "unpowered_comparatorMultiplier": {
+      "hopperMultiplier": {
         "V": 1.0
       },
-      "unpowered_comparatorArtificialMiningSpeedEffect": {
+      "hopperArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "unpowered_comparatorInstant": {
+      "hopperInstant": {
         "B": false
       },
       "cocoaGroupygroupy": {
@@ -51899,22 +51935,40 @@
       "spruce_stairsInstant": {
         "B": false
       },
-      "iron_trapdoorGroupygroupy": {
+      "coal_blockGroupygroupy": {
         "B": false
       },
-      "iron_trapdoorCustomInAirMultiplier": {
+      "coal_blockCustomInAirMultiplier": {
         "B": false
       },
-      "iron_trapdoorInAirMultiplier": {
+      "coal_blockInAirMultiplier": {
         "V": 0.2
       },
-      "iron_trapdoorMultiplier": {
+      "coal_blockMultiplier": {
         "V": 1.0
       },
-      "iron_trapdoorArtificialMiningSpeedEffect": {
+      "coal_blockArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "iron_trapdoorInstant": {
+      "coal_blockInstant": {
+        "B": false
+      },
+      "slimeGroupygroupy": {
+        "B": false
+      },
+      "slimeCustomInAirMultiplier": {
+        "B": false
+      },
+      "slimeInAirMultiplier": {
+        "V": 0.2
+      },
+      "slimeMultiplier": {
+        "V": 1.0
+      },
+      "slimeArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "slimeInstant": {
         "B": false
       },
       "netherrackGroupygroupy": {
@@ -51935,22 +51989,22 @@
       "netherrackInstant": {
         "B": false
       },
-      "barrierGroupygroupy": {
+      "dark_oak_stairsGroupygroupy": {
         "B": false
       },
-      "barrierCustomInAirMultiplier": {
+      "dark_oak_stairsCustomInAirMultiplier": {
         "B": false
       },
-      "barrierInAirMultiplier": {
+      "dark_oak_stairsInAirMultiplier": {
         "V": 0.2
       },
-      "barrierMultiplier": {
+      "dark_oak_stairsMultiplier": {
         "V": 1.0
       },
-      "barrierArtificialMiningSpeedEffect": {
+      "dark_oak_stairsArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "barrierInstant": {
+      "dark_oak_stairsInstant": {
         "B": false
       },
       "gravelGroupygroupy": {
@@ -52025,22 +52079,22 @@
       "myceliumInstant": {
         "B": false
       },
-      "coal_blockGroupygroupy": {
+      "carpetGroupygroupy": {
         "B": false
       },
-      "coal_blockCustomInAirMultiplier": {
+      "carpetCustomInAirMultiplier": {
         "B": false
       },
-      "coal_blockInAirMultiplier": {
+      "carpetInAirMultiplier": {
         "V": 0.2
       },
-      "coal_blockMultiplier": {
+      "carpetMultiplier": {
         "V": 1.0
       },
-      "coal_blockArtificialMiningSpeedEffect": {
+      "carpetArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "coal_blockInstant": {
+      "carpetInstant": {
         "B": false
       },
       "beaconGroupygroupy": {
@@ -52097,22 +52151,22 @@
       "flowing_waterInstant": {
         "B": false
       },
-      "carpetGroupygroupy": {
+      "sea_lanternGroupygroupy": {
         "B": false
       },
-      "carpetCustomInAirMultiplier": {
+      "sea_lanternCustomInAirMultiplier": {
         "B": false
       },
-      "carpetInAirMultiplier": {
+      "sea_lanternInAirMultiplier": {
         "V": 0.2
       },
-      "carpetMultiplier": {
+      "sea_lanternMultiplier": {
         "V": 1.0
       },
-      "carpetArtificialMiningSpeedEffect": {
+      "sea_lanternArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "carpetInstant": {
+      "sea_lanternInstant": {
         "B": false
       },
       "birch_stairsGroupygroupy": {
@@ -52151,22 +52205,22 @@
       "pumpkin_stemInstant": {
         "B": false
       },
-      "wall_bannerGroupygroupy": {
+      "double_plantGroupygroupy": {
         "B": false
       },
-      "wall_bannerCustomInAirMultiplier": {
+      "double_plantCustomInAirMultiplier": {
         "B": false
       },
-      "wall_bannerInAirMultiplier": {
+      "double_plantInAirMultiplier": {
         "V": 0.2
       },
-      "wall_bannerMultiplier": {
+      "double_plantMultiplier": {
         "V": 1.0
       },
-      "wall_bannerArtificialMiningSpeedEffect": {
+      "double_plantArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "wall_bannerInstant": {
+      "double_plantInstant": {
         "B": false
       },
       "monster_eggGroupygroupy": {
@@ -52187,22 +52241,22 @@
       "monster_eggInstant": {
         "B": false
       },
-      "birch_fence_gateGroupygroupy": {
+      "stone_slab2Groupygroupy": {
         "B": false
       },
-      "birch_fence_gateCustomInAirMultiplier": {
+      "stone_slab2CustomInAirMultiplier": {
         "B": false
       },
-      "birch_fence_gateInAirMultiplier": {
+      "stone_slab2InAirMultiplier": {
         "V": 0.2
       },
-      "birch_fence_gateMultiplier": {
+      "stone_slab2Multiplier": {
         "V": 1.0
       },
-      "birch_fence_gateArtificialMiningSpeedEffect": {
+      "stone_slab2ArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "birch_fence_gateInstant": {
+      "stone_slab2Instant": {
         "B": false
       },
       "snow_layerGroupygroupy": {
@@ -52367,22 +52421,22 @@
       "yellow_flowerInstant": {
         "B": false
       },
-      "spruce_doorGroupygroupy": {
+      "dark_oak_fenceGroupygroupy": {
         "B": false
       },
-      "spruce_doorCustomInAirMultiplier": {
+      "dark_oak_fenceCustomInAirMultiplier": {
         "B": false
       },
-      "spruce_doorInAirMultiplier": {
+      "dark_oak_fenceInAirMultiplier": {
         "V": 0.2
       },
-      "spruce_doorMultiplier": {
+      "dark_oak_fenceMultiplier": {
         "V": 1.0
       },
-      "spruce_doorArtificialMiningSpeedEffect": {
+      "dark_oak_fenceArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "spruce_doorInstant": {
+      "dark_oak_fenceInstant": {
         "B": false
       },
       "sandGroupygroupy": {
@@ -52439,22 +52493,22 @@
       "gold_oreInstant": {
         "B": false
       },
-      "heavy_weighted_pressure_plateGroupygroupy": {
+      "trapped_chestGroupygroupy": {
         "B": false
       },
-      "heavy_weighted_pressure_plateCustomInAirMultiplier": {
+      "trapped_chestCustomInAirMultiplier": {
         "B": false
       },
-      "heavy_weighted_pressure_plateInAirMultiplier": {
+      "trapped_chestInAirMultiplier": {
         "V": 0.2
       },
-      "heavy_weighted_pressure_plateMultiplier": {
+      "trapped_chestMultiplier": {
         "V": 1.0
       },
-      "heavy_weighted_pressure_plateArtificialMiningSpeedEffect": {
+      "trapped_chestArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "heavy_weighted_pressure_plateInstant": {
+      "trapped_chestInstant": {
         "B": false
       },
       "lit_pumpkinGroupygroupy": {
@@ -52475,22 +52529,22 @@
       "lit_pumpkinInstant": {
         "B": false
       },
-      "jungle_fence_gateGroupygroupy": {
+      "spruce_fence_gateGroupygroupy": {
         "B": false
       },
-      "jungle_fence_gateCustomInAirMultiplier": {
+      "spruce_fence_gateCustomInAirMultiplier": {
         "B": false
       },
-      "jungle_fence_gateInAirMultiplier": {
+      "spruce_fence_gateInAirMultiplier": {
         "V": 0.2
       },
-      "jungle_fence_gateMultiplier": {
+      "spruce_fence_gateMultiplier": {
         "V": 1.0
       },
-      "jungle_fence_gateArtificialMiningSpeedEffect": {
+      "spruce_fence_gateArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "jungle_fence_gateInstant": {
+      "spruce_fence_gateInstant": {
         "B": false
       },
       "diamond_oreGroupygroupy": {
@@ -52529,22 +52583,22 @@
       "glass_paneInstant": {
         "B": false
       },
-      "slimeGroupygroupy": {
+      "acacia_stairsGroupygroupy": {
         "B": false
       },
-      "slimeCustomInAirMultiplier": {
+      "acacia_stairsCustomInAirMultiplier": {
         "B": false
       },
-      "slimeInAirMultiplier": {
+      "acacia_stairsInAirMultiplier": {
         "V": 0.2
       },
-      "slimeMultiplier": {
+      "acacia_stairsMultiplier": {
         "V": 1.0
       },
-      "slimeArtificialMiningSpeedEffect": {
+      "acacia_stairsArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "slimeInstant": {
+      "acacia_stairsInstant": {
         "B": false
       },
       "nether_brickGroupygroupy": {
@@ -52565,40 +52619,58 @@
       "nether_brickInstant": {
         "B": false
       },
-      "hay_blockGroupygroupy": {
+      "red_sandstoneGroupygroupy": {
         "B": false
       },
-      "hay_blockCustomInAirMultiplier": {
+      "red_sandstoneCustomInAirMultiplier": {
         "B": false
       },
-      "hay_blockInAirMultiplier": {
+      "red_sandstoneInAirMultiplier": {
         "V": 0.2
       },
-      "hay_blockMultiplier": {
+      "red_sandstoneMultiplier": {
         "V": 1.0
       },
-      "hay_blockArtificialMiningSpeedEffect": {
+      "red_sandstoneArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "hay_blockInstant": {
+      "red_sandstoneInstant": {
         "B": false
       },
-      "dark_oak_fenceGroupygroupy": {
+      "prismarineGroupygroupy": {
         "B": false
       },
-      "dark_oak_fenceCustomInAirMultiplier": {
+      "prismarineCustomInAirMultiplier": {
         "B": false
       },
-      "dark_oak_fenceInAirMultiplier": {
+      "prismarineInAirMultiplier": {
         "V": 0.2
       },
-      "dark_oak_fenceMultiplier": {
+      "prismarineMultiplier": {
         "V": 1.0
       },
-      "dark_oak_fenceArtificialMiningSpeedEffect": {
+      "prismarineArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "dark_oak_fenceInstant": {
+      "prismarineInstant": {
+        "B": false
+      },
+      "birch_fenceGroupygroupy": {
+        "B": false
+      },
+      "birch_fenceCustomInAirMultiplier": {
+        "B": false
+      },
+      "birch_fenceInAirMultiplier": {
+        "V": 0.2
+      },
+      "birch_fenceMultiplier": {
+        "V": 1.0
+      },
+      "birch_fenceArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "birch_fenceInstant": {
         "B": false
       },
       "wooden_buttonGroupygroupy": {
@@ -52709,22 +52781,22 @@
       "double_wooden_slabInstant": {
         "B": false
       },
-      "hardened_clayGroupygroupy": {
+      "hay_blockGroupygroupy": {
         "B": false
       },
-      "hardened_clayCustomInAirMultiplier": {
+      "hay_blockCustomInAirMultiplier": {
         "B": false
       },
-      "hardened_clayInAirMultiplier": {
+      "hay_blockInAirMultiplier": {
         "V": 0.2
       },
-      "hardened_clayMultiplier": {
+      "hay_blockMultiplier": {
         "V": 1.0
       },
-      "hardened_clayArtificialMiningSpeedEffect": {
+      "hay_blockArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "hardened_clayInstant": {
+      "hay_blockInstant": {
         "B": false
       },
       "end_stoneGroupygroupy": {
@@ -52763,22 +52835,22 @@
       "lapis_blockInstant": {
         "B": false
       },
-      "dark_oak_stairsGroupygroupy": {
+      "log2Groupygroupy": {
         "B": false
       },
-      "dark_oak_stairsCustomInAirMultiplier": {
+      "log2CustomInAirMultiplier": {
         "B": false
       },
-      "dark_oak_stairsInAirMultiplier": {
+      "log2InAirMultiplier": {
         "V": 0.2
       },
-      "dark_oak_stairsMultiplier": {
+      "log2Multiplier": {
         "V": 1.0
       },
-      "dark_oak_stairsArtificialMiningSpeedEffect": {
+      "log2ArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "dark_oak_stairsInstant": {
+      "log2Instant": {
         "B": false
       },
       "enchanting_tableGroupygroupy": {
@@ -52871,58 +52943,40 @@
       "unlit_redstone_torchInstant": {
         "B": false
       },
-      "powered_comparatorGroupygroupy": {
+      "iron_trapdoorGroupygroupy": {
         "B": false
       },
-      "powered_comparatorCustomInAirMultiplier": {
+      "iron_trapdoorCustomInAirMultiplier": {
         "B": false
       },
-      "powered_comparatorInAirMultiplier": {
+      "iron_trapdoorInAirMultiplier": {
         "V": 0.2
       },
-      "powered_comparatorMultiplier": {
+      "iron_trapdoorMultiplier": {
         "V": 1.0
       },
-      "powered_comparatorArtificialMiningSpeedEffect": {
+      "iron_trapdoorArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "powered_comparatorInstant": {
+      "iron_trapdoorInstant": {
         "B": false
       },
-      "daylight_detector_invertedGroupygroupy": {
+      "standing_bannerGroupygroupy": {
         "B": false
       },
-      "daylight_detector_invertedCustomInAirMultiplier": {
+      "standing_bannerCustomInAirMultiplier": {
         "B": false
       },
-      "daylight_detector_invertedInAirMultiplier": {
+      "standing_bannerInAirMultiplier": {
         "V": 0.2
       },
-      "daylight_detector_invertedMultiplier": {
+      "standing_bannerMultiplier": {
         "V": 1.0
       },
-      "daylight_detector_invertedArtificialMiningSpeedEffect": {
+      "standing_bannerArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "daylight_detector_invertedInstant": {
-        "B": false
-      },
-      "stone_slab2Groupygroupy": {
-        "B": false
-      },
-      "stone_slab2CustomInAirMultiplier": {
-        "B": false
-      },
-      "stone_slab2InAirMultiplier": {
-        "V": 0.2
-      },
-      "stone_slab2Multiplier": {
-        "V": 1.0
-      },
-      "stone_slab2ArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "stone_slab2Instant": {
+      "standing_bannerInstant": {
         "B": false
       },
       "skullGroupygroupy": {
@@ -52961,6 +53015,24 @@
       "dark_oak_doorInstant": {
         "B": false
       },
+      "red_sandstone_stairsGroupygroupy": {
+        "B": false
+      },
+      "red_sandstone_stairsCustomInAirMultiplier": {
+        "B": false
+      },
+      "red_sandstone_stairsInAirMultiplier": {
+        "V": 0.2
+      },
+      "red_sandstone_stairsMultiplier": {
+        "V": 1.0
+      },
+      "red_sandstone_stairsArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "red_sandstone_stairsInstant": {
+        "B": false
+      },
       "stone_brick_stairsGroupygroupy": {
         "B": false
       },
@@ -52995,24 +53067,6 @@
         "V": 0.0
       },
       "redstone_oreInstant": {
-        "B": false
-      },
-      "standing_bannerGroupygroupy": {
-        "B": false
-      },
-      "standing_bannerCustomInAirMultiplier": {
-        "B": false
-      },
-      "standing_bannerInAirMultiplier": {
-        "V": 0.2
-      },
-      "standing_bannerMultiplier": {
-        "V": 1.0
-      },
-      "standing_bannerArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "standing_bannerInstant": {
         "B": false
       },
       "fence_gateGroupygroupy": {
@@ -53067,6 +53121,24 @@
         "V": 0.0
       },
       "spongeInstant": {
+        "B": false
+      },
+      "barrierGroupygroupy": {
+        "B": false
+      },
+      "barrierCustomInAirMultiplier": {
+        "B": false
+      },
+      "barrierInAirMultiplier": {
+        "V": 0.2
+      },
+      "barrierMultiplier": {
+        "V": 1.0
+      },
+      "barrierArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "barrierInstant": {
         "B": false
       },
       "sandstone_stairsGroupygroupy": {
@@ -53195,40 +53267,22 @@
       "waterlilyInstant": {
         "B": false
       },
-      "prismarineGroupygroupy": {
+      "dark_oak_fence_gateGroupygroupy": {
         "B": false
       },
-      "prismarineCustomInAirMultiplier": {
+      "dark_oak_fence_gateCustomInAirMultiplier": {
         "B": false
       },
-      "prismarineInAirMultiplier": {
+      "dark_oak_fence_gateInAirMultiplier": {
         "V": 0.2
       },
-      "prismarineMultiplier": {
+      "dark_oak_fence_gateMultiplier": {
         "V": 1.0
       },
-      "prismarineArtificialMiningSpeedEffect": {
+      "dark_oak_fence_gateArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "prismarineInstant": {
-        "B": false
-      },
-      "spruce_fenceGroupygroupy": {
-        "B": false
-      },
-      "spruce_fenceCustomInAirMultiplier": {
-        "B": false
-      },
-      "spruce_fenceInAirMultiplier": {
-        "V": 0.2
-      },
-      "spruce_fenceMultiplier": {
-        "V": 1.0
-      },
-      "spruce_fenceArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "spruce_fenceInstant": {
+      "dark_oak_fence_gateInstant": {
         "B": false
       },
       "furnaceGroupygroupy": {
@@ -53267,40 +53321,58 @@
       "railInstant": {
         "B": false
       },
-      "jungle_fenceGroupygroupy": {
+      "spruce_fenceGroupygroupy": {
         "B": false
       },
-      "jungle_fenceCustomInAirMultiplier": {
+      "spruce_fenceCustomInAirMultiplier": {
         "B": false
       },
-      "jungle_fenceInAirMultiplier": {
+      "spruce_fenceInAirMultiplier": {
         "V": 0.2
       },
-      "jungle_fenceMultiplier": {
+      "spruce_fenceMultiplier": {
         "V": 1.0
       },
-      "jungle_fenceArtificialMiningSpeedEffect": {
+      "spruce_fenceArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "jungle_fenceInstant": {
+      "spruce_fenceInstant": {
         "B": false
       },
-      "log2Groupygroupy": {
+      "light_weighted_pressure_plateGroupygroupy": {
         "B": false
       },
-      "log2CustomInAirMultiplier": {
+      "light_weighted_pressure_plateCustomInAirMultiplier": {
         "B": false
       },
-      "log2InAirMultiplier": {
+      "light_weighted_pressure_plateInAirMultiplier": {
         "V": 0.2
       },
-      "log2Multiplier": {
+      "light_weighted_pressure_plateMultiplier": {
         "V": 1.0
       },
-      "log2ArtificialMiningSpeedEffect": {
+      "light_weighted_pressure_plateArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "log2Instant": {
+      "light_weighted_pressure_plateInstant": {
+        "B": false
+      },
+      "stained_glass_paneGroupygroupy": {
+        "B": false
+      },
+      "stained_glass_paneCustomInAirMultiplier": {
+        "B": false
+      },
+      "stained_glass_paneInAirMultiplier": {
+        "V": 0.2
+      },
+      "stained_glass_paneMultiplier": {
+        "V": 1.0
+      },
+      "stained_glass_paneArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "stained_glass_paneInstant": {
         "B": false
       },
       "end_portal_frameGroupygroupy": {
@@ -53411,24 +53483,6 @@
       "crafting_tableInstant": {
         "B": false
       },
-      "double_plantGroupygroupy": {
-        "B": false
-      },
-      "double_plantCustomInAirMultiplier": {
-        "B": false
-      },
-      "double_plantInAirMultiplier": {
-        "V": 0.2
-      },
-      "double_plantMultiplier": {
-        "V": 1.0
-      },
-      "double_plantArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "double_plantInstant": {
-        "B": false
-      },
       "flowing_lavaGroupygroupy": {
         "B": false
       },
@@ -53537,6 +53591,24 @@
       "end_portalInstant": {
         "B": false
       },
+      "wall_bannerGroupygroupy": {
+        "B": false
+      },
+      "wall_bannerCustomInAirMultiplier": {
+        "B": false
+      },
+      "wall_bannerInAirMultiplier": {
+        "V": 0.2
+      },
+      "wall_bannerMultiplier": {
+        "V": 1.0
+      },
+      "wall_bannerArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "wall_bannerInstant": {
+        "B": false
+      },
       "piston_headGroupygroupy": {
         "B": false
       },
@@ -53591,22 +53663,22 @@
       "iron_doorInstant": {
         "B": false
       },
-      "packed_iceGroupygroupy": {
+      "hardened_clayGroupygroupy": {
         "B": false
       },
-      "packed_iceCustomInAirMultiplier": {
+      "hardened_clayCustomInAirMultiplier": {
         "B": false
       },
-      "packed_iceInAirMultiplier": {
+      "hardened_clayInAirMultiplier": {
         "V": 0.2
       },
-      "packed_iceMultiplier": {
+      "hardened_clayMultiplier": {
         "V": 1.0
       },
-      "packed_iceArtificialMiningSpeedEffect": {
+      "hardened_clayArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "packed_iceInstant": {
+      "hardened_clayInstant": {
         "B": false
       },
       "grassGroupygroupy": {
@@ -53627,22 +53699,22 @@
       "grassInstant": {
         "B": false
       },
-      "dropperGroupygroupy": {
+      "quartz_stairsGroupygroupy": {
         "B": false
       },
-      "dropperCustomInAirMultiplier": {
+      "quartz_stairsCustomInAirMultiplier": {
         "B": false
       },
-      "dropperInAirMultiplier": {
+      "quartz_stairsInAirMultiplier": {
         "V": 0.2
       },
-      "dropperMultiplier": {
+      "quartz_stairsMultiplier": {
         "V": 1.0
       },
-      "dropperArtificialMiningSpeedEffect": {
+      "quartz_stairsArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "dropperInstant": {
+      "quartz_stairsInstant": {
         "B": false
       },
       "unpowered_repeaterGroupygroupy": {
@@ -53699,22 +53771,22 @@
       "clayInstant": {
         "B": false
       },
-      "daylight_detectorGroupygroupy": {
+      "unpowered_comparatorGroupygroupy": {
         "B": false
       },
-      "daylight_detectorCustomInAirMultiplier": {
+      "unpowered_comparatorCustomInAirMultiplier": {
         "B": false
       },
-      "daylight_detectorInAirMultiplier": {
+      "unpowered_comparatorInAirMultiplier": {
         "V": 0.2
       },
-      "daylight_detectorMultiplier": {
+      "unpowered_comparatorMultiplier": {
         "V": 1.0
       },
-      "daylight_detectorArtificialMiningSpeedEffect": {
+      "unpowered_comparatorArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "daylight_detectorInstant": {
+      "unpowered_comparatorInstant": {
         "B": false
       },
       "brick_blockGroupygroupy": {
@@ -53735,22 +53807,22 @@
       "brick_blockInstant": {
         "B": false
       },
-      "activator_railGroupygroupy": {
+      "quartz_blockGroupygroupy": {
         "B": false
       },
-      "activator_railCustomInAirMultiplier": {
+      "quartz_blockCustomInAirMultiplier": {
         "B": false
       },
-      "activator_railInAirMultiplier": {
+      "quartz_blockInAirMultiplier": {
         "V": 0.2
       },
-      "activator_railMultiplier": {
+      "quartz_blockMultiplier": {
         "V": 1.0
       },
-      "activator_railArtificialMiningSpeedEffect": {
+      "quartz_blockArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "activator_railInstant": {
+      "quartz_blockInstant": {
         "B": false
       },
       "nether_wartGroupygroupy": {
@@ -53789,22 +53861,22 @@
       "iron_barsInstant": {
         "B": false
       },
-      "quartz_oreGroupygroupy": {
+      "daylight_detectorGroupygroupy": {
         "B": false
       },
-      "quartz_oreCustomInAirMultiplier": {
+      "daylight_detectorCustomInAirMultiplier": {
         "B": false
       },
-      "quartz_oreInAirMultiplier": {
+      "daylight_detectorInAirMultiplier": {
         "V": 0.2
       },
-      "quartz_oreMultiplier": {
+      "daylight_detectorMultiplier": {
         "V": 1.0
       },
-      "quartz_oreArtificialMiningSpeedEffect": {
+      "daylight_detectorArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "quartz_oreInstant": {
+      "daylight_detectorInstant": {
         "B": false
       },
       "tripwire_hookGroupygroupy": {
@@ -53843,24 +53915,6 @@
       "bedInstant": {
         "B": false
       },
-      "quartz_blockGroupygroupy": {
-        "B": false
-      },
-      "quartz_blockCustomInAirMultiplier": {
-        "B": false
-      },
-      "quartz_blockInAirMultiplier": {
-        "V": 0.2
-      },
-      "quartz_blockMultiplier": {
-        "V": 1.0
-      },
-      "quartz_blockArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "quartz_blockInstant": {
-        "B": false
-      },
       "bedrockGroupygroupy": {
         "B": false
       },
@@ -53879,22 +53933,22 @@
       "bedrockInstant": {
         "B": false
       },
-      "stained_hardened_clayGroupygroupy": {
+      "activator_railGroupygroupy": {
         "B": false
       },
-      "stained_hardened_clayCustomInAirMultiplier": {
+      "activator_railCustomInAirMultiplier": {
         "B": false
       },
-      "stained_hardened_clayInAirMultiplier": {
+      "activator_railInAirMultiplier": {
         "V": 0.2
       },
-      "stained_hardened_clayMultiplier": {
+      "activator_railMultiplier": {
         "V": 1.0
       },
-      "stained_hardened_clayArtificialMiningSpeedEffect": {
+      "activator_railArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "stained_hardened_clayInstant": {
+      "activator_railInstant": {
         "B": false
       },
       "pumpkinGroupygroupy": {
@@ -54023,58 +54077,22 @@
       "lit_redstone_oreInstant": {
         "B": false
       },
-      "red_sandstone_stairsGroupygroupy": {
+      "acacia_fence_gateGroupygroupy": {
         "B": false
       },
-      "red_sandstone_stairsCustomInAirMultiplier": {
+      "acacia_fence_gateCustomInAirMultiplier": {
         "B": false
       },
-      "red_sandstone_stairsInAirMultiplier": {
+      "acacia_fence_gateInAirMultiplier": {
         "V": 0.2
       },
-      "red_sandstone_stairsMultiplier": {
+      "acacia_fence_gateMultiplier": {
         "V": 1.0
       },
-      "red_sandstone_stairsArtificialMiningSpeedEffect": {
+      "acacia_fence_gateArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "red_sandstone_stairsInstant": {
-        "B": false
-      },
-      "double_stone_slab2Groupygroupy": {
-        "B": false
-      },
-      "double_stone_slab2CustomInAirMultiplier": {
-        "B": false
-      },
-      "double_stone_slab2InAirMultiplier": {
-        "V": 0.2
-      },
-      "double_stone_slab2Multiplier": {
-        "V": 1.0
-      },
-      "double_stone_slab2ArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "double_stone_slab2Instant": {
-        "B": false
-      },
-      "birch_fenceGroupygroupy": {
-        "B": false
-      },
-      "birch_fenceCustomInAirMultiplier": {
-        "B": false
-      },
-      "birch_fenceInAirMultiplier": {
-        "V": 0.2
-      },
-      "birch_fenceMultiplier": {
-        "V": 1.0
-      },
-      "birch_fenceArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "birch_fenceInstant": {
+      "acacia_fence_gateInstant": {
         "B": false
       },
       "emerald_blockGroupygroupy": {
@@ -54093,6 +54111,24 @@
         "V": 0.0
       },
       "emerald_blockInstant": {
+        "B": false
+      },
+      "spruce_doorGroupygroupy": {
+        "B": false
+      },
+      "spruce_doorCustomInAirMultiplier": {
+        "B": false
+      },
+      "spruce_doorInAirMultiplier": {
+        "V": 0.2
+      },
+      "spruce_doorMultiplier": {
+        "V": 1.0
+      },
+      "spruce_doorArtificialMiningSpeedEffect": {
+        "V": 0.0
+      },
+      "spruce_doorInstant": {
         "B": false
       },
       "wall_signGroupygroupy": {
@@ -54149,22 +54185,22 @@
       "stone_pressure_plateInstant": {
         "B": false
       },
-      "acacia_fence_gateGroupygroupy": {
+      "jungle_fence_gateGroupygroupy": {
         "B": false
       },
-      "acacia_fence_gateCustomInAirMultiplier": {
+      "jungle_fence_gateCustomInAirMultiplier": {
         "B": false
       },
-      "acacia_fence_gateInAirMultiplier": {
+      "jungle_fence_gateInAirMultiplier": {
         "V": 0.2
       },
-      "acacia_fence_gateMultiplier": {
+      "jungle_fence_gateMultiplier": {
         "V": 1.0
       },
-      "acacia_fence_gateArtificialMiningSpeedEffect": {
+      "jungle_fence_gateArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "acacia_fence_gateInstant": {
+      "jungle_fence_gateInstant": {
         "B": false
       },
       "flower_potGroupygroupy": {
@@ -54221,40 +54257,22 @@
       "red_flowerInstant": {
         "B": false
       },
-      "trapped_chestGroupygroupy": {
+      "birch_fence_gateGroupygroupy": {
         "B": false
       },
-      "trapped_chestCustomInAirMultiplier": {
+      "birch_fence_gateCustomInAirMultiplier": {
         "B": false
       },
-      "trapped_chestInAirMultiplier": {
+      "birch_fence_gateInAirMultiplier": {
         "V": 0.2
       },
-      "trapped_chestMultiplier": {
+      "birch_fence_gateMultiplier": {
         "V": 1.0
       },
-      "trapped_chestArtificialMiningSpeedEffect": {
+      "birch_fence_gateArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "trapped_chestInstant": {
-        "B": false
-      },
-      "dark_oak_fence_gateGroupygroupy": {
-        "B": false
-      },
-      "dark_oak_fence_gateCustomInAirMultiplier": {
-        "B": false
-      },
-      "dark_oak_fence_gateInAirMultiplier": {
-        "V": 0.2
-      },
-      "dark_oak_fence_gateMultiplier": {
-        "V": 1.0
-      },
-      "dark_oak_fence_gateArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "dark_oak_fence_gateInstant": {
+      "birch_fence_gateInstant": {
         "B": false
       },
       "red_mushroomGroupygroupy": {
@@ -54329,24 +54347,6 @@
       "dirtInstant": {
         "B": false
       },
-      "sea_lanternGroupygroupy": {
-        "B": false
-      },
-      "sea_lanternCustomInAirMultiplier": {
-        "B": false
-      },
-      "sea_lanternInAirMultiplier": {
-        "V": 0.2
-      },
-      "sea_lanternMultiplier": {
-        "V": 1.0
-      },
-      "sea_lanternArtificialMiningSpeedEffect": {
-        "V": 0.0
-      },
-      "sea_lanternInstant": {
-        "B": false
-      },
       "stone_buttonGroupygroupy": {
         "B": false
       },
@@ -54383,22 +54383,22 @@
       "birch_doorInstant": {
         "B": false
       },
-      "stained_glass_paneGroupygroupy": {
+      "dropperGroupygroupy": {
         "B": false
       },
-      "stained_glass_paneCustomInAirMultiplier": {
+      "dropperCustomInAirMultiplier": {
         "B": false
       },
-      "stained_glass_paneInAirMultiplier": {
+      "dropperInAirMultiplier": {
         "V": 0.2
       },
-      "stained_glass_paneMultiplier": {
+      "dropperMultiplier": {
         "V": 1.0
       },
-      "stained_glass_paneArtificialMiningSpeedEffect": {
+      "dropperArtificialMiningSpeedEffect": {
         "V": 0.0
       },
-      "stained_glass_paneInstant": {
+      "dropperInstant": {
         "B": false
       }
     },
@@ -61925,7 +61925,7 @@
       }
     },
     "IRC": {
-      "M_T": true,
+      "M_T": false,
       "M_C": false,
       "M_A": true,
       "M_S": true,
