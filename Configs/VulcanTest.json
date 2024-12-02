@@ -3,7 +3,7 @@
     "Config_Version": 2,
     "Config_Name": "VulcanTest",
     "Config_Date": "02.12.2024",
-    "Config_Time": "18:52",
+    "Config_Time": "19:00",
     "Config_Author": "DasNeueUpdate"
   },
   "Configuration": {
@@ -1834,7 +1834,7 @@
         "B": false
       },
       "SlowDown": {
-        "B": false
+        "B": true
       },
       "CoolDown": {
         "B": false
