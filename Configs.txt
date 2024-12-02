@@ -7,3 +7,4 @@ Polar
 BlocksMC
 Twerion
 Universocraft
+VulcanTest
